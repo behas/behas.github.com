@@ -42,7 +42,7 @@ pre, code, kbd, samp { font-family: monospace, sans-serif; }
 
 html { overflow-y: scroll; }
 a:hover, a:active { outline: none; }
-ul, ol { margin-left: 2em; }
+ul, ol { margin-left: 2em; margin-top: 1em }
 ol { list-style-type: decimal; }
 nav ul, nav li { margin: 0; list-style:none; list-style-image: none; }
 small { font-size: 85%; }
@@ -166,6 +166,10 @@ section p {
 }
 
 section#about { margin-top: 50px;}
+
+em {font-style: italic;}
+
+ul li {margin-top: 0.5em}
 
 p span.person_name, span.project_name, span.talk_title, span.event_title, span.title {
   font-style: italic;
