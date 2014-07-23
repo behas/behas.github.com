@@ -1,0 +1,11 @@
+# Site settings
+title: Bernhard Haslhofer | Personal Website
+author: Bernhard Haslhofers
+email: bernhard.haslhofer@ait.ac.at
+description: "Personal website of Bernhard Haslhofer; Publications, Projects, Other Stuff."
+baseurl: ""
+url: "http://bernhardhaslhofer.info"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
