@@ -65,47 +65,27 @@ layout: default
 
 <section id="publications">
   <h1>Recent Publications <a href="http://scholar.google.com/citations?user=15K0uBUAAAAJ">(see all ...)</a></h1>
-
-    <p class="citation">
-      <span class="person_name">Isaac, Antoine</span> and <span class="person_name">Haslhofer, Bernhard</span>: <a href="http://eprints.cs.univie.ac.at/3732/" target="_blank">Europeana Linked Open Data - data.europeana.eu</a>. Semantic Web 4(3), IOS Press, 2013.
-    </p>
-
-    <p class="citation">
-      <span class="person_name">Haslhofer, Bernhard</span> and <span class="person_name">Warner, Simeon</span> and <span class="person_name">Lagoze, Carl</span> and <span class="person_name">Klein, Martin</span> and <span class="person_name">Sanderson, Robert</span> and <span class="person_name">Van de Sompel, Herbert</span> and <span class="person_name">Nelson, Micheal</span>: <a href="http://arxiv.org/abs/1306.1073" target="_blank">Web Synchronization Simulations using the ResourceSync Framework</a>. Technical Report, University of Vienna, 2013.
-    </p>
-
-    <p class="citation">
-      <span class="person_name">Mader, Christian</span> and <span class="person_name">Haslhofer, Bernhard</span>: <a href="http://eprints.cs.univie.ac.at/3720/" target="_blank">Perception and Relevance of Quality Issues in Web Vocabularies</a>. In: I-Semantics 2013, Graz, Austria.
-    </p>
-
-    <p class="citation">
-      <span class="person_name">Momeni Roochi, Elaheh</span> and <span class="person_name">Tao, Ke</span> and <span class="person_name">Haslhofer, Bernhard</span> and <span class="person_name">Houben, Geert-Jan</span>: <a href="http://eprints.cs.univie.ac.at/3724/" target="_blank">Identification of Useful User Comments in Social Media: A Case Study on Flickr Commons</a>. In: ACM/IEEE Joint Conference on Digital Libraries (JCDL 2013), Indianapolis, USA. <strong>(Student Best Paper Award Nominee)</strong>
-    </p>
-
-    <p class="citation">
-      <span class="person_name">Haslhofer, Bernhard</span> and <span class="person_name">Martins, Flávio</span> and <span class="person_name">Magalhães, João</span>: <a href="http://eprints.cs.univie.ac.at/3689">Using SKOS vocabularies for improving Web Search</a>. In: Web of Linked Entities (WoLE) Workshop, co-located with WWW 2013, Rio de Janeiro (2013)
-    </p>
-
-    <p class="citation">
-      <span class="person_name">Murnane, Elizabeth L</span> and <span class="person_name">Haslhofer, Bernhard</span> and <span class="person_name">Lagoze, Carl</span>: <a href="http://eprints.cs.univie.ac.at/3688">RESLVE: Leveraging User Interest to Improve Entity Disambiguation on Short Text</a>. In: Web of Linked Entities (WoLE) Workshop, co-located with WWW 2013, Rio de Janeiro (2013) <strong>(Best Paper)</strong>
-    </p>
-
-    <p class="citation">
-      <span class="person_name">Murnane, Elizabeth L</span> and <span class="person_name">Haslhofer, Bernhard</span> and <span class="person_name">Lagoze, Carl</span>: <a href="http://eprints.cs.univie.ac.at/3687">RESLVE: Leveraging User Interest to Improve Entity Disambiguation on Short Text</a>.  In: WWW 2013, Poster Track, Rio de Janeiro (2013) 
-    </p>
-
-    <p class="citation">
-      <span class="person_name">Haslhofer, Bernhard</span> and <span class="person_name">Warner, Simeon</span> and <span class="person_name">Lagoze, Carl</span> and <span class="person_name">Klein, Martin</span> and <span class="person_name">Sanderson, Robert</span> and <span class="person_name">Nelson, Michael L</span> and <span class="person_name">Van de Sompel, Herbert</span>: <a href="http://eprints.cs.univie.ac.at/3683">ResourceSync: Leveraging Sitemaps for Resource Synchronization</a>. In: WWW 2013, Developers Track, Rio de Janeiro (2013)
-    </p>
-
-    <p class="citation">
-      <span class="person_name">Haslhofer, Bernhard</span> and <span class="person_name">Robitza, Werner</span> and <span class="person_name">Lagoze, Carl</span> and <span class="person_name">Guimbretiere, Francois</span>: <a href="http://arxiv.org/abs/1304.1636">Semantic Tagging on Historical Maps</a>. In: In: ACM Web Science 2013, Paris (2013)
-    </p>
-
-    <p class="citation">
-      <span class="person_name">Klein, Martin</span> and <span class="person_name">Sanderson, Robert</span> and <span class="person_name">Van de Sompel, Herbert</span> and <span class="person_name">Warner, Simeon</span> and <span class="person_name">Haslhofer, Bernhard</span> and <span class="person_name">Lagoze, Carl</span> and <span class="person_name">Nelson, Michael L</span>: <a href="http://eprints.cs.univie.ac.at/3681">A Technical Framework for Resource Synchronization</a>. In: D-Lib Magazine, 19 (1). p. 3 (2013)
-    </p>
   
+  {% for publication in site.data.publications %}
+  <p class="citation">
+    {% for author in publication.authors %}
+      {% if forloop.last %}
+      <span class="person_name">{{ author | append:':'}}</span>
+      {% else %}
+      <span class="person_name">{{ author }}</span> and
+      {% endif %}
+    {% endfor %}
+    <a href="{{publication.uri}}" target="_blank">{{ publication.title }}</a>.
+    {% if publication.type == 'journal' or publication.type == 'conference' %}
+      In:
+    {% endif %}
+    <span>{{ publication.where | append:','}} {{ publication.year | append:'.' }}</span>
+    {% if publication.note %}
+      <strong>{{ publication.note }}</strong>
+    {% endif %}
+  </p>
+  {% endfor %}
+
 </section>
 
 <section id="specifications">
