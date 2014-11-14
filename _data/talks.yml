@@ -1,0 +1,101 @@
+- title: "Things, not Strings"
+  venue: "ADV Tagung - Suchstrategien für heute und morgen"
+  date: "2014-11-12"
+  location: "Vienna, Austria"
+  slides_uri: "http://www.slideshare.net/bhaslhofer/things-not-strings"
+
+- title: "Offene Daten im Kulturbereich - Die pragmatische Perspektive"
+  venue: "Alles Offen, alles frei.  Open Data in Kultureinrichtungen "
+  date: 2014-06-01
+  location: "Wien Museum, Vienna, Austria"
+  slides_uri: "http://www.slideshare.net/bhaslhofer/offene-daten-im-kulturbereich-die-pragmatische-perspektive"
+
+- title: "Open Data - Principles and Techniques (Guest Lecture)"
+  venue: "Technical University of Vienna"
+  date: 2014-05-01
+  location: "Vienna, Austria"
+  slides_uri: "http://www.slideshare.net/bhaslhofer/open-data-principles-and-techniques"
+
+- title: "The Story behind Maphub"
+  venue: "Open Knowledge Conference (OKCon)"
+  date: 2013-09-01
+  location: "Geneva, Switzerland"
+  slides_uri: "http://www.slideshare.net/bhaslhofer/the-story-behind-maphub"
+
+- title: "Semantic Tagging for old maps...and other things on the Web"
+  venue: "The Web As Literature Symposium"
+  date: 2013-06-01
+  location: "British Library, London, UK"
+  slides_uri: "http://www.slideshare.net/bhaslhofer/2013-06weblitmaphub"
+
+- title: "Linked Open Data (Guest Lecture)"
+  venue: "Technical University of Vienna"
+  date: 2013-05-01
+  location: "Vienna, Austria"
+  slides_uri: "http://www.slideshare.net/bhaslhofer/vu-web-engineeringtulinkedopendata"
+
+- title: "Maphub and Annotorious"
+  venue: "iAnnotate 2013"
+  date: 2013-04-01
+  location: "San Francisco, USA"
+  slides_uri: "http://www.slideshare.net/bhaslhofer/maphub-and-annotorious"
+
+- title: "Maphub - Annotations and Semantic Tags on Historical Maps"
+  venue: "Stanford University - Open Annotation Rollout"
+  date: 2013-04-01
+  location: "Palo Alto, USA"
+  slides_uri: "http://www.slideshare.net/bhaslhofer/maphub-annotations-and-semantic-tags-on-historical-maps"
+
+- title: "Old Maps, Annotations, and Open Data Networks"
+  venue: "Harvard University"
+  date: 2013-01-01
+  location: "Cambridge, USA"
+  slides_uri: "http://www.slideshare.net/bhaslhofer/old-maps-annotations-and-open-data-networks"
+
+- title: "Linked Data and SKOS"
+  venue: "Workshop on Physics Classification"
+  date: 2011-12-01
+  location: "Boston, USA"
+  slides_uri: "http://www.slideshare.net/bhaslhofer/linked-data-and-skos-13397533"
+
+- title: "Linked Data in Scholarly Communication"
+  venue: "Cornell University - AAHEP5 Information Provider Summit, Cornell University"
+  date: 2011-10-01
+  location: "Ithaca, USA"
+  slides_uri: "http://www.slideshare.net/bhaslhofer/linked-data-in-scholarly-communication"
+
+- title: "Metadata is back! (Keynote)"
+  venue: "Semantic Web Technologies for Libraries and Readers Workshop, co-located with JCDL 2011"
+  date: "2011-06-01"
+  location: "Ottawa, Canada"
+  slides_uri: "http://www.slideshare.net/bhaslhofer/metadata-is-back"
+
+- title: "Research on Scholarly Practices and Communication at Cornell Information Science. (with Carl Lagoze)"
+  venue: "Microsoft Research"
+  date: 2011-05-01
+  location: "Redmond, USA"
+  slides_uri: "http://research.microsoft.com/apps/video/default.aspx?id=147426"
+
+- title: "Linked Data als Perspektive für die bibliothekarische Inhaltserschließung"
+  venue: "Österreichisches Online-Informationstreffen und Österreichischer Dokumentartag (ODOK)"
+  date: 2010-09-01
+  location: "Leoben, Austria"
+  slides_uri: "http://www.slideshare.net/bhaslhofer/odok2010-haslhofer"
+
+- title: "Linked Data im Kontext Digitaler Bibliothekssysteme"
+  venue: "Semantic Web in Bibliotheken (SWIB)"
+  date: 2009-09-01
+  location: "Cologne, Germany"
+  slides_uri: "http://www.slideshare.net/bhaslhofer/linked-data-im-kontext-digitaler-bibliothkssysteme"
+
+- title: "CIDOC CRM in Practice - Experiences, Problems, and Possible Solutions"
+  venue: "Workshop Vernetzte Datenwelten"
+  date: 2009-10-01
+  location: "Berlin, Germany"
+  slides_uri: "http://www.slideshare.net/bhaslhofer/cidoc-crm-in-practice"
+
+- title: "Linked Data Tutorial"
+  venue: "Vlaams Theater Instituut"
+  date: 2009-06-01
+  location: "Brussels, Belgium"
+  slides_uri: "http://www.slideshare.net/bhaslhofer/linked-data-tutorial"
