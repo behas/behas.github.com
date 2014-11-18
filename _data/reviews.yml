@@ -1,0 +1,129 @@
+# Journals
+
+- medium: "International Journal on Semantic Web and Information Systems (IJSWIS)"
+  uri: "http://www.ijswis.org/"
+  type: "journal"
+  years: "2012"
+
+- medium: "Multimedia Tools and Applications"
+  uri: "http://www.springer.com/computer/information+systems+and+applications/journal/11042"
+  type: "journal"
+  years: "2010, 2011"
+
+- medium: "International Journal on Metadata, Semantics, and Ontologies"
+  uri: "http://www.inderscience.com/browse/index.php?journalID=152&year=2010&vol=5&issue=2"
+  type: "journal"
+  years: "2010, 2012"
+
+- medium: "International Journal on Digital Libraries"
+  uri: "http://www.dljournal.org/"
+  type: "journal"
+  years: "2009, 2012"
+
+- medium: "ACM Computing Surveys"
+  uri: "http://csur.acm.org/"
+  type: "journal"
+  years: "2009"
+
+# Workshops and Conferences
+
+- medium: "World Wide Web (WWW) - Demo track"
+  type: "conference"
+  years:
+    - year: 2012
+      uri: "http://www2012.wwwconference.org/program/accepted-papers/demos-track/"
+
+- medium: "International Conference on Web Engineering (ICWE)"
+  type: "conference"
+  years:
+    - year: 2011
+      uri: "http://icwe2011.webengineering.org/"
+    - year: 2012
+      uri: "http://icwe2012.webengineering.org/"
+    - year: 2013
+      uri: "http://icwe2013.webengineering.org/"
+
+- medium: "International Conference on Theory and Practice of Digital Libraries (TPDL)"
+  type: "conference"
+  years:
+    - year: 2010
+      uri: "http://www.ecdl2010.org/"
+    - year: 2011
+      uri: "http://www.tpdl2011.org/"
+    - year: 2013
+      uri: "http://www.tpdl2013.info/"
+
+- medium: "Extended Semantic Web Conference (ESWC)"
+  type: "conference"
+  years:
+    - year: 2010
+      uri: "http://www.eswc2010.org/"
+    - year: 2012
+      uri: "http://2012.eswc-conferences.org/"
+
+- medium: "IEEE Conference on Commerce and Enterprise Computing (CEC)"
+  type: "conference"
+  years:
+    - year: 2010
+      uri: "http://conferences.computer.org/cec/2010/"
+    - year: 2011
+      uri: "http://www.tudor.lu/cec2011"
+    - year: 2012
+      uri: "http://conferences.computer.org/cec/2012/"
+
+- medium: "International Conference on Semantic Systems (I-Semantics)"
+  type: "conference"
+  years:
+    - year: 2010
+      uri: "http://semanticweb.org/wiki/I-SEMANTICS_2010"
+
+- medium: "Dublin Core Conference (DC)"
+  type: "conference"
+  years:
+    - year: 2008
+      uri: "http://dc2008.de/"
+    - year: 2009
+      uri: "http://www.dc2009.kr/"
+    - year: 2010
+      uri: "http://www.asis.org/Conferences/DC2010/"
+    - year: 2011
+      uri: "http://dcevents.dublincore.org/index.php/IntConf/dc-2011"
+    - year: 2012
+      uri: "http://dcevents.dublincore.org/index.php/IntConf/dc-2012/"
+    - year: 2013
+      uri: "http://dcevents.dublincore.org/IntConf/dc-2013"
+
+- medium: "Linked Data Triplification Challenge"
+  type: "workshop"
+  years:
+    - year: 2011
+      uri: "http://i-semantics.tugraz.at/triplification-challenge"
+
+- medium: "Workshop on Scripting and Development for the Semantic Web (SFSW)"
+  type: "workshop"
+  years:
+    - year: 2009
+      uri: "http://semanticweb.org/wiki/SFSW_2009"
+    - year: 2010
+      uri: "http://www.semanticscripting.org/SFSW2010/"
+
+- medium: "Networked Knowledge Organization Systems and Services Workshop (NKOS)"
+  type: "workshop"
+  years:
+    - year: 2006
+      uri: "http://www.ukoln.ac.uk/nkos/nkos2006/"
+    - year: 2007
+      uri: "http://www.comp.glam.ac.uk/pages/research/hypermedia/nkos/nkos2007/programme.html"
+    - year: 2008
+      uri: "http://www.comp.glam.ac.uk/pages/research/hypermedia/nkos/nkos2008/"
+    - year: 2009
+      uri: "http://www.comp.glam.ac.uk/pages/research/hypermedia/nkos/nkos2009/"
+    - year: 2010
+      uri: "http://www.comp.glam.ac.uk/pages/research/hypermedia/nkos/nkos2010/"
+    - year: 2011
+      uri: "http://www.comp.glam.ac.uk/pages/research/hypermedia/nkos/nkos2011/"
+
+- medium: "International Workshop on Web Semantics (WebS)"
+  type: "workshop"
+  years:
+    - year: "2004-2013"

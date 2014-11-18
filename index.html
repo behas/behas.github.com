@@ -205,35 +205,48 @@ layout: default
 
 </section>
 
-
 <section>
   <h1>Reviewing Activities / Program Committee Memberships</h1>
-  
+
   <h2>Journals</h2>
-  
-    <p><span class="title"><a href="http://www.ijswis.org/" target="_blank">International Journal on Semantic Web and Information Systems (IJSWIS)</a></span> (2012)</p>
-    <p><span class="title"><a href="http://www.springer.com/computer/information+systems+and+applications/journal/11042" title="Multimedia Tools and Applications">Multimedia Tools and Applications</a></span> (2010, 2011)</p>
-    <p><span class="title"><a href="http://www.inderscience.com/browse/index.php?journalID=152&amp;year=2010&amp;vol=5&amp;issue=2" title="www.inderscience.com - Int. J. of Metadata, Semantics and Ontologies - IJMSO">International Journal on Metadata, Semantics, and Ontologies</a></span> (2010, 2012)</p>
-    <p><span class="title"><a href="http://www.dljournal.org/" title="Domain Names, Web Hosting and Online Marketing Services | Network Solutions">International Journal on Digital Libraries</a></span> (2009, 2012)</p>
-    <p><span class="title"><a href="http://csur.acm.org/" title="ACM Computing Surveys">ACM Computing Surveys</a></span> (2009)</p>
 
-  <h2>Conferences</h2>
+  {% for review in site.data.reviews %}
+    {% if review.type == 'journal' %}
+    <p>
+      <span class="title">
+        <a href="{{review.uri}}" target="_blank">{{review.medium}}</a> ({{review.years}})
+      </span>
+    </p>
+    {% endif %}
+  {% endfor %}
 
-    <p><span class="title">World Wide Web (WWW) - Demo track</span> (<a href="http://www2012.wwwconference.org/program/accepted-papers/demos-track/" title="Demos track | www2012">2012</a>)</p>
-    <p><span class="title">International Conference on Web Engineering (ICWE)</span>, <a href="http://icwe2011.webengineering.org/" title="ICWE 2011">2011</a>, <a href="http://icwe2012.webengineering.org/" title="12th International Conference on Web Engineering ICWE 2012 - News -">2012</a>, <a href="http://icwe2013.webengineering.org/" target="_blank">2013</a></p>
-    <p><span class="title">International Conference on Theory and Practice of Digital Libraries (TPDL)</span>, <a href="http://www.ecdl2010.org/" title="ECDL 2010">2010</a>, <a href="http://www.tpdl2011.org/" title="International Conference on Theory and Practice of Digital Libraries 2011">2011</a>, <a href="http://www.tpdl2013.info/" target="_blank">2013</a></p>
-    <p><span class="title">Extended Semantic Web Conference (ESWC)</span>, <a href="http://www.eswc2010.org/" title="Extended Semantic Web Conference 2010 - (former European Semantic Web Conference) - Home">2010</a>, <a href="http://2012.eswc-conferences.org/" title="ESWC 2012 | 9th Extended Semantic Web Conference">2012</a></p>
-    <p><span class="title">IEEE Conference on Commerce and Enterprise Computing (CEC)</span>, <a href="http://conferences.computer.org/cec/2010/" title="CEC 2010">2010</a>, <a href="http://www.tudor.lu/cec2011" title="CEC 2011 Homepage">2011</a>, <a href="http://conferences.computer.org/cec/2012/" title="CEC 2012">2012</a></p>
-    <p><span class="title">International Conference on Semantic Systems (I-Semantics)</span>, <a href="http://semanticweb.org/wiki/I-SEMANTICS_2010" title="I-SEMANTICS 2010 - semanticweb.org">2010</a></p>
-    <p><span class="title">Dublin Core Conference (DC)</span>, <a href="http://dc2008.de/" title="DC 2008 -  International Conference on Dublin Core and Metadata Applications">2008</a>, <a href="http://www.dc2009.kr/" title="DC-2009 SEOUL">2009</a>, <a href="http://www.asis.org/Conferences/DC2010/" title="DC-2010 Conference Home">2010</a>, <a href="http://dcevents.dublincore.org/index.php/IntConf/dc-2011" title="DC-2011, The Hague">2011</a>, <a href="http://dcevents.dublincore.org/index.php/IntConf/dc-2012/" title="DC-2012, Kuching, Sarawak, Malaysia">2012</a>, <a href="http://dcevents.dublincore.org/IntConf/dc-2013" target="_blank">2013</a></p>
-    
-  <h2>Workshops</h2>
+  <h2>Conferences and Workshops</h2>
 
-    <p><span class="title">Linked Data Triplification Challenge</span>, <a href="http://i-semantics.tugraz.at/triplification-challenge" title="Triplification Challenge – I-SEMANTICS">2011</a></p>
-    <p><span class="title">Workshop on Scripting and Development for the Semantic Web (SFSW)</span>, <a href="http://semanticweb.org/wiki/SFSW_2009" title="SFSW 2009 - semanticweb.org">2009</a>, <a href="http://www.semanticscripting.org/SFSW2010/" title="Scripting and Development for the Semantic Web (SFSW2010)">2010</a></p>
-    <p><span class="title">Networked Knowledge Organization Systems and Services Workshop (NKOS)</span>, <a href="http://www.ukoln.ac.uk/nkos/nkos2006/" title="Networked Knowledge Organization Systems and Services | The 5th European Networked Knowledge Organization Systems
-    (NKOS) Workshop | Programme">2006</a>, <a href="http://www.comp.glam.ac.uk/pages/research/hypermedia/nkos/nkos2007/programme.html" title="Networked Knowledge Organization Systems and Services | The 6th European Networked Knowledge Organization Systems
-    (NKOS) Workshop | Programme">2007</a>, <a href="http://www.comp.glam.ac.uk/pages/research/hypermedia/nkos/nkos2008/" title="Networked Knowledge Organization Systems and Services | The 7th European Networked Knowledge Organization Systems (NKOS) Workshop | Background">2008</a>, <a href="http://www.comp.glam.ac.uk/pages/research/hypermedia/nkos/nkos2009/" title="NKOS2009">2009</a>, <a href="http://www.comp.glam.ac.uk/pages/research/hypermedia/nkos/nkos2010/" title="NKOS 2010">2010</a>, <a href="http://www.comp.glam.ac.uk/pages/research/hypermedia/nkos/nkos2011/" title="NKOS 2011 - Workshop Programme">2011</a></p>
-    <p><span class="title"><a href="http://www.faw.jku.at/wwoess/webs/webs.html" target="_blank">International Workshop on Web Semantics (WebS)</a></span>, 2004-2013</p>
-  
+  {% for review in site.data.reviews %}
+    {% if review.type == 'conference' or review.type == 'workshop' %}
+    <p>
+      <span class="title">
+        {{review.medium}}
+      </span>
+      {% for year in review.years %}
+        {% if forloop.length == 1 %}
+          {% if year.uri != null %}
+            (<a href="{{year.uri}}" target="_blank">{{year.year}}</a>)
+          {% else %}
+            ({{year.year}})
+          {% endif %}
+        {% else %}
+          {% if forloop.first %}
+            (<a href="{{year.uri}}" target="_blank">{{year.year}}</a>,
+          {% elsif forloop.last %}
+            <a href="{{year.uri}}" target="_blank">{{year.year}}</a>)
+          {% else %}
+            <a href="{{year.uri}}" target="_blank">{{year.year}}</a>,
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    </p>
+    {% endif %}
+  {% endfor %}
+
 </section>
