@@ -1,9 +1,13 @@
+# 2014
+
 - title: "Sifting useful comments from Flickr Commons and YouTube"
   authors: ["Momeni, Elaheh","Haslhofer, Bernhard","Tao, Ke","Houben, Geert-Jan"]
   where: "International Journal on Digital Libraries 1-19"
   year: 2014
   type: journal
   uri: "http://link.springer.com/article/10.1007/s00799-014-0123-1"
+
+# 2013
 
 - title: "Europeana Linked Open Data - data.europeana.eu"
   authors: ["Isaac, Antoine", "Haslhofer, Bernhard"]
@@ -13,7 +17,7 @@
   uri: "http://eprints.cs.univie.ac.at/3732/"
 
 - title: "Web Synchronization Simulations using the ResourceSync Framework"
-  authors: ["Haslhofer, Bernhard","Warner, Simeon","Lagoze, Carl","Klein, Martin","Sanderson, Robert","Van de Sompel, Herbert","Nelson, Micheal"]
+  authors: ["Haslhofer, Bernhard","Warner, Simeon","Lagoze, Carl","Klein, Martin","Sanderson, Robert","Van de Sompel, Herbert","Nelson, Michael"]
   where: "Technical Report, University of Vienna"
   year: 2013
   type: tech_report
@@ -42,7 +46,7 @@
   uri: "http://eprints.cs.univie.ac.at/3689"
 
 - title: "RESLVE: Leveraging User Interest to Improve Entity Disambiguation on Short Text"
-  authors: ["Murnane, Elizabeth L","Haslhofer, Bernhard","Lagoze, Carl",""]
+  authors: ["Murnane, Elizabeth L","Haslhofer, Bernhard","Lagoze, Carl"]
   where: "Web of Linked Entities (WoLE) Workshop, co-located with WWW 2013, Rio de Janeiro"
   year: 2013
   type: conference
@@ -50,14 +54,14 @@
   note: Best Paper
 
 - title: "RESLVE: Leveraging User Interest to Improve Entity Disambiguation on Short Text"
-  authors: ["Murnane, Elizabeth L","Haslhofer, Bernhard","Lagoze, Carl",""]
+  authors: ["Murnane, Elizabeth L","Haslhofer, Bernhard","Lagoze, Carl"]
   where: "WWW 2013, Poster Track, Rio de Janeiro"
   year: 2013
   type: conference
   uri: "http://eprints.cs.univie.ac.at/3687"
 
 - title: "ResourceSync: Leveraging Sitemaps for Resource Synchronization"
-  authors: ["Haslhofer, Bernhard","Warner, Simeon","Lagoze, Carl","Klein, Martin","Sanderson, Robert","Nelson, Michael L","Van de Sompel, Herbert",""]
+  authors: ["Haslhofer, Bernhard","Warner, Simeon","Lagoze, Carl","Klein, Martin","Sanderson, Robert","Nelson, Michael L","Van de Sompel, Herbert"]
   where: "WWW 2013, Developers Track, Rio de Janeiro"
   year: 2013
   type: conference
