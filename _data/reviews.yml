@@ -1,9 +1,29 @@
 # Journals
 
+- medium: "Journal of Web Semantics (JWS)"
+  uri: "http://www.journals.elsevier.com/journal-of-web-semantics/"
+  type: "journal"
+  years: "2013, 2014"
+
 - medium: "International Journal on Semantic Web and Information Systems (IJSWIS)"
   uri: "http://www.ijswis.org/"
   type: "journal"
-  years: "2012"
+  years: "2012, 2014"
+
+- medium: "Semantic Web Journal (SWJ)"
+  uri: "http://www.semantic-web-journal.net/"
+  type: "journal"
+  years: "2014"
+
+- medium: "Future Internet"
+  uri: "http://www.mdpi.com/journal/futureinternet"
+  type: "journal"
+  years: "2013"
+
+- medium: "Computers"
+  uri: "http://www.mdpi.com/journal/computers"
+  type: "journal"
+  years: "2014"
 
 - medium: "Multimedia Tools and Applications"
   uri: "http://www.springer.com/computer/information+systems+and+applications/journal/11042"
@@ -25,9 +45,21 @@
   type: "journal"
   years: "2009"
 
-# Workshops and Conferences
+# Conferences
 
-- medium: "World Wide Web (WWW) - Demo track"
+- medium: "ACM Web Science (WebSci)"
+  type: "conference"
+  years:
+    - year: 2014
+      uri: "http://websci14.org/"
+
+- medium: "Digital Libraries"
+  type: "conference"
+  years:
+    - year: 2014
+      uri: "http://www.city.ac.uk/digital-libraries-2014"
+
+- medium: "International World Wide Web Conference (WWW)"
   type: "conference"
   years:
     - year: 2012
@@ -92,6 +124,20 @@
       uri: "http://dcevents.dublincore.org/index.php/IntConf/dc-2012/"
     - year: 2013
       uri: "http://dcevents.dublincore.org/IntConf/dc-2013"
+
+# Workshops
+
+- medium: "Computational Social Science Winter Symposium (CSSWS)"
+  type: "workshop"
+  years:
+    - year: 2014
+      uri: "http://www.gesis.org/en/events/css-wintersymposium/"
+
+- medium: "iChallenge - Linked Data Cup"
+  type: "workshop"
+  years:
+    - year: 2013
+      uri: "http://i-semantics.tugraz.at/i-challenge"
 
 - medium: "Linked Data Triplification Challenge"
   type: "workshop"
