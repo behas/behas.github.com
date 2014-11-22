@@ -1,0 +1,79 @@
+- acronym: "ResourceSync"
+  uri: "http://www.niso.org/workrooms/resourcesync/"
+  start_date: "2011-12-01"
+  end_date: "2014-04-30"
+  funding_source: "Sloan Foundation"
+  funding_source_uri: "http://www.sloan.org/"
+  role: "Researcher"
+  description: |
+    Research, develop, prototype, test, and deploy mechanisms for the
+    large-scale synchronization of web resources. Building on the OAI-PMH
+    strategies for synchronizing metadata, this project will enhance that
+    specification using modern web technologies, but will allow for the
+    synchronization of the objects themselves, not just their metadata.
+
+- acronym: "SciLink"
+  uri: "http://eprints.cs.univie.ac.at/3354"
+  start_date: 2011-03-01
+  end_date: 2014-02-28
+  funding_source: "EU PEOPLE IOF (Marie Curie)"
+  funding_source_uri: "http://ec.europa.eu/research/mariecurieactions/"
+  role: "Research Fellow"
+  description: |
+    Research on (i) interactive links discovery in scholarly publications,
+    (ii) strategies for maintaining link integrity, and (iii) novel Web-based
+    resource aggregation and presentation interfaces for scholarly publication
+    workflows.
+
+- acronym: "Maphub"
+  uri: "http://maphub.github.com/"
+  start_date: "2011-12-01"
+  end_date: "2013-02-28"
+  funding_source: "Andrew W. Mellon Foundation"
+  funding_source_uri: "http://www.mellon.org/"
+  role: "Principal Investigator"
+  description: |
+    Examine application of the
+    <a href="http://www.w3.org/community/openannotation/">Open Annotation
+    Specification</a> in the context of digitized historical maps. Design and
+    build a collaborative Web environment in which scholars and citizens can
+    contribute their knowledge to digitized high-resolution online maps.
+    We experimented with designs that integrate the annotation process with
+    the re-use of data from public data sources, such as Wikipedia.    
+
+- acronym: "MEKETRE"
+  uri: "http://meketre.org/"
+  start_date: "2009-07-01"
+  end_date: "2012-12-31"
+  funding_source: "Austrian Research Fund (FWF)"
+  funding_source_uri: "http://www.fwf.ac.at/"
+  role: "Proposal Co-author, Researcher"
+  description: |
+    An interdisciplinary project with the Institute for Egyptology at the
+    University of Vienna. It aimed at building a collaborative Web-based
+    solution for efficiently organizing the collected and digitized content
+    objects from the Egyptian middle kingdom period by means of open
+    collaboratively developed vocabularies.
+
+- acronym: "EuropeanaConnect"
+  uri: "http://www.europeanaconnect.eu/"
+  start_date: "2009-05-01"
+  end_date: "2011-10-31"
+  funding_source: "EU eContentplus"
+  funding_source_uri: "http://ec.europa.eu/information_society/activities/econtentplus/index_en.htm"
+  role: "Senior Researcher"
+  description: |
+    Support the development of <a href="http://europeana.eu/">Europeana</a>,
+    which enables people to explore the digital resources of Europe's museums,
+    libraries, archives and audio-visual collections.
+
+- acronym: "BRICKS"
+  uri: "http://www.brickscommunity.org/"
+  start_date: "2003-01-01"
+  end_date: "2007-10-31"
+  funding_source: "EU FP 6"
+  funding_source_uri: "http://ec.europa.eu/research/fp6/index_en.cfm"
+  role: "Junior Researcher"
+  description: |
+    Aim at building the infrastructure for integrating cultural heritage
+    institutions across Europe.

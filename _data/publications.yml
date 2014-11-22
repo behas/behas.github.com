@@ -60,7 +60,7 @@
   type: conference
   uri: "http://eprints.cs.univie.ac.at/3687"
 
-- title: "ResourceSync: Leveraging Sitemaps for Resource Synchronization"
+- title: "ResourceSync: ***Leveraging*** Sitemaps for Resource Synchronization"
   authors: ["Haslhofer, Bernhard","Warner, Simeon","Lagoze, Carl","Klein, Martin","Sanderson, Robert","Nelson, Michael L","Van de Sompel, Herbert"]
   where: "WWW 2013, Developers Track, Rio de Janeiro"
   year: 2013
