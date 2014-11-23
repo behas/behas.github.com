@@ -32,9 +32,9 @@ layout: default
   <div id="description">
     <span itemprop="description">
       
-      <p>My research interest lies in organizing information in large-scale information environments and extracting knowledge from raw datasets. I design, build, and experiment with Web-based data infrastructures, investigate solutions for (predictive) data analytics scenarios, and study the design of the interaction between users and data-driven applications.</p>
+      <p>My research interest lies in finding quantitative methods for gaining new insights from large-scale, connected datasets, and to develop novel tools to make datasets and analytics procedures usable in various settings. I preferably work in multidisciplinary settings with people from other domains, including social science, humanities, economics, or engineering.</p>
 
-      <p>At the moment I am working on </p>
+      <p>At the moment I am working on novel techniques to find anomalies in the <a href="https://bitcoin.org" target="_blank">Bitcoin</a> transaction network.</p>
 
     </span>
   </div>
@@ -46,7 +46,7 @@ layout: default
 <section id="shortbio">
   <h1>Short Bio</h1>
   
-  <p>Bernhard Haslhofer is working as a Data Scientist at <a href="http://www.ait.ac.at/" target="_blank">AIT Austrian Institute of Technology</a>. Previously, he was an EU Marie Curie Fellow Postdoc and Lecturer at <a href="http://infosci.cornell.edu/" target="_blank">Cornell University Information Science</a> and the <a href="http://www.cs.univie.ac.at/bernhard.haslhofer" target="_blank">University of Vienna</a>. He received his PhD from the University of Vienna, and a masters degree and diploma in Economics and Computer Science from the Technical University of Vienna. His research interest lie in organizing information in large-scale information environments and extracting knowledge from raw datasets. He designs, builds, and experiments with Web-based data infrastructures, investigates solutions for (predictive) data analytics scenarios, and studies the design of the interaction between people (users) and data-driven applications.
+  <p>Bernhard Haslhofer is working as a Data Scientist at <a href="http://www.ait.ac.at/" target="_blank">AIT Austrian Institute of Technology</a>. Previously, he was an EU Marie Curie Fellow Postdoc and Lecturer at <a href="http://infosci.cornell.edu/" target="_blank">Cornell University Information Science</a> and the <a href="http://www.cs.univie.ac.at/bernhard.haslhofer" target="_blank">University of Vienna</a>. He received his PhD from the University of Vienna, and a masters degree and diploma in Economics and Computer Science from the Technical University of Vienna. His research interest lies in finding quantitative methods for gaining new insights from large-scale, connected datasets, and to develop novel tools to make datasets and analytics procedures usable in various settings.
   </p>
 
 </section>
@@ -105,6 +105,27 @@ layout: default
 
 </section>
 
+<section id="projects">
+  <h1>Grants and Third-Party Funded Projects</h1>
+
+  {% for project in site.data.projects %}
+    <p>
+      <span class="project_name">
+        {% if project.uri != null %}
+          <a href="{{project.uri}}">{{project.acronym}}</a>
+        {% else %}
+          {{project.acronym}}
+        {% endif %}
+        ({{project.start_date | date: "%m/%Y"}}-{{project.end_date | date: "%m/%Y"}}),
+        <a href="{{project.funding_source_uri}}">{{project.funding_source}}</a>,
+        {{project.role}}.
+      </span>
+      {{project.description}}
+    </p>
+  {% endfor %}
+
+</section>
+
 <section id="specifications">
   <h1>Specifications</h1>
 
@@ -127,27 +148,6 @@ layout: default
       ({{course.period}},
       <a href="{{course.institution_uri}}" target="_blank">{{course.institution}})</a>,
       {{course.role}}: {{course.description}}
-  {% endfor %}
-
-</section>
-
-<section id="projects">
-  <h1>Grants and Third-Party Funded Projects</h1>
-
-  {% for project in site.data.projects %}
-    <p>
-      <span class="project_name">
-        {% if project.uri != null %}
-          <a href="{{project.uri}}">{{project.acronym}}</a>
-        {% else %}
-          {{project.acronym}}
-        {% endif %}
-        ({{project.start_date | date: "%m/%Y"}}-{{project.end_date | date: "%m/%Y"}}),
-        <a href="{{project.funding_source_uri}}">{{project.funding_source}}</a>,
-        {{project.role}}.
-      </span>
-      {{project.description}}
-    </p>
   {% endfor %}
 
 </section>

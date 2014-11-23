@@ -8,9 +8,9 @@
   uri: "https://maphub.github.com"
   description: |
     A system that allows people to cross-reference historical maps with resources
-    in Web-based knowledge graphs. It also demonstrates application of the W3C
+    in Web-based knowledge graphs. It also demonstrates application of the
     <a href="http://www.w3.org/community/openannotation/" target="_blank">
-    Open Annotation</a> specification.
+    W3C Open Annotation</a> specification.
 
 - title: "Lucene-SKOS"
   uri: "https://github.com/behas/lucene-skos"
