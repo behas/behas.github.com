@@ -1,0 +1,38 @@
+- title: "ResourceSync"
+  uri: "https://github.com/resync"
+  description: |
+    Software implementing the <a href="" target="_blank">ResourceSync</a>
+    data synchronization framework for the Web.
+    
+- title: "Maphub"
+  uri: "https://maphub.github.com"
+  description: |
+    A system that allows people to cross-reference historical maps with resources
+    in Web-based knowledge graphs. It also demonstrates application of the W3C
+    <a href="http://www.w3.org/community/openannotation/" target="_blank">
+    Open Annotation</a> specification.
+
+- title: "Lucene-SKOS"
+  uri: "https://github.com/behas/lucene-skos"
+  description: |
+    An analyzer module for <a href="http://lucene.apache.org/core/" target="_blank">Apache Lucene 4.x</a> and
+    <a href="http://lucene.apache.org/solr/" target="_blank">Solr 4.x</a>, which takes existing
+    <a href="http://www.w3.org/TR/skos-primer/" target="_blank">SKOS</a> concepts schemes and performs
+    term expansion for given Lucene documents and/or queries.
+
+- title: "qSKOS"
+  uri: "https://github.com/cmader/qSKOS/"
+  description: |
+    A command line tool and API for finding quality issues in SKOS vocabularies.
+
+- title: "DSNotify"
+  uri: "http://www.cibiv.at/~niko/dsnotify/"
+  description: |
+    A generic change detection framework for Linked Data sources that informs data-consuming actors
+    about the various types of events (create, remove, move, update) that can occur in data sources.
+
+- title: "OAI2LOD Server"
+  uri: "https://github.com/behas/oai2lod"
+  description: |
+    A leight-weight proxy server component that exposes any <a href="http://www.openarchives.org/pmh/">OAI-PMH</a> compliant
+    metadata repository as <a href="http://www.w3.org/DesignIssues/LinkedData.html">Linked (Open) Data</a>

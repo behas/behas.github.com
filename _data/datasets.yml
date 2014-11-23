@@ -1,0 +1,5 @@
+- title: "data.europeana.eu"
+  uri: "http://data.europeana.eu"
+  description: |
+    A open dataset comprising metadata of 20 million texts, images, videos and sounds gathered
+    from institutions all over Europe by <a href="http://europeana.eu/" target="_blank">Europeana</a>.
