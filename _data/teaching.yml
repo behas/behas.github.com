@@ -1,0 +1,76 @@
+- title: "Technology Applications"
+  institution: "University of Salzburg"
+  institution_uri: "http://www.uni-salzburg.at/"
+  period: "Spring 2014"
+  role: "Instructor"
+  description: |
+    A masters-level course introducing technologies for building data-centric Web information
+    systems in the library domain. Discussion of cross-cutting issues such as Linked (Open) Data.
+
+- title: "INFO/CS 4302 - Web Information Systems"
+  website: "http://www.infosci.cornell.edu/Courses/info4302/2012fa/"
+  institution: "Cornell University"
+  institution_uri: "http://www.cornell.edu/"
+  period: "2011-2012"
+  role: "Instructor"
+  description: |
+    This course introduces technologies for building data-centric information
+    systems on the World Wide Web, show the practical applications of such systems,
+    and discuss their design and their social and policy context by examining
+    cross-cutting issues such as citizen science, data journalism and open government.
+
+- title: "CS 5999 - Master of Engineering Project"
+  website: "http://courses.cornell.edu/"
+  institution: "Cornell University"
+  institution_uri: "http://www.cornell.edu/"
+  period: "2011-2012"
+  role: "Instructor"
+  description: |
+    Independent or group project under the direction of a CS field member or researcher.
+    Projects involve the development of a computer science application (software or hardware)
+    useful in exploring and/or solving an engineering problem with a computer science focus.
+
+- title: "Multimedia Information Systems 2"
+  institution: "University of Vienna"
+  institution_uri: "http://www.univie.ac.at"
+  period: "2007-2011"
+  role: "Co-instructor"
+  description: |
+    A masters-level course in Media Informatics examining technologies and available applications
+    for building (multimedia) Web information systems. Focus on XML, Semantic Web technologies and,
+    metadata standards.
+
+- title: "Multimedia Information Retrieval"
+  institution: "University of Vienna"
+  institution_uri: "http://www.univie.ac.at"
+  period: "2009-2011"
+  role: "Co-instructor"
+  description: |
+    An advanced masters-level course focusing on the principles of information retrieval in distributed
+    environments such as the Web, with a special focus on multimedia information.
+
+
+- title: "Information System Technologies for Multimedia Applications"
+  institution: "University of Vienna"
+  institution_uri: "http://www.univie.ac.at"
+  period: "2008-2010"
+  role: "Co-instructor"
+  description: |
+    An undergraduate course focusing on the technical properties of various media types (image, audio, video)
+    and their technical processing (e.g., with Java Media Framework) in multimedia applications.
+
+- title: "Media Informatics Student Projects"
+  institution: "University of Vienna"
+  institution_uri: "http://www.univie.ac.at"
+  period: "2008-2011"
+  role: "Instructor"
+  description: |
+    An undergraduate course involving the development of an application related to the media informatics field.
+
+- title: "Modeling Techniques and Methods"
+  institution: "University of Vienna"
+  institution_uri: "http://www.univie.ac.at"
+  period: "2007-2011"
+  role: "Co-instructor"
+  description: |
+    An undergraduate introductory course covering basic data modeling standards such as EER, UML, etc.

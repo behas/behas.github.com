@@ -44,8 +44,6 @@ layout: default
 
     </ul>
 
-
-      
     </span>
   </div>
 
@@ -61,7 +59,6 @@ layout: default
   </p>
 
 </section>
-
 
 <section id="publications">
   <h1>Recent Publications <a href="http://scholar.google.com/citations?user=15K0uBUAAAAJ">(see all ...)</a></h1>
@@ -97,42 +94,25 @@ layout: default
 
 </section>
 
-
 <section id="teaching">
   <h1>Teaching</h1>
-  
-  <h2>Fall 2012 (Cornell)</h2>
 
-  <p><span class="title"><a href="http://www.infosci.cornell.edu/Courses/info4302/2012fa/" title="INFO/CS 4302: Web Information Systems | Course Website | Fall 2012">INFO/CS 4302 - Web Information Systems</a></span>, instructor. This course introduces technologies for building data-centric information systems on the World Wide Web, show the practical applications of such systems, and discuss their design and their social and policy context by examining cross-cutting issues such as citizen science, data journalism and open government.</p>
-  
-  <p>INFO 5900 - Independent Research, instructor.</p>
-  
-  <h2>Spring 2012 (Cornell)</h2>
+  {% for course in site.data.teaching %}
+    <p>
+      {% if course.website %}
+        <span class="title"><a href="{{course.website}}" target="_blank">{{course.title}}</a></span>,
+      {% else %}
+        <span class="title">{{course.title}}</span>,
+      {% endif %}
+      ({{course.period}},
+      <a href="{{course.institution_uri}}" target="_blank">{{course.institution}})</a>,
+      {{course.role}}: {{course.description}}
+  {% endfor %}
 
-  <p><span class="title"><a href="http://courses.cornell.edu/search_advanced.php?cur_cat_oid=14&amp;search_database=Search&amp;search_db=Search&amp;cpage=1&amp;ecpage=1&amp;ppage=1&amp;spage=1&amp;tpage=1&amp;location=33&amp;filter%5Bkeyword%5D=cs+5999#" title="Courses of Study Search - Cornell University - Acalog ACMS™">CS 5999 - Master of Engineering Project</a></span>, co-instructor.</p> 
-  
-  <h2>Fall 2011 (Cornell)</h2>
-  
-  <p><span class="title"><a href="http://www.infosci.cornell.edu/Courses/info4302/2011fa/" title="">INFO/CS 4302 - Web Information Systems</a></span>, co-instructor. Examines technologies for building data-centric information systems on the World Wide Web, discusses the social and policy context from which they arose, shows the practical applications of such systems, and go into cross-cutting issues in this context. Topics: Internet and Web foundations, structured Web data, RESTful Web Services, Linked Data, Knowledge Organization on the Web, Citizen Science, Human Computation.</p>
-  
-  <p><span class="title"><a href="http://courses.cornell.edu/search_advanced.php?cur_cat_oid=14&amp;search_database=Search&amp;search_db=Search&amp;cpage=1&amp;ecpage=1&amp;ppage=1&amp;spage=1&amp;tpage=1&amp;location=33&amp;filter%5Bkeyword%5D=cs+5999#" title="Courses of Study Search - Cornell University - Acalog ACMS™">CS 5999 - Master of Engineering Project</a></span>, co-instructor.</p>
-  
-  <h2>Before (University of Vienna)</h2>
-  
-  <p><span class="title">Multimedia Information Systems 2</span> (2007-2011), co-instructor. A masters-level course in Media Informatics examining technologies and available applications for building (multimedia) Web information systems. Focus on XML, Semantic Web technologies and, metadata standards.</p>
-  
-  <p><span class="title">Multimedia Information Retrieval</span> (2009-2011), co-instructor. An advanced masters-level course focusing on the principles of information retrieval in distributed environments such as the Web, with a special focus on multimedia information.</p>
-  
-  <p><span class="title">Information System Technologies for Multimedia Applications</span> (2008-2010). An undergraduate course focusing on the technical properties of various media types (image, audio, video) and their technical processing (e.g., with Java Media Framework) in multimedia applications.</p>
-  
-  <p><span class="title">Media Informatics Student Projects</span> (2008-2011).</p>
-  
-  <p><span class="title">Modeling Techniques and Methods</span> (2007-2011), co-instructor. An undergraduate introductory course covering basic data modeling standards such as EER, UML, etc.</p>
-  
 </section>
 
 <section id="projects">
-  <h1>Grants and Projects</h1>
+  <h1>Grants and Third-Party Funded Projects</h1>
 
   {% for project in site.data.projects %}
     <p>
@@ -164,15 +144,12 @@ layout: default
 
 </section>
 
-
-
 <section id="research_visits">
   <h1>Research Visits</h1>
 
   <p><span class="talk_title">Research Visit Los Alamos National Labs</span>, May 2012</p>
   
 </section>
-
 
 <section id="awards">
   <h1>Awards</h1>
@@ -182,7 +159,6 @@ layout: default
   <p>"Certificate of Appreciation", awarded by the University of Vienna, Faculty of computer science. 2010, 2011<p>
 
 </section>
-
 
 <section>
   <h1>Event Organization</h1>
