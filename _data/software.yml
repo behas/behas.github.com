@@ -1,7 +1,7 @@
 - title: "ResourceSync"
   uri: "https://github.com/resync"
   description: |
-    Software implementing the <a href="" target="_blank">ResourceSync</a>
+    Software implementing the <a href="http://www.openarchives.org/rs/toc" target="_blank">ResourceSync</a>
     data synchronization framework for the Web.
     
 - title: "Maphub"
