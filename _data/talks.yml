@@ -1,12 +1,18 @@
+- title: "Maphub und Pelagios: Anwendung von Linked Data in den Digitalen Geisteswissenschaften"
+  venue: "Workshop - Linked Data Within The Humanities and Beyond"
+  date: 2014-12-03
+  location: "Austrian Academy of Sciences"
+  slides_uri: "http://www.slideshare.net/bhaslhofer/maphub-und-pelagios"
+
 - title: "The value of open data and the OpenGLAM network"
   venue: "Putting Linked Library Data to Work: the DM2E Showcase"
-  date: "2014-11-18"
+  date: 2014-11-18
   location: "Austrian National Library, Vienna, Austria"
   slides_uri: "http://www.slideshare.net/bhaslhofer/the-value-of-41703546"
 
 - title: "Things, not Strings"
   venue: "ADV Tagung - Suchstrategien für heute und morgen"
-  date: "2014-11-12"
+  date: 2014-11-12
   location: "Vienna, Austria"
   slides_uri: "http://www.slideshare.net/bhaslhofer/things-not-strings"
 
