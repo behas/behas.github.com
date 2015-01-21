@@ -84,6 +84,14 @@
       uri: "http://www.tpdl2011.org/"
     - year: 2013
       uri: "http://www.tpdl2013.info/"
+    - year: 2015
+      uri: "http://tpdl2015.info/"
+
+- medium: "ACM/IEEE Joint Conference on Digital Libraries (JCDL)"
+  type: "conference"
+  years:
+    - year: 2015
+      uri: "http://www.jcdl2015.org/"
 
 - medium: "Extended Semantic Web Conference (ESWC)"
   type: "conference"
