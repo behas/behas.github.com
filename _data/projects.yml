@@ -2,12 +2,11 @@
   uri: "https://www.graphsense.info"
   start_date: "2015-09-01"
   end_date: "2017-08-30"
-  funding_source: "Austrian Research Promotion Agency (FFG)"
+  funding_source: "FFG - IKT der Zukunft"
+  funding_source_uri: "https://www.ffg.at/"
   role: "Principal Investigator, Project Lead"
   description: |
-    Research and develop methods to prevent and prosecute organised crime in
-    virtual currencies. The project also investigates novel Anti Money Laundering
-    (AML) strategies taking into account the pseudo-anonymity of Bitcoin users.
+    The goal of the GraphSense project is to research and develop novel algorithmic solutions for detecting anomalies in large-scale, dynamically changing graph datasets. The focus will be on developing anomaly detection techniques for transaction networks constructed from virtual currencies (Bitcoin) and investigate their applicability for enterprise financial fraud detection settings.
 
 - acronym: "BITCRIME"
   uri: "https://www.bitcrime.de/"
