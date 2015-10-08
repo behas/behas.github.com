@@ -1,8 +1,30 @@
+- acronym: "GraphSense"
+  uri: "https://www.graphsense.info"
+  start_date: "2015-09-01"
+  end_date: "2017-08-30"
+  funding_source: "Austrian Research Promotion Agency (FFG)"
+  role: "Principal Investigator, Project Lead"
+  description: |
+    Research and develop methods to prevent and prosecute organised crime in
+    virtual currencies. The project also investigates novel Anti Money Laundering
+    (AML) strategies taking into account the pseudo-anonymity of Bitcoin users.
+
+- acronym: "BITCRIME"
+  uri: "https://www.bitcrime.de/"
+  start_date: "2014-10-01"
+  end_date: "2016-09-30"
+  funding_source: "Bilateral: BMBF (DE) + BMVIT (AT)"
+  role: "Scientist, WP Lead"
+  description: |
+    Research and develop methods to prevent and prosecute organised crime in
+    virtual currencies. The project also investigates novel Anti Money Laundering
+    (AML) strategies taking into account the pseudo-anonymity of Bitcoin users.
+
 - acronym: "ResourceSync"
   uri: "http://www.niso.org/workrooms/resourcesync/"
   start_date: "2011-12-01"
   end_date: "2014-04-30"
-  funding_source: "Sloan Foundation"
+  funding_source: "Alfred P. Sloan Foundation"
   funding_source_uri: "http://www.sloan.org/"
   role: "Researcher"
   description: |
@@ -18,7 +40,7 @@
   end_date: 2014-02-28
   funding_source: "EU PEOPLE IOF (Marie Curie)"
   funding_source_uri: "http://ec.europa.eu/research/mariecurieactions/"
-  role: "Research Fellow"
+  role: "Proposal Author, Research Fellow"
   description: |
     Research on (i) interactive links discovery in scholarly publications,
     (ii) strategies for maintaining link integrity, and (iii) novel Web-based
@@ -39,7 +61,7 @@
     build a collaborative Web environment in which scholars and citizens can
     contribute their knowledge to digitized high-resolution online maps.
     We experimented with designs that integrate the annotation process with
-    the re-use of data from public data sources, such as Wikipedia.    
+    the re-use of data from public data sources, such as Wikipedia.
 
 - acronym: "MEKETRE"
   uri: "http://meketre.org/"
@@ -47,33 +69,10 @@
   end_date: "2012-12-31"
   funding_source: "Austrian Research Fund (FWF)"
   funding_source_uri: "http://www.fwf.ac.at/"
-  role: "Proposal Co-author, Researcher"
+  role: "Proposal Co-author"
   description: |
     An interdisciplinary project with the Institute for Egyptology at the
     University of Vienna. It aimed at building a collaborative Web-based
     solution for efficiently organizing the collected and digitized content
     objects from the Egyptian middle kingdom period by means of open
     collaboratively developed vocabularies.
-
-- acronym: "EuropeanaConnect"
-  uri: "http://www.europeanaconnect.eu/"
-  start_date: "2009-05-01"
-  end_date: "2011-10-31"
-  funding_source: "EU eContentplus"
-  funding_source_uri: "http://ec.europa.eu/information_society/activities/econtentplus/index_en.htm"
-  role: "Senior Researcher"
-  description: |
-    Support the development of <a href="http://europeana.eu/">Europeana</a>,
-    which enables people to explore the digital resources of Europe's museums,
-    libraries, archives and audio-visual collections.
-
-- acronym: "BRICKS"
-  uri: "http://www.brickscommunity.org/"
-  start_date: "2003-01-01"
-  end_date: "2007-10-31"
-  funding_source: "EU FP 6"
-  funding_source_uri: "http://ec.europa.eu/research/fp6/index_en.cfm"
-  role: "Junior Researcher"
-  description: |
-    Aim at building the infrastructure for integrating cultural heritage
-    institutions across Europe.
