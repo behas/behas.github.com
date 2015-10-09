@@ -1,3 +1,14 @@
+- title: "Bitcoin Panel"
+  venue: "APWG - Symposium on Electronic Crime Research"
+  date: "2015-05-25"
+  location: "Barcelona, Spain"
+  slides_uri: "http://de.slideshare.net/bhaslhofer/bitcoin-deanonymization-and-money-laundering-detection-strategies"
+
+- title: "Bitcoin - Introduction, Technical Aspects and Ongoin Developments"
+  venue: "FMA - Austrian Financial Market Authority"
+  date: "2015-04-30"
+  slides_uri: "http://de.slideshare.net/bhaslhofer/bitcoin-introduction-technical-aspects"
+
 - title: "Maphub und Pelagios: Anwendung von Linked Data in den Digitalen Geisteswissenschaften"
   venue: "Workshop - Linked Data Within The Humanities and Beyond"
   date: 2014-12-03

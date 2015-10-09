@@ -1,9 +1,14 @@
+- title: "Wikigrouth"
+  uri: "https://github.com/behas/wikigrouth"
+  description: |
+    A Python tool for extracting entity mentions from a collection of Wikipedia documents.
+
 - title: "ResourceSync"
   uri: "https://github.com/resync"
   description: |
     Software implementing the <a href="http://www.openarchives.org/rs/toc" target="_blank">ResourceSync</a>
     data synchronization framework for the Web.
-    
+
 - title: "Maphub"
   uri: "https://maphub.github.com"
   description: |
