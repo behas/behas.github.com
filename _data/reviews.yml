@@ -66,6 +66,8 @@
   years:
     - year: 2012
       uri: "http://www2012.wwwconference.org/program/accepted-papers/demos-track/"
+    - year: 2015
+      uri: "http://www.www2015.it/"
 
 - medium: "International Conference on Web Engineering (ICWE)"
   type: "conference"
@@ -125,6 +127,13 @@
   type: "conference"
   years:
     - year: "2008 - 2015"
+
+- medium: "Asian Digital Library Conference (ICADL)"
+  type: "conference"
+  years:
+    - year: 2015
+      uri: "http://icadl2015.org/"
+
 
 # Workshops
 
