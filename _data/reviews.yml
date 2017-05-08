@@ -54,6 +54,8 @@
       uri: "http://websci14.org/"
     - year: 2015
       uri: "http://www.websci15.org/"
+    - year: 2017
+      uri: "http://websci17.org/"
 
 - medium: "Digital Libraries"
   type: "conference"

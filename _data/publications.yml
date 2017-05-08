@@ -1,4 +1,14 @@
+# 2017
+
+- title: "Evolution of the Bitcoin Address Graph - An Exploratory Longitudinal Study"
+  authors: ["Filtz, Erwin", "Polleres, Axel", "Karl, Roman", "Haslhofer, Bernhard"]
+  where: "International Data Science Conference (DSC 2017), Salzburg, Austria"
+  year: 2017
+  type: conference,
+  uri: "https://aic.ai.wu.ac.at/~polleres/publications/filtz-etal-2017IDSC.pdf"
+
 # 2016
+
 - title: "O Bitcoin Where Art Thou? Insight into Large-Scale Transaction Graphs"
   authors: ["Haslhofer, Bernhard", "Karl, Roman", "Filtz, Erwin"]
   where: "SEMANTICS 2016, Leipzig, Germany"

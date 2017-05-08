@@ -178,6 +178,7 @@ p span.person_name, span.project_name, span.talk_title, span.event_title, span.t
 img#bernhard {
   width: 200px;
   float:left;
+  border-radius: 50%;
 }
 
 div#person div#contact {
