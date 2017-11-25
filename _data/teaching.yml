@@ -1,7 +1,16 @@
+- title: "Semantic Knowledge Representation and Linked Data"
+  institution: "University of Applied Sciences - FH Technikum Wien"
+  institution_uri: "https://www.technikum-wien.at/en/"
+  period: "2017"
+  role: "instructor"
+  description: |
+    The goal of this course is to introduce the design principles and technologies for building global information, data, and financial networks, show the practical applications of such systems, and discuss their design and their social and policy context.
+
+
 - title: "Application Development in Media Informatics"
   institution: "University of Vienna"
   institution_uri: "http://univie.ac.at"
-  period: "Winter 2015/2016"
+  period: "2015-2017"
   role: "instructor"
   description: |
     An undergraduate course involving development of an application related to media informatics.

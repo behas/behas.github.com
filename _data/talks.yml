@@ -2,26 +2,26 @@
   venue: "APWG.EU eCrime Cyber-Security Symposium"
   date: "2017-10-26"
   location: "Porto, Portugal"
-  slides_uri: "https://www.apwg.eu/apwg-events/ecrime2017eu/"
 
 - title: "Insight Into Virtual Currencies and Darknet Market Activities"
   venue: "Media4Sec - Policing the Dark Web Workshop"
   date: "2017-09-26"
   location: "The Hague"
-  slides_uri: "http://media4sec.eu/workshops/darkweb/"
 
 - title: "Blockchain und Cyber-Währung (Panel)"
   venue: "Digital Days 2017"
   date: "2017-09-20"
+  location: "Vienna, Austria"
   slides_uri: "https://digitalcity.wien/blockchain-und-cyber-waehrung/"
 
 - title: "Inisght into Virtual Currency Ecosystems (by making use of Big Data technology)"
   venue: "Big Data Europe (BDE) Webinar"
+  location: "Online"
   date: "2017-02-16"
   slides_uri: "https://youtu.be/brWTm8Zi6ek"
 
 - title: "Virtual Currencies and Cybercrime"
-  venue: "KSÖ Workshop Urban Security"
+  venue: "KSÖ Workshop Urban Security"  
   date: "2016-11-24"
   location: "Vienna, Austria"
 
