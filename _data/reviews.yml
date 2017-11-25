@@ -3,7 +3,7 @@
 - medium: "Journal of Web Semantics (JWS)"
   uri: "http://www.journals.elsevier.com/journal-of-web-semantics/"
   type: "journal"
-  years: "2013, 2014"
+  years: "2013, 2014, 2017"
 
 - medium: "International Journal on Semantic Web and Information Systems (IJSWIS)"
   uri: "http://www.ijswis.org/"
@@ -38,7 +38,7 @@
 - medium: "International Journal on Digital Libraries"
   uri: "http://www.dljournal.org/"
   type: "journal"
-  years: "2009, 2012"
+  years: "2009, 2012, 2017"
 
 - medium: "ACM Computing Surveys"
   uri: "http://csur.acm.org/"
@@ -92,12 +92,16 @@
       uri: "http://www.tpdl2013.info/"
     - year: 2015
       uri: "http://tpdl2015.info/"
+    - year: 2017
+      uri: "http://www.tpdl.eu/tpdl2017/"
 
 - medium: "ACM/IEEE Joint Conference on Digital Libraries (JCDL)"
   type: "conference"
   years:
     - year: 2015
       uri: "http://www.jcdl2015.org/"
+    - year: 2017
+      uri: "http://2017.jcdl.org/"
 
 - medium: "Extended Semantic Web Conference (ESWC)"
   type: "conference"
@@ -147,6 +151,12 @@
     - year: 2015
       uri: "http://www.gesis.org/css-wintersymposium/"
 
+- medium: "Linked Data on the Web Workshop (LDOW)"
+  type: "workshop"
+  years:
+    - year: 2017
+      uri: "http://events.linkeddata.org/ldow2017/"
+
 - medium: "iChallenge - Linked Data Cup"
   type: "workshop"
   years:
@@ -170,7 +180,7 @@
 - medium: "Networked Knowledge Organization Systems and Services Workshop (NKOS)"
   type: "workshop"
   years:
-    - year: "2006-2015"
+    - year: "2006-2017"
 
 - medium: "International Workshop on Web Semantics (WebS)"
   type: "workshop"

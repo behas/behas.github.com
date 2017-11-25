@@ -1,3 +1,46 @@
+- title: "Panel: Cryptocurrencies & eCrime"
+  venue: "APWG.EU eCrime Cyber-Security Symposium"
+  date: "2017-10-26"
+  location: "Porto, Portugal"
+  slides_uri: "https://www.apwg.eu/apwg-events/ecrime2017eu/"
+
+- title: "Insight Into Virtual Currencies and Darknet Market Activities"
+  venue: "Media4Sec - Policing the Dark Web Workshop"
+  date: "2017-09-26"
+  location: "The Hague"
+  slides_uri: "http://media4sec.eu/workshops/darkweb/"
+
+- title: "Blockchain und Cyber-Währung (Panel)"
+  venue: "Digital Days 2017"
+  date: "2017-09-20"
+  slides_uri: "https://digitalcity.wien/blockchain-und-cyber-waehrung/"
+
+- title: "Inisght into Virtual Currency Ecosystems (by making use of Big Data technology)"
+  venue: "Big Data Europe (BDE) Webinar"
+  date: "2017-02-16"
+  slides_uri: "https://youtu.be/brWTm8Zi6ek"
+
+- title: "Virtual Currencies and Cybercrime"
+  venue: "KSÖ Workshop Urban Security"
+  date: "2016-11-24"
+  location: "Vienna, Austria"
+
+- title: "Insights into Virtual Currency Ecosystems"
+  venue: "APWG eCrime.EU Symposium 2016"
+  date: "2016-10-06"
+  location: "Bratislava, Slovakia"
+
+- title: "Exploring and Tracking Bitcoin Transactions"
+  venue: "3rd Virtual Currencies Conference (EUROPOL)"
+  date: "2016-05-16"
+  location: "The Hague"
+
+- title: "Mind the Gap - Data Science Meets Software Engineering"
+  venue: "Vienna Semantic Web Meetup"
+  date: "2016-03-01"
+  location: "Vienna, Austria"
+  slides_uri: "https://www.slideshare.net/bhaslhofer/mind-the-gap-data-science-meets-software-engineering"
+
 - title: "GraphSense - Real-time Insight into Virtual Currency Ecosystems"
   venue: "Austrian Data Forum"
   date: "2015-11-04"
