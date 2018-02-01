@@ -1,10 +1,28 @@
+- acronym: "VIRTCRIME"
+  uri: "http://virtcrime.at"
+  start_date: "2018-01-01"
+  end_date: "2019-12-31"
+  funding_source: "FFG KIRAS"
+  role: "Principal Investigator"
+  description: |
+    The goal of the VIRTCRIME project lies in the development of novel algorithms and methods for tracing criminal transactions in post-Bitcoin era cryptocurrencies, while considering illegitimate activities in Darknet market places. Orthogonally, the project will provide novel criminological procedures and law enforcement approaches, and investigate legal pre-conditions and consequences.
+
+- acronym: "TITANIUM"
+  uri: "https://titanium-project.eu/"
+  start_date: "2017-05-01"
+  end_date: "2020-04-31"
+  funding_source: "EU Horizon 2020"
+  role: "Senior Scientist"
+  description: |
+    TITANIUM will research, develop, and validate novel data-driven techniques and solutions designed to support Law Enforcement Agencies (LEAs) charged with investigating criminal or terrorist activities involving virtual currencies and/or underground markets in the darknet.
+
 - acronym: "GraphSense"
   uri: "http://www.graphsense.info"
   start_date: "2015-09-01"
-  end_date: "2017-08-30"
+  end_date: "2017-11-30"
   funding_source: "FFG - IKT der Zukunft"
   funding_source_uri: "https://www.ffg.at/"
-  role: "Principal Investigator, Project Lead"
+  role: "Project Lead, Principal Investigator"
   description: |
     The goal of the GraphSense project is to research and develop novel algorithmic solutions for detecting anomalies in large-scale, dynamically changing graph datasets. The focus will be on developing anomaly detection techniques for transaction networks constructed from virtual currencies (Bitcoin) and investigate their applicability for enterprise financial fraud detection settings.
 
