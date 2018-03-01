@@ -4,7 +4,7 @@
   authors: ["Rörden, Jan", "Revenko, Artem", "Haslhofer, Bernhard", "Blumauer, Andreas"]
   where: "SEMANTICS 2017, Amsterdam"
   year: 2017
-  uri: "https://2017.semantics.cc/posters"
+  uri: "http://ceur-ws.org/Vol-2044/paper12/"
 
 - title: "Evolution of the Bitcoin Address Graph - An Exploratory Longitudinal Study"
   authors: ["Filtz, Erwin", "Polleres, Axel", "Karl, Roman", "Haslhofer, Bernhard"]
