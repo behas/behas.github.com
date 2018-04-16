@@ -3,6 +3,7 @@
   start_date: "2018-04-01"
   end_date: "2018-03-31"
   funding_source: "FWF DACH"
+  funding_source_uri: "https://www.fwf.ac.at/de/forschungsfoerderung/fwf-programme/internationale-programme/joint-projects/"  
   role: "Co-Principal Investigator"
   description: |
     This interdisciplinary international (DACH FWF-DFG) digital humanities project aims at gaining insight into the perception of the Other (focusing on the Orient) by analyzing an extensive collection of German language travelogues covering the period from 1500 until 1875. It will bring together a team of researchers from history, computer science, as well as library and information science from Austria and Germany. They will jointly develop a novel mixed qualitative and quantitative method for the serial analysis of large-scale text corpora and apply that method on a comprehensive corpus of travelogues originally published in the German language (ca. 3,000 - 3,500 books) and drawn from the Austrian Books Online (ABO) project (ca. 600,000 books) of the Austrian National Library.
@@ -12,6 +13,7 @@
   start_date: "2018-01-01"
   end_date: "2019-12-31"
   funding_source: "FFG KIRAS"
+  funding_source_uri: "https://www.ffg.at/"  
   role: "Principal Investigator"
   description: |
     The goal of the VIRTCRIME project lies in the development of novel algorithms and methods for tracing criminal transactions in post-Bitcoin era cryptocurrencies, while considering illegitimate activities in Darknet market places. Orthogonally, the project will provide novel criminological procedures and law enforcement approaches, and investigate legal pre-conditions and consequences.
@@ -21,6 +23,7 @@
   start_date: "2017-05-01"
   end_date: "2020-04-31"
   funding_source: "EU Horizon 2020"
+  funding_source_uri: "https://ec.europa.eu/programmes/horizon2020/"
   role: "Senior Scientist"
   description: |
     TITANIUM will research, develop, and validate novel data-driven techniques and solutions designed to support Law Enforcement Agencies (LEAs) charged with investigating criminal or terrorist activities involving virtual currencies and/or underground markets in the darknet.
@@ -62,11 +65,11 @@
 
 - acronym: "SciLink"
   uri: "http://eprints.cs.univie.ac.at/3354"
-  start_date: 2011-03-01
-  end_date: 2014-02-28
+  start_date: "2011-03-01"
+  end_date: "2014-02-28"
   funding_source: "EU PEOPLE IOF (Marie Curie)"
   funding_source_uri: "http://ec.europa.eu/research/mariecurieactions/"
-  role: "Proposal Author, Research Fellow"
+  role: "Research Fellow (beneficiary)"
   description: |
     Research on (i) interactive links discovery in scholarly publications,
     (ii) strategies for maintaining link integrity, and (iii) novel Web-based
