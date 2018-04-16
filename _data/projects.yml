@@ -1,3 +1,12 @@
+- acronym: "TRAVELOGUES"
+  uri: "http://travelogues-project.info"
+  start_date: "2018-04-01"
+  end_date: "2018-03-31"
+  funding_source: "FWF DACH"
+  role: "Co-Principal Investigator"
+  description: |
+    This interdisciplinary international (DACH FWF-DFG) digital humanities project aims at gaining insight into the perception of the Other (focusing on the Orient) by analyzing an extensive collection of German language travelogues covering the period from 1500 until 1875. It will bring together a team of researchers from history, computer science, as well as library and information science from Austria and Germany. They will jointly develop a novel mixed qualitative and quantitative method for the serial analysis of large-scale text corpora and apply that method on a comprehensive corpus of travelogues originally published in the German language (ca. 3,000 - 3,500 books) and drawn from the Austrian Books Online (ABO) project (ca. 600,000 books) of the Austrian National Library.
+
 - acronym: "VIRTCRIME"
   uri: "http://virtcrime.at"
   start_date: "2018-01-01"
