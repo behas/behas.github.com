@@ -1,3 +1,8 @@
+- title: "Ransomware Payments in the Bitcoin Ecosystem"
+  uri: "https://doi.org/10.5281/zenodo.1238041"
+  description: |
+    This dataset contains 7,222 Bitcoin seed addresses related to 67 ransomware families as well as addresses that were identified by applying the expansion procedure described in <a href="https://arxiv.org/pdf/1804.04080.pdf" target="_blank">in our paper</a>.
+
 - title: "data.europeana.eu"
   uri: "http://data.europeana.eu"
   description: |
