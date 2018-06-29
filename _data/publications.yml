@@ -3,6 +3,8 @@
 - title: "PriMa-X: A reference model for realizing prescriptive maintenance and assessing its maturity enhanced by machine learning"
   authors: ["Nemeth, Tanja", "Ansari, Fazel", "Sihn, Wilfried", "Haslhofer, Bernhard", "Schindler, Alexander"]
   year: 2018
+  where: "51st CIRP Conference on Manufacturing Systems"
+  type: conference
   uri: "https://doi.org/10.1016/j.procir.2018.03.280"
 
 - title: "Ransomware Payments in the Bitcoin Ecosystem"
@@ -29,7 +31,7 @@
   authors: ["Filtz, Erwin", "Polleres, Axel", "Karl, Roman", "Haslhofer, Bernhard"]
   where: "International Data Science Conference (DSC 2017), Salzburg, Austria"
   year: 2017
-  type: conference,
+  type: conference
   uri: "https://aic.ai.wu.ac.at/~polleres/publications/filtz-etal-2017IDSC.pdf"
 
 # 2016
