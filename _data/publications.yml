@@ -1,7 +1,12 @@
 # 2018
 
+- title: "PriMa-X: A reference model for realizing prescriptive maintenance and assessing its maturity enhanced by machine learning"
+  authors: ["Nemeth, Tanja", "Ansari, Fazel", "Sihn, Wilfried", "Haslhofer, Bernhard", "Schindler, Alexander"]
+  year: 2018
+  uri: "https://doi.org/10.1016/j.procir.2018.03.280"
+
 - title: "Ransomware Payments in the Bitcoin Ecosystem"
-  authors: ["Paquet-Clouston, Masarah", "Haslhofer, Bernhard", "Dupont, Benoit "]
+  authors: ["Paquet-Clouston, Masarah", "Haslhofer, Bernhard", "Dupont, Benoit"]
   where: "17th Annual Workshop on the Economics of Information Security (WEIS)"
   year: 2018
   uri: "https://arxiv.org/abs/1804.04080"
