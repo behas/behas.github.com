@@ -40,9 +40,9 @@ layout: default
 
         <li><strong>Cryptocurrency Analytics</strong>: I am leading the <a href="http://virtcrime-project.info/" target="_blank">VIRTCRIME</a> project and spend most of my time on investigating and developing new methods and tools for analyzing the structure and dynamics of cryptocurrency ecosystems, such as <a href="https://bitcoin.org" target="_blank">Bitcoin</a>.</li>
 
-        <li><strong>Predictive Maintenance</strong>: for a customer in the semi-conductor industry, I am investigating possible machine learning models for predicting outages of etching equipments.</li>
+        <li><strong>Predictive Maintenance</strong>: for a customer in the semi-conductor industry, we are investigating possible machine learning models for predicting outages of etching equipments.</li>
 
-        <li><strong>Knowledge Graphs</strong>: in the <a href="http://www.travelogues-project.info/" target="_blank">TRAVELOGUES</a> project, I am collaborating with historians in order to gaining insight into the perception of the Other by analyzing an extensive collection of German language travelogues drawn from the Austrian Books Online (ABO) project (ca. 600,000 books) of the Austrian National Library.</li>
+        <li><strong>Knowledge Graphs</strong>: in the <a href="http://www.travelogues-project.info/" target="_blank">TRAVELOGUES</a> project, we are collaborating with historians in order to gaining insight into the perception of the Other by analyzing an extensive collection of German language travelogues drawn from the Austrian Books Online (ABO) project (ca. 600,000 books) of the Austrian National Library.</li>
 
       </ul>
 
@@ -162,7 +162,9 @@ layout: default
     <p>
       <span class="talk_title">{{talk.title}}</span>,
       {{talk.venue}}, {{talk.date | date: "%B %Y"}}, {{talk.location}}.
+      {% if talk.slides_uri %}
       (<a href="{{talk.slides_uri}}" target="_blank">slides</a>)</p>
+      {% endif %}
   {% endfor %}
 
 </section>
