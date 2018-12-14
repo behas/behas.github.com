@@ -25,11 +25,11 @@ layout: default
     	<span class="publication_title">{{ publication.title }}</span>.
 	{% endif %}
 
+	<span class="publication_container">{{ publication.container-title }}</span>,
 	{% case publication.type %}
   		{% when 'paper-conference' %}
-     		This is a conference / workshop paper
+     			<span class="publication_location">{{ publication.publisher-place }}</span>.
   		{% when 'article-journal' %}
-     		<span class="publication_container">{{ publication.container-title }}</span>,
      		{% if publication.volume and publication.issue and publication.page %}
 	     		<span class="publication_volume">{{ publication.volume }}</span>
 	     		<span class="publication_issue">({{ publication.issue }})</span>,
