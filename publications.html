@@ -1,0 +1,49 @@
+---
+layout: default
+---
+
+<section id="publications">
+  <h1>Publications</a></h1>
+
+  {% for publication in site.data.papers.references %}
+  <p class="citation">
+
+    {% for author in publication.author %}
+    	{% if forloop.last and publication.author.size > 1%}
+    		&
+    	{% endif %}
+      	<span class="publication_author">
+      		{{ author.family }}, {{ author.given | slice: 0 }}.{% unless forloop.last %},{% endunless %}
+      	</span>      
+    {% endfor %}
+
+    ({{ publication.issued[0].year }}).
+
+	{% if publication.URL %}
+    	<a href="{{publication.URL}}" target="_blank">{{ publication.title }}</a>.
+	{% else %}
+    	<span class="publication_title">{{ publication.title }}</span>.
+	{% endif %}
+
+	{% case publication.type %}
+  		{% when 'paper-conference' %}
+     		This is a conference / workshop paper
+  		{% when 'article-journal' %}
+     		<span class="publication_container">{{ publication.container-title }}</span>,
+     		{% if publication.volume and publication.issue and publication.page %}
+	     		<span class="publication_volume">{{ publication.volume }}</span>
+	     		<span class="publication_issue">({{ publication.issue }})</span>,
+	     		<span class="publication_page_numbers">pp. {{ publication.page }}</span>.
+			{% elsif publication.volume and publication.page %}
+	     		<span class="publication_volume">{{ publication.volume }}</span>,
+	     		<span class="publication_page_numbers">pp. {{ publication.page }}</span>.
+     		{% endif %}
+  		{% when 'report' %}
+  			<strong>This is a technical report</strong>
+  		{% else %}
+     		<strong>Unknown publication type.</strong>
+	{% endcase %}	
+ 	</p>
+  {% endfor %}
+
+</section>
