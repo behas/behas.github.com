@@ -9,41 +9,77 @@ layout: default
   <p class="citation">
 
     {% for author in publication.author %}
-    	{% if forloop.last and publication.author.size > 1%}
-    		&
-    	{% endif %}
-      	<span class="publication_author">
-      		{{ author.family }}, {{ author.given | slice: 0 }}.{% unless forloop.last %},{% endunless %}
-      	</span>      
+      {% if forloop.last and publication.author.size > 1%}
+        &
+      {% endif %}
+        <span class="publication_author">
+          {{ author.family }}, {{ author.given | slice: 0 }}.{% unless forloop.last %},{% endunless %}
+        </span>      
     {% endfor %}
 
     ({{ publication.issued[0].year }}).
 
-	{% if publication.URL %}
-    	<a href="{{publication.URL}}" target="_blank">{{ publication.title }}</a>.
-	{% else %}
-    	<span class="publication_title">{{ publication.title }}</span>.
-	{% endif %}
+  {% if publication.URL %}
+      <a href="{{publication.URL}}" target="_blank">{{ publication.title }}</a>.
+  {% else %}
+      <span class="publication_title">{{ publication.title }}</span>.
+  {% endif %}
 
-	<span class="publication_container">{{ publication.container-title }}</span>,
-	{% case publication.type %}
-  		{% when 'paper-conference' %}
-     			<span class="publication_location">{{ publication.publisher-place }}</span>.
-  		{% when 'article-journal' %}
-     		{% if publication.volume and publication.issue and publication.page %}
-	     		<span class="publication_volume">{{ publication.volume }}</span>
-	     		<span class="publication_issue">({{ publication.issue }})</span>,
-	     		<span class="publication_page_numbers">pp. {{ publication.page }}</span>.
-			{% elsif publication.volume and publication.page %}
-	     		<span class="publication_volume">{{ publication.volume }}</span>,
-	     		<span class="publication_page_numbers">pp. {{ publication.page }}</span>.
-     		{% endif %}
-  		{% when 'report' %}
-  			<strong>This is a technical report</strong>
-  		{% else %}
-     		<strong>Unknown publication type.</strong>
-	{% endcase %}	
- 	</p>
+  {% case publication.type %}
+      {% when 'paper-conference' %}
+          {% if publication.editor %}
+            In:
+            {% for editor in publication.editor %}
+              {% if forloop.last and publication.editor.size > 1%}
+                &
+              {% endif %}
+                <span class="publication_author">
+                  {{ editor.family }}, {{ editor.given | slice: 0 }}.{% unless forloop.last %},{% endunless %}
+                </span>      
+            {% endfor %} (eds.),
+          {% endif %}
+          <span class="publication_container">{{ publication.container-title }}</span>,
+          <span class="publication_location">{{ publication.publisher-place }}</span>.
+      {% when 'article-journal' %}
+        {% if publication.volume and publication.issue %}
+          <span class="publication_container">{{ publication.container-title }}</span>,
+          <span class="publication_volume">{{ publication.volume }}</span>
+          <span class="publication_issue">({{ publication.issue }})</span>.
+        {% elsif publication.volume and publication.issue and publication.page %}
+          <span class="publication_container">{{ publication.container-title }}</span>,
+          <span class="publication_volume">{{ publication.volume }}</span>
+          <span class="publication_issue">({{ publication.issue }})</span>,
+          <span class="publication_page_numbers">pp. {{ publication.page }}</span>.
+        {% elsif publication.volume and publication.page %}
+          <span class="publication_container">{{ publication.container-title }}</span>,
+          <span class="publication_volume">{{ publication.volume }}</span>,
+          <span class="publication_page_numbers">pp. {{ publication.page }}</span>.
+        {% else %}
+          <span class="publication_container">{{ publication.container-title }}</span>,          
+        {% endif %}
+      {% when 'report' or 'thesis' %}
+          <span class="publication_genre">{{ publication.genre }}</span>,
+          <span class="publication_publisher">{{ publication.publisher }}</span>.
+      {% when 'chapter' %}
+          In:
+          {% for editor in publication.editor %}
+            {% if forloop.last and publication.editor.size > 1%}
+              &
+            {% endif %}
+              <span class="publication_author">
+                {{ editor.family }}, {{ editor.given | slice: 0 }}.{% unless forloop.last %},{% endunless %}
+              </span>      
+          {% endfor %} (eds.)
+          <span class="publication_container">{{ publication.container-title }}</span>,         
+          <span class="publication_page_numbers">(pp. {{ publication.page }})</span>.
+          <span class="publication_publisher">{{ publication.publisher }}</span>.    
+      {% when 'book' %}      
+          <span class="publication_container">{{ publication.container-title }}</span>
+          <span class="publication_publisher">{{ publication.publisher }}</span>.    
+      {% else %}
+          <strong>Unknown publication type.</strong>
+  {% endcase %} 
+  </p>
   {% endfor %}
 
 </section>
