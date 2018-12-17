@@ -1,3 +1,10 @@
+- acronym: "SD4M"
+  start_date: "2018-05-01"
+  end_date: "2019-01-31"
+  funding_source: "Contract Research"
+  role: "Co-Principal Investigator"
+  description: "Investigating possible machine learning models for predicting outages of etching equipments that chemically remove layers from the surface of a silicon wafer during manufacturing."
+
 - acronym: "TRAVELOGUES"
   uri: "http://travelogues-project.info"
   start_date: "2018-04-01"
