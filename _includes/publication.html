@@ -32,8 +32,7 @@
             </span>      
         {% endfor %} (eds.),
       {% endif %}
-      <span class="publication_container">{{ publication.container-title }}</span>,
-      <span class="publication_location">{{ publication.publisher-place }}</span>.
+      <span class="publication_container">{{ publication.container-title }}</span>.
   {% when 'article-journal' %}
     {% if publication.volume and publication.issue %}
       <span class="publication_container">{{ publication.container-title }}</span>,

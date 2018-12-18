@@ -1,5 +1,18 @@
 ---
 references:
+- id: Hinteregger:2019aa
+  type: paper-conference
+  author:
+  - family: Hinteregger
+    given: Abraham
+  - family: Haslhofer
+    given: Bernhard
+  issued:
+  - year: '2019'
+  title: An empirical analysis of monero cross-chain traceability
+  container-title: Financial cryptography and data security (FC 2019)
+  URL: https://arxiv.org/abs/1812.02808
+
 - id: Nemeth2018:ab
   type: article-journal
   author:
