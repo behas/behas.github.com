@@ -1,0 +1,1752 @@
+---
+references:
+- id: Hinteregger:2019aa
+  type: paper-conference
+  author:
+  - family: Hinteregger
+    given: Abraham
+  - family: Haslhofer
+    given: Bernhard
+  issued:
+  - year: '2019'
+  title: An empirical analysis of monero cross-chain traceability
+  container-title: Financial cryptography and data security (FC 2019)
+  URL: https://arxiv.org/abs/1812.02808
+
+- id: Nemeth2018:ab
+  type: article-journal
+  author:
+  - family: Nemeth
+    given: Tanja
+  - family: Ansari
+    given: Fazel
+  - family: Sihn
+    given: Wilfried
+  - family: Haslhofer
+    given: Bernhard
+  - family: Schindler
+    given: Alexander
+  issued:
+  - year: '2018'
+  title: 'PriMa-x: A reference model for realizing prescriptive maintenance and
+    assessing its maturity enhanced by machine learning'
+  title-short: PriMa-x
+  container-title: 'Procedia CIRP: 51st CIRP Conference on Manufacturing Systems'
+  page: 1039 - 1044
+  volume: '72'
+  URL: http://www.sciencedirect.com/science/article/pii/S2212827118304566
+  DOI: https://doi.org/10.1016/j.procir.2018.03.280
+  ISSN: '2212-8271'
+
+- id: PaquetClouson:2018aa
+  type: paper-conference
+  author:
+  - family: Paquet-Clouston
+    given: Masarah
+  - family: Haslhofer
+    given: Bernhard
+  - family: Dupont
+    given: Benoit
+  issued:
+  - year: '2018'
+  title: Ransomware payments in the bitcoin ecosystem
+  container-title: 17th annual workshop on the economics of information security (WEIS
+    2018)
+  publisher-place: Innsbruck, Austria
+  URL: http://arxiv.org/abs/1804.04080
+
+- id: Haslhofer:2018ab
+  type: chapter
+  author:
+  - family: Haslhofer
+    given: Bernhard
+  - family: Isaac
+    given: Antoine
+  - family: Simon
+    given: Rainer
+  editor:
+  - family: Sakr
+    given: Sherif
+  - family: Zomaya
+    given: Albert
+  issued:
+  - year: '2018'
+  title: Knowledge graphs in the libraries and digital humanities domain
+  container-title: Encyclopedia of big data technologies
+  publisher: Springer International Publishing
+  page: '1-8'
+  URL: https://doi.org/10.1007/978-3-319-63962-8_291-1
+  DOI: 10.1007/978-3-319-63962-8_291-1
+  ISBN: '978-3-319-63962-8'
+
+- id: Roerden:2017ab
+  type: paper-conference
+  author:
+  - family: Jan Rörden
+    given: Bernhard Haslhofer
+    suffix: Artem Revenko
+  - family: Blumauer
+    given: Andreas
+  issued:
+  - year: '2017'
+  title: Network-based knowledge graph assessment
+  container-title: Proceedings of the posters and demos track of the 13th international
+    conference on semantic systems (SEMANTiCS 2017)
+  publisher-place: Amsterdam, Netherlands
+  URL: http://ceur-ws.org/Vol-2044/paper12
+
+- id: Filtz:2017ac
+  type: paper-conference
+  author:
+  - family: Filtz
+    given: Erwin
+  - family: Polleres
+    given: Axel
+  - family: Karl
+    given: Roman
+  - family: Haslhofer
+    given: Bernhard
+  editor:
+  - family: Haber
+    given: Peter
+  - family: Lampoltshammer
+    given: Thomas
+  - family: Mayr
+    given: Manfred
+  issued:
+  - year: '2017'
+  title: Evolution of the bitcoin address graph
+  container-title: Data science – analytics and applications
+  publisher: Springer Fachmedien Wiesbaden
+  publisher-place: Wiesbaden
+  page: '77-82'
+  abstract: Bitcoin ist eine dezentrale virtuelle Währung, die dafür genutzt werden
+    kann, weltweit pseudoanonymisierte Zahlungen innerhalt kurzer Zeit und mit vergleichsweise
+    geringen Transaktionskosten auszuführen. In dieser Abhandlung zeigen wir die ersten
+    Ergebnisse eine Langzeitstudie zur Bitcoinadressenkurve, die alle Adressen und
+    Transaktionen seit dem Start von Bitcoin im Januar 2009 bis zum 31. August 2016
+    enthält. Unsere Untersuchung enthüllt eine stark verschobene Gradverteilung mit
+    einer geringen Anzahl von Ausnahmen und zeigt, dass sich die gesamte Kurve stark
+    ausdehnt. Außerdem zeigt sie die Macht der Adressbündelungsheuristik zur Identifikation
+    von realen Akteuren, die es bevorzugen, Bitcoin für den Wertetransfer statt für
+    die Wertespeicherung zu verwenden. Wir gehen davon aus, dass diese Abhandlung
+    neue Einblicke in virtuelle Währungsökosysteme bietet und als Grundlage für das
+    Design zukünftiger Untersuchungsmethoden und -infrastrukturen dienen kann.
+  URL: https://doi.org/10.1007/978-3-658-19287-7_11s
+  ISBN: '978-3-658-19287-7'
+
+- id: Haslhofer:2016ab
+  type: paper-conference
+  author:
+  - family: Haslhofer
+    given: Bernhard
+  - family: Karl
+    given: Roman
+  - family: Filtz
+    given: Erwin
+  issued:
+  - year: '2016'
+  title: O bitcoin where art thou? Insight into large-scale transaction graphs
+  container-title: Joint proceedings of the posters and demos track of the 12th international
+    conference on semantic systems (SEMANTiCS 2016)
+  publisher-place: Leipzig, Germany
+  URL: http://ceur-ws.org/Vol-1695/paper20.pdf
+
+- id: Haslhofer:2014sa
+  type: article-journal
+  author:
+  - family: Haslhofer
+    given: Bernhard
+  - family: Sanderson
+    given: Robert
+  - family: Simon
+    given: Rainer
+  - family: van de Sompel
+    given: Herbert
+  issued:
+  - year: '2014'
+  title: Open annotations on multimedia web resources
+  container-title: Multimedia Tools and Applications
+  publisher: Springer US
+  page: '847-867'
+  volume: '70'
+  issue: '2'
+  abstract: Many Web portals allow users to associate additional information with
+    existing multimedia resources such as images, audio, and video. However, these
+    portals are usually closed systems and user-generated annotations are almost always
+    kept locked up and remain inaccessible to the Web of Data. We believe that an
+    important step to take is the integration of multimedia annotations and the Linked
+    Data principles. We present the current state of the Open Annotation Model, explain
+    our design rationale, and describe how the model can represent user annotations
+    on multimedia Web resources. Applying this model in Web portals and devices, which
+    support user annotations, should allow clients to easily publish and consume,
+    thus exchange annotations on multimedia Web resources via common Web standards.
+  keyword: Annotations; Web; Linked data
+  URL: http://eprints.cs.univie.ac.at/3360/
+  DOI: 10.1007/s11042-012-1098-9
+  ISSN: '1380-7501'
+
+- id: Momeni:2014fj
+  type: article-journal
+  author:
+  - family: Momeni
+    given: Elaheh
+  - family: Haslhofer
+    given: Bernhard
+  - family: Tao
+    given: Ke
+  - family: Houben
+    given: Geert-Jan
+  issued:
+  - year: '2014'
+  title: Sifting useful comments from flickr commons and youtube
+  container-title: International Journal on Digital Libraries
+  publisher: Springer Berlin Heidelberg
+  page: '161-179'
+  volume: '16'
+  issue: '2'
+  abstract: Cultural institutions are increasingly contributing content to social
+    media platforms to raise awareness and promote use of their collections. Furthermore,
+    they are often the recipients of user comments containing information that may
+    be incorporated in their catalog records. However, not all user-generated comments
+    can be used for the purpose of enriching metadata records. Judging the usefulness
+    of a large number of user comments is a labor-intensive task. Accordingly, our
+    aim was to provide automated support for curation of potentially useful social
+    media comments on digital objects. In this paper, the notion of usefulness is
+    examined in the context of social media comments and compared from the perspective
+    of both end-users and expert users. A machine-learning approach is then introduced
+    to automatically classify comments according to their usefulness. This approach
+    uses syntactic and semantic comment features while taking user context into consideration.
+    We present the results of an experiment we conducted on user comments collected
+    from Flickr Commons collections and YouTube. A study is then carried out on the
+    correlation between the commenting culture of a platform (YouTube and Flickr)
+    with usefulness prediction. Our findings indicate that a few relatively straightforward
+    features can be used for inferring useful comments. However, the influence of
+    features on usefulness classification may vary according to the commenting cultures
+    of platforms.
+  keyword: User-generated comment; Social media; Usefulness; Prediction; YouTube;
+    Flickr
+  URL: http://dx.doi.org/10.1007/s00799-014-0123-1
+  DOI: 10.1007/s00799-014-0123-1
+  ISSN: '1432-5012'
+
+- id: Matins2013ab
+  type: paper-conference
+  author:
+  - family: Martins
+    given: Flávio
+  - family: Haslhofer
+    given: Bernhard
+  - family: Magalhães
+    given: João
+  issued:
+  - year: '2013'
+    month: July
+  title: Query expansion using open web-based SKOS vocabularies
+  container-title: ACM SIGIR workshop on health search & discovery (HSD 2013)
+  publisher-place: Dublin, Ireland
+  abstract: Achieving high precision in search engines is particularly difficult when
+    dealing with specific technical domains, such as the medical domain, where vocabulary
+    mismatch problems are more prone to occur. Query expansion using lexical orsemantic
+    relations is a well-known technique that can attenuate the vocabulary mismatch
+    problem as demonstrated by earlier research. However, existing approaches do not
+    exploit potentially connected open Web-based vocabularies that are increasingly
+    being expressed using the Simple Knowledge Organization System (SKOS). In this
+    paper, we propose a query expansion technique that exploits term labels and semantic
+    relationships in such vocabularies to improve search results. We evaluated this
+    technique using a SKOS representation of the Medical Subject Headings (MeSH) and
+    the TREC-9 Filtering datasets. Our results show that our SKOS-based query expansion
+    technique improves the P10, nDCG10 and MAP metrics across various retrieval models.
+  URL: https://www.researchgate.net/publication/282328359_Query_Expansion_using_open_Web-based_SKOS_Vocabularies
+
+- id: Isaac:2013jb
+  type: article-journal
+  author:
+  - family: Isaac
+    given: Antoine
+  - family: Haslhofer
+    given: Bernhard
+  issued:
+  - year: '2013'
+    month: June
+  title: Europeana linked open data — data.europeana.eu
+  container-title: Semantic Web
+  publisher: IOS Press
+  page: '291-297'
+  volume: '4'
+  issue: '3'
+  abstract: Europeana is a single access point to millions of books, paintings, films,
+    museum objects and archival records that have been digitized throughout Europe.
+    The data.europeana.eu Linked Open Data pilot dataset contains open metadata on
+    approximately 2.4 million texts, images, videos and sounds gathered by Europeana.
+    All metadata are released under Creative Commons CC0 and therefore dedicated to
+    the public domain. The metadata follow the Europeana Data Model and clients can
+    access data either by dereferencing URIs, downloading data dumps, or executing
+    SPARQL queries against the dataset. They can also follow the links to external
+    linked data sources, such as the Swedish cultural heritage aggregator (SOCH),
+    GeoNames, the GEMET thesaurus, or DBPedia.
+  URL: http://eprints.cs.univie.ac.at/3732/
+
+- id: Roochi:2013kb
+  type: paper-conference
+  author:
+  - family: Roochi
+    given: Elaheh Momeni
+  - family: Tao
+    given: Ke
+  - family: Haslhofer
+    given: Bernhard
+  - family: Houben
+    given: Geert-Jan
+  issued:
+  - year: '2013'
+    month: July
+  title: 'Identification of useful user comments in social media: A case study on
+    flickr commons'
+  title-short: Identification of useful user comments in social media
+  container-title: ACM/IEEE joint conference on digital libraries (JCDL 2013)
+  publisher: ACM
+  publisher-place: Indianapolis, USA
+  URL: http://eprints.cs.univie.ac.at/3724/
+
+- id: Haslhofer:2013fu
+  type: report
+  author:
+  - family: Haslhofer
+    given: Bernhard
+  - family: Warner
+    given: Simeon
+  - family: Lagoze
+    given: Carl
+  - family: Klein
+    given: Martin
+  - family: Sanderson
+    given: Robert
+  - family: van de Sompel
+    given: Herbert
+  - family: Nelson
+    given: Michael L
+  issued:
+  - year: '2013'
+    month: June
+  title: Web synchronization simulations using the resourcesync framework
+  publisher: University of Vienna
+  publisher-place: Vienna
+  genre: Technical Report
+  abstract: Maintenance of multiple, distributed up-to-date copies of collections
+    of changing Web resources is important in many application contexts and is often
+    achieved using ad hoc or proprietary synchronization solutions. ResourceSync is
+    a resource synchronization framework that integrates with the Web architecture
+    and leverages XML sitemaps. We define a model for the ResourceSync framework as
+    a basis for understanding its properties. We then describe experiments in which
+    simulations of a variety of synchronization scenarios illustrate the effects of
+    model configuration on consistency, latency, and data transfer efficiency. These
+    results provide insight into which congurations are appropriate for various application
+    scenarios.
+  URL: http://eprints.cs.univie.ac.at/3725/
+
+- id: Murnane:2013qo
+  type: paper-conference
+  author:
+  - family: Murnane
+    given: Elizabeth L
+  - family: Haslhofer
+    given: Bernhard
+  - family: Lagoze
+    given: Carl
+  issued:
+  - year: '2013'
+    month: '5'
+  title: 'RESLVE: Leveraging user interest to improve entity disambiguation on short
+    text'
+  title-short: RESLVE
+  container-title: Web of linked entities (WoLE) workshop, co-located with WWW2013
+  publisher-place: Rio de Janeiro
+  abstract: We address the Named Entity Disambiguation (NED) prob- lem for short,
+    user-generated texts on the social Web. In such settings, the lack of linguistic
+    features and sparse lex- ical context result in a high degree of ambiguity and
+    sharp performance drops of nearly 50% in the accuracy of conven- tional NED systems.
+    We handle these challenges by develop- ing a model of user-interest with respect
+    to a personal knowl- edge context; and Wikipedia, a particularly well-established
+    and reliable knowledge base, is used to instantiate the proce- dure. We conduct
+    systematic evaluations using individuals’ posts from Twitter, YouTube, and Flickr
+    and demonstrate that our novel technique is able to achieve substantial per- formance
+    gains beyond state-of-the-art NED methods.
+  URL: http://eprints.cs.univie.ac.at/3688/
+
+- id: Haslhofer:2013os
+  type: paper-conference
+  author:
+  - family: Haslhofer
+    given: Bernhard
+  - family: Warner
+    given: Simeon
+  - family: Lagoze
+    given: Carl
+  - family: Klein
+    given: Martin
+  - family: Sanderson
+    given: Robert
+  - family: Nelson
+    given: Michael L
+  - family: van de Sompel
+    given: Herbert
+  issued:
+  - year: '2013'
+    month: '5'
+  title: 'ResourceSync: Leveraging sitemaps for resource synchronization'
+  title-short: ResourceSync
+  container-title: WWW 2013
+  collection-title: WWW 2013 companion
+  publisher: ACM
+  publisher-place: Rio de Janeiro
+  abstract: Many applications need up-to-date copies of collections of changing Web
+    resources. Such synchronization is currently achieved using ad-hoc or proprietary
+    solutions. We propose ResourceSync, a general Web resource synchronization pro-
+    tocol that leverages XML Sitemaps. It provides a set of capabilities that can
+    be combined in a modular manner to meet local or community requirements. We report
+    on work to implement this protocol for arXiv.org and also provide an experimental
+    prototype for the English Wikipedia as well as a client API.
+  URL: http://eprints.cs.univie.ac.at/3683/
+
+- id: Haslhofer:2013qf
+  type: paper-conference
+  author:
+  - family: Haslhofer
+    given: Bernhard
+  - family: Martins
+    given: Flávio
+  - family: Magalhães
+    given: João
+  issued:
+  - year: '2013'
+    month: '5'
+  title: Using SKOS vocabularies for improving web search
+  container-title: Web of linked entities (WoLE) workshop, co-located with WWW2013
+  publisher-place: Rio de Janeiro
+  abstract: Knowledge organization systems such as thesauri or taxonomies are increasingly
+    being expressed using the Simple Knowledge Organization System (SKOS) and published
+    as structured data on the Web. Search engines can exploit these vocabularies and
+    improve search by expanding terms at query or document indexing time. We propose
+    a SKOS-based term expansion and scoring technique that leverages labels and semantic
+    relationships of SKOS concept definitions. We also implemented this technique
+    for Apache Lucene and Solr. Experiments with the Medical Subject Headings vocabulary
+    and an early evaluation with Library of Congress Subject Headings indicated gains
+    in precision when using SKOS-based expansion compared to pseudo relevance feedback
+    and no expansion. Our findings are important for publishers and consumer of Web
+    vocabularies who want to use them for improving search over Web documents.
+  URL: http://eprints.cs.univie.ac.at/3689/
+
+- id: Haslhofer:2013tw
+  type: paper-conference
+  author:
+  - family: Haslhofer
+    given: Bernhard
+  - family: Robitza
+    given: Werner
+  - family: Lagoze
+    given: Carl
+  - family: Guimbretiere
+    given: Francois
+  issued:
+  - year: '2013'
+    month: '5'
+  title: Semantic tagging on historical maps
+  container-title: ACM web science 2013
+  publisher: ACM
+  publisher-place: Paris, France
+  abstract: Tags assigned by users to shared content can be ambiguous. As a possible
+    solution, we propose semantic tagging as a collaborative process in which a user
+    selects and associates Web resources drawn from a knowledge context. We applied
+    this general technique in the specific context of online his- torical maps and
+    allowed users to annotate and tag them. To study the effects of semantic tagging
+    on tag production, the types and categories of obtained tags, and user task load,
+    we conducted an in-lab within-subject experiment with 24 par- ticipants who annotated
+    and tagged two distinct maps. We found that the semantic tagging implementation
+    does not af- fect these parameters, while providing tagging relationships to well-defined
+    concept definitions. Compared to label-based tagging, our technique also gathers
+    positive and negative tag- ging relationships. We believe that our findings carry
+    impli- cations for designers who want to adopt semantic tagging in other contexts
+    and systems on the Web.
+  URL: http://eprints.cs.univie.ac.at/3684/
+
+- id: Haslhofer:2013il
+  type: paper-conference
+  author:
+  - family: Haslhofer
+    given: Bernhard
+  - family: Newman
+    given: Keith
+  - family: Stefanik
+    given: Amanda
+  - family: Robitza
+    given: Werner
+  - family: Lagoze
+    given: Carl
+  issued:
+  - year: '2013'
+    month: February
+  title: Old maps and open data networks
+  container-title: IConference 2013
+  publisher-place: Fort Worth, TX, USA
+  abstract: Old maps are a record of the past, exposing features people might want
+    to tell stories about. Maphub is a Web application that enables them to do so
+    by creating annotations on digitized high-resolution historical maps. By semantically
+    tagging regions on the map, users create associations between their annotations
+    and resources in open Web-based data networks. These associations are leveraged
+    to enable multilingual search and to generate overlays of historical maps on modern
+    mapping applications. Contributed annotations are shared on the Web following
+    the W3C Open Annotation specification. Preliminary studies show general user satisfaction
+    with our approach.
+  URL: http://eprints.cs.univie.ac.at/3682/
+
+- id: Mader:2013ye
+  type: paper-conference
+  author:
+  - family: Mader
+    given: Christian
+  - family: Haslhofer
+    given: Bernhard
+  issued:
+  - year: '2013'
+  title: Perception and relevance of quality issues in web vocabularies
+  container-title: I-semantics 2013
+  publisher-place: Graz, Austria
+  note: forthcoming
+  abstract: Web vocabularies provide organization and orientation in information environments
+    and can facilitate resource discovery and retrieval. Several tools have been developed
+    that support quality assessment for the increasing amount of vocabularies expressed
+    in SKOS and published as Linked Data. However, these tools do not yet take into
+    account the users’ perception of vocabulary quality. In this paper, we report
+    the findings from an online survey conducted among experts in the field of vocabulary
+    development to study the perception and relevance of vocabulary quality issues
+    in the context of real-world application scenarios. Our results indicate that
+    structural and labeling issues are the most relevant ones. We also derived design
+    recommendations for vocabulary quality checking tools.
+  URL: http://eprints.cs.univie.ac.at/3720/
+
+- id: Klein:2013ee
+  type: article-journal
+  author:
+  - family: Klein
+    given: Martin
+  - family: Sanderson
+    given: Robert
+  - family: van de Sompel
+    given: Herbert
+  - family: Warner
+    given: Simeon
+  - family: Haslhofer
+    given: Bernhard
+  - family: Lagoze
+    given: Carl
+  - family: Nelson
+    given: Michael L
+  issued:
+  - year: '2013'
+    month: January
+  title: A technical framework for resource synchronization
+  container-title: D-Lib Magazine
+  publisher: Corporation for National Research Initiatives
+  volume: '19'
+  issue: '1'
+  abstract: This is the second paper in D-Lib Magazine about the ResourceSync effort
+    conducted by the National Information Standards Organization (NISO) and the Open
+    Archives Initiative (OAI). The first part provided a perspective on the resource
+    synchronization problem and introduced a template that organized possible components
+    of a resource synchronization framework in a modular manner. This paper details
+    a technical framework devised using that template.
+  URL: http://www.dlib.org/dlib/january13/klein/01klein.html
+
+- id: Sompel:2012zt
+  type: article-journal
+  author:
+  - family: van de Sompel
+    given: Herbert
+  - family: Sanderson
+    given: Robert
+  - family: Klein
+    given: Martin
+  - family: Nelson
+    given: Michael
+  - family: Haslhofer
+    given: Bernhard
+  - family: Warner
+    given: Simeon
+  - family: Lagoze
+    given: Carl
+  issued:
+  - year: '2012'
+    month: October
+  title: A perspective on resource synchronization
+  container-title: D-Lib Magazine
+  volume: '18'
+  issue: 9/10
+  abstract: Web applications frequently leverage resources made available by remote
+    web servers. As resources are created, updated, deleted, or moved, these applications
+    face challenges to remain in lockstep with changes on the server. Several approaches
+    exist to help meet this challenge for use cases where “good enough” synchronization
+    is acceptable. But when strict resource coverage or low synchronization latency
+    is required, commonly accepted Web-based solutions remain illusive. This paper
+    provides a perspective on the resource synchronization problem that results from
+    inspiration gained from prior work, and initial insights resulting from the recently
+    launched NISO?OAI ResourceSync effort.
+  URL: http://www.dlib.org/dlib/september12/vandesompel/09vandesompel.html
+
+- id: Isaac:2012xw
+  type: article-journal
+  author:
+  - family: Isaac
+    given: Antoine
+  - family: Clayphan
+    given: Robina
+  - family: Haslhofer
+    given: Bernhard
+  issued:
+  - year: '2012'
+    month: September
+  title: 'Europeana: Moving to linked open data'
+  title-short: Europeana
+  container-title: Information Standards Quarterly
+  publisher: National Information Standards Organization (NISO)
+  volume: '24'
+  issue: 2/3
+  abstract: Europeana is the European Union’s flagship digital cultural heritage initiative.
+    the europeana portal, launched in November 2008, showcases the possibility of
+    cross-cultural domain interoperability on a pan-european level. To date, metadata
+    and thumbnails for over 23 million objects have been aggregated from over 1500
+    providers from the library, archive, museum, and audiovisual domains. It was hoped
+    that cultural heritage communities were ready to think outside the traditional
+    information silos and adopt a linked data paradigm that would enable the development
+    of shared semantic context. As a technical starting point, Europeana carried out
+    a linked open data pilot project. This paper gives an outline of the processes
+    of the pilot project and areas for future work.
+  URL: http://eprints.cs.univie.ac.at/3489/
+
+- id: Warner:2012jl
+  type: paper-conference
+  author:
+  - family: Warner
+    given: Simeon
+  - family: Carpenter
+    given: Todd
+  - family: Haslhofer
+    given: Bernhard
+  - family: Klein
+    given: Martin
+  - family: Legace
+    given: Nettie
+  - family: Lagoze
+    given: Carl
+  - family: Murray
+    given: Peter
+  - family: Nelson
+    given: Michael
+  - family: Sanderson
+    given: Robert
+  - family: van de Sompel
+    given: Herbert
+  issued:
+  - year: '2012'
+    month: July
+  title: 'ResourceSync: Web-based resource synchronization'
+  title-short: ResourceSync
+  container-title: The 7th international conference on open repositories (OR2012)
+  publisher-place: Edinburgh
+  URL: http://eprints.cs.univie.ac.at/3460/
+
+- id: Mader:2012kn
+  type: paper-conference
+  author:
+  - family: Mader
+    given: Christian
+  - family: Haslhofer
+    given: Bernhard
+  - family: Isaac
+    given: Antoine
+  editor:
+  - family: Zaphiris
+    given: Panayiotis
+  - family: Buchanan
+    given: George
+  - family: Rasmussen
+    given: Edie
+  - family: Loizides
+    given: Fernando
+  issued:
+  - year: '2012'
+    month: '5'
+  title: Finding quality issues in SKOS vocabularies
+  container-title: Therory and practice of digital libraries (TPDL 2012)
+  publisher-place: Germany
+  abstract: The Simple Knowledge Organization System (SKOS) is a standard model for
+    controlled vocabularies on the Web. However, SKOS vocabularies often differ in
+    terms of quality, which reduces their applicability across system boundaries.
+    Here we investigate how we can support taxonomists in improving SKOS vocabularies
+    by pointing out quality issues that go beyond the integrity constraints defined
+    in the SKOS specification. We identified potential quality issues and formalized
+    them into computable quality checking functions that can find affected resources
+    in a given SKOS vocabulary. We implemented these functions in the qSKOS quality
+    assessment tool, analyzed 15 existing vocabularies, and found possible quality
+    issues in all of them.
+  URL: https://doi.org/10.1007/978-3-642-33290-6_25
+
+- id: Haslhofer:2012qq
+  type: paper-conference
+  author:
+  - family: Haslhofer
+    given: Bernhard
+  issued:
+  - year: '2012'
+    month: February
+  title: 'The SciLink project: From document-centric to resource-oriented publications'
+  title-short: The SciLink project
+  container-title: IConference ’12
+  collection-title: IConference ’12
+  publisher: ACM
+  publisher-place: Toronto, ON, Canada
+  page: '567-568'
+  abstract: The World Wide Web has changed the way of publishing and distributing
+    scholarly results. However, scholarly publications are still organized linearly
+    and point to supplemental or related information only by textual references or
+    at most by hyperlinks embedded into PDF documents. They are stored in closed repositories
+    and we can hardly access, navigate, and use scholarly resources the way we do
+    it with other Web resources. The goal of the SciLink project is to analyze scholarly
+    practices in certain pilot communities, to learn how scholars currently use Web
+    resources in their publications, and to design tools that help scholars in aggregating
+    and publishing the building blocks of their works in a way that integrates with
+    the resource-oriented Architecture of the World Wide Web. In that way, we want
+    to allow humans and machine agents to access and interact with scholarly resources
+    just like with any other Web resource.
+  URL: http://eprints.cs.univie.ac.at/3354/
+
+- id: Haslhofer:2011hq
+  type: paper-conference
+  author:
+  - family: Haslhofer
+    given: Bernhard
+  - family: Simon
+    given: Rainer
+  - family: Sanderson
+    given: Robert
+  - family: van de Sompel
+    given: Herbert
+  issued:
+  - year: '2011'
+    month: September
+  title: The open annotation collaboration (OAC) model
+  container-title: Workshop on multimedia on the web 2011
+  publisher: IEEE
+  publisher-place: Graz, Austria
+  abstract: Annotations allow users to associate additional information with existing
+    resources. Using proprietary and closed systems on the Web, users are already
+    able to annotate multimedia resources such as images, audio and video. So far,
+    however, this information is almost always kept locked up and inaccessible to
+    the Web of Data. We believe that an important step to take is the integration
+    of multimedia annotations and the Linked Data principles. This should allow clients
+    to easily publish and consume, thus exchange annotations about resources via common
+    Web standards. We first present the current status of the Open Annotation Collaboration,
+    an international initiative that is currently working on annotation interoperability
+    specifications based on best practices from the Linked Data effort. Then we present
+    two use cases and early prototypes that make use of the proposed annotation model
+    and present lessons learned and discuss yet open technical issues.
+  URL: http://eprints.cs.univie.ac.at/2871/
+
+- id: Popitsch:2011dw
+  type: article-journal
+  author:
+  - family: Popitsch
+    given: Niko
+  - family: Haslhofer
+    given: Bernhard
+  issued:
+  - year: '2011'
+    month: September
+  title: DSNotify - a solution for event detection and link maintenance in dynamic
+    datasets
+  container-title: 'Web Semantics: Science, Services and Agents on the World Wide
+    Web'
+  publisher: Elsevier B.V.
+  page: '266-283'
+  volume: '9'
+  issue: '3'
+  abstract: The dynamics of linked datasets may lead to broken links if data providers
+    do not react to changes appropriately. Such broken links denote interrupted navigational
+    paths between resources and may lead to unavailability of data. As a possible
+    solution, we developed DSNotify, an event-detection framework that informs actors
+    about various types of changes and allows them to maintain links to resources
+    in distributed linked data sets. For representing changes we developed the DSNotify
+    Eventset Vocabulary. Different from other vocabularies it applies a resource-centric
+    perspective and preserves the timely order of changes. We further describe our
+    reusable evaluation infrastructure, which can be extended for extracting change
+    sets from arbitrary linked datasets.
+  URL: http://eprints.cs.univie.ac.at/2863/
+
+- id: Simon:2011mb
+  type: paper-conference
+  author:
+  - family: Simon
+    given: Rainer
+  - family: Jung
+    given: Joachim
+  - family: Haslhofer
+    given: Bernhard
+  issued:
+  - year: '2011'
+    month: September
+  title: The YUMA media annotation framework
+  container-title: TPDL 2011
+  collection-title: Research and advanced technology for digital libraries
+  publisher: Springer
+  publisher-place: Berlin Heidelberg
+  page: '434-437'
+  abstract: Annotations are a fundamental scholarly practice common across disciplines.
+    They enable scholars to organize, share and exchange knowledge, and collaborate
+    in the interpretation of source material. In this paper, we introduce the YUMA
+    Media Annotation Framework, an ongoing open source effort to provide integrated
+    collaborative annotation functionality for digital library portals and online
+    multimedia collections. YUMA supports image, map, audio and video annotation and
+    follows the OAC annotation model in order to provide data interoperability. A
+    unique feature of YUMA is semantic enrichment, a mechanism that allows users to
+    effortlessly augment annotations with links to contextually relevant resources
+    on the Linked Data Web.
+  URL: http://eprints.cs.univie.ac.at/3104/
+
+- id: Mader:2011cq
+  type: paper-conference
+  author:
+  - family: Mader
+    given: Christian
+  - family: Haslhofer
+    given: Bernhard
+  issued:
+  - year: '2011'
+    month: August
+  title: Quality criteria for controlled web vocabularies
+  container-title: International conference on theory and practice of digital libraries
+    2011, NKOS workshop
+  publisher-place: Berlin, Germany
+  URL: http://eprints.cs.univie.ac.at/2923/
+
+- id: Haslhofer:2011kh
+  type: paper-conference
+  author:
+  - family: Haslhofer
+    given: Bernhard
+  - family: Isaac
+    given: Antoine
+  issued:
+  - year: '2011'
+    month: July
+  title: Data.europeana.eu - the europeana linked open data pilot
+  container-title: DCMI international conference on dublin core and metadata applications
+  publisher-place: The Hague, The Netherlands
+  abstract: data.europeana.eu is an ongoing effort of making Europeana metadata available
+    as Linked Open Data on the Web. It allows others to access metadata collected
+    from Europeana data providers via standard Web technologies. The data are represented
+    in the Europeana Data Model (EDM) and the described resources are addressable
+    and dereferencable by their URIs. Links between Europeana resources and other
+    resources in the Linked Data Web will enable the discovery of semantically related
+    resources. We developed an approach that allows Europeana data providers to opt
+    for their data to become Linked Data and converts their metadata to EDM, benefiting
+    from Europeana efforts to link them to semantically related resources on the Web.
+    With that approach, we produced a first Linked Data version of Europeana and published
+    the resulting datasets on the Web. We also gained experiences with respect to
+    EDM, HTTP URI design, and RDF store performance and report them in this paper.
+  URL: http://eprints.cs.univie.ac.at/2919/
+
+- id: Haslhofer:2011pt
+  type: chapter
+  author:
+  - family: Haslhofer
+    given: Bernhard
+  - family: Neuhold
+    given: Erich J.
+  editor:
+  - family: Fensel
+    given: Dieter
+  issued:
+  - year: '2011'
+    month: July
+  title: A retrospective on semantics and interoperability research
+  container-title: Foundations for the web of information and services
+  publisher: Springer
+  publisher-place: Berlin Heidelberg
+  page: '3-27'
+  abstract: Interoperability is a qualitative property of computing infrastructures
+    that denotes the ability of sending and receiving systems to exchange and properly
+    interpret information objects across system boundaries. Since this property is
+    not given by default, the interoperability problem and the representation of semantics
+    have been an active research topic for approximately four decades. Early database
+    models such as the Relational Model used schemas to express semantics and implicitly
+    aimed at achieving interoperability by providing programming independence of data
+    storage and access. Thereafter the Entity Relationship Model was introduced providing
+    the basic building blocks of modeling real-world semantics. With the advent of
+    distributed and object-oriented databases, interoperability became an obvious
+    need and an explicit research topic. After a number of intermediate steps such
+    as hypertext and (multimedia) document models, the notions of semantics and interoperability
+    became what they have been over the last ten years in the context of the World
+    Wide Web. With this article we contribute a retrospective on semantics and interoperability
+    research as applied in major areas of computer science. It gives domain experts
+    and newcomers an overview of existing interoperability techniques and points out
+    future research directions.
+  URL: http://eprints.cs.univie.ac.at/2921/
+
+- id: Jung:2011xq
+  type: article-journal
+  author:
+  - family: Jung
+    given: Joachim
+  - family: Simon
+    given: Rainer
+  - family: Haslhofer
+    given: Bernhard
+  issued:
+  - year: '2011'
+    month: July
+  title: YUMA — crowd sourced metadata enrichment for online collections
+  container-title: ERCIM News
+  volume: '86'
+  issue: '1'
+  URL: http://eprints.cs.univie.ac.at/3102/
+
+- id: Simon:2011fc
+  type: paper-conference
+  author:
+  - family: Simon
+    given: Rainer
+  - family: Haslhofer
+    given: Bernhard
+  - family: Jung
+    given: Joachim
+  issued:
+  - year: '2011'
+    month: April
+  title: Annotations, tags & linked data
+  container-title: 6th international workshop on digital technologies in cartographic
+    heritage
+  publisher-place: Netherlands
+  abstract: 'Cultural heritage institutions and private collections such as the
+    Library of Congress or the David Rumsey Map Collection are increasingly providing
+    free online access to high-resolution scans of old maps. With the YUMA Map Annotation
+    Tool, we want to facilitate collaborative scholarly annotation for such online
+    resources. A central feature of our tool is the integration of semantic linking
+    into the annotation process: annotations are semi-automatically enriched with
+    context information from sources on the Linked Data Web. We argue that this semantic
+    contextualization is, on the one hand, relevant for scholarly collaboration. On
+    the other hand, we believe that it can be exploited to improve search and retrieval
+    in the collection by providing additional structured metadata and geo-referencing
+    information. In this paper we present current work in which we aim to verify our
+    assumptions based on maps provided by the Library of Congress, and annotations
+    collected from volunteer users in an ongoing crowdsourcing experiment.'
+  URL: http://eprints.cs.univie.ac.at/2849/
+
+- id: Mader:2011rq
+  type: paper-conference
+  author:
+  - family: Mader
+    given: Christian
+  - family: Haslhofer
+    given: Bernhard
+  - family: Popitsch
+    given: Niko
+  editor:
+  - family: Gradmann
+    given: Stefan
+  - family: Borri
+    given: Francesca
+  - family: Meghini
+    given: Carlo
+  - family: Schuldt
+    given: Heiko
+  issued:
+  - year: '2011'
+    month: March
+  title: The meketrepository - middle kingdom tomb and artwork descriptions on the
+    web
+  container-title: Theory and practice of digital libraries (TPDL 2011)
+  publisher: Springer
+  publisher-place: Berlin, Heidelberg
+  page: 449-452"
+  abstract: The MEKETREpository (MR) allows scholars to collect and publish artwork
+    descriptions from Egypt?s Middle Kingdom (MK) period on the Web. Collaboratively
+    developed vocabularies can be used for the semantic classification and annotation
+    of uploaded media. This allows all users with system access to contribute their
+    knowledge about the published artworks. All data, including annotations and vocabularies,
+    are published as Linked Data and can be accessed and reused by others. This paper
+    gives an overview of MR?s functionalities and the current state of our work.
+  URL: http://eprints.cs.univie.ac.at/2868/
+
+- id: Haslhofer:2011ss
+  type: paper-conference
+  author:
+  - family: Haslhofer
+    given: Bernhard
+  - family: Simon
+    given: Rainer
+  issued:
+  - year: '2011'
+    month: March
+  title: Historic map annotations with yuma
+  container-title: Open annotation collaboration, phase ii workshop
+  publisher-place: Chicago, USA
+  abstract: With our YUMA Map Annotation Tool we allow scholars to annotate digitized
+    historic maps. Besides common annotation functionality it supports novel annotation
+    features, such as semantic annotation augmentation and georeferencing. In this
+    document, we briefly outline these features, the collections and users we are
+    targeting, as well as the project background and organizational issues.
+  URL: http://eprints.cs.univie.ac.at/2838/
+
+- id: Haslhofer:2011yo
+  type: report
+  author:
+  - family: Haslhofer
+    given: Bernhard
+  - family: Roochi
+    given: Elaheh Momeni
+  - family: Schandl
+    given: Bernhard
+  - family: Zander
+    given: Stefan
+  issued:
+  - year: '2011'
+    month: March
+  title: Europeana RDF store report
+  publisher: University of Vienna
+  publisher-place: Vienna
+  genre: Technical Report
+  abstract: Expressing data in RDF is one of the principles to be considered when
+    making data available as Linked Data on the Web. This can be achieved using RDF-wrappers
+    for existing (relational) data stores or by using RDF stores as data repositories.
+    The latter requires special RDF storage solutions, many of which are available
+    today. Organizations often have difficulties to decide which solution they should
+    adopt because comprehensive comparisons of existing RDF stores are hardly available
+    and experiences w.r.t performance and scalability are still missing. In this report,
+    we summarize the results of qualitative and quantitative study we carried out
+    on existing RDF stores in the context of the European Digital Library project.
+    We give a detailed overview on existing RDF store solutions, analyze their functional
+    and non-functional features, summarize the outcomes of other, previously carried
+    out studies, and conduct a Linked-Data oriented performance evaluation on a subset
+    of existing triple stores w.r.t to load and query time. The results of this study
+    show that certain RDF stores, such as OpenLink Virtuoso or 4Store, can deal with
+    the Europeana data volume and answer those SPARQL queries that are relevant for
+    exposing Europeana metadata as Linked Data in an acceptable time-range.
+  URL: http://eprints.cs.univie.ac.at/2833/
+
+- id: Schandl:2011pr
+  type: article-journal
+  author:
+  - family: Schandl
+    given: Bernhard
+  - family: Haslhofer
+    given: Bernhard
+  - family: Bürger
+    given: Tobias
+  - family: Langegger
+    given: Andreas
+  - family: Halb
+    given: Wolfgang
+  issued:
+  - year: '2011'
+    month: February
+  title: 'Linked data and multimedia: The state of affairs'
+  title-short: Linked data and multimedia
+  container-title: Multimedia Tools and Applications
+  publisher: Springer
+  publisher-place: Netherlands
+  page: '523-556'
+  volume: '59'
+  issue: '2'
+  abstract: Linked Data is a way of exposing and sharing data as resources on the
+    Web and interlinking them with semantically related resources. In the last three
+    years significant amounts of data have been generated, increasingly forming a
+    globally connected, distributed data space. For multimedia content, metadata are
+    a key factor for efficient management, organization, and retrieval. However, the
+    relationship between multimedia and Linked Data has been rarely studied, leading
+    to a lack of mutual awareness and, as a consequence thereof, technological deficiencies.
+    This article introduces the basic concepts of Linked Data in the context of multimedia
+    metadata, and discusses techniques to generate, expose, discover, and consume
+    Linked Data. It shows that a large amount of data sources exist, which are ready
+    to be exploited by multimedia applications. The benefit of Linked Data in two
+    multimedia-related applications is discussed and open research issues are outlined
+    with the goal of bringing the research fields of multimedia and Linked Data closer
+    together in order to facilitate mutual benefit.
+  URL: http://eprints.cs.univie.ac.at/114/
+
+- id: Simon:2011ay
+  type: paper-conference
+  author:
+  - family: Simon
+    given: Rainer
+  - family: Haslhofer
+    given: Bernhard
+  - family: Robitza
+    given: Werner
+  - family: Roochi
+    given: Elaheh Momeni
+  issued:
+  - year: '2011'
+    month: June
+  title: Semantically augmented annotations in digitized map collections
+  container-title: ACM/IEEE joint conference on digital libraries (JCDL)
+  publisher: ACM
+  publisher-place: Ottawa, Canada
+  abstract: Historic maps are valuable scholarly resources that record information
+    often retained by no other written source. With the YUMA Map Annotation Tool we
+    want to facilitate col- laborative annotation for scholars studying historic maps,
+    and allow for semantic augmentation of annotations with structured, contextually
+    relevant information retrieved from Linked Open Data sources. We believe that
+    the integration of Web resource linkage into the scholarly annotation pro- cess
+    is not only relevant for collaborative research, but can also be exploited to
+    improve search and retrieval. In this paper, we introduce the COMPASS Experiment,
+    an ongo- ing crowdsourcing effort in which we are collecting data that can serve
+    as a basis for evaluating our assumption. We dis- cuss the scope and setup of
+    the experiment framework and report on lessons learned from the data collected
+    so far.
+  URL: http://eprints.cs.univie.ac.at/2840/
+
+- id: Popitsch:2010le
+  type: paper-conference
+  author:
+  - family: Popitsch
+    given: Niko
+  - family: Haslhofer
+    given: Bernhard
+  - family: Roochi
+    given: Elaheh Momeni
+  issued:
+  - year: '2010'
+    month: August
+  title: An evaluation approach for dynamics-aware applications using linked data
+  container-title: 9th international workshop on web semantics (WebS), co-located
+    with DEXA 2010
+  publisher-place: Linz, Austria
+  URL: http://eprints.cs.univie.ac.at/36/
+
+- id: Haslhofer:2010wb
+  type: paper-conference
+  author:
+  - family: Haslhofer
+    given: Bernhard
+  - family: Roochi
+    given: Elaheh Momeni
+  - family: Gay
+    given: Manuel
+  - family: Simon
+    given: Rainer
+  issued:
+  - year: '2010'
+    month: September
+  title: Augmenting europeana content with linked data resources
+  container-title: Proceedings of the 6th international conference on semantic systems
+    (SEMANTICS 2010)
+  publisher: ACM
+  publisher-place: Graz, Austria
+  page: '1-3'
+  abstract: Annotations allow end users to augment digital items with information,
+    which can then be exploited for search and re- trieval. We are currently extending
+    Europeana, a platform which links to millions of digital items in European institu-
+    tions, with an annotation mechanism that exposes annota- tions as linked data
+    and enriches newly created annotations with links to contextually relevant resources
+    on the Web. In two demos we showcase how we integrated that kind of content augmentation
+    into two clients that allow users to annotate videos and historic maps.
+  URL: http://eprints.cs.univie.ac.at/26/
+
+- id: Simon:2010bx
+  type: paper-conference
+  author:
+  - family: Simon
+    given: Rainer
+  - family: Sadilek
+    given: Christian
+  - family: Korb
+    given: Joachim
+  - family: Baldauf
+    given: Matthias
+  - family: Haslhofer
+    given: Bernhard
+  issued:
+  - year: '2010'
+    month: September
+  title: 'Tag clouds and old maps: Annotations as linked spatiotemporal data in
+    the cultural heritage domain'
+  title-short: Tag clouds and old maps
+  container-title: Workshop on linked spatiotemporal data, held in conjunction with
+    the 6th international conference on geographic information science (GIScience
+    2010)
+  publisher-place: Zurich, Switzerland
+  abstract: 'In this paper we present a Web-based system for annotating digitised
+    old maps. Using bibliographic metadata and geographical reference information
+    associated with the map, annotations are represented as spatially and temporally
+    defined RDF resources. At the same time, named entity recognition and semantic
+    link discovery are applied to each annotation&rsquo;s text content to further
+    facilitate its interlinking within the Web of Data. To ensure quality and correctness,
+    the system relies on human feedback. This feedback is introduced through a novel
+    interaction metaphor: contextual link suggestions are continuously generated in
+    the background, and superimposed on the annotated map region in the form of a
+    tag cloud. The user can create semantic links by simply clicking on the corresponding
+    tags. The system thus acts both as a visualisation aid for contextually relevant
+    linked data and as a tool for authoring new linked spatiotemporal data entities.'
+  URL: http://eprints.cs.univie.ac.at/34/
+
+- id: Sadilek:2010fi
+  type: paper-conference
+  author:
+  - family: Sadilek
+    given: Christian
+  - family: Simon
+    given: Rainer
+  - family: Haslhofer
+    given: Bernhard
+  issued:
+  - year: '2010'
+    month: June
+  title: 'Service orchestration for linking open data: Applying a SOA principle
+    to the web of data'
+  title-short: Service orchestration for linking open data
+  container-title: 1st international workshop on recent trends in SOA based information
+    systems (RTSOABIS 2010)
+  publisher-place: Funchal, Madeira, Portugal
+  URL: http://eprints.cs.univie.ac.at/49/
+
+- id: Nussbaumer:2010xd
+  type: report
+  author:
+  - family: Nussbaumer
+    given: Philipp
+  - family: Haslhofer
+    given: Bernhard
+  - family: Klas
+    given: Wolfgang
+  issued:
+  - year: '2010'
+    month: June
+  title: Towards model implementation guidelines for the CIDOC conceptual reference
+    model
+  publisher: University of Vienna
+  genre: Technical Report
+  abstract: The CIDOC Conceptual Reference Model (CRM) is regarded as an interoperability
+    solution for integrating heterogeneous metadata in the cultural heritage domain.
+    The major problem developers are confronted with when applying this model in real-world
+    applications is that the CRM constitutes a formal ontology model on a semantic
+    level but lacks technical specifications and guidelines on how to integrate that
+    model with other, data source-specific models. This leads to divergent mappings
+    between proprietary metadata models and the CRM ontology model. The aim of this
+    paper is to provide Model Implementation Guidelines, including a CIDOC CRM mapping
+    methodology, which are based on our practical experience and can serve as a recommendation
+    for future CIDOC CRM adopters. Besides explicitly pointing out the problems the
+    current stan- dard entails, we propose a methodology for reducing the divergence
+    of CRM mappings, which should bring CRM-based systems one step further towards
+    metadata interoperability.
+  URL: http://eprints.cs.univie.ac.at/58/
+
+- id: Haslhofer:2010sj
+  type: article-journal
+  author:
+  - family: Haslhofer
+    given: Bernhard
+  - family: Schandl
+    given: Bernhard
+  issued:
+  - year: '2010'
+    month: March
+  title: Interweaving oai-pmh data sources with the linked data cloud
+  container-title: Int. J. Metadata, Semantics and Ontologies
+  page: '17-31'
+  volume: '1'
+  issue: '5'
+  abstract: The Open Archives Initiative Protocol for Metadata Harvesting (OAI-PMH)
+    has found widespread adoption for exchanging bibliographic metadata. In parallel,
+    the W3C&rsquo;s Linking Open Data Initiative exposes and interlinks structured
+    data from a variety of data sources on the web. Since many of these data sources
+    contain valuable information for institutional repositories (e.g., shared concept
+    definitions, thesauri, etc.), we believe that institutions that currently expose
+    their data via OAI-PMH can benefit if they integrate their metadata with the data
+    available in the Linked Data cloud. To achieve such an integration, we must bridge
+    the OAI-PMH-specific protocol characteristics that currently prevent OAI-PMH metadata
+    from being interoperable with the Linked Data approach of exposing data. As first
+    contribution of this paper, we describe a possible solution for exposing OAI-PMH
+    metadata on the web as part of the Linked Data cloud. As a second contribution,
+    we present a rule-based mechanism for linking these metadata with other relevant
+    data sources together with a case study that describes possible linking scenarios
+    for three representative OAI-PMH data providers. Finally, we discuss certain quality
+    criteria that OAI-PMH metadata must meet to benefit from data exposed by other
+    Linked Data sources.
+  URL: http://eprints.cs.univie.ac.at/73/
+
+- id: Popitsch:2010bs
+  type: paper-conference
+  author:
+  - family: Popitsch
+    given: Niko
+  - family: Haslhofer
+    given: Bernhard
+  issued:
+  - year: '2010'
+    month: February
+  title: 'DSNotify: Handling broken links in the web of data'
+  title-short: DSNotify
+  container-title: Nineteenth international WWW conference (WWW2010)
+  publisher: ACM
+  publisher-place: Raleigh, NC, USA
+  URL: http://eprints.cs.univie.ac.at/81/
+
+- id: Haslhofer:2010sh
+  type: article-journal
+  author:
+  - family: Haslhofer
+    given: Bernhard
+  - family: Klas
+    given: Wolfgang
+  issued:
+  - year: '2010'
+    month: February
+  title: A survey of techniques for achieving metadata interoperability
+  container-title: ACM Computing Surveys
+  publisher: ACM
+  publisher-place: New York, NY, USA
+  page: '1'
+  volume: '42'
+  issue: '7'
+  URL: http://eprints.cs.univie.ac.at/79/
+
+- id: Schandl:2010qc
+  type: article-journal
+  author:
+  - family: Schandl
+    given: Bernhard
+  - family: Haslhofer
+    given: Bernhard
+  issued:
+  - year: '2010'
+  title: 'Files are siles: Extending file systems with semantic annotations'
+  title-short: Files are siles
+  container-title: International Journal on Semantic Web and Information Systems (IJSWIS)
+  publisher: IGI Global
+  page: '1-21'
+  volume: '6'
+  issue: '3'
+  abstract: With the increasing storage capacity of personal computing devices, the
+    problems of information overload and information fragmentation are apparent on
+    users? desktops. For the Web, semantic technologies solve this problem by adding
+    a machine-interpretable information layer on top of existing resources. It has
+    been shown that the application of these technologies to desktop environments
+    is helpful for end users. However, certain characteristics of the Semantic Web
+    architecture that are commonly accepted in the Web context are not desirable for
+    desktops. To overcome these limitations, the authors propose the sile model, which
+    combines characteristics of the Semantic Web and file systems. This model is a
+    conceptual foundation for the Semantic Desktop and serves as underlying infrastructure
+    on which applications and further services can be built. The authors present one
+    service, a virtual file system based on siles, which allows users to semantically
+    annotate files and directories and keeps full compatibility to traditional hierarchical
+    file systems. The authors also discuss how Semantic Web vocabularies can be applied
+    for meaningful annotation of files and present a prototypical implementation of
+    the model and analyze the performance of typical access operations, both on the
+    file system and metadata level.
+  URL: http://eprints.cs.univie.ac.at/2240/
+
+- id: Haslhofer:2009px
+  type: paper-conference
+  author:
+  - family: Haslhofer
+    given: Bernhard
+  - family: Popitsch
+    given: Niko
+  issued:
+  - year: '2009'
+    month: August
+  title: 'DSNotify: Detecting and fixing broken links in linked data sets'
+  title-short: DSNotify
+  container-title: 8th international workshop on web semantics (WebS 09), co-located
+    with DEXA 2009
+  publisher: Springer
+  publisher-place: Berlin, Heidelberg
+  URL: http://eprints.cs.univie.ac.at/142/
+
+- id: Haslhofer:2009cr
+  type: paper-conference
+  author:
+  - family: Haslhofer
+    given: Bernhard
+  issued:
+  - year: '2009'
+    month: June
+  title: The mediaspaces mapping framework - a web-based approach for establishing
+    metadata interoperability (poster)
+  container-title: 6th european semantic web conference (ESWC 2009)
+  publisher-place: Hersonissos, Crete
+  URL: http://eprints.cs.univie.ac.at/159/
+
+- id: Schandl:2009fh
+  type: paper-conference
+  author:
+  - family: Schandl
+    given: Bernhard
+  - family: Haslhofer
+    given: Bernhard
+  issued:
+  - year: '2009'
+    month: June
+  title: 'The sile model: A semantic file system infrastructure for the desktop'
+  title-short: The sile model
+  container-title: 6th european semantic web conference (ESWC2009)
+  publisher: Springer
+  publisher-place: Hersonissos, Crete
+  URL: http://eprints.cs.univie.ac.at/158/
+
+- id: Haslhofer:2009sw
+  type: article-journal
+  author:
+  - family: Haslhofer
+    given: Bernhard
+  - family: Jochum
+    given: Wolfgang
+  - family: King
+    given: Ross
+  - family: Sadilek
+    given: Christian
+  - family: Schellner
+    given: Karin
+  issued:
+  - year: '2009'
+    month: '5'
+  title: 'The LEMO annotation framework: Weaving multimedia annotations with the
+    web'
+  title-short: The LEMO annotation framework
+  container-title: International Journal on Digital Libraries
+  publisher: International Journal on Digital Libraries
+  publisher-place: Berlin, Heidelberg
+  page: '15-32'
+  volume: '10'
+  issue: '1'
+  abstract: Cultural institutions and museums have realized that annotations contribute
+    valuable metadata for search and retrieval, which in turn can increase the visibility
+    of the digital items they expose via their digital library systems. By exploiting
+    annotations created by others, visitors can discover content they would not have
+    found otherwise, which implies that annotations must be accessible and processable
+    for humans and machines. Currently, however, there exists no widely adopted annotation
+    standard that goes beyond specific media types. Most institutions build their
+    own in-house annotation solution and employ proprietary annotation models, which
+    are not interoperable with those of other systems. As a result, annotation data
+    are usually stored in closed data silos and visible and processable only within
+    the scope of a certain annotation system. As the main contribution of this paper,
+    we present the LEMO Annotation Framework. It (1) provides a uniform annotation
+    model for multimedia contents and various types of annotations, (2) can address
+    fragments of various content-types in a uniform, interoperable manner and (3)
+    pulls annotations out of closed data silos and makes them available as interoperable,
+    dereferencable Web resources. With the LEMO Annotation Framework annotations become
+    part of the Web and can be processed, linked, and referenced by other services.
+    This in turn leads to even higher visibility and increases the potential value
+    of annotations.
+  URL: http://eprints.cs.univie.ac.at/165/
+
+- id: Haslhofer:2009et
+  type: book
+  author:
+  - family: Haslhofer
+    given: Bernhard
+  issued:
+  - year: '2009'
+    month: April
+  title: 'Mappings in the web of data: A web-based mapping technique for establishing
+    metadata interoperability'
+  title-short: Mappings in the web of data
+  publisher: Südwestdeutscher Verlag für Hochschulschriften
+  publisher-place: Saarbrücken
+  URL: http://eprints.cs.univie.ac.at/174/
+
+- id: Haslhofer:2008zv
+  type: thesis
+  author:
+  - family: Haslhofer
+    given: Bernhard
+  issued:
+  - year: '2008'
+    month: November
+  title: A web-based mapping technique for establishing metadata interoperability
+  publisher: University of Vienna
+  genre: PhD thesis
+  URL: http://eprints.cs.univie.ac.at/307/
+
+- id: Haslhofer:2008kc
+  type: chapter
+  author:
+  - family: Haslhofer
+    given: Bernhard
+  editor:
+  - family: Kruk
+    given: Sebastian R.
+  - family: McDaniel
+    given: Bill
+  issued:
+  - year: '2008'
+    month: October
+  title: The bricks digital library infrastructure
+  container-title: Semantic digital libraries
+  publisher: Springer
+  page: '153-164'
+  URL: http://eprints.cs.univie.ac.at/313/
+
+- id: Haslhofer:2008lo
+  type: paper-conference
+  author:
+  - family: Haslhofer
+    given: Bernhard
+  - family: Schandl
+    given: Bernhard
+  issued:
+  - year: '2008'
+    month: April
+  title: 'The OAI2LOD server: Exposing OAI-PMH metadata as linked data'
+  title-short: The OAI2LOD server
+  container-title: International workshop on linked data on the web (LDOW2008), co-located
+    with WWW 2008
+  publisher-place: Beijing, China
+  abstract: 'Many institutions grant access to their metadata repositories via the
+    Open Archives Initiative Protocol for Metadata Harvesting (OAI-PMH). However,
+    this protocol has two significant drawbacks: it does not make its resources accessible
+    via dereferencable URIs, and it provides only restricted means of selective access
+    to metadata. The OAI2LOD Server handles these shortcomings by republishing metadata
+    originating from an OAI-PMH endpoint according to the principles of Linked Data.
+    As the ongoing OAI-ORE specification process shows, these principles are gaining
+    growing importance also in the digital libraries domain.'
+  URL: http://eprints.cs.univie.ac.at/284/
+
+- id: Haslhofer:2008yb
+  type: report
+  author:
+  - family: Haslhofer
+    given: Bernhard
+  issued:
+  - year: '2008'
+    month: February
+  title: A comparative study of mapping solutions for enabling metadata interoperability
+  publisher: University of Vienna
+  genre: Technical Report
+  URL: http://eprints.cs.univie.ac.at/295/
+
+- id: Kesler:2008hs
+  type: report
+  author:
+  - family: Keßler
+    given: Mirjam
+  - family: Schwarzmaier
+    given: Maximilian
+  - family: Haslhofer
+    given: Bernhard
+  issued:
+  - year: '2008'
+    month: February
+  title: Umfragereport zur nutzung von metadaten
+  publisher: KIM - Kompetenzzentrum Interoperable Metadaten
+  genre: Technical Report
+  URL: http://eprints.cs.univie.ac.at/296/
+
+- id: Nusbaumer:2007if
+  type: paper-conference
+  author:
+  - family: Nußbaumer
+    given: Philipp
+  - family: Haslhofer
+    given: Bernhard
+  editor:
+  - family: Kovács
+    given: László
+  - family: Fuhr
+    given: Norbert
+  - family: Meghini
+    given: Carlo
+  issued:
+  - year: '2007'
+    month: September
+  title: CIDOC CRM in action - experiences and challenges
+  container-title: 11th european conference on research and advanced technology for
+    digital libraries (ECDL07)
+  collection-title: Lecture notes in computer science (lncs 4675)
+  publisher: Springer Berlin, Heidelberg
+  publisher-place: Budapest, Hungary
+  page: '532-533'
+  URL: http://eprints.cs.univie.ac.at/403/
+
+- id: Nussbaumer:2007zh
+  type: report
+  author:
+  - family: Nussbaumer
+    given: Philipp
+  - family: Haslhofer
+    given: Bernhard
+  issued:
+  - year: '2007'
+    month: September
+  title: Putting the CIDOC CRM into practice - experiences and challenges
+  publisher: University of Vienna
+  genre: Technical Report
+  URL: http://eprints.cs.univie.ac.at/404/
+
+- id: Haslhofer:2007ta
+  type: paper-conference
+  author:
+  - family: Haslhofer
+    given: Bernhard
+  issued:
+  - year: '2007'
+    month: September
+  title: Uniform sparql access to interlinked (digital library) sources
+  container-title: The 6th european networked knowledge organization systems (NKOS)
+    workshop
+  publisher-place: Budapest, Hungary
+  abstract: In this presentation, we focus on a solution for providing uniform access
+    to Digital Libraries and other online services. In order to enable uniform query
+    access to heterogeneous sources, we must provide metadata interoperability in
+    a way that a query language &ndash; in this case SPARQL &ndash; can cope with
+    the incompatibility of the metadata in various sources without changing their
+    already existing information models.
+  URL: http://eprints.cs.univie.ac.at/394/
+
+- id: Kruk:2006ud
+  type: paper-conference
+  author:
+  - family: Kruk
+    given: Sebastian
+  - family: Haslhofer
+    given: Bernhard
+  - family: Piotrowsk
+    given: Piotr
+  - family: Westerski
+    given: Adam
+  - family: Woroniecki
+    given: Tomasz
+  issued:
+  - year: '2006'
+    month: September
+  title: The role of ontologies in semantic digital libraries.
+  container-title: The 5th european networked knowledge organization systems (NKOS)
+    workshop
+  publisher-place: Alicante, Spain
+  URL: http://eprints.cs.univie.ac.at/531/
+
+- id: Haslhofer:2006fx
+  type: paper-conference
+  author:
+  - family: Haslhofer
+    given: Bernhard
+  issued:
+  - year: '2006'
+    month: December
+  title: A service oriented architecture for integrating metadata from heterogeneous
+    digital libraries
+  container-title: The 1st international workshop on semantic information integration
+    on knowledge discovery (SIIK 2006)
+  publisher-place: Yogyakarta, Indonesia
+  abstract: Metadata in today’s digital library systems are accessible through various
+    incompatible interfaces and correspond to heterogeneous schemas. Clients that
+    want to search over a number of distributed metadata sources require a solution
+    that provides uniform and location transparent access to these systems without
+    replicating the metadata stored therein. In this paper we describe a metadata
+    integration approach that conceives these data sources as services in the sense
+    of a service oriented architecture. Without forcing clients to adopt a pre-defined
+    mediation schema, we want to give them the possibility to query multiple autonomous
+    and distributed metadata services by formulating SPARQL queries.
+  URL: http://eprints.cs.univie.ac.at/584/
+
+- id: Haslhofer:2006bd
+  type: chapter
+  author:
+  - family: Haslhofer
+    given: Bernhard
+  editor:
+  - family: Furth
+    given: Borko
+  issued:
+  - year: '2006'
+    month: January
+  title: Context and current metadata standards (short entry)
+  container-title: Encyclopedia of multimedia
+  publisher: Springer Science, Business Media, Inc
+  page: '123-124'
+  URL: http://eprints.cs.univie.ac.at/608/
+
+- id: Zillner:2005uf
+  type: paper-conference
+  author:
+  - family: Zillner
+    given: Sonja
+  - family: Winiwarter
+    given: Werner
+  - family: Haslhofer
+    given: Bernhard
+  issued:
+  - year: '2005'
+    month: '5'
+  title: The design and implementation of a query algebra for multimedia meta objects
+  container-title: 4th international workshop on web semantics (WebS)
+  publisher: IEEE Computer Society Press
+  publisher-place: Copenhagen, Denmark
+  URL: http://eprints.cs.univie.ac.at/723/
+
+- id: Hecht:2005mw
+  type: paper-conference
+  author:
+  - family: Hecht
+    given: Robert
+  - family: Haslhofer
+    given: Bernhard
+  issued:
+  - year: '2005'
+    month: December
+  title: Joining the bricks network - a piece of cake
+  container-title: The international EVA conference
+  publisher-place: Moscow, Russia
+  abstract: Project BRICKS aims to build a Europe-wide distributed Digital Library
+    in the field of Cultural Heritage. Each member organisation will run a node in
+    the network (BRICKS node or BNode) and make its content available to the entire
+    network. Content described in diverse Metadata standards can be searched with
+    a unique query. Unlike other Digital Libraries, BRICKS is open and expandable,
+    both on the organizational and the technical level. The aim of this paper is to
+    demonstrate that the technical effort of joining the BRICKS network is minimal
+    compared with the potential benefits of joining the BRICKS community. This paper
+    focuses on the BRICKS importer component, which is based on the Open Archives
+    Protocol for Metadata Harvesting (OAI-PMH). After a short overview of the architecture
+    of the importer and an outline of OAI-PMH, we list the technical requirements
+    of the importer give a detailed list of the steps an institution take to join
+    BRICKS. We also present first results obtained with our importer component.
+  URL: http://eprints.cs.univie.ac.at/742/
+
+- id: Haslhofer:2005jo
+  type: paper-conference
+  author:
+  - family: Haslhofer
+    given: Bernhard
+  - family: Hecht
+    given: Robert
+  issued:
+  - year: '2005'
+    month: October
+  title: Metadata management in a heterogeneous digital library
+  container-title: EChallenges 2005
+  publisher: IOS Press
+  publisher-place: Ljubljana, Slovenia
+  abstract: Many institutions operating in the cultural heritage domain have already
+    made their content accessible via the Internet. However, when organizations want
+    to realize projects that integrate content from various institutions, they face
+    the problem of how to make this content accessible in a coherent way. Since metadata
+    plays a key role in such scenarios, a Metadata Management system that can handle
+    heterogeneous metadata descriptions and be easily integrated into new or existing
+    digital library architectures would be useful. We propose a Metadata Management
+    system that uses Semantic Web technology to handle the problem of heterogeneity
+    and on Web Service technology to achieve easy system integration. Our solution
+    facilitates the development of integrated digital library systems, and lifburden
+    of heterogeneous metadata management from application developers.
+  URL: http://eprints.cs.univie.ac.at/758/
+
+- id: Haslhofer:2003oa
+  type: thesis
+  author:
+  - family: Haslhofer
+    given: Bernhard
+  issued:
+  - year: '2003'
+  title: Agent-based electronic markets — a look behind the scenes
+  publisher: University of Vienna
+  genre: Master’s thesis
+...

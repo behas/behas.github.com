@@ -171,7 +171,16 @@ em {font-style: italic;}
 
 ul li {margin-top: 0.5em}
 
-p span.person_name, span.project_name, span.talk_title, span.event_title, span.title {
+p span.person_name,
+  span.project_name,
+  span.talk_title,
+  span.event_title,
+  span.title,
+  span.publication_container,
+  span.publication_volume,
+  span.publication_issue,
+  span.publication_genre {
+  
   font-style: italic;
 }
 
