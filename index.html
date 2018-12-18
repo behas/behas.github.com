@@ -34,15 +34,15 @@ layout: default
   <div id="description">
     <span itemprop="description">
 
-      <p>I am working as a Senior Data Scientist at <a href="http://ait.ac.at" target="_blank">AIT's</a> Digital Insight Lab. My research interest lies in finding and applying quantitative methods for gaining new insights from large-scale, connected datasets. I often act as bridge reseacher between fields and contribute practical methods and tools drawn from machine learning, network analytics, and text mining. My current research topics are:</p>
+      <p>I am working as a Senior Data Scientist at <a href="http://digital-insight.at" target="_blank">AIT's Digital Insight Lab</a>. My research interest lies in finding and applying quantitative methods for gaining new insights from large-scale, connected datasets. I often act as bridge researcher between fields and contribute practical methods and tools drawn from machine learning, network analytics, and text mining. My current research topics are:</p>
 
       <ul>
 
-        <li><strong>Cryptocurrency Analytics</strong>: I am leading the <a href="http://virtcrime-project.info/" target="_blank">VIRTCRIME</a> project and spend most of my time on investigating and developing new methods and tools for analyzing the structure and dynamics of cryptocurrency ecosystems, such as <a href="https://bitcoin.org" target="_blank">Bitcoin</a>.</li>
+        <li><strong>Cryptocurrency Analytics</strong>: I am leading the development of the <a href="http://graphsense.info/">GraphSense Cross-Ledger Cryptocurrency Analytics Platform</a> and contribute(d) to a number of studies investigating the structure and dynamics of cryptocurrency ecosystems. I am also heading the <a href="http://virtcrime-project.info/" target="_blank">VIRTCRIME</a> project, which aims at investigating Post-Bitcoin cryptocurrencies such as Monero or Zcash.</li>
 
-        <li><strong>Predictive Maintenance</strong>: for a customer in the semi-conductor industry, we are investigating possible machine learning models for predicting outages of etching equipments.</li>
+        <li><strong>Predictive Maintenance</strong>: in collaboration with my colleagues, I am investigating the application of traditional machine learning methods and novel deep learning techniques for predicting outages of machineries or machine parts in the manufacturing industry.</li>
 
-        <li><strong>Knowledge Graphs</strong>: in the <a href="http://www.travelogues-project.info/" target="_blank">TRAVELOGUES</a> project, we are collaborating with historians in order to gaining insight into the perception of the Other by analyzing an extensive collection of German language travelogues drawn from the Austrian Books Online (ABO) project (ca. 600,000 books) of the Austrian National Library.</li>
+        <li><strong>Culturomics</strong>: I am co-PI of the <a href="http://www.travelogues-project.info/" target="_blank">TRAVELOGUES</a> project, in which we are collaborating with historians and quantitatively analyze an extensive collection of German language travelogues drawn from the Austrian Books Online (ABO) project (ca. 600,000 books) of the Austrian National Library. The goal is to gaining insight into the perception of the Other (Fremdheit in German) and how it changed over time.</li>
 
       </ul>
 
@@ -54,26 +54,15 @@ layout: default
 </section>
 
 <section id="publications">
-  <h1>Recent Publications <a href="http://scholar.google.com/citations?user=15K0uBUAAAAJ">(see all ...)</a></h1>
+  <h1>Recent Publications <a href="/publications">(see all ...)</a></h1>
 
-  {% for publication in site.data.publications %}
-  <p class="citation">
-    {% for author in publication.authors %}
-      {% if forloop.last %}
-      <span class="person_name">{{ author | append:':'}}</span>
-      {% else %}
-      <span class="person_name">{{ author }}</span> and
-      {% endif %}
-    {% endfor %}
-    <a href="{{publication.uri}}" target="_blank">{{ publication.title }}</a>.
-    {% if publication.type == 'journal' or publication.type == 'conference' %}
-      In:
+  {% assign start_year = site.time | date: "%Y" | minus: 1 %}
+
+  {% for publication in site.data.papers.references %}
+    {% assign publication_year = publication.issued[0].year | plus: 0 %}
+    {% if publication_year >= start_year %}
+      {% include publication.html publication=publication %}
     {% endif %}
-    <span>{{ publication.where | append:','}} {{ publication.year | append:'.' }}</span>
-    {% if publication.note %}
-      <strong>{{ publication.note }}</strong>
-    {% endif %}
-  </p>
   {% endfor %}
 
 </section>
