@@ -4,7 +4,7 @@ author: Bernhard Haslhofers
 email: bernhard.haslhofer@ait.ac.at
 description: "Research Profile of Bernhard Haslhofer; Publications, Projects, Other Stuff."
 baseurl: ""
-url: "http://bernhardhaslhofer.info"
+url: "https://bernhardhaslhofer.info"
 
 # Build settings
 markdown: kramdown
