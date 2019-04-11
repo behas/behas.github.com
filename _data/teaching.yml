@@ -1,11 +1,18 @@
-- title: "Semantic Knowledge Representation and Linked Data"
+- title: "Cryptoasset Analytics"
+  institution: "Technical University of Vienna (TU)"
+  institution_uri: "https://www.tuwien.at/"
+  period: "2019"
+  role: "instructor"
+  description: |
+    Cryptocurrencies such as Bitcoin, Initial Coin Offerings (ICOs), and Distributed Autonomous Organizations (DAOs) are well-known crypto asset examples. They build on blockchain technology and form virtual ecosystems in which different actors interact with each other with varying intentions. The general availability of transaction data in the underlying blockchains led to the development of a number of analytics techniques that are nowadays used for reasons such as market research, compliance and anti-money-laundering, as well as law enforcement. The goal of this course is to learn how crypto asset ecosystems can be analyzed using a variety of data science methods and how gained insights can subsequently be used for informed decision making. The course will offer the opportunity to design and develop novel approaches for a number of analytics use cases.
+
+- title: "Globally Connected Systems"
   institution: "University of Applied Sciences - FH Technikum Wien"
   institution_uri: "https://www.technikum-wien.at/en/"
-  period: "2017"
+  period: "2017-2019"
   role: "instructor"
   description: |
     The goal of this course is to introduce the design principles and technologies for building global information, data, and financial networks, show the practical applications of such systems, and discuss their design and their social and policy context.
-
 
 - title: "Application Development in Media Informatics"
   institution: "University of Vienna"
