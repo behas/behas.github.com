@@ -1,5 +1,31 @@
 ---
 references:
+- id: Jalali:2019a
+  type: paper-conference
+  author:
+  - family: Jalali
+    given: Anahid
+  - family: Heistracher
+    given: Clemens
+  - family: Schindler
+    given: Alexander
+  - family: Haslhofer
+    given: Bernhard
+  - family: Nemeth
+    given: Tanja
+  - family: Glawar
+    given: Robert
+  - family: Sihn
+    given: Wilfried
+  - family: Boer
+    given: Peter De
+  issued:
+  - year: '2019'
+  title: Predicting time-to-failure of plasma etching equipment using machine learning
+  container-title: 2019 ieee international conference on prognostics and health management
+  publisher-place: San Francisco, CA, USA
+  note: To appear
+
 - id: Hinteregger:2019aa
   type: paper-conference
   author:
