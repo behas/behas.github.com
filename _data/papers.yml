@@ -65,7 +65,7 @@ references:
   title: Predicting time-to-failure of plasma etching equipment using machine learning
   container-title: 2019 IEEE international conference on prognostics and health management
   publisher-place: San Francisco, CA, USA
-  note: To appear
+  URL: https://arxiv.org/abs/1904.07686
 
 - id: Hinteregger:2019aa
   type: paper-conference
