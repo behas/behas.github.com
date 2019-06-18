@@ -47,6 +47,12 @@
 
 # Conferences
 
+- medium: "CRYPTO VALLEY Conference"
+  type: "conference"
+  years:
+    - year: 2019
+      uri: "http://www.cryptovalleyconference.com/index"
+
 - medium: "ACM Web Science (WebSci)"
   type: "conference"
   years:

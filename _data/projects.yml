@@ -1,3 +1,10 @@
+- acronym: "Austrian Blockchain Center (ABC)"
+  start_date: "2019-10-01"
+  end_date: "2023-10-31"
+  funding_source: "FFG COMET"
+  role: "Area Lead Data Science Methods for Blockchain Analytics & Predictions"
+  description: "The Center's mission is to be the one-stop-shop Austrian Research Center for Blockchain (and related) technologies to be applied in industrial applications like industry 4.0 / IoT as well as financial, energy, logistics, government and administrative applications. Those new applications and business models resulting from collaborations between established players, innovative startups and top R&D institutes will be the key for the creation of new jobs and establishing Austria among the top ten innovative countries in Europe."
+
 - acronym: "SD4M"
   start_date: "2018-05-01"
   end_date: "2019-01-31"

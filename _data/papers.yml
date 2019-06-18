@@ -1,5 +1,46 @@
 ---
 references:
+- id: Romiti:2019aa
+  type: paper-conference
+  author:
+  - family: Romiti
+    given: Matteo
+  - family: Judmayer
+    given: Aljosha
+  - family: Zamyatin
+    given: Alexei
+  - family: Haslhofer
+    given: Bernhard
+  issued:
+  - year: '2019'
+  title: 'A deep dive into bitcoin mining pools: An empirical analysis of mining
+    shares'
+  title-short: A deep dive into bitcoin mining pools
+  container-title: 18th annual workshop on the economics of information security (WEIS
+    2019)
+  publisher-place: Boston, USA
+  URL: https://arxiv.org/abs/1905.05999
+
+- id: PaquetClouson:2019aa
+  type: article-journal
+  author:
+  - family: Paquet-Clouston
+    given: Masarah
+  - family: Haslhofer
+    given: Bernhard
+  - family: Dupont
+    given: Benoît
+  issued:
+  - year: '2019'
+    month: '05'
+  title: '[Ransomware payments in the Bitcoin ecosystem]{.nocase}'
+  container-title: Journal of Cybersecurity
+  volume: '5'
+  issue: '1'
+  URL: https://doi.org/10.1093/cybsec/tyz003
+  DOI: 10.1093/cybsec/tyz003
+  ISSN: '2057-2085'
+
 - id: Jalali:2019a
   type: paper-conference
   author:
@@ -63,23 +104,6 @@ references:
   URL: http://www.sciencedirect.com/science/article/pii/S2212827118304566
   DOI: https://doi.org/10.1016/j.procir.2018.03.280
   ISSN: '2212-8271'
-
-- id: PaquetClouson:2018aa
-  type: paper-conference
-  author:
-  - family: Paquet-Clouston
-    given: Masarah
-  - family: Haslhofer
-    given: Bernhard
-  - family: Dupont
-    given: Benoit
-  issued:
-  - year: '2018'
-  title: Ransomware payments in the bitcoin ecosystem
-  container-title: 17th annual workshop on the economics of information security (WEIS
-    2018)
-  publisher-place: Innsbruck, Austria
-  URL: http://arxiv.org/abs/1804.04080
 
 - id: Haslhofer:2018ab
   type: chapter
@@ -146,18 +170,6 @@ references:
   publisher: Springer Fachmedien Wiesbaden
   publisher-place: Wiesbaden
   page: '77-82'
-  abstract: Bitcoin ist eine dezentrale virtuelle Währung, die dafür genutzt werden
-    kann, weltweit pseudoanonymisierte Zahlungen innerhalt kurzer Zeit und mit vergleichsweise
-    geringen Transaktionskosten auszuführen. In dieser Abhandlung zeigen wir die ersten
-    Ergebnisse eine Langzeitstudie zur Bitcoinadressenkurve, die alle Adressen und
-    Transaktionen seit dem Start von Bitcoin im Januar 2009 bis zum 31. August 2016
-    enthält. Unsere Untersuchung enthüllt eine stark verschobene Gradverteilung mit
-    einer geringen Anzahl von Ausnahmen und zeigt, dass sich die gesamte Kurve stark
-    ausdehnt. Außerdem zeigt sie die Macht der Adressbündelungsheuristik zur Identifikation
-    von realen Akteuren, die es bevorzugen, Bitcoin für den Wertetransfer statt für
-    die Wertespeicherung zu verwenden. Wir gehen davon aus, dass diese Abhandlung
-    neue Einblicke in virtuelle Währungsökosysteme bietet und als Grundlage für das
-    Design zukünftiger Untersuchungsmethoden und -infrastrukturen dienen kann.
   URL: https://doi.org/10.1007/978-3-658-19287-7_11s
   ISBN: '978-3-658-19287-7'
 
