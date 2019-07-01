@@ -1,5 +1,23 @@
 ---
 references:
+- id: Froewis:2019bc
+  type: article-journal
+  author:
+  - family: Fröwis
+    given: Michael
+  - family: Gottschalk
+    given: Thilo
+  - family: Haslhofer
+    given: Bernhard
+  - family: Rückert
+    given: Christian
+  - family: Pesch
+    given: Paulina
+  issued:
+  - year: '2019'
+  title: Safeguarding the evidential value of forensic cryptocurrency investigations
+  URL: https://arxiv.org/abs/1906.12221
+
 - id: Romiti:2019aa
   type: paper-conference
   author:
