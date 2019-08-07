@@ -1,5 +1,24 @@
 ---
 references:
+- id: PaquetClouson:2019bb
+  type: paper-conference
+  author:
+  - family: Paquet-Clouston
+    given: Masarah
+  - family: Romiti
+    given: Matteo
+  - family: Haslhofer
+    given: Bernhard
+  - family: Chavat
+    given: Tomas
+  issued:
+  - year: '2019'
+  title: 'Spams meet cryptocurrencies: Sextortion in the bitcoin ecosystem'
+  title-short: Spams meet cryptocurrencies
+  container-title: ACM conference on advances in financial technologies (aft’19)
+  publisher-place: Zurich, Switzerland
+  URL: https://arxiv.org/abs/1908.01051
+
 - id: Froewis:2019bc
   type: article-journal
   author:

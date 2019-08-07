@@ -1,3 +1,11 @@
+- acronym: "COGNITUS"
+  start_date: "2019-10-01"
+  end_date: "2020-09-30"
+  funding_source: "FFG - ICT of the future"
+  funding_source_uri: "https://www.ffg.at/"
+  role: "Project Lead, Principal Investigator"
+  description: "The goal of COGNITUS is to provide a Deep Learning pipeline equipped with a set of generic algorithmic building blocks for predicting outages of machineries based on sensor data streams."
+
 - acronym: "Austrian Blockchain Center (ABC)"
   uri: "https://blockchain-center.at/"
   start_date: "2019-10-01"
