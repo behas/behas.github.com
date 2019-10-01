@@ -1,5 +1,10 @@
 # Journals
 
+- medium: "Journal of Cybersecurity"
+  uri: "https://academic.oup.com/cybersecurity"
+  type: "journal"
+  years: "2019"
+
 - medium: "Journal of Web Semantics (JWS)"
   uri: "http://www.journals.elsevier.com/journal-of-web-semantics/"
   type: "journal"
@@ -52,6 +57,12 @@
   years:
     - year: 2019
       uri: "http://www.cryptovalleyconference.com/index"
+
+- medium: "International Semantic Web Conference (ISWC)"
+  type: "conference"
+  years:
+    - year: 2019
+      uri: "https://iswc2019.semanticweb.org/"
 
 - medium: "ACM Web Science (WebSci)"
   type: "conference"
