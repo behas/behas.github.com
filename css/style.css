@@ -199,8 +199,14 @@ div#person div#contact span.newline{
   display: block;
 }
 
-div#person div#description {
-  padding-top: 50px;
+/*div#person {
+  padding-top: 75px;
+}
+*/
+
+section#news {
+  padding-top: 25px;
+  border-top: none;
 }
 
 /* footer info */
