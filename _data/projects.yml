@@ -1,9 +1,10 @@
 - acronym: "COGNITUS"
+  uri: "https://projekte.ffg.at/projekt/3323904"
   start_date: "2019-10-01"
-  end_date: "2020-09-30"
+  end_date: "2021-09-30"
   funding_source: "FFG - ICT of the future"
   funding_source_uri: "https://www.ffg.at/"
-  role: "Project Lead, Principal Investigator"
+  role: "Project Coordinator, Principal Investigator"
   description: "The goal of COGNITUS is to provide a Deep Learning pipeline equipped with a set of generic algorithmic building blocks for predicting outages of machineries based on sensor data streams."
 
 - acronym: "Austrian Blockchain Center (ABC)"
@@ -37,7 +38,7 @@
   end_date: "2019-12-31"
   funding_source: "FFG KIRAS"
   funding_source_uri: "https://www.ffg.at/"  
-  role: "Principal Investigator"
+  role: "Project Coordinator, Principal Investigator"
   description: |
     The goal of the VIRTCRIME project lies in the development of novel algorithms and methods for tracing criminal transactions in post-Bitcoin era cryptocurrencies, while considering illegitimate activities in Darknet market places. Orthogonally, the project will provide novel criminological procedures and law enforcement approaches, and investigate legal pre-conditions and consequences.
 
@@ -57,7 +58,7 @@
   end_date: "2017-11-30"
   funding_source: "FFG - IKT der Zukunft"
   funding_source_uri: "https://www.ffg.at/"
-  role: "Project Lead, Principal Investigator"
+  role: "Project Coordinator, Principal Investigator"
   description: |
     The goal of the GraphSense project is to research and develop novel algorithmic solutions for detecting anomalies in large-scale, dynamically changing graph datasets. The focus will be on developing anomaly detection techniques for transaction networks constructed from virtual currencies (Bitcoin) and investigate their applicability for enterprise financial fraud detection settings.
 
