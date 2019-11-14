@@ -176,16 +176,16 @@ layout: default
 </section>
 
 <section id="talks">
-  <h1>Invited Talks and Panels</h1>
+  <h1>Recent Invited Talks and Panels <a href="/talks">(see all ...)</a></h1>
 
-  {% for talk in site.data.talks %}
-    <p>
-      <span class="talk_title">{{talk.title}}</span>,
-      {{talk.venue}}, {{talk.date | date: "%B %Y"}}, {{talk.location}}.
-      {% if talk.slides_uri %}
-      (<a href="{{talk.slides_uri}}" target="_blank">slides</a>)</p>
+    {% assign start_year = site.time | date: "%Y" | minus: 1 %}
+
+    {% for talk in site.data.talks %}
+      {% assign talk_year = talk.date | date: "%Y" | plus: 0 %}
+      {% if talk_year >= start_year %}
+        {% include talk.html talk=talk %}
       {% endif %}
-  {% endfor %}
+    {% endfor %}
 
 </section>
 

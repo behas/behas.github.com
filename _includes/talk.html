@@ -1,0 +1,11 @@
+<p class="talk">
+
+	{% assign talk = include.talk %}
+
+	<span class="talk_title">{{talk.title}}</span>,
+	{{talk.venue}}, {{talk.date | date: "%B %Y"}}, {{talk.location}}.
+	{% if talk.slides_uri %}
+	(<a href="{{talk.slides_uri}}" target="_blank">slides</a>)
+	{% endif %}
+
+</p>

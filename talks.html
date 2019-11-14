@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+<section id="talks">
+  <h1>All Invited Talks and Panels</h1>
+
+  {% for talk in site.data.talks %}
+    {% include talk.html talk=talk %}
+  {% endfor %}
+
+</section>
