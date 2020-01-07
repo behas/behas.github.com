@@ -21,7 +21,7 @@ references:
 - id: Roerden:2020a
   type: paper-conference
   author:
-  - family: Rö"rden
+  - family: Rörden
     given: Jan
   - family: Gruber
     given: Doris
@@ -55,7 +55,7 @@ references:
   - year: 2020
   title: All that glitters is not bitcoin – unveiling the centralized nature of the
     btc (ip) network
-  container-title: IEEEIFIP network operations and management symposium (noms 2020)
+  container-title: IEEE/ifip network operations and management symposium (NOMS 2020)
 
 - id: PaquetClouson:2019bb
   type: paper-conference
