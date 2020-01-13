@@ -52,11 +52,20 @@
 
 # Conferences
 
+- medium: "IEEE International Conference on
+Decentralized Applications and Infrastructures (DAPPS)"
+  type: "conference"
+  years:
+    - year: 2020
+    - uri: "https://ieeedapps.net/"
+
 - medium: "CRYPTO VALLEY Conference"
   type: "conference"
   years:
     - year: 2019
       uri: "http://www.cryptovalleyconference.com/index"
+    - year: 2020
+      uri: "https://www.cryptovalleyconference.com/"
 
 - medium: "International Semantic Web Conference (ISWC)"
   type: "conference"
