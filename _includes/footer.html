@@ -1,8 +1,6 @@
-<footer>
-  <div id="ft_info">
-    <p>(c) Bernhard Haslhofer, {{ site.time | date: "%Y" }}</p>
-  </div>
-  <div id="last_update">
-    <p>Last update: {{ site.time | date_to_long_string}}</p>
-  </div>
-</footer>
+<footer class="footer mt-auto py-3">
+	<div class="container">
+		<span class="text-muted">(c) Bernhard Haslhofer, {{ site.time | date: "%Y" }}</span>
+		<span class="text-muted">Last update: {{ site.time | date_to_long_string}}</span>
+	</div>
+</footer>		
