@@ -55,8 +55,9 @@ references:
   issued:
   - year: 2020
   title: All that glitters is not bitcoin – unveiling the centralized nature of the
-    btc (ip) network
+    BTC (IP) network
   container-title: IEEE/ifip network operations and management symposium (NOMS 2020)
+  URL: https://arxiv.org/abs/2001.09105
 
 - id: PaquetClouson:2019bb
   type: paper-conference
