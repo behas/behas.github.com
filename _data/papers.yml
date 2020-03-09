@@ -1,5 +1,27 @@
 ---
 references:
+- id: Froewis:2020a
+  type: article-journal
+  author:
+  - family: Fröwis
+    given: Michael
+  - family: Gottschalk
+    given: Thilo
+  - family: Haslhofer
+    given: Bernhard
+  - family: Rückert
+    given: Christian
+  - family: Pesch
+    given: Paulina
+  issued:
+  - year: 2020
+  title: Safeguarding the evidential value of forensic cryptocurrency investigations
+  container-title: 'Forensic Science International: Digital Investigation'
+  keyword: Digital forensics, Cryptocurrencies, Digital evidence, Safeguards, Legal
+  URL: http://www.sciencedirect.com/science/article/pii/S1742287619302567
+  DOI: https://doi.org/10.1016/j.fsidi.2019.200902
+  ISSN: 2666-2817
+
 - id: Stuetz:2020a
   type: paper-conference
   author:
@@ -77,25 +99,6 @@ references:
   container-title: ACM conference on advances in financial technologies (AFT’19)
   publisher-place: Zurich, Switzerland
   URL: https://arxiv.org/abs/1908.01051
-
-- id: Froewis:2019bc
-  type: article-journal
-  author:
-  - family: Fröwis
-    given: Michael
-  - family: Gottschalk
-    given: Thilo
-  - family: Haslhofer
-    given: Bernhard
-  - family: Rückert
-    given: Christian
-  - family: Pesch
-    given: Paulina
-  issued:
-  - year: 2019
-  title: Safeguarding the evidential value of forensic cryptocurrency investigations
-  container-title: arxiv.org pre-print
-  URL: https://arxiv.org/abs/1906.12221
 
 - id: Romiti:2019aa
   type: paper-conference
