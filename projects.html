@@ -1,0 +1,30 @@
+---
+layout: default
+permalink: /projects
+---
+
+<div class="container mt-5">
+
+  <h3>Grants and Contract Research Projects</h3>
+
+  {% for project in site.data.projects %}
+    <p>
+      <span class="project_name">
+        {% if project.uri %}
+          <a href="{{project.uri}}">{{project.acronym}}</a>
+        {% else %}
+          {{project.acronym}}
+        {% endif %}
+        ({{project.start_date | date: "%m/%Y"}}-{{project.end_date | date: "%m/%Y"}}),
+        {% if project.funding_source_uri %}
+          <a href="{{project.funding_source_uri}}">{{project.funding_source}}</a>,
+        {% else %}
+          {{project.funding_source}},
+        {% endif %}
+        {{project.role}}.
+      </span>
+      {{project.description}}
+    </p>
+  {% endfor %}
+
+</div>

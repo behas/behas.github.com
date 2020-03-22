@@ -1,12 +1,14 @@
 ---
 layout: default
+permalink: /talks
 ---
 
-<section id="talks">
-  <h1>All Invited Talks and Panels</h1>
+<div class="container mt-5">
+
+  <h3>Talks and Panels</h3>
 
   {% for talk in site.data.talks %}
     {% include talk.html talk=talk %}
   {% endfor %}
 
-</section>
+</div>

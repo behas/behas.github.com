@@ -1,24 +1,16 @@
-collections:
-  authors:
-    output: true
+title: Bernhard Haslhofer's Research Profile
+email: bernhard.haslhofer@ait.ac.at
+description: "Research Profile of Bernhard Haslhofer; Publications, Projects, Other Stuff."
+baseurl: ""
+url: "https://bernhardhaslhofer.info"
 
-defaults:
-  - scope:
-      path: ""
-      type: "authors"
-    values:
-      layout: "author"
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-  - scope:
-      path: ""
-    values:
-      layout: "default"
-
+# Build settings
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+
+sass:
+  style: compact # possible values: nested expanded compact compressed
+
+

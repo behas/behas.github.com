@@ -1,0 +1,22 @@
+---
+layout: default
+permalink: /teaching
+---
+
+<div class="container mt-5">
+
+  <h3>Teaching</h3>
+
+  {% for course in site.data.teaching %}
+    <p>
+      {% if course.website %}
+        <span class="title"><a href="{{course.website}}" target="_blank">{{course.title}}</a></span>,
+      {% else %}
+        <span class="title">{{course.title}}</span>,
+      {% endif %}
+      ({{course.period}},
+      <a href="{{course.institution_uri}}" target="_blank">{{course.institution}})</a>,
+      {{course.role}}: {{course.description}}
+  {% endfor %}
+
+</div>

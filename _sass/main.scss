@@ -1,22 +1,17 @@
-/* Define standard variables and values for website */
+/* Site-specific variables and values for website */
+
 $bgcolor: lightblue;
-$textcolor: darkblue;
-$fontsize: 18px;
 
 main {
 	.container {
-		padding: 70px 15px 0;
+		padding: 60px 60px 0;
 	}
 }
 
 footer {
 	background-color: $bgcolor;
-	bottom: 0;
-  width: 100%;
-  height: 60px;	
 	.container {
-  	padding-right: 15px;
-		padding-left: 15px;
+		padding-right: 15px;
+  		padding-left: 15px;
 	}
 }
-

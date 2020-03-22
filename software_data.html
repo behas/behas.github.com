@@ -1,0 +1,28 @@
+---
+layout: default
+permalink: /software_data
+---
+
+<div class="container mt-5">
+
+  <h3>Open Source Software</h3>
+
+  {% for project in site.data.software %}
+    <p>
+      <span class="title">
+        <a href="{{project.uri}}">{{project.title}}</a>:
+      </span> {{project.description}}
+    </p>
+  {% endfor %}
+
+  <h3>Datasets</h3>
+
+  {% for dataset in site.data.datasets %}
+    <p>
+      <span class="title">
+        <a href="{{dataset.uri}}">{{dataset.title}}</a>:
+      </span> {{dataset.description}}
+    </p>
+  {% endfor %}
+
+</div>
