@@ -11,9 +11,9 @@ permalink: /teaching
   {% for course in site.data.teaching %}
     <p>
       {% if course.website %}
-        <span class="title"><a href="{{course.website}}" target="_blank">{{course.title}}</a></span>,
+        <em><a href="{{course.website}}" target="_blank">{{course.title}}</a></em>,
       {% else %}
-        <span class="title">{{course.title}}</span>,
+        <em class="title">{{course.title}}</em>,
       {% endif %}
       ({{course.period}},
       <a href="{{course.institution_uri}}" target="_blank">{{course.institution}})</a>,
