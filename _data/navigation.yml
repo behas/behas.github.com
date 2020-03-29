@@ -1,0 +1,18 @@
+- name: About
+  link: /
+- name: Publications
+  link: /publications
+- name: Projects
+  link: /projects
+- name: Talks
+  link: /talks
+- name: Datasets & Software
+  link: /software_data
+- name: Teaching
+  link: /teaching
+- name: Events
+  link: /events
+- name: Reviewing
+  link: /reviewing
+- name: Awards
+  link: /awards

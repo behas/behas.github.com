@@ -1,12 +1,21 @@
 ---
 layout: default
+title: Publications
+permalink: /publications
 ---
 
-<section id="publications">
-  <h1>All Publications</a></h1>
+<div class="container mt-5">
 
-  {% for publication in site.data.papers.references %}
+  <h3>Scientific Publications</h3>
+
+  {% for publication in site.data.publications.references %}
     {% include publication.html publication=publication %}
   {% endfor %}
 
-</section>
+  <h3>Standards and Specifications</h3>
+
+  <p><a href="http://www.openarchives.org/rs/resourcesync" target="_blank">ResourceSync Framework Specification</a> (co-editor): describes a synchronization framework for the web consisting of various capabilities that allow third party systems to remain synchronized with a server's evolving resources.</p>
+
+  <p><a href="http://www.openannotation.org/spec/core/" target="_blank">Open Annotation Data Model</a> 	(contributor): specifies an interoperable framework for creating associations between related resources, annotations, using a methodology that conforms to the Architecture of the World Wide Web. Open Annotations can easily be shared between platforms, with sufficient richness of expression to satisfy complex requirements while remaining simple enough to also allow for the most common use cases, such as attaching a piece of text to a single web resource.</p>
+
+</div>

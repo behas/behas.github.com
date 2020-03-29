@@ -6,20 +6,19 @@
   {% if forloop.last and publication.author.size > 1%}
     &
   {% endif %}
-    <span class="publication_author">
       {{ author.family }}, {{ author.given | slice: 0 }}.{% unless forloop.last %},{% endunless %}
-    </span>      
 {% endfor %}
 
 ({{ publication.issued[0].year }}).
 
 {% if publication.URL %}
-  <a href="{{publication.URL}}" target="_blank">{{ publication.title }}</a>.
+  <a href="{{publication.URL}}" target="_blank"><em>{{ publication.title }}</em></a>.
 {% else %}
-  <span class="publication_title">{{ publication.title }}</span>.
+  <em>{{ publication.title }}</em>.
 {% endif %}
 
 {% case publication.type %}
+  
   {% when 'paper-conference' %}
       {% if publication.editor %}
         In:
@@ -27,49 +26,51 @@
           {% if forloop.last and publication.editor.size > 1%}
             &
           {% endif %}
-            <span class="publication_author">
               {{ editor.family }}, {{ editor.given | slice: 0 }}.{% unless forloop.last %},{% endunless %}
-            </span>      
         {% endfor %} (eds.),
       {% endif %}
-      <span class="publication_container">{{ publication.container-title }}</span>.
+      {{ publication.container-title }}.
+  
   {% when 'article-journal' %}
     {% if publication.volume and publication.issue %}
-      <span class="publication_container">{{ publication.container-title }}</span>,
-      <span class="publication_volume">{{ publication.volume }}</span>
-      <span class="publication_issue">({{ publication.issue }})</span>.
+      {{ publication.container-title }},
+      {{ publication.volume }}
+      ({{ publication.issue }}).
     {% elsif publication.volume and publication.issue and publication.page %}
-      <span class="publication_container">{{ publication.container-title }}</span>,
-      <span class="publication_volume">{{ publication.volume }}</span>
-      <span class="publication_issue">({{ publication.issue }})</span>,
-      <span class="publication_page_numbers">pp. {{ publication.page }}</span>.
+      {{ publication.container-title }},
+      {{ publication.volume }}
+      ({{ publication.issue }}),
+      pp. {{ publication.page }}.
     {% elsif publication.volume and publication.page %}
-      <span class="publication_container">{{ publication.container-title }}</span>,
-      <span class="publication_volume">{{ publication.volume }}</span>,
-      <span class="publication_page_numbers">pp. {{ publication.page }}</span>.
+      {{ publication.container-title }},
+      {{ publication.volume }},
+      pp. {{ publication.page }}.
     {% else %}
-      <span class="publication_container">{{ publication.container-title }}</span>,          
+      {{ publication.container-title }},
     {% endif %}
+
   {% when 'report' or 'thesis' %}
-      <span class="publication_genre">{{ publication.genre }}</span>,
-      <span class="publication_publisher">{{ publication.publisher }}</span>.
+    {{ publication.genre }},
+    {{ publication.publisher }}.
+
   {% when 'chapter' %}
       In:
       {% for editor in publication.editor %}
         {% if forloop.last and publication.editor.size > 1%}
           &
         {% endif %}
-          <span class="publication_author">
             {{ editor.family }}, {{ editor.given | slice: 0 }}.{% unless forloop.last %},{% endunless %}
-          </span>      
       {% endfor %} (eds.)
-      <span class="publication_container">{{ publication.container-title }}</span>,         
-      <span class="publication_page_numbers">(pp. {{ publication.page }})</span>.
-      <span class="publication_publisher">{{ publication.publisher }}</span>.    
+      {{ publication.container-title }},
+      (pp. {{ publication.page }}).
+      {{ publication.publisher }}.
+
   {% when 'book' %}      
-      <span class="publication_container">{{ publication.container-title }}</span>
-      <span class="publication_publisher">{{ publication.publisher }}</span>.    
+      {{ publication.container-title }}
+      {{ publication.publisher }}.
+
   {% else %}
       <strong>Unknown publication type.</strong>
+
 {% endcase %} 
 </p>

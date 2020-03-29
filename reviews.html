@@ -1,0 +1,52 @@
+---
+layout: default
+title: Reviewing
+permalink: /reviewing
+---
+
+<div class="container mt-5">
+
+  <h3>Program Committees and Reviewing for Scientific Journals</h3>
+
+  <h5>Journals</h5>
+
+  {% for review in site.data.reviews %}
+    {% if review.type == 'journal' %}
+    <p>
+      <em>
+        <a href="{{review.uri}}" target="_blank">{{review.medium}}</a> ({{review.years}})
+      </em>
+    </p>
+    {% endif %}
+  {% endfor %}
+
+  <h5>Conferences, Workshops, Symposia</h5>
+
+  {% for review in site.data.reviews %}
+    {% if review.type == 'conference' or review.type == 'workshop' %}
+    <p>
+      <em>
+        {{review.medium}}
+      </em>
+      {% for year in review.years %}
+        {% if forloop.length == 1 %}
+          {% if year.uri != null %}
+            (<a href="{{year.uri}}" target="_blank">{{year.year}}</a>)
+          {% else %}
+            ({{year.year}})
+          {% endif %}
+        {% else %}
+          {% if forloop.first %}
+            (<a href="{{year.uri}}" target="_blank">{{year.year}}</a>,
+          {% elsif forloop.last %}
+            <a href="{{year.uri}}" target="_blank">{{year.year}}</a>)
+          {% else %}
+            <a href="{{year.uri}}" target="_blank">{{year.year}}</a>,
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    </p>
+    {% endif %}
+  {% endfor %}
+
+</div>

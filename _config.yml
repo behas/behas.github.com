@@ -1,11 +1,16 @@
-# Site settings
-title: Bernhard Haslhofer | Research Profile
-author: Bernhard Haslhofers
+title: Bernhard Haslhofer's Research Profile
 email: bernhard.haslhofer@ait.ac.at
 description: "Research Profile of Bernhard Haslhofer; Publications, Projects, Other Stuff."
 baseurl: ""
 url: "https://bernhardhaslhofer.info"
 
 # Build settings
-markdown: kramdown
-permalink: pretty
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+sass:
+  style: compact # possible values: nested expanded compact compressed
+
+

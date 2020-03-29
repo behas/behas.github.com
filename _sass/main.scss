@@ -1,0 +1,39 @@
+/* Site-specific variables and values for website */
+
+$link_color: #607890;
+$link_color_hover: #036;
+$border_color: lightgrey;
+
+body {
+	a, a:active, a:visited { 
+		color: $link_color;
+	}
+	a:hover { 
+		color: $link_color_hover; 
+	}
+}
+
+nav {
+	border-bottom: 1px solid $border_color;
+}
+
+main {
+	.container {
+		padding: 60px 60px 0;
+	}
+
+	section {
+		margin-top: 10px;
+		padding-top: 10px;
+		border-top: 1px solid $border_color;
+	}
+}
+
+footer {
+	font-size: 12px;
+  	border-top: 1px solid $border_color;
+	.container {
+		padding-right: 15px;
+  		padding-left: 15px;
+	}
+}
