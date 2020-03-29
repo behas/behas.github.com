@@ -10,7 +10,7 @@ permalink: /projects
 
   {% for project in site.data.projects %}
     <p>
-      <span class="project_name">
+      <em>
         {% if project.uri %}
           <a href="{{project.uri}}">{{project.acronym}}</a>
         {% else %}
@@ -23,7 +23,7 @@ permalink: /projects
           {{project.funding_source}},
         {% endif %}
         {{project.role}}.
-      </span>
+      </em>
       {{project.description}}
     </p>
   {% endfor %}

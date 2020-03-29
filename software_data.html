@@ -10,9 +10,9 @@ permalink: /software_data
 
   {% for project in site.data.software %}
     <p>
-      <span class="title">
+      <em>
         <a href="{{project.uri}}">{{project.title}}</a>:
-      </span> {{project.description}}
+      </em> {{project.description}}
     </p>
   {% endfor %}
 
@@ -20,9 +20,9 @@ permalink: /software_data
 
   {% for dataset in site.data.datasets %}
     <p>
-      <span class="title">
+      <em>
         <a href="{{dataset.uri}}">{{dataset.title}}</a>:
-      </span> {{dataset.description}}
+      </em> {{dataset.description}}
     </p>
   {% endfor %}
 

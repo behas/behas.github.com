@@ -13,9 +13,9 @@ permalink: /reviewing
   {% for review in site.data.reviews %}
     {% if review.type == 'journal' %}
     <p>
-      <span class="title">
+      <em>
         <a href="{{review.uri}}" target="_blank">{{review.medium}}</a> ({{review.years}})
-      </span>
+      </em>
     </p>
     {% endif %}
   {% endfor %}
@@ -25,9 +25,9 @@ permalink: /reviewing
   {% for review in site.data.reviews %}
     {% if review.type == 'conference' or review.type == 'workshop' %}
     <p>
-      <span class="title">
+      <em>
         {{review.medium}}
-      </span>
+      </em>
       {% for year in review.years %}
         {% if forloop.length == 1 %}
           {% if year.uri != null %}
@@ -48,6 +48,5 @@ permalink: /reviewing
     </p>
     {% endif %}
   {% endfor %}
-
 
 </div>
