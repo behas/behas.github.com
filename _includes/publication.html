@@ -30,6 +30,9 @@
         {% endfor %} (eds.),
       {% endif %}
       {{ publication.container-title }}.
+      {% if publication.note %}
+        <strong>{{publication.note}}</strong>.
+      {% endif %}
   
   {% when 'article-journal' %}
     {% if publication.volume and publication.issue %}
@@ -46,7 +49,7 @@
       {{ publication.volume }},
       pp. {{ publication.page }}.
     {% else %}
-      {{ publication.container-title }},
+      {{ publication.container-title }}.
     {% endif %}
 
   {% when 'report' or 'thesis' %}

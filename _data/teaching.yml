@@ -1,7 +1,7 @@
 - title: "Cryptoasset Analytics"
   institution: "TU Vienna"
   institution_uri: "https://www.tuwien.at/"
-  period: "2019"
+  period: "2019-2020"
   role: "instructor"
   description: |
     Cryptocurrencies such as Bitcoin, Initial Coin Offerings (ICOs), and Distributed Autonomous Organizations (DAOs) are well-known crypto asset examples. They build on blockchain technology and form virtual ecosystems in which different actors interact with each other with varying intentions. The general availability of transaction data in the underlying blockchains led to the development of a number of analytics techniques that are nowadays used for reasons such as market research, compliance and anti-money-laundering, as well as law enforcement. The goal of this course is to learn how crypto asset ecosystems can be analyzed using a variety of data science methods and how gained insights can subsequently be used for informed decision making. The course will offer the opportunity to design and develop novel approaches for a number of analytics use cases.

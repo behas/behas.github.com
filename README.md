@@ -2,7 +2,7 @@
 
 Convert bibtex bibliography to YAML file
 
-	pandoc-citeproc --bib2yaml bibliography.bib > _data/publications.yml
+	pandoc-citeproc --bib2yaml assets/bibliography.bib > _data/publications.yml
 
 ## Run locally
 
