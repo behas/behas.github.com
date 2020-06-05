@@ -1,5 +1,10 @@
 # Journals
 
+- medium: "Advances in Complex Systems"
+  uri: "https://www.worldscientific.com/worldscinet/acs"
+  type: "journal"
+  years: "2020"
+
 - medium: "Journal of Cybersecurity"
   uri: "https://academic.oup.com/cybersecurity"
   type: "journal"
