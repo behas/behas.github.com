@@ -1,5 +1,10 @@
 # Journals
 
+- medium: "Decisions in Economics and Finance"
+  uri: "https://www.springer.com/journal/10203"
+  type: "journal"
+  years: "2020"
+
 - medium: "Advances in Complex Systems"
   uri: "https://www.worldscientific.com/worldscinet/acs"
   type: "journal"
@@ -62,7 +67,7 @@ Decentralized Applications and Infrastructures (DAPPS)"
   type: "conference"
   years:
     - year: 2020
-    - uri: "https://ieeedapps.net/"
+      uri: "https://ieeedapps.net/"
 
 - medium: "CRYPTO VALLEY Conference"
   type: "conference"
