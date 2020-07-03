@@ -1,5 +1,41 @@
 ---
 references:
+- id: Jalali:2020a
+  type: paper-conference
+  author:
+  - family: Jalali
+    given: Anahid
+  - family: Schindler
+    given: Alexander
+  - family: Haslhofer
+    given: Bernhard
+  - family: Rauber
+    given: Andreas
+  issued:
+  - year: 2020
+  title: A comparative study of interpretability techniques for time-to-failure prediction
+  container-title: 5th european conference of the prognostics and health management
+    society
+
+- id: Romiti:2020a
+  type: paper-conference
+  author:
+  - family: Romiti
+    given: Matteo
+  - family: Victor
+    given: Friedhelm
+  - family: Moreno-Sanchez
+    given: Pedro
+  - family: Haslhofer
+    given: Bernhard
+  - family: Maffei
+    given: Matteo
+  issued:
+  - year: 2020
+  title: Cross-layer deanonymization methods in the lightning protocol
+  container-title: Arxiv pre-print
+  URL: https://arxiv.org/abs/2007.00764
+
 - id: Froewis:2020a
   type: article-journal
   author:
@@ -536,7 +572,6 @@ references:
   title: Perception and relevance of quality issues in web vocabularies
   container-title: I-semantics 2013
   publisher-place: Graz, Austria
-  note: forthcoming
   URL: http://eprints.cs.univie.ac.at/3720/
 
 - id: Klein:2013ee
