@@ -1,22 +1,5 @@
 ---
 references:
-- id: Jalali:2020a
-  type: paper-conference
-  author:
-  - family: Jalali
-    given: Anahid
-  - family: Schindler
-    given: Alexander
-  - family: Haslhofer
-    given: Bernhard
-  - family: Rauber
-    given: Andreas
-  issued:
-  - year: 2020
-  title: A comparative study of interpretability techniques for time-to-failure prediction
-  container-title: 5th european conference of the prognostics and health management
-    society
-
 - id: Romiti:2020a
   type: paper-conference
   author:
@@ -35,6 +18,23 @@ references:
   title: Cross-layer deanonymization methods in the lightning protocol
   container-title: Arxiv pre-print
   URL: https://arxiv.org/abs/2007.00764
+
+- id: Jalali:2020a
+  type: paper-conference
+  author:
+  - family: Jalali
+    given: Anahid
+  - family: Schindler
+    given: Alexander
+  - family: Haslhofer
+    given: Bernhard
+  - family: Rauber
+    given: Andreas
+  issued:
+  - year: 2020
+  title: A comparative study of interpretability techniques for time-to-failure prediction
+  container-title: 5th european conference of the prognostics and health management
+    society
 
 - id: Froewis:2020a
   type: article-journal

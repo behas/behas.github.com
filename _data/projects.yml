@@ -1,3 +1,10 @@
+- acronym: "KRYPTOMONITOR"
+  start_date: "2020-10-01"
+  end_date: "2022-09-30"
+  funding_source: "FFG KIRAS"
+  role: "Project Coordinator"
+  description: "This project will develop generic cryptoasset analysis methods that support the analysis of smart contracts and off-chain transactions in addition to native cryptocurrency transactions"
+
 - acronym: "COGNITUS"
   uri: "https://projekte.ffg.at/projekt/3323904"
   start_date: "2019-10-01"
