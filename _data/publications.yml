@@ -1,5 +1,18 @@
 ---
 references:
+- id: Schatzmann:2020a
+  type: article-journal
+  author:
+  - family: Schatzmann
+    given: Jürgen E.
+  - family: Haslhofer
+    given: Bernhard
+  issued:
+  - year: 2020
+  title: Bitcoin trading is irrational! An analysis of the disposition effect in bitcoin
+  container-title: Arxiv pre-print
+  URL: https://arxiv.org/abs/2010.12415
+
 - id: Romiti:2020a
   type: paper-conference
   author:
@@ -32,9 +45,12 @@ references:
     given: Andreas
   issued:
   - year: 2020
-  title: A comparative study of interpretability techniques for time-to-failure prediction
-  container-title: 5th european conference of the prognostics and health management
-    society
+  title: 'Machine learning interpretability techniques for outage prediction: A comparative
+    study'
+  title-short: Machine learning interpretability techniques for outage prediction
+  container-title: Proceedings of the 5th european confernece of the prognostics and
+    health management society (phme2020)
+  URL: https://www.phmpapers.org/index.php/phme/article/view/1244
 
 - id: Froewis:2020a
   type: article-journal

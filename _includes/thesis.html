@@ -1,0 +1,13 @@
+<p>
+  {{ thesis.author}}
+  ({{ thesis.date | date: "%Y"}}, {{ thesis.type }}),
+  {% if thesis.uri %}
+    <em><a href="{{thesis.uri}}" target="_blank">{{thesis.title}}</a></em>,
+  {% else %}
+    <em class="title">{{thesis.title}}</em>,
+  {% endif %}
+  {{ thesis.institution}},
+  {% if thesis.subject %}
+    {{thesis.subject}}
+  {% endif %}
+</p>

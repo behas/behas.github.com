@@ -1,0 +1,42 @@
+- author: "Christian Winter"
+  title: "Analysis of Smart Contracts and Token Networks"
+  institution: "Technikum Wien"
+  subject: "Innovation and Technology Management"
+  date: "2020-09-11"
+  type: "Master's thesis" # Bachelor's thesis
+
+- author: "Marlon von Coburg"
+  title: "Auswirkungen der Nutzung der Blockchain- Technologie in Microgrids im Hinblick auf eine nachhaltige Energieversorgung"
+  institution: "Technikum Wien"
+  subject: "Integrative Stadtentwicklung – Smart City"
+  date: "2020-09-15"
+  type: "Master's thesis" # Bachelor's thesis
+
+- author: "Dominik Veselý"
+  title: "Libra: An Economic and Technological Analysis of Facebook’s Proposed Cryptocurrency"
+  institution: "TU Wien"
+  date: "2020-03-04"
+  type: "Bachelor's thesis" # Bachelor's thesis
+
+- author: "Peter Holzer"
+  title: "Payment Channel Network Analysis with Focus on Lightning Network"
+  institution: "TU Wien"
+  subject: "Software Engineering & Internet Computing"
+  date: "2019-10-04"
+  type: "Master's thesis" # Bachelor's thesis
+  uri: https://repositum.tuwien.at/retrieve/2249
+
+- author: "Abraham Hinteregger"
+  title: "Monero Cross-Chain Traceability. Empirical Analysis of Privacy Implications from Currency Hard-Forks"
+  institution: "TU Wien"
+  subject: "Computational Intelligence"
+  type: "Master's thesis"
+  date: "2018-09-19"
+  uri: https://repositum.tuwien.at/handle/20.500.12708/7272
+
+- author: "Matteo Romito"
+  title: "Decentralization Problems and Cross-Pool Mining in Bitcoin"
+  institution: "Politecnico de Torino"
+  subject: "ICT for Smart Societies"
+  date: "2018-07-10"
+  type: "Master's thesis" # Bachelor's thesis

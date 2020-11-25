@@ -6,18 +6,32 @@ permalink: /teaching
 
 <div class="container mt-5">
 
-  <h3>Teaching</h3>
+  <div class="row">
+    <h3>Current Courses</h3>
 
-  {% for course in site.data.teaching %}
-    <p>
-      {% if course.website %}
-        <em><a href="{{course.website}}" target="_blank">{{course.title}}</a></em>,
-      {% else %}
-        <em class="title">{{course.title}}</em>,
+    {% for course in site.data.courses %}
+      {% if course.active %}
+        {% include course.html course=course %}
       {% endif %}
-      ({{course.period}},
-      <a href="{{course.institution_uri}}" target="_blank">{{course.institution}})</a>,
-      {{course.role}}: {{course.description}}
-  {% endfor %}
+    {% endfor %}
+  </div>
+
+  <div class="row">
+    <h3>Supervised thesis</h3>
+
+    {% for thesis in site.data.theses %}
+        {% include thesis.html thesis=thesis %}
+    {% endfor %}
+  </div>
+
+ <div class="row">
+    <h3>Past Courses</h3>
+
+    {% for course in site.data.courses %}
+      {% unless course.active %}
+        {% include course.html course=course %}
+      {% endunless %}
+    {% endfor %}
+  </div>
 
 </div>

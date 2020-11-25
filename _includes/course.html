@@ -1,0 +1,10 @@
+<p>
+  {% if course.website %}
+    <em><a href="{{course.website}}" target="_blank">{{course.title}}</a></em>,
+  {% else %}
+    <em class="title">{{course.title}}</em>,
+  {% endif %}
+  ({{course.period}},
+  <a href="{{course.institution_uri}}" target="_blank">{{course.institution}})</a>,
+  {{course.role}}: {{course.description}}
+</p>
