@@ -13,7 +13,7 @@ references:
   container-title: Arxiv pre-print
   URL: https://arxiv.org/abs/2010.12415
 
-- id: Romiti:2020a
+- id: Romiti:2021a
   type: paper-conference
   author:
   - family: Romiti
@@ -22,14 +22,16 @@ references:
     given: Friedhelm
   - family: Moreno-Sanchez
     given: Pedro
+  - family: Nordholt
+    given: Peter Sebastian
   - family: Haslhofer
     given: Bernhard
   - family: Maffei
     given: Matteo
   issued:
-  - year: 2020
+  - year: 2021
   title: Cross-layer deanonymization methods in the lightning protocol
-  container-title: Arxiv pre-print
+  container-title: Financial cryptography and data security (FC 2021)
   URL: https://arxiv.org/abs/2007.00764
 
 - id: Jalali:2020a
