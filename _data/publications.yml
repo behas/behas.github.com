@@ -1,5 +1,23 @@
 ---
 references:
+- id: Haslhofer:2021a
+  type: article-journal
+  author:
+  - family: Haslhofer
+    given: Bernhard
+  - family: Stütz
+    given: Rainer
+  - family: Romiti
+    given: Matteo
+  - family: King
+    given: Ross
+  issued:
+  - year: 2021
+  title: 'GraphSense: A general-purpose cryptoasset analytics platform'
+  title-short: GraphSense
+  container-title: Arxiv pre-print
+  URL: https://arxiv.org/abs/2102.13613
+
 - id: Schatzmann:2020a
   type: article-journal
   author:
