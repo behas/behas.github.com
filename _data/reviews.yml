@@ -1,5 +1,10 @@
 # Journals
 
+- medium: "Computers & Security"
+  uri: "https://www.journals.elsevier.com/computers-and-security"
+  type: "journal"
+  years: "2021"
+
 - medium: "Decisions in Economics and Finance"
   uri: "https://www.springer.com/journal/10203"
   type: "journal"
@@ -68,6 +73,8 @@ Decentralized Applications and Infrastructures (DAPPS)"
   years:
     - year: 2020
       uri: "https://ieeedapps.net/"
+    - year: 2021
+      uri: "https://ieeedapps.net/"
 
 - medium: "CRYPTO VALLEY Conference"
   type: "conference"
@@ -82,6 +89,8 @@ Decentralized Applications and Infrastructures (DAPPS)"
   years:
     - year: 2019
       uri: "https://iswc2019.semanticweb.org/"
+    - year: 2021
+      uri: "https://iswc2021.semanticweb.org/"
 
 - medium: "ACM Web Science (WebSci)"
   type: "conference"
