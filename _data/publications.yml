@@ -108,7 +108,8 @@ references:
     month: 11
   title: <span class="nocase">The Future is Big Graphs! A Community View on Graph
     Processing Systems</span>
-  note: To be published in the Communications of the ACM
+  container-title: Communications of the ACM
+  note: Accepted for publication
   URL: https://hal.inria.fr/hal-03128601
   DOI: 10.1145/3434642
 
@@ -123,6 +124,7 @@ references:
   - year: 2020
   title: Bitcoin trading is irrational! An analysis of the disposition effect in bitcoin
   container-title: Arxiv pre-print
+  note: Submitted for review
   URL: https://arxiv.org/abs/2010.12415
 
 - id: Romiti:2021a
@@ -143,11 +145,12 @@ references:
   issued:
   - year: 2021
   title: Cross-layer deanonymization methods in the lightning protocol
-  container-title: Financial cryptography and data security (FC 2021)
+  container-title: Financial cryptography and data security (FC)
+  note: Accepted for publication
   URL: https://arxiv.org/abs/2007.00764
 
 - id: Jalali:2020a
-  type: paper-conference
+  type: article-journal
   author:
   - family: Jalali
     given: Anahid
@@ -162,9 +165,11 @@ references:
   title: 'Machine learning interpretability techniques for outage prediction: A comparative
     study'
   title-short: Machine learning interpretability techniques for outage prediction
-  container-title: Proceedings of the 5th european confernece of the prognostics and
-    health management society (phme2020)
+  container-title: PHM Society European Conference
+  volume: '5'
+  issue: '1'
   URL: https://www.phmpapers.org/index.php/phme/article/view/1244
+  DOI: 10.36001/phme.2020.v5i1.1244
 
 - id: Froewis:2020a
   type: article-journal
@@ -183,9 +188,8 @@ references:
   - year: 2020
   title: Safeguarding the evidential value of forensic cryptocurrency investigations
   container-title: 'Forensic Science International: Digital Investigation'
-  keyword: Digital forensics, Cryptocurrencies, Digital evidence, Safeguards, Legal
   URL: http://www.sciencedirect.com/science/article/pii/S1742287619302567
-  DOI: https://doi.org/10.1016/j.fsidi.2019.200902
+  DOI: 10.1016/j.fsidi.2019.200902
   ISSN: 2666-2817
 
 - id: Stuetz:2020a
@@ -203,9 +207,11 @@ references:
   - year: 2020
   title: 'Stake shift in major cryptocurrencies: An empirical study'
   title-short: Stake shift in major cryptocurrencies
-  container-title: Financial cryptography and data security (FC 2020)
+  container-title: Financial cryptography and data security
   publisher-place: Kota Kinabalu, Sabah, Malaysia
+  page: 97-113
   URL: https://arxiv.org/abs/2001.04187
+  DOI: 10.1007/978-3-030-51280-4_7
 
 - id: Roerden:2020a
   type: paper-conference
@@ -225,6 +231,7 @@ references:
   publisher-place: Boras, Sweden
   note: Best Paper Award
   URL: https://arxiv.org/abs/2001.01673
+  DOI: 10.1007/978-3-030-43687-2_67
 
 - id: Mariem:2020a
   type: paper-conference
@@ -245,8 +252,9 @@ references:
   - year: 2020
   title: All that glitters is not bitcoin – unveiling the centralized nature of the
     BTC (IP) network
-  container-title: IEEE/ifip network operations and management symposium (NOMS 2020)
+  container-title: IEEE/IFIP network operations and management symposium (NOMS)
   URL: https://arxiv.org/abs/2001.09105
+  DOI: 10.1109/NOMS47738.2020.9110354
 
 - id: PaquetClouson:2019bb
   type: paper-conference
@@ -263,9 +271,10 @@ references:
   - year: 2019
   title: 'Spams meet cryptocurrencies: Sextortion in the bitcoin ecosystem'
   title-short: Spams meet cryptocurrencies
-  container-title: ACM conference on advances in financial technologies (AFT’19)
+  container-title: ACM conference on advances in financial technologies (AFT)
   publisher-place: Zurich, Switzerland
   URL: https://arxiv.org/abs/1908.01051
+  DOI: 10.1145/3318041.3355466
 
 - id: Romiti:2019aa
   type: paper-conference
@@ -282,8 +291,7 @@ references:
   - year: 2019
   title: 'A deep dive into bitcoin mining pools: An empirical analysis of mining shares'
   title-short: A deep dive into bitcoin mining pools
-  container-title: 18th annual workshop on the economics of information security (WEIS
-    2019)
+  container-title: 18th annual workshop on the economics of information security (WEIS)
   publisher-place: Boston, USA
   URL: https://arxiv.org/abs/1905.05999
 
@@ -329,7 +337,7 @@ references:
   issued:
   - year: 2019
   title: Predicting time-to-failure of plasma etching equipment using machine learning
-  container-title: 2019 IEEE international conference on prognostics and health management
+  container-title: IEEE international conference on prognostics and health management
   publisher-place: San Francisco, CA, USA
   URL: https://arxiv.org/abs/1904.07686
 
@@ -343,8 +351,9 @@ references:
   issued:
   - year: 2019
   title: An empirical analysis of monero cross-chain traceability
-  container-title: Financial cryptography and data security (FC 2019)
+  container-title: Financial cryptography and data security (FC)
   URL: https://arxiv.org/abs/1812.02808
+  DOI: 10.1007/978-3-030-32101-7_10
 
 - id: Nemeth2018:ab
   type: article-journal
@@ -368,7 +377,7 @@ references:
   page: 1039 - 1044
   volume: '72'
   URL: http://www.sciencedirect.com/science/article/pii/S2212827118304566
-  DOI: https://doi.org/10.1016/j.procir.2018.03.280
+  DOI: 10.1016/j.procir.2018.03.280
   ISSN: 2212-8271
 
 - id: Haslhofer:2018ab
@@ -407,7 +416,7 @@ references:
   - year: 2017
   title: Network-based knowledge graph assessment
   container-title: Proceedings of the posters and demos track of the 13th international
-    conference on semantic systems (SEMANTiCS 2017)
+    conference on semantic systems (SEMANTiCS)
   publisher-place: Amsterdam, Netherlands
   URL: http://ceur-ws.org/Vol-2044/paper12
 
@@ -437,6 +446,7 @@ references:
   publisher-place: Wiesbaden
   page: 77-82
   URL: https://doi.org/10.1007/978-3-658-19287-7_11s
+  DOI: 10.1007/978-3-658-19287-7_11
   ISBN: 978-3-658-19287-7
 
 - id: Haslhofer:2016ab
@@ -471,14 +481,11 @@ references:
   - year: 2014
   title: Open annotations on multimedia web resources
   container-title: Multimedia Tools and Applications
-  publisher: Springer US
   page: 847-867
   volume: '70'
   issue: '2'
-  keyword: Annotations; Web; Linked data
   URL: http://eprints.cs.univie.ac.at/3360/
   DOI: 10.1007/s11042-012-1098-9
-  ISSN: 1380-7501
 
 - id: Momeni:2014fj
   type: article-journal
@@ -494,16 +501,12 @@ references:
   issued:
   - year: 2014
   title: Sifting useful comments from flickr commons and youtube
-  container-title: International Journal on Digital Libraries
-  publisher: Springer Berlin Heidelberg
+  container-title: International journal on Digital Libraries
   page: 161-179
   volume: '16'
   issue: '2'
-  keyword: User-generated comment; Social media; Usefulness; Prediction; YouTube;
-    Flickr
   URL: http://dx.doi.org/10.1007/s00799-014-0123-1
   DOI: 10.1007/s00799-014-0123-1
-  ISSN: 1432-5012
 
 - id: Matins2013ab
   type: paper-conference
@@ -516,6 +519,7 @@ references:
     given: João
   issued:
   - year: 2013
+    month: 7
   title: Query expansion using open web-based SKOS vocabularies
   container-title: ACM SIGIR workshop on health search & discovery (HSD 2013)
   publisher-place: Dublin, Ireland
@@ -530,9 +534,9 @@ references:
     given: Bernhard
   issued:
   - year: 2013
+    month: 6
   title: Europeana linked open data — data.europeana.eu
   container-title: Semantic Web
-  publisher: IOS Press
   page: 291-297
   volume: '4'
   issue: '3'
@@ -551,6 +555,7 @@ references:
     given: Geert-Jan
   issued:
   - year: 2013
+    month: 7
   title: 'Identification of useful user comments in social media: A case study on
     flickr commons'
   title-short: Identification of useful user comments in social media
@@ -559,6 +564,7 @@ references:
   publisher-place: Indianapolis, USA
   note: Best Student Paper Award Nominee
   URL: http://eprints.cs.univie.ac.at/3724/
+  DOI: 10.1145/2467696.2467711
 
 - id: Haslhofer:2013fu
   type: report
@@ -579,10 +585,10 @@ references:
     given: Michael L
   issued:
   - year: 2013
+    month: 6
   title: Web synchronization simulations using the resourcesync framework
   publisher: University of Vienna
   publisher-place: Vienna
-  genre: Technical Report
   URL: http://eprints.cs.univie.ac.at/3725/
 
 - id: Murnane:2013qo
@@ -602,7 +608,7 @@ references:
   title-short: RESLVE
   container-title: Web of linked entities (WoLE) workshop, co-located with WWW2013
   publisher-place: Rio de Janeiro
-  note: Best Paper Award
+  note: Best paper award
   URL: http://eprints.cs.univie.ac.at/3688/
 
 - id: Haslhofer:2013os
@@ -646,7 +652,7 @@ references:
   - year: 2013
     month: 5
   title: Using SKOS vocabularies for improving web search
-  container-title: Web of linked entities (WoLE) workshop, co-located with WWW2013
+  container-title: Web of linked entities (WoLE) workshop, co-located with WWW 2013
   publisher-place: Rio de Janeiro
   URL: http://eprints.cs.univie.ac.at/3689/
 
@@ -669,6 +675,7 @@ references:
   publisher: ACM
   publisher-place: Paris, France
   URL: http://eprints.cs.univie.ac.at/3684/
+  DOI: 10.1145/2464464.2464506
 
 - id: Haslhofer:2013il
   type: paper-conference
@@ -685,6 +692,7 @@ references:
     given: Carl
   issued:
   - year: 2013
+    month: 2
   title: Old maps and open data networks
   container-title: IConference 2013
   publisher-place: Fort Worth, TX, USA
@@ -706,14 +714,30 @@ references:
 
 - id: Klein:2013ee
   type: article-journal
+  author:
+  - family: Klein
+    given: Martin
+  - family: Sanderson
+    given: Robert
+  - family: van de Sompel
+    given: Herbert
+  - family: Warner
+    given: Simeon
+  - family: Haslhofer
+    given: Bernhard
+  - family: Lagoze
+    given: Carl
+  - family: Nelson
+    given: Michael L.
   issued:
   - year: 2013
+    month: 1
   title: A technical framework for resource synchronization
   container-title: D-Lib Magazine
-  publisher: Corporation for National Research Initiatives
   volume: '19'
   issue: '1'
   URL: http://www.dlib.org/dlib/january13/klein/01klein.html
+  DOI: doi:10.1045/january2013-klein
 
 - id: Sompel:2012zt
   type: article-journal
@@ -734,6 +758,7 @@ references:
     given: Carl
   issued:
   - year: 2012
+    month: 10
   title: A perspective on resource synchronization
   container-title: D-Lib Magazine
   volume: '18'
@@ -751,10 +776,10 @@ references:
     given: Bernhard
   issued:
   - year: 2012
+    month: 9
   title: 'Europeana: Moving to linked open data'
   title-short: Europeana
   container-title: Information Standards Quarterly
-  publisher: National Information Standards Organization (NISO)
   volume: '24'
   issue: 2/3
   URL: http://eprints.cs.univie.ac.at/3489/
@@ -784,6 +809,7 @@ references:
     given: Herbert
   issued:
   - year: 2012
+    month: 7
   title: 'ResourceSync: Web-based resource synchronization'
   title-short: ResourceSync
   container-title: The 7th international conference on open repositories (OR2012)
@@ -815,6 +841,7 @@ references:
   container-title: Therory and practice of digital libraries (TPDL 2012)
   publisher-place: Germany
   URL: https://doi.org/10.1007/978-3-642-33290-6_25
+  DOI: 10.1007/978-3-642-33290-6_25
 
 - id: Haslhofer:2012qq
   type: paper-conference
@@ -823,6 +850,7 @@ references:
     given: Bernhard
   issued:
   - year: 2012
+    month: 2
   title: 'The SciLink project: From document-centric to resource-oriented publications'
   title-short: The SciLink project
   container-title: IConference ’12
@@ -845,6 +873,7 @@ references:
     given: Herbert
   issued:
   - year: 2011
+    month: 9
   title: The open annotation collaboration (OAC) model
   container-title: Workshop on multimedia on the web 2011
   publisher: IEEE
@@ -860,11 +889,11 @@ references:
     given: Bernhard
   issued:
   - year: 2011
+    month: 9
   title: DSNotify - a solution for event detection and link maintenance in dynamic
     datasets
   container-title: 'Web Semantics: Science, Services and Agents on the World Wide
     Web'
-  publisher: Elsevier B.V.
   page: 266-283
   volume: '9'
   issue: '3'
@@ -875,12 +904,13 @@ references:
   author:
   - family: Simon
     given: Rainer
-  - family: Jung
+  - family: 6g
     given: Joachim
   - family: Haslhofer
     given: Bernhard
   issued:
   - year: 2011
+    month: 9
   title: The YUMA media annotation framework
   container-title: TPDL 2011
   collection-title: Research and advanced technology for digital libraries
@@ -898,6 +928,7 @@ references:
     given: Bernhard
   issued:
   - year: 2011
+    month: 8
   title: Quality criteria for controlled web vocabularies
   container-title: International conference on theory and practice of digital libraries
     2011, NKOS workshop
@@ -913,6 +944,7 @@ references:
     given: Antoine
   issued:
   - year: 2011
+    month: 7
   title: Data.europeana.eu - the europeana linked open data pilot
   container-title: DCMI international conference on dublin core and metadata applications
   publisher-place: The Hague, The Netherlands
@@ -930,6 +962,7 @@ references:
     given: Dieter
   issued:
   - year: 2011
+    month: 7
   title: A retrospective on semantics and interoperability research
   container-title: Foundations for the web of information and services
   publisher: Springer
@@ -937,7 +970,7 @@ references:
   page: 3-27
   URL: http://eprints.cs.univie.ac.at/2921/
 
-- id: Jung:2011xq
+- id: 6g:2011xq
   type: article-journal
   author:
   - family: Jung
@@ -948,6 +981,7 @@ references:
     given: Bernhard
   issued:
   - year: 2011
+    month: 7
   title: YUMA — crowd sourced metadata enrichment for online collections
   container-title: ERCIM News
   volume: '86'
@@ -961,10 +995,11 @@ references:
     given: Rainer
   - family: Haslhofer
     given: Bernhard
-  - family: Jung
+  - family: 6g
     given: Joachim
   issued:
   - year: 2011
+    month: 4
   title: Annotations, tags & linked data
   container-title: 6th international workshop on digital technologies in cartographic
     heritage
@@ -991,6 +1026,7 @@ references:
     given: Heiko
   issued:
   - year: 2011
+    month: 3
   title: The meketrepository - middle kingdom tomb and artwork descriptions on the
     web
   container-title: Theory and practice of digital libraries (TPDL 2011)
@@ -1008,6 +1044,7 @@ references:
     given: Rainer
   issued:
   - year: 2011
+    month: 3
   title: Historic map annotations with yuma
   container-title: Open annotation collaboration, phase ii workshop
   publisher-place: Chicago, USA
@@ -1026,10 +1063,10 @@ references:
     given: Stefan
   issued:
   - year: 2011
+    month: 3
   title: Europeana RDF store report
   publisher: University of Vienna
   publisher-place: Vienna
-  genre: Technical Report
   URL: http://eprints.cs.univie.ac.at/2833/
 
 - id: Schandl:2011pr
@@ -1047,11 +1084,10 @@ references:
     given: Wolfgang
   issued:
   - year: 2011
+    month: 2
   title: 'Linked data and multimedia: The state of affairs'
   title-short: Linked data and multimedia
   container-title: Multimedia Tools and Applications
-  publisher: Springer
-  publisher-place: Netherlands
   page: 523-556
   volume: '59'
   issue: '2'
@@ -1070,6 +1106,7 @@ references:
     given: Elaheh Momeni
   issued:
   - year: 2011
+    month: 6
   title: Semantically augmented annotations in digitized map collections
   container-title: ACM/IEEE joint conference on digital libraries (JCDL)
   publisher: ACM
@@ -1087,6 +1124,7 @@ references:
     given: Elaheh Momeni
   issued:
   - year: 2010
+    month: 8
   title: An evaluation approach for dynamics-aware applications using linked data
   container-title: 9th international workshop on web semantics (WebS), co-located
     with DEXA 2010
@@ -1106,6 +1144,7 @@ references:
     given: Rainer
   issued:
   - year: 2010
+    month: 9
   title: Augmenting europeana content with linked data resources
   container-title: Proceedings of the 6th international conference on semantic systems
     (SEMANTICS 2010)
@@ -1129,6 +1168,7 @@ references:
     given: Bernhard
   issued:
   - year: 2010
+    month: 9
   title: 'Tag clouds and old maps: Annotations as linked spatiotemporal data in the
     cultural heritage domain'
   title-short: Tag clouds and old maps
@@ -1149,6 +1189,7 @@ references:
     given: Bernhard
   issued:
   - year: 2010
+    month: 6
   title: 'Service orchestration for linking open data: Applying a SOA principle to
     the web of data'
   title-short: Service orchestration for linking open data
@@ -1168,6 +1209,7 @@ references:
     given: Wolfgang
   issued:
   - year: 2010
+    month: 6
   title: Towards model implementation guidelines for the CIDOC conceptual reference
     model
   publisher: University of Vienna
@@ -1183,6 +1225,7 @@ references:
     given: Bernhard
   issued:
   - year: 2010
+    month: 3
   title: Interweaving oai-pmh data sources with the linked data cloud
   container-title: Int. J. Metadata, Semantics and Ontologies
   page: 17-31
@@ -1199,12 +1242,14 @@ references:
     given: Bernhard
   issued:
   - year: 2010
+    month: 2
   title: 'DSNotify: Handling broken links in the web of data'
   title-short: DSNotify
   container-title: Nineteenth international WWW conference (WWW2010)
   publisher: ACM
   publisher-place: Raleigh, NC, USA
   URL: http://eprints.cs.univie.ac.at/81/
+  DOI: https://doi.org/10.1145/1772690.1772768
 
 - id: Haslhofer:2010sh
   type: article-journal
@@ -1215,14 +1260,14 @@ references:
     given: Wolfgang
   issued:
   - year: 2010
+    month: 2
   title: A survey of techniques for achieving metadata interoperability
   container-title: ACM Computing Surveys
-  publisher: ACM
-  publisher-place: New York, NY, USA
-  page: '1'
+  page: 1-37
   volume: '42'
   issue: '7'
   URL: http://eprints.cs.univie.ac.at/79/
+  DOI: 10.1145/1667062.1667064
 
 - id: Schandl:2010qc
   type: article-journal
@@ -1235,8 +1280,7 @@ references:
   - year: 2010
   title: 'Files are siles: Extending file systems with semantic annotations'
   title-short: Files are siles
-  container-title: International Journal on Semantic Web and Information Systems (IJSWIS)
-  publisher: IGI Global
+  container-title: International journal on Semantic Web and Information Systems (IJSWIS)
   page: 1-21
   volume: '6'
   issue: '3'
@@ -1251,6 +1295,7 @@ references:
     given: Niko
   issued:
   - year: 2009
+    month: 8
   title: 'DSNotify: Detecting and fixing broken links in linked data sets'
   title-short: DSNotify
   container-title: 8th international workshop on web semantics (WebS 09), co-located
@@ -1266,6 +1311,7 @@ references:
     given: Bernhard
   issued:
   - year: 2009
+    month: 6
   title: The mediaspaces mapping framework - a web-based approach for establishing
     metadata interoperability (poster)
   container-title: 6th european semantic web conference (ESWC 2009)
@@ -1281,6 +1327,7 @@ references:
     given: Bernhard
   issued:
   - year: 2009
+    month: 6
   title: 'The sile model: A semantic file system infrastructure for the desktop'
   title-short: The sile model
   container-title: 6th european semantic web conference (ESWC2009)
@@ -1306,9 +1353,7 @@ references:
     month: 5
   title: 'The LEMO annotation framework: Weaving multimedia annotations with the web'
   title-short: The LEMO annotation framework
-  container-title: International Journal on Digital Libraries
-  publisher: International Journal on Digital Libraries
-  publisher-place: Berlin, Heidelberg
+  container-title: International journal on Digital Libraries
   page: 15-32
   volume: '10'
   issue: '1'
@@ -1321,6 +1366,7 @@ references:
     given: Bernhard
   issued:
   - year: 2009
+    month: 4
   title: 'Mappings in the web of data: A web-based mapping technique for establishing
     metadata interoperability'
   title-short: Mappings in the web of data
@@ -1335,6 +1381,7 @@ references:
     given: Bernhard
   issued:
   - year: 2008
+    month: 11
   title: A web-based mapping technique for establishing metadata interoperability
   publisher: University of Vienna
   genre: PhD thesis
@@ -1352,6 +1399,7 @@ references:
     given: Bill
   issued:
   - year: 2008
+    month: 10
   title: The bricks digital library infrastructure
   container-title: Semantic digital libraries
   publisher: Springer
@@ -1367,6 +1415,7 @@ references:
     given: Bernhard
   issued:
   - year: 2008
+    month: 4
   title: 'The OAI2LOD server: Exposing OAI-PMH metadata as linked data'
   title-short: The OAI2LOD server
   container-title: International workshop on linked data on the web (LDOW2008), co-located
@@ -1381,9 +1430,9 @@ references:
     given: Bernhard
   issued:
   - year: 2008
+    month: 2
   title: A comparative study of mapping solutions for enabling metadata interoperability
   publisher: University of Vienna
-  genre: Technical Report
   URL: http://eprints.cs.univie.ac.at/295/
 
 - id: Kesler:2008hs
@@ -1397,9 +1446,9 @@ references:
     given: Bernhard
   issued:
   - year: 2008
+    month: 2
   title: Umfragereport zur nutzung von metadaten
   publisher: KIM - Kompetenzzentrum Interoperable Metadaten
-  genre: Technical Report
   URL: http://eprints.cs.univie.ac.at/296/
 
 - id: Nusbaumer:2007if
@@ -1418,6 +1467,7 @@ references:
     given: Carlo
   issued:
   - year: 2007
+    month: 9
   title: CIDOC CRM in action - experiences and challenges
   container-title: 11th european conference on research and advanced technology for
     digital libraries (ECDL07)
@@ -1436,6 +1486,7 @@ references:
     given: Bernhard
   issued:
   - year: 2007
+    month: 9
   title: Putting the CIDOC CRM into practice - experiences and challenges
   publisher: University of Vienna
   genre: Technical Report
@@ -1448,6 +1499,7 @@ references:
     given: Bernhard
   issued:
   - year: 2007
+    month: 9
   title: Uniform sparql access to interlinked (digital library) sources
   container-title: The 6th european networked knowledge organization systems (NKOS)
     workshop
@@ -1469,6 +1521,7 @@ references:
     given: Tomasz
   issued:
   - year: 2006
+    month: 9
   title: The role of ontologies in semantic digital libraries.
   container-title: The 5th european networked knowledge organization systems (NKOS)
     workshop
@@ -1482,6 +1535,7 @@ references:
     given: Bernhard
   issued:
   - year: 2006
+    month: 12
   title: A service oriented architecture for integrating metadata from heterogeneous
     digital libraries
   container-title: The 1st international workshop on semantic information integration
@@ -1499,6 +1553,7 @@ references:
     given: Borko
   issued:
   - year: 2006
+    month: 1
   title: Context and current metadata standards (short entry)
   container-title: Encyclopedia of multimedia
   publisher: Springer Science, Business Media, Inc
@@ -1532,6 +1587,7 @@ references:
     given: Bernhard
   issued:
   - year: 2005
+    month: 12
   title: Joining the bricks network - a piece of cake
   container-title: The international EVA conference
   publisher-place: Moscow, Russia
@@ -1546,6 +1602,7 @@ references:
     given: Robert
   issued:
   - year: 2005
+    month: 10
   title: Metadata management in a heterogeneous digital library
   container-title: EChallenges 2005
   publisher: IOS Press

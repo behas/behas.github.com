@@ -31,7 +31,11 @@
       {% endif %}
       {{ publication.container-title }}.
       {% if publication.note %}
-        <strong>{{publication.note}}</strong>.
+        {% if publication.note contains "Best" %}
+          <strong>{{publication.note}}</strong>.
+        {% else %}  
+          <em>{{publication.note}}</em>.
+        {% endif %}
       {% endif %}
   
   {% when 'article-journal' %}
@@ -51,6 +55,10 @@
     {% else %}
       {{ publication.container-title }}.
     {% endif %}
+    {% if publication.note %}
+      <em>{{ publication.note }}</em>.
+    {% endif %}
+
 
   {% when 'report' or 'thesis' %}
     {{ publication.genre }},

@@ -2,3 +2,5 @@
 Gemfile.lock
 .ruby-version
 _site
+.bundle/
+vendor/
