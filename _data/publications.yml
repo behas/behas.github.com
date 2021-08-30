@@ -18,7 +18,21 @@ references:
   container-title: Arxiv pre-print
   URL: https://arxiv.org/abs/2102.13613
 
-- id: Sakr:2020a
+- id: Schatzmann:2020a
+  type: article-journal
+  author:
+  - family: Schatzmann
+    given: Jürgen E.
+  - family: Haslhofer
+    given: Bernhard
+  issued:
+  - year: 2020
+  title: Bitcoin trading is irrational! An analysis of the disposition effect in bitcoin
+  container-title: Arxiv pre-print
+  note: Submitted for review
+  URL: https://arxiv.org/abs/2010.12415
+
+- id: Sakr:2021a
   type: article-journal
   author:
   - family: Sakr
@@ -43,8 +57,8 @@ references:
     given: Peter A.
   - family: Daudjee
     given: Khuzaima
-  - family: Della Valle
-    given: Emanuele
+  - family: Valle
+    given: Emanuele Della
   - family: Dumbrava
     given: Stefania
   - family: Hartig
@@ -66,7 +80,7 @@ references:
   - family: Martens
     given: Wim
   - family: Özsu
-    given: Tamer
+    given: M. Tamer
   - family: Peukert
     given: Eric
   - family: Plantikow
@@ -104,28 +118,18 @@ references:
   - family: Yoneki
     given: Eiko
   issued:
-  - year: 2020
-    month: 11
-  title: <span class="nocase">The Future is Big Graphs! A Community View on Graph
-    Processing Systems</span>
-  container-title: Communications of the ACM
-  note: Accepted for publication
-  URL: https://hal.inria.fr/hal-03128601
+  - year: 2021
+    month: 8
+  title: 'The future is big graphs: A community view on graph processing systems'
+  title-short: The future is big graphs
+  container-title: Commun. ACM
+  publisher-place: New York, NY, USA
+  page: 62-71
+  volume: '64'
+  issue: '9'
+  URL: https://doi.org/10.1145/3434642
   DOI: 10.1145/3434642
-
-- id: Schatzmann:2020a
-  type: article-journal
-  author:
-  - family: Schatzmann
-    given: Jürgen E.
-  - family: Haslhofer
-    given: Bernhard
-  issued:
-  - year: 2020
-  title: Bitcoin trading is irrational! An analysis of the disposition effect in bitcoin
-  container-title: Arxiv pre-print
-  note: Submitted for review
-  URL: https://arxiv.org/abs/2010.12415
+  ISSN: 0001-0782
 
 - id: Romiti:2021a
   type: paper-conference
@@ -1358,6 +1362,7 @@ references:
   volume: '10'
   issue: '1'
   URL: http://eprints.cs.univie.ac.at/165/
+  DOI: 10.1007/s00799-009-0050-8
 
 - id: Haslhofer:2009et
   type: book
