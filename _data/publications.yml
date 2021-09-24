@@ -1,5 +1,22 @@
 ---
 references:
+- id: Stockinger:2021a
+  type: article-journal
+  author:
+  - family: Stockinger
+    given: Johann
+  - family: Haslhofer
+    given: Bernhard
+  - family: Moreno-Sanchez
+    given: Pedro
+  - family: Maffei
+    given: Matteo
+  issued:
+  - year: 2021
+  title: Pinpointing and measuring wasabi and samourai coinjoins in the bitcoin ecosystem
+  container-title: Arxiv pre-print
+  URL: https://arxiv.org/abs/2109.10229
+
 - id: Haslhofer:2021a
   type: article-journal
   author:
