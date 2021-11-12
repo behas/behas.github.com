@@ -163,12 +163,22 @@ references:
     given: Bernhard
   - family: Maffei
     given: Matteo
+  editor:
+  - family: Borisov
+    given: Nikita
+  - family: Dı́az
+    given: Claudia
   issued:
   - year: 2021
   title: Cross-layer deanonymization methods in the lightning protocol
-  container-title: Financial cryptography and data security (FC)
-  note: Accepted for publication
-  URL: https://arxiv.org/abs/2007.00764
+  container-title: Financial cryptography and data security - 25th international conference,
+    FC 2021, virtual event, march 1-5, 2021, revised selected papers, part I
+  collection-title: Lecture notes in computer science
+  publisher: Springer
+  page: 187-204
+  volume: '12674'
+  URL: https://doi.org/10.1007/978-3-662-64322-8\_9
+  DOI: 10.1007/978-3-662-64322-8\_9
 
 - id: Jalali:2020a
   type: article-journal
