@@ -296,15 +296,17 @@ references:
     given: Matteo
   - family: Haslhofer
     given: Bernhard
-  - family: Chavat
-    given: Tomas
+  - family: Charvat
+    given: Thomas
   issued:
   - year: 2019
   title: 'Spams meet cryptocurrencies: Sextortion in the bitcoin ecosystem'
   title-short: Spams meet cryptocurrencies
-  container-title: ACM conference on advances in financial technologies (AFT)
-  publisher-place: Zurich, Switzerland
-  URL: https://arxiv.org/abs/1908.01051
+  container-title: Proceedings of the 1st ACM conference on advances in financial
+    technologies, AFT 2019, zurich, switzerland, october 21-23, 2019
+  publisher: ACM
+  page: 76-88
+  URL: https://doi.org/10.1145/3318041.3355466
   DOI: 10.1145/3318041.3355466
 
 - id: Romiti:2019aa
