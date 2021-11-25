@@ -1,5 +1,22 @@
 ---
 references:
+- id: Kitzler:2021a
+  type: article-journal
+  author:
+  - family: Kitzler
+    given: Stefan
+  - family: Victor
+    given: Friedhelm
+  - family: Saggese
+    given: Pietro
+  - family: Haslhofer
+    given: Bernhard
+  issued:
+  - year: 2021
+  title: Disentangling decentralized finance (DeFi) compositions
+  container-title: Arxiv pre-print
+  URL: https://arxiv.org/abs/2111.11933
+
 - id: Stockinger:2021a
   type: article-journal
   author:
@@ -46,8 +63,33 @@ references:
   - year: 2020
   title: Bitcoin trading is irrational! An analysis of the disposition effect in bitcoin
   container-title: Arxiv pre-print
-  note: Submitted for review
   URL: https://arxiv.org/abs/2010.12415
+
+- id: Heistracher:2021a
+  type: paper-conference
+  author:
+  - family: Clemens Heistracher
+    given: Indu Strobl
+    suffix: Anahid Jalali
+  issued:
+  - year: 2021
+  title: Transfer learning strategies for anomaly detection in iot vibration data
+  container-title: IECON 2021 - 47th annual conference of the ieee industrial electronics
+    society
+  publisher: IEEE
+
+- id: Casas:2021a
+  type: paper-conference
+  author:
+  - family: Pedro Casas
+    given: Peter Holzer
+    suffix: Matteo Romiti
+  issued:
+  - year: 2021
+  title: Where is the light(ning) in the taproot dawn? Unveiling the bitcoin lightning
+    (ip) network
+  container-title: IEEE international conference on cloud networking (cloudnet)
+  publisher: IEEE
 
 - id: Sakr:2021a
   type: article-journal
@@ -177,8 +219,8 @@ references:
   publisher: Springer
   page: 187-204
   volume: '12674'
-  URL: https://doi.org/10.1007/978-3-662-64322-8\_9
-  DOI: 10.1007/978-3-662-64322-8\_9
+  URL: https://doi.org/10.1007/978-3-662-64322-8_9
+  DOI: 10.1007/978-3-662-64322-8_9
 
 - id: Jalali:2020a
   type: article-journal
