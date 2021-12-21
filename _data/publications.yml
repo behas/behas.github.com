@@ -92,6 +92,7 @@ references:
   container-title: IECON 2021 - 47th annual conference of the ieee industrial electronics
     society
   publisher: IEEE
+  URL: https://ieeexplore.ieee.org/document/9589185
 
 - id: Casas:2021a
   type: paper-conference
@@ -114,6 +115,7 @@ references:
     (ip) network
   container-title: IEEE international conference on cloud networking (cloudnet)
   publisher: IEEE
+  URL: https://orbi.uliege.be/handle/2268/264663
 
 - id: Sakr:2021a
   type: article-journal
