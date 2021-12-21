@@ -449,12 +449,22 @@ references:
     given: Abraham
   - family: Haslhofer
     given: Bernhard
+  editor:
+  - family: Goldberg
+    given: Ian
+  - family: Moore
+    given: Tyler
   issued:
   - year: 2019
-  title: An empirical analysis of monero cross-chain traceability
-  container-title: Financial cryptography and data security (FC)
-  URL: https://arxiv.org/abs/1812.02808
-  DOI: 10.1007/978-3-030-32101-7_10
+  title: 'Short paper: An empirical analysis of monero cross-chain traceability'
+  title-short: Short paper
+  container-title: Financial cryptography and data security
+  publisher: Springer International Publishing
+  publisher-place: Cham
+  page: 150-157
+  URL: https://doi.org/10.1007/978-3-030-32101-7_10
+  DOI: https://doi.org/10.1007/978-3-030-32101-7_10
+  ISBN: 978-3-030-32101-7
 
 - id: Nemeth2018:ab
   type: article-journal
