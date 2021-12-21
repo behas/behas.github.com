@@ -67,6 +67,18 @@
 
 # Conferences
 
+- medium: "IEEE European Symposium on Security and Privacy (EuroS&P)"
+  type: "conference"
+  years:
+    - year: 2021
+      uri: "https://www.ieee-security.org/TC/EuroSP2021/"
+
+- medium: "International Conference on Cryptology and Network Security (CANS)"
+  type: "conference"
+  years:
+    - year: 2021
+      uri: "https://cans2021.at/"
+
 - medium: "IEEE International Conference on
 Decentralized Applications and Infrastructures (DAPPS)"
   type: "conference"
@@ -82,6 +94,8 @@ Decentralized Applications and Infrastructures (DAPPS)"
     - year: 2019
       uri: "http://www.cryptovalleyconference.com/index"
     - year: 2020
+      uri: "https://www.cryptovalleyconference.com/"
+    - year: 2021
       uri: "https://www.cryptovalleyconference.com/"
 
 - medium: "International Semantic Web Conference (ISWC)"

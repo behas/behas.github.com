@@ -68,9 +68,24 @@ references:
 - id: Heistracher:2021a
   type: paper-conference
   author:
-  - family: Clemens Heistracher
-    given: Indu Strobl
-    suffix: Anahid Jalali
+  - family: Heistracher
+    given: Clemens
+  - family: Jalali
+    given: Anahid
+  - family: Strobl
+    given: Indu
+  - family: Suendermann
+    given: Axel
+  - family: Meixner
+    given: Sebastian
+  - family: Holly
+    given: Stephanie
+  - family: Schall
+    given: Daniel
+  - family: Haslhofer
+    given: Bernhard
+  - family: Kemnitz
+    given: Jana
   issued:
   - year: 2021
   title: Transfer learning strategies for anomaly detection in iot vibration data
@@ -81,9 +96,18 @@ references:
 - id: Casas:2021a
   type: paper-conference
   author:
-  - family: Pedro Casas
-    given: Peter Holzer
-    suffix: Matteo Romiti
+  - family: Casas
+    given: Pedro
+  - family: Romiti
+    given: Matteo
+  - family: Holzer
+    given: Peter
+  - family: Mariem
+    given: Sami Ben
+  - family: Donnet
+    given: Benoît
+  - family: Haslhofer
+    given: Bernhard
   issued:
   - year: 2021
   title: Where is the light(ning) in the taproot dawn? Unveiling the bitcoin lightning
