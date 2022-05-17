@@ -1,3 +1,19 @@
+- author: "Johann Stockinger"
+  title: "Analysis of Decentralized Mixing Services in the Greater Bitcoin Ecosystem"
+  institution: "TU Wien"
+  subject: "Computer Science"
+  date: "2021-08-05"
+  type: "Master's thesis" # Masters's thesis
+  uri: https://repositum.tuwien.at/handle/20.500.12708/18576
+
+- author: "Clemens Heistracher"
+  title: "Machine learning methods for analysis and prognosis of outages in reactive ion etching processes in the semiconductor industry"
+  institution: "TU Wien"
+  subject: "Applied Physics"
+  date: "2021-10-22"
+  type: "Master's thesis" # Masters's thesis
+  uri: https://repositum.tuwien.at/handle/20.500.12708/18976
+
 - author: "Diana Elena Ion"
   title: "Decentralized Finance Analysis"
   institution: "EURECOM"
