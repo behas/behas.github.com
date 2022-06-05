@@ -17,8 +17,8 @@
 
 ({{ pub_date }}).
 
-{% if publication.URL %}
-  <a href="{{publication.URL}}" target="_blank"><em>{{ publication.title }}</em></a>.
+{% if publication.url %}
+  <a href="{{publication.url}}" target="_blank"><em>{{ publication.title }}</em></a>.
 {% else %}
   <em>{{ publication.title }}</em>.
 {% endif %}
