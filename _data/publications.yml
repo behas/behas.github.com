@@ -1,7 +1,8 @@
 ---
 nocite: "[@*]"
 references:
-- author:
+- annote: Arxiv pre-print
+  author:
   - family: Kitzler
     given: Stefan
   - family: Victor
@@ -10,13 +11,12 @@ references:
     given: Pietro
   - family: Haslhofer
     given: Bernhard
-  container-title: Arxiv pre-print
   id: "Kitzler:2021a"
-  issued: 2021
   title: Disentangling decentralized finance (DeFi) compositions
-  type: article-journal
+  type: manuscript
   url: "https://arxiv.org/abs/2111.11933"
-- author:
+- annote: Arxiv pre-print
+  author:
   - family: Stockinger
     given: Johann
   - family: Haslhofer
@@ -25,14 +25,13 @@ references:
     given: Pedro
   - family: Maffei
     given: Matteo
-  container-title: Arxiv pre-print
   id: "Stockinger:2021a"
-  issued: 2021
   title: Pinpointing and measuring wasabi and samourai CoinJoins in the
     bitcoin ecosystem
-  type: article-journal
+  type: manuscript
   url: "https://arxiv.org/abs/2109.10229"
-- author:
+- annote: Arxiv pre-print
+  author:
   - family: Haslhofer
     given: Bernhard
   - family: Stütz
@@ -41,25 +40,42 @@ references:
     given: Matteo
   - family: King
     given: Ross
-  container-title: Arxiv pre-print
   id: "Haslhofer:2021a"
-  issued: 2021
   title: "GraphSense: A general-purpose cryptoasset analytics platform"
   title-short: GraphSense
-  type: article-journal
+  type: manuscript
   url: "https://arxiv.org/abs/2102.13613"
-- author:
+- annote: Arxiv pre-print
+  author:
   - family: Schatzmann
     given: Jürgen E.
   - family: Haslhofer
     given: Bernhard
-  container-title: Arxiv pre-print
   id: "Schatzmann:2020a"
-  issued: 2020
   title: Bitcoin trading is irrational! An analysis of the disposition
     effect in bitcoin
-  type: article-journal
+  type: manuscript
   url: "https://arxiv.org/abs/2010.12415"
+- annote: Arxiv pre-print; accepted at USENIX Security 2022
+  author:
+  - family: Kappos
+    given: George
+  - family: Yousaf
+    given: Haaroon
+  - family: Stütz
+    given: Rainer
+  - family: Rollet
+    given: Sofia
+  - family: Haslhofer
+    given: Bernhard
+  - family: Meiklejohn
+    given: Sarah
+  id: "Kappos:2022a"
+  title: "How to peel a million: Validating and expanding bitcoin
+    clusters"
+  title-short: How to peel a million
+  type: manuscript
+  url: "https://arxiv.org/abs/2205.13882"
 - author:
   - family: Jalali
     given: Anahid
@@ -99,6 +115,7 @@ references:
   title: Machine learning methods for health-index prediction in coating
     chambers
   type: paper-conference
+  url: "https://arxiv.org/abs/2205.15145"
 - author:
   - family: Heistracher
     given: Clemens
@@ -260,9 +277,8 @@ references:
   - family: Maffei
     given: Matteo
   collection-title: Lecture notes in computer science
-  container-title: Financial cryptography and data security - 25th
-    international conference, FC 2021, virtual event, march 1-5, 2021,
-    revised selected papers, part I
+  container-title: FC 2021 - 25th international conference on financial
+    cryptography and data security
   doi: 10.1007/978-3-662-64322-8_9
   editor:
   - family: Borisov
@@ -327,7 +343,8 @@ references:
     given: Bernhard
   - family: Illum
     given: Jacob
-  container-title: Financial cryptography and data security
+  container-title: FC 202 - 24th international conference on financial
+    cryptography and data security
   doi: 10.1007/978-3-030-51280-4_7
   id: "Stuetz:2020a"
   issued: 2020

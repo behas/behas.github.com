@@ -6,16 +6,17 @@
   {% if forloop.last and publication.author.size > 1%}
     &
   {% endif %}
-      {{ author.family }}, {{ author.given | slice: 0 }}.{% unless forloop.last %},{% endunless %}
+    {{ author.family }}, {{ author.given | slice: 0 }}.{% unless forloop.last %},{% endunless %}
 {% endfor %}
 
-{% if publication.issued contains '-' %}
-  {% assign pub_date = publication.issued | split: "-" | first %}
-{% else %} 
-  {% assign pub_date = publication.issued %}
-{% endif %}         
-
-({{ pub_date }}).
+{% if publication.issued %}
+  {% if publication.issued contains '-' %}
+    {% assign pub_date = publication.issued | split: "-" | first %}
+  {% else %} 
+    {% assign pub_date = publication.issued %}
+  {% endif %}
+  ({{ pub_date }}).
+{% endif %}
 
 {% if publication.url %}
   <a href="{{publication.url}}" target="_blank"><em>{{ publication.title }}</em></a>.
@@ -65,7 +66,6 @@
       <em>{{ publication.note }}</em>.
     {% endif %}
 
-
   {% when 'report' or 'thesis' %}
     {{ publication.genre }},
     {{ publication.publisher }}.
@@ -85,6 +85,10 @@
   {% when 'book' %}      
       {{ publication.container-title }}
       {{ publication.publisher }}.
+
+  {% when 'manuscript' %}      
+      {{ publication.container-title }}
+      {{ publication.annote }}.      
 
   {% else %}
       <strong>Unknown publication type.</strong>
