@@ -1,8 +1,7 @@
 ---
+nocite: "[@*]"
 references:
-- id: Kitzler:2021a
-  type: article-journal
-  author:
+- author:
   - family: Kitzler
     given: Stefan
   - family: Victor
@@ -11,15 +10,13 @@ references:
     given: Pietro
   - family: Haslhofer
     given: Bernhard
-  issued:
-  - year: 2021
-  title: Disentangling decentralized finance (DeFi) compositions
   container-title: Arxiv pre-print
-  URL: https://arxiv.org/abs/2111.11933
-
-- id: Stockinger:2021a
+  id: "Kitzler:2021a"
+  issued: 2021
+  title: Disentangling decentralized finance (DeFi) compositions
   type: article-journal
-  author:
+  url: "https://arxiv.org/abs/2111.11933"
+- author:
   - family: Stockinger
     given: Johann
   - family: Haslhofer
@@ -28,15 +25,14 @@ references:
     given: Pedro
   - family: Maffei
     given: Matteo
-  issued:
-  - year: 2021
-  title: Pinpointing and measuring wasabi and samourai coinjoins in the bitcoin ecosystem
   container-title: Arxiv pre-print
-  URL: https://arxiv.org/abs/2109.10229
-
-- id: Haslhofer:2021a
+  id: "Stockinger:2021a"
+  issued: 2021
+  title: Pinpointing and measuring wasabi and samourai CoinJoins in the
+    bitcoin ecosystem
   type: article-journal
-  author:
+  url: "https://arxiv.org/abs/2109.10229"
+- author:
   - family: Haslhofer
     given: Bernhard
   - family: Stütz
@@ -45,29 +41,65 @@ references:
     given: Matteo
   - family: King
     given: Ross
-  issued:
-  - year: 2021
-  title: 'GraphSense: A general-purpose cryptoasset analytics platform'
-  title-short: GraphSense
   container-title: Arxiv pre-print
-  URL: https://arxiv.org/abs/2102.13613
-
-- id: Schatzmann:2020a
+  id: "Haslhofer:2021a"
+  issued: 2021
+  title: "GraphSense: A general-purpose cryptoasset analytics platform"
+  title-short: GraphSense
   type: article-journal
-  author:
+  url: "https://arxiv.org/abs/2102.13613"
+- author:
   - family: Schatzmann
     given: Jürgen E.
   - family: Haslhofer
     given: Bernhard
-  issued:
-  - year: 2020
-  title: Bitcoin trading is irrational! An analysis of the disposition effect in bitcoin
   container-title: Arxiv pre-print
-  URL: https://arxiv.org/abs/2010.12415
-
-- id: Heistracher:2021a
+  id: "Schatzmann:2020a"
+  issued: 2020
+  title: Bitcoin trading is irrational! An analysis of the disposition
+    effect in bitcoin
+  type: article-journal
+  url: "https://arxiv.org/abs/2010.12415"
+- author:
+  - family: Jalali
+    given: Anahid
+  - family: Haslhofer
+    given: Bernhard
+  - family: Heistracher
+    given: Clemens
+  - family: Katic
+    given: Denis
+  - family: Rauber
+    given: Andreas
+  container-title: ACM CHI workshop on human-centered perspectives in
+    explainable AI
+  id: "Jalali:2022a"
+  issued: 2022
+  title: Explaining binary time-series classification with
+    counterfactuals in an industrial use case
   type: paper-conference
-  author:
+  url: "https://www.dropbox.com/s/vwcimro2q9gjtzg/HCXAI2022_paper_19.pdf?dl=0"
+- author:
+  - family: Heistracher
+    given: Clemens
+  - family: Jalali
+    given: Anahid
+  - family: Schneeweiss
+    given: Jürgen
+  - family: Kovacs
+    given: Klaudia
+  - family: Laflamme
+    given: Catherine
+  - family: Haslhofer
+    given: Bernhard
+  container-title: Annual conference of the prognostics and health
+    management society style (PHME)
+  id: "Heistracher:2022a"
+  issued: 2022
+  title: Machine learning methods for health-index prediction in coating
+    chambers
+  type: paper-conference
+- author:
   - family: Heistracher
     given: Clemens
   - family: Jalali
@@ -86,17 +118,16 @@ references:
     given: Bernhard
   - family: Kemnitz
     given: Jana
-  issued:
-  - year: 2021
-  title: Transfer learning strategies for anomaly detection in iot vibration data
-  container-title: IECON 2021 - 47th annual conference of the ieee industrial electronics
-    society
+  container-title: IECON 2021 - 47th annual conference of the IEEE
+    industrial electronics society
+  id: "Heistracher:2021a"
+  issued: 2021
   publisher: IEEE
-  URL: https://ieeexplore.ieee.org/document/9589185
-
-- id: Casas:2021a
+  title: Transfer learning strategies for anomaly detection in IoT
+    vibration data
   type: paper-conference
-  author:
+  url: "https://ieeexplore.ieee.org/document/9589185"
+- author:
   - family: Casas
     given: Pedro
   - family: Romiti
@@ -109,17 +140,16 @@ references:
     given: Benoît
   - family: Haslhofer
     given: Bernhard
-  issued:
-  - year: 2021
-  title: Where is the light(ning) in the taproot dawn? Unveiling the bitcoin lightning
-    (ip) network
-  container-title: IEEE international conference on cloud networking (cloudnet)
+  container-title: IEEE international conference on cloud networking
+    (CloudNet)
+  id: "Casas:2021a"
+  issued: 2021
   publisher: IEEE
-  URL: https://orbi.uliege.be/handle/2268/264663
-
-- id: Sakr:2021a
-  type: article-journal
-  author:
+  title: Where is the light(ning) in the taproot dawn? Unveiling the
+    bitcoin lightning (IP) network
+  type: paper-conference
+  url: "https://orbi.uliege.be/handle/2268/264663"
+- author:
   - family: Sakr
     given: Sherif
   - family: Bonifati
@@ -202,23 +232,21 @@ references:
     given: Da
   - family: Yoneki
     given: Eiko
-  issued:
-  - year: 2021
-    month: 8
-  title: 'The future is big graphs: A community view on graph processing systems'
-  title-short: The future is big graphs
   container-title: Commun. ACM
-  publisher-place: New York, NY, USA
+  doi: 10.1145/3434642
+  id: "Sakr:2021a"
+  issn: 0001-0782
+  issue: 9
+  issued: 2021-08
   page: 62-71
-  volume: '64'
-  issue: '9'
-  URL: https://doi.org/10.1145/3434642
-  DOI: 10.1145/3434642
-  ISSN: 0001-0782
-
-- id: Romiti:2021a
-  type: paper-conference
-  author:
+  publisher-place: New York, NY, USA
+  title: "The future is big graphs: A community view on graph processing
+    systems"
+  title-short: The future is big graphs
+  type: article-journal
+  url: "https://doi.org/10.1145/3434642"
+  volume: 64
+- author:
   - family: Romiti
     given: Matteo
   - family: Victor
@@ -231,26 +259,25 @@ references:
     given: Bernhard
   - family: Maffei
     given: Matteo
+  collection-title: Lecture notes in computer science
+  container-title: Financial cryptography and data security - 25th
+    international conference, FC 2021, virtual event, march 1-5, 2021,
+    revised selected papers, part I
+  doi: 10.1007/978-3-662-64322-8_9
   editor:
   - family: Borisov
     given: Nikita
   - family: Dı́az
     given: Claudia
-  issued:
-  - year: 2021
-  title: Cross-layer deanonymization methods in the lightning protocol
-  container-title: Financial cryptography and data security - 25th international conference,
-    FC 2021, virtual event, march 1-5, 2021, revised selected papers, part I
-  collection-title: Lecture notes in computer science
-  publisher: Springer
+  id: "Romiti:2021a"
+  issued: 2021
   page: 187-204
-  volume: '12674'
-  URL: https://doi.org/10.1007/978-3-662-64322-8_9
-  DOI: 10.1007/978-3-662-64322-8_9
-
-- id: Jalali:2020a
-  type: article-journal
-  author:
+  publisher: Springer
+  title: Cross-layer deanonymization methods in the lightning protocol
+  type: paper-conference
+  url: "https://doi.org/10.1007/978-3-662-64322-8_9"
+  volume: 12674
+- author:
   - family: Jalali
     given: Anahid
   - family: Schindler
@@ -259,20 +286,18 @@ references:
     given: Bernhard
   - family: Rauber
     given: Andreas
-  issued:
-  - year: 2020
-  title: 'Machine learning interpretability techniques for outage prediction: A comparative
-    study'
-  title-short: Machine learning interpretability techniques for outage prediction
   container-title: PHM Society European Conference
-  volume: '5'
-  issue: '1'
-  URL: https://www.phmpapers.org/index.php/phme/article/view/1244
-  DOI: 10.36001/phme.2020.v5i1.1244
-
-- id: Froewis:2020a
+  doi: 10.36001/phme.2020.v5i1.1244
+  id: "Jalali:2020a"
+  issued: 2020
+  title: "Machine learning interpretability techniques for outage
+    prediction: A comparative study"
+  title-short: Machine learning interpretability techniques for outage
+    prediction
   type: article-journal
-  author:
+  url: "https://www.phmpapers.org/index.php/phme/article/view/1244"
+  volume: 5
+- author:
   - family: Fröwis
     given: Michael
   - family: Gottschalk
@@ -283,17 +308,17 @@ references:
     given: Christian
   - family: Pesch
     given: Paulina
-  issued:
-  - year: 2020
-  title: Safeguarding the evidential value of forensic cryptocurrency investigations
-  container-title: 'Forensic Science International: Digital Investigation'
-  URL: http://www.sciencedirect.com/science/article/pii/S1742287619302567
-  DOI: 10.1016/j.fsidi.2019.200902
-  ISSN: 2666-2817
-
-- id: Stuetz:2020a
-  type: paper-conference
-  author:
+  container-title: "Forensic Science International: Digital
+    Investigation"
+  doi: 10.1016/j.fsidi.2019.200902
+  id: "Froewis:2020a"
+  issn: 2666-2817
+  issued: 2020
+  title: Safeguarding the evidential value of forensic cryptocurrency
+    investigations
+  type: article-journal
+  url: "http://www.sciencedirect.com/science/article/pii/S1742287619302567"
+- author:
   - family: Stütz
     given: Rainer
   - family: Gaži
@@ -302,19 +327,17 @@ references:
     given: Bernhard
   - family: Illum
     given: Jacob
-  issued:
-  - year: 2020
-  title: 'Stake shift in major cryptocurrencies: An empirical study'
-  title-short: Stake shift in major cryptocurrencies
   container-title: Financial cryptography and data security
-  publisher-place: Kota Kinabalu, Sabah, Malaysia
+  doi: 10.1007/978-3-030-51280-4_7
+  id: "Stuetz:2020a"
+  issued: 2020
   page: 97-113
-  URL: https://arxiv.org/abs/2001.04187
-  DOI: 10.1007/978-3-030-51280-4_7
-
-- id: Roerden:2020a
+  publisher-place: Kota Kinabalu, Sabah, Malaysia
+  title: "Stake shift in major cryptocurrencies: An empirical study"
+  title-short: Stake shift in major cryptocurrencies
   type: paper-conference
-  author:
+  url: "https://arxiv.org/abs/2001.04187"
+- author:
   - family: Rörden
     given: Jan
   - family: Gruber
@@ -323,18 +346,17 @@ references:
     given: Martin
   - family: Haslhofer
     given: Bernhard
-  issued:
-  - year: 2020
-  title: Identifying historical travelogues in large text corpora using machine learning
-  container-title: IConference 2020
-  publisher-place: Boras, Sweden
+  container-title: iConference 2020
+  doi: 10.1007/978-3-030-43687-2_67
+  id: "Roerden:2020a"
+  issued: 2020
   note: Best Paper Award
-  URL: https://arxiv.org/abs/2001.01673
-  DOI: 10.1007/978-3-030-43687-2_67
-
-- id: Mariem:2020a
+  publisher-place: Boras, Sweden
+  title: Identifying historical travelogues in large text corpora using
+    machine learning
   type: paper-conference
-  author:
+  url: "https://arxiv.org/abs/2001.01673"
+- author:
   - family: Mariem
     given: Sami Ben
   - family: Casas
@@ -347,17 +369,16 @@ references:
     given: Rainer
   - family: Haslhofer
     given: Bernhard
-  issued:
-  - year: 2020
-  title: All that glitters is not bitcoin – unveiling the centralized nature of the
-    BTC (IP) network
-  container-title: IEEE/IFIP network operations and management symposium (NOMS)
-  URL: https://arxiv.org/abs/2001.09105
-  DOI: 10.1109/NOMS47738.2020.9110354
-
-- id: PaquetClouson:2019bb
+  container-title: IEEE/IFIP network operations and management symposium
+    (NOMS)
+  doi: 10.1109/NOMS47738.2020.9110354
+  id: "Mariem:2020a"
+  issued: 2020
+  title: All that glitters is not bitcoin -- unveiling the centralized
+    nature of the BTC (IP) network
   type: paper-conference
-  author:
+  url: "https://arxiv.org/abs/2001.09105"
+- author:
   - family: Paquet-Clouston
     given: Masarah
   - family: Romiti
@@ -366,20 +387,20 @@ references:
     given: Bernhard
   - family: Charvat
     given: Thomas
-  issued:
-  - year: 2019
-  title: 'Spams meet cryptocurrencies: Sextortion in the bitcoin ecosystem'
-  title-short: Spams meet cryptocurrencies
-  container-title: Proceedings of the 1st ACM conference on advances in financial
-    technologies, AFT 2019, zurich, switzerland, october 21-23, 2019
-  publisher: ACM
+  container-title: Proceedings of the 1st ACM conference on advances in
+    financial technologies, AFT 2019, zurich, switzerland, october
+    21-23, 2019
+  doi: 10.1145/3318041.3355466
+  id: "PaquetClouson:2019bb"
+  issued: 2019
   page: 76-88
-  URL: https://doi.org/10.1145/3318041.3355466
-  DOI: 10.1145/3318041.3355466
-
-- id: Romiti:2019aa
+  publisher: ACM
+  title: "Spams meet cryptocurrencies: Sextortion in the bitcoin
+    ecosystem"
+  title-short: Spams meet cryptocurrencies
   type: paper-conference
-  author:
+  url: "https://doi.org/10.1145/3318041.3355466"
+- author:
   - family: Romiti
     given: Matteo
   - family: Judmayer
@@ -388,37 +409,34 @@ references:
     given: Alexei
   - family: Haslhofer
     given: Bernhard
-  issued:
-  - year: 2019
-  title: 'A deep dive into bitcoin mining pools: An empirical analysis of mining shares'
-  title-short: A deep dive into bitcoin mining pools
-  container-title: 18th annual workshop on the economics of information security (WEIS)
+  container-title: 18th annual workshop on the economics of information
+    security (WEIS)
+  id: "Romiti:2019aa"
+  issued: 2019
   publisher-place: Boston, USA
-  URL: https://arxiv.org/abs/1905.05999
-
-- id: PaquetClouson:2019aa
-  type: article-journal
-  author:
+  title: "A deep dive into bitcoin mining pools: An empirical analysis
+    of mining shares"
+  title-short: A deep dive into bitcoin mining pools
+  type: paper-conference
+  url: "https://arxiv.org/abs/1905.05999"
+- author:
   - family: Paquet-Clouston
     given: Masarah
   - family: Haslhofer
     given: Bernhard
   - family: Dupont
     given: Benoît
-  issued:
-  - year: 2019
-    month: 5
-  title: Ransomware payments in the bitcoin ecosystem
   container-title: Journal of Cybersecurity
-  volume: '5'
-  issue: '1'
-  URL: https://doi.org/10.1093/cybsec/tyz003
-  DOI: 10.1093/cybsec/tyz003
-  ISSN: 2057-2085
-
-- id: Jalali:2019a
-  type: paper-conference
-  author:
+  doi: 10.1093/cybsec/tyz003
+  id: "PaquetClouson:2019aa"
+  issn: 2057-2085
+  issue: 1
+  issued: 2019-05
+  title: Ransomware payments in the bitcoin ecosystem
+  type: article-journal
+  url: "https://doi.org/10.1093/cybsec/tyz003"
+  volume: 5
+- author:
   - family: Jalali
     given: Anahid
   - family: Heistracher
@@ -435,40 +453,38 @@ references:
     given: Wilfried
   - family: Boer
     given: Peter De
-  issued:
-  - year: 2019
-  title: Predicting time-to-failure of plasma etching equipment using machine learning
-  container-title: IEEE international conference on prognostics and health management
-  publisher-place: San Francisco, CA, USA
-  URL: https://arxiv.org/abs/1904.07686
-
-- id: Hinteregger:2019aa
+  container-title: IEEE international conference on prognostics and
+    health management
+  id: "Jalali:2019a"
+  issued: 2019
+  title: Predicting time-to-failure of plasma etching equipment using
+    machine learning
   type: paper-conference
-  author:
+  url: "https://arxiv.org/abs/1904.07686"
+- author:
   - family: Hinteregger
     given: Abraham
   - family: Haslhofer
     given: Bernhard
+  container-title: Financial cryptography and data security
+  doi: "https://doi.org/10.1007/978-3-030-32101-7_10"
   editor:
   - family: Goldberg
     given: Ian
   - family: Moore
     given: Tyler
-  issued:
-  - year: 2019
-  title: 'Short paper: An empirical analysis of monero cross-chain traceability'
-  title-short: Short paper
-  container-title: Financial cryptography and data security
+  id: "Hinteregger:2019aa"
+  isbn: 978-3-030-32101-7
+  issued: 2019
+  page: 150-157
   publisher: Springer International Publishing
   publisher-place: Cham
-  page: 150-157
-  URL: https://doi.org/10.1007/978-3-030-32101-7_10
-  DOI: https://doi.org/10.1007/978-3-030-32101-7_10
-  ISBN: 978-3-030-32101-7
-
-- id: Nemeth2018:ab
-  type: article-journal
-  author:
+  title: "Short paper: An empirical analysis of monero cross-chain
+    traceability"
+  title-short: Short paper
+  type: paper-conference
+  url: "https://doi.org/10.1007/978-3-030-32101-7_10"
+- author:
   - family: Nemeth
     given: Tanja
   - family: Ansari
@@ -479,61 +495,56 @@ references:
     given: Bernhard
   - family: Schindler
     given: Alexander
-  issued:
-  - year: 2018
-  title: 'PriMa-x: A reference model for realizing prescriptive maintenance and assessing
-    its maturity enhanced by machine learning'
-  title-short: PriMa-x
-  container-title: 'Procedia CIRP: 51st CIRP Conference on Manufacturing Systems'
+  container-title: "Procedia CIRP: 51st CIRP Conference on Manufacturing
+    Systems"
+  doi: 10.1016/j.procir.2018.03.280
+  id: "Nemeth2018:ab"
+  issn: 2212-8271
+  issued: 2018
   page: 1039 - 1044
-  volume: '72'
-  URL: http://www.sciencedirect.com/science/article/pii/S2212827118304566
-  DOI: 10.1016/j.procir.2018.03.280
-  ISSN: 2212-8271
-
-- id: Haslhofer:2018ab
-  type: chapter
-  author:
+  title: "PriMa-x: A reference model for realizing prescriptive
+    maintenance and assessing its maturity enhanced by machine learning"
+  title-short: PriMa-x
+  type: article-journal
+  url: "http://www.sciencedirect.com/science/article/pii/S2212827118304566"
+  volume: 72
+- author:
   - family: Haslhofer
     given: Bernhard
   - family: Isaac
     given: Antoine
   - family: Simon
     given: Rainer
+  container-title: Encyclopedia of big data technologies
+  doi: 10.1007/978-3-319-63962-8_291-1
   editor:
   - family: Sakr
     given: Sherif
   - family: Zomaya
     given: Albert
-  issued:
-  - year: 2018
-  title: Knowledge graphs in the libraries and digital humanities domain
-  container-title: Encyclopedia of big data technologies
-  publisher: Springer International Publishing
+  id: "Haslhofer:2018ab"
+  isbn: 978-3-319-63962-8
+  issued: 2018
   page: 1-8
-  URL: https://doi.org/10.1007/978-3-319-63962-8_291-1
-  DOI: 10.1007/978-3-319-63962-8_291-1
-  ISBN: 978-3-319-63962-8
-
-- id: Roerden:2017ab
-  type: paper-conference
-  author:
+  publisher: Springer International Publishing
+  title: Knowledge graphs in the libraries and digital humanities domain
+  type: chapter
+  url: "https://doi.org/10.1007/978-3-319-63962-8_291-1"
+- author:
   - family: Jan Rörden
     given: Bernhard Haslhofer
     suffix: Artem Revenko
   - family: Blumauer
     given: Andreas
-  issued:
-  - year: 2017
-  title: Network-based knowledge graph assessment
-  container-title: Proceedings of the posters and demos track of the 13th international
-    conference on semantic systems (SEMANTiCS)
+  container-title: Proceedings of the posters and demos track of the
+    13th international conference on semantic systems (SEMANTiCS)
+  id: "Roerden:2017ab"
+  issued: 2017
   publisher-place: Amsterdam, Netherlands
-  URL: http://ceur-ws.org/Vol-2044/paper12
-
-- id: Filtz:2017ac
+  title: Network-based knowledge graph assessment
   type: paper-conference
-  author:
+  url: "http://ceur-ws.org/Vol-2044/paper12"
+- author:
   - family: Filtz
     given: Erwin
   - family: Polleres
@@ -542,6 +553,8 @@ references:
     given: Roman
   - family: Haslhofer
     given: Bernhard
+  container-title: Data science -- analytics and applications
+  doi: 10.1007/978-3-658-19287-7_11
   editor:
   - family: Haber
     given: Peter
@@ -549,37 +562,33 @@ references:
     given: Thomas
   - family: Mayr
     given: Manfred
-  issued:
-  - year: 2017
-  title: Evolution of the bitcoin address graph
-  container-title: Data science – analytics and applications
+  id: "Filtz:2017ac"
+  isbn: 978-3-658-19287-7
+  issued: 2017
+  page: 77-82
   publisher: Springer Fachmedien Wiesbaden
   publisher-place: Wiesbaden
-  page: 77-82
-  URL: https://doi.org/10.1007/978-3-658-19287-7_11s
-  DOI: 10.1007/978-3-658-19287-7_11
-  ISBN: 978-3-658-19287-7
-
-- id: Haslhofer:2016ab
+  title: Evolution of the bitcoin address graph
   type: paper-conference
-  author:
+  url: "https://doi.org/10.1007/978-3-658-19287-7_11s"
+- author:
   - family: Haslhofer
     given: Bernhard
   - family: Karl
     given: Roman
   - family: Filtz
     given: Erwin
-  issued:
-  - year: 2016
-  title: O bitcoin where art thou? Insight into large-scale transaction graphs
-  container-title: Joint proceedings of the posters and demos track of the 12th international
-    conference on semantic systems (SEMANTiCS 2016)
+  container-title: Joint proceedings of the posters and demos track of
+    the 12th international conference on semantic systems (SEMANTiCS
+    2016)
+  id: "Haslhofer:2016ab"
+  issued: 2016
   publisher-place: Leipzig, Germany
-  URL: http://ceur-ws.org/Vol-1695/paper20.pdf
-
-- id: Haslhofer:2014sa
-  type: article-journal
-  author:
+  title: O bitcoin where art thou? Insight into large-scale transaction
+    graphs
+  type: paper-conference
+  url: "http://ceur-ws.org/Vol-1695/paper20.pdf"
+- author:
   - family: Haslhofer
     given: Bernhard
   - family: Sanderson
@@ -588,19 +597,17 @@ references:
     given: Rainer
   - family: van de Sompel
     given: Herbert
-  issued:
-  - year: 2014
-  title: Open annotations on multimedia web resources
   container-title: Multimedia Tools and Applications
+  doi: 10.1007/s11042-012-1098-9
+  id: "Haslhofer:2014sa"
+  issue: 2
+  issued: 2014
   page: 847-867
-  volume: '70'
-  issue: '2'
-  URL: http://eprints.cs.univie.ac.at/3360/
-  DOI: 10.1007/s11042-012-1098-9
-
-- id: Momeni:2014fj
+  title: Open annotations on multimedia web resources
   type: article-journal
-  author:
+  url: "http://eprints.cs.univie.ac.at/3360/"
+  volume: 70
+- author:
   - family: Momeni
     given: Elaheh
   - family: Haslhofer
@@ -609,53 +616,45 @@ references:
     given: Ke
   - family: Houben
     given: Geert-Jan
-  issued:
-  - year: 2014
-  title: Sifting useful comments from flickr commons and youtube
   container-title: International journal on Digital Libraries
+  doi: 10.1007/s00799-014-0123-1
+  id: "Momeni:2014fj"
+  issued: 2014
   page: 161-179
-  volume: '16'
-  issue: '2'
-  URL: http://dx.doi.org/10.1007/s00799-014-0123-1
-  DOI: 10.1007/s00799-014-0123-1
-
-- id: Matins2013ab
-  type: paper-conference
-  author:
+  title: Sifting useful comments from flickr commons and YouTube
+  type: article-journal
+  url: "http://dx.doi.org/10.1007/s00799-014-0123-1"
+  volume: 16
+- author:
   - family: Martins
     given: Flávio
   - family: Haslhofer
     given: Bernhard
   - family: Magalhães
     given: João
-  issued:
-  - year: 2013
-    month: 7
-  title: Query expansion using open web-based SKOS vocabularies
-  container-title: ACM SIGIR workshop on health search & discovery (HSD 2013)
+  container-title: ACM SIGIR workshop on health search & discovery (HSD
+    2013)
+  id: Matins2013ab
+  issued: 2013-07
   publisher-place: Dublin, Ireland
-  URL: https://www.researchgate.net/publication/282328359_Query_Expansion_using_open_Web-based_SKOS_Vocabularies
-
-- id: Isaac:2013jb
-  type: article-journal
-  author:
+  title: Query expansion using open web-based SKOS vocabularies
+  type: paper-conference
+  url: "https://www.researchgate.net/publication/282328359_Query_Expansion_using_open_Web-based_SKOS_Vocabularies"
+- author:
   - family: Isaac
     given: Antoine
   - family: Haslhofer
     given: Bernhard
-  issued:
-  - year: 2013
-    month: 6
-  title: Europeana linked open data — data.europeana.eu
   container-title: Semantic Web
+  id: "Isaac:2013jb"
+  issue: 3
+  issued: 2013-06
   page: 291-297
-  volume: '4'
-  issue: '3'
-  URL: http://eprints.cs.univie.ac.at/3732/
-
-- id: Roochi:2013kb
-  type: paper-conference
-  author:
+  title: Europeana linked open data --- data.europeana.eu
+  type: article-journal
+  url: "http://eprints.cs.univie.ac.at/3732/"
+  volume: 4
+- author:
   - family: Roochi
     given: Elaheh Momeni
   - family: Tao
@@ -664,22 +663,20 @@ references:
     given: Bernhard
   - family: Houben
     given: Geert-Jan
-  issued:
-  - year: 2013
-    month: 7
-  title: 'Identification of useful user comments in social media: A case study on
-    flickr commons'
-  title-short: Identification of useful user comments in social media
-  container-title: ACM/IEEE joint conference on digital libraries (JCDL 2013)
+  container-title: ACM/IEEE joint conference on digital libraries (JCDL
+    2013)
+  doi: 10.1145/2467696.2467711
+  id: "Roochi:2013kb"
+  issued: 2013-07
+  note: Best Student Paper Award Nominee
   publisher: ACM
   publisher-place: Indianapolis, USA
-  note: Best Student Paper Award Nominee
-  URL: http://eprints.cs.univie.ac.at/3724/
-  DOI: 10.1145/2467696.2467711
-
-- id: Haslhofer:2013fu
-  type: report
-  author:
+  title: "Identification of useful user comments in social media: A case
+    study on flickr commons"
+  title-short: Identification of useful user comments in social media
+  type: paper-conference
+  url: "http://eprints.cs.univie.ac.at/3724/"
+- author:
   - family: Haslhofer
     given: Bernhard
   - family: Warner
@@ -694,37 +691,33 @@ references:
     given: Herbert
   - family: Nelson
     given: Michael L
-  issued:
-  - year: 2013
-    month: 6
-  title: Web synchronization simulations using the resourcesync framework
+  id: "Haslhofer:2013fu"
+  issued: 2013-06
   publisher: University of Vienna
   publisher-place: Vienna
-  URL: http://eprints.cs.univie.ac.at/3725/
-
-- id: Murnane:2013qo
-  type: paper-conference
-  author:
+  title: Web synchronization simulations using the ResourceSync
+    framework
+  type: report
+  url: "http://eprints.cs.univie.ac.at/3725/"
+- author:
   - family: Murnane
     given: Elizabeth L
   - family: Haslhofer
     given: Bernhard
   - family: Lagoze
     given: Carl
-  issued:
-  - year: 2013
-    month: 5
-  title: 'RESLVE: Leveraging user interest to improve entity disambiguation on short
-    text'
-  title-short: RESLVE
-  container-title: Web of linked entities (WoLE) workshop, co-located with WWW2013
-  publisher-place: Rio de Janeiro
+  container-title: Web of linked entities (WoLE) workshop, co-located
+    with WWW2013
+  id: "Murnane:2013qo"
+  issued: 2013-05
   note: Best paper award
-  URL: http://eprints.cs.univie.ac.at/3688/
-
-- id: Haslhofer:2013os
+  publisher-place: Rio de Janeiro
+  title: "RESLVE: Leveraging user interest to improve entity
+    disambiguation on short text"
+  title-short: RESLVE
   type: paper-conference
-  author:
+  url: "http://eprints.cs.univie.ac.at/3688/"
+- author:
   - family: Haslhofer
     given: Bernhard
   - family: Warner
@@ -739,37 +732,33 @@ references:
     given: Michael L
   - family: van de Sompel
     given: Herbert
-  issued:
-  - year: 2013
-    month: 5
-  title: 'ResourceSync: Leveraging sitemaps for resource synchronization'
-  title-short: ResourceSync
-  container-title: WWW 2013
   collection-title: WWW 2013 companion
+  container-title: WWW 2013
+  id: "Haslhofer:2013os"
+  issued: 2013-05
   publisher: ACM
   publisher-place: Rio de Janeiro
-  URL: http://eprints.cs.univie.ac.at/3683/
-
-- id: Haslhofer:2013qf
+  title: "ResourceSync: Leveraging sitemaps for resource
+    synchronization"
+  title-short: ResourceSync
   type: paper-conference
-  author:
+  url: "http://eprints.cs.univie.ac.at/3683/"
+- author:
   - family: Haslhofer
     given: Bernhard
   - family: Martins
     given: Flávio
   - family: Magalhães
     given: João
-  issued:
-  - year: 2013
-    month: 5
-  title: Using SKOS vocabularies for improving web search
-  container-title: Web of linked entities (WoLE) workshop, co-located with WWW 2013
+  container-title: Web of linked entities (WoLE) workshop, co-located
+    with WWW 2013
+  id: "Haslhofer:2013qf"
+  issued: 2013-05
   publisher-place: Rio de Janeiro
-  URL: http://eprints.cs.univie.ac.at/3689/
-
-- id: Haslhofer:2013tw
+  title: Using SKOS vocabularies for improving web search
   type: paper-conference
-  author:
+  url: "http://eprints.cs.univie.ac.at/3689/"
+- author:
   - family: Haslhofer
     given: Bernhard
   - family: Robitza
@@ -778,19 +767,16 @@ references:
     given: Carl
   - family: Guimbretiere
     given: Francois
-  issued:
-  - year: 2013
-    month: 5
-  title: Semantic tagging on historical maps
   container-title: ACM web science 2013
+  doi: 10.1145/2464464.2464506
+  id: "Haslhofer:2013tw"
+  issued: 2013-05
   publisher: ACM
   publisher-place: Paris, France
-  URL: http://eprints.cs.univie.ac.at/3684/
-  DOI: 10.1145/2464464.2464506
-
-- id: Haslhofer:2013il
+  title: Semantic tagging on historical maps
   type: paper-conference
-  author:
+  url: "http://eprints.cs.univie.ac.at/3684/"
+- author:
   - family: Haslhofer
     given: Bernhard
   - family: Newman
@@ -801,31 +787,26 @@ references:
     given: Werner
   - family: Lagoze
     given: Carl
-  issued:
-  - year: 2013
-    month: 2
-  title: Old maps and open data networks
-  container-title: IConference 2013
+  container-title: iConference 2013
+  id: "Haslhofer:2013il"
+  issued: 2013-02
   publisher-place: Fort Worth, TX, USA
-  URL: http://eprints.cs.univie.ac.at/3682/
-
-- id: Mader:2013ye
+  title: Old maps and open data networks
   type: paper-conference
-  author:
+  url: "http://eprints.cs.univie.ac.at/3682/"
+- author:
   - family: Mader
     given: Christian
   - family: Haslhofer
     given: Bernhard
-  issued:
-  - year: 2013
-  title: Perception and relevance of quality issues in web vocabularies
-  container-title: I-semantics 2013
+  container-title: I-SEMANTICS 2013
+  id: "Mader:2013ye"
+  issued: 2013
   publisher-place: Graz, Austria
-  URL: http://eprints.cs.univie.ac.at/3720/
-
-- id: Klein:2013ee
-  type: article-journal
-  author:
+  title: Perception and relevance of quality issues in web vocabularies
+  type: paper-conference
+  url: "http://eprints.cs.univie.ac.at/3720/"
+- author:
   - family: Klein
     given: Martin
   - family: Sanderson
@@ -840,19 +821,16 @@ references:
     given: Carl
   - family: Nelson
     given: Michael L.
-  issued:
-  - year: 2013
-    month: 1
-  title: A technical framework for resource synchronization
   container-title: D-Lib Magazine
-  volume: '19'
-  issue: '1'
-  URL: http://www.dlib.org/dlib/january13/klein/01klein.html
-  DOI: doi:10.1045/january2013-klein
-
-- id: Sompel:2012zt
+  doi: "doi:10.1045/january2013-klein"
+  id: "Klein:2013ee"
+  issue: 1
+  issued: 2013-01
+  title: A technical framework for resource synchronization
   type: article-journal
-  author:
+  url: "http://www.dlib.org/dlib/january13/klein/01klein.html"
+  volume: 19
+- author:
   - family: van de Sompel
     given: Herbert
   - family: Sanderson
@@ -867,37 +845,31 @@ references:
     given: Simeon
   - family: Lagoze
     given: Carl
-  issued:
-  - year: 2012
-    month: 10
-  title: A perspective on resource synchronization
   container-title: D-Lib Magazine
-  volume: '18'
+  id: "Sompel:2012zt"
   issue: 9/10
-  URL: http://www.dlib.org/dlib/september12/vandesompel/09vandesompel.html
-
-- id: Isaac:2012xw
+  issued: 2012-10
+  title: A perspective on resource synchronization
   type: article-journal
-  author:
+  url: "http://www.dlib.org/dlib/september12/vandesompel/09vandesompel.html"
+  volume: 18
+- author:
   - family: Isaac
     given: Antoine
   - family: Clayphan
     given: Robina
   - family: Haslhofer
     given: Bernhard
-  issued:
-  - year: 2012
-    month: 9
-  title: 'Europeana: Moving to linked open data'
-  title-short: Europeana
   container-title: Information Standards Quarterly
-  volume: '24'
+  id: "Isaac:2012xw"
   issue: 2/3
-  URL: http://eprints.cs.univie.ac.at/3489/
-
-- id: Warner:2012jl
-  type: paper-conference
-  author:
+  issued: 2012-09
+  title: "Europeana: Moving to linked open data"
+  title-short: Europeana
+  type: article-journal
+  url: "http://eprints.cs.univie.ac.at/3489/"
+  volume: 24
+- author:
   - family: Warner
     given: Simeon
   - family: Carpenter
@@ -918,24 +890,24 @@ references:
     given: Robert
   - family: van de Sompel
     given: Herbert
-  issued:
-  - year: 2012
-    month: 7
-  title: 'ResourceSync: Web-based resource synchronization'
-  title-short: ResourceSync
-  container-title: The 7th international conference on open repositories (OR2012)
+  container-title: The 7th international conference on open repositories
+    (OR2012)
+  id: "Warner:2012jl"
+  issued: 2012-07
   publisher-place: Edinburgh
-  URL: http://eprints.cs.univie.ac.at/3460/
-
-- id: Mader:2012kn
+  title: "ResourceSync: Web-based resource synchronization"
+  title-short: ResourceSync
   type: paper-conference
-  author:
+  url: "http://eprints.cs.univie.ac.at/3460/"
+- author:
   - family: Mader
     given: Christian
   - family: Haslhofer
     given: Bernhard
   - family: Isaac
     given: Antoine
+  container-title: Therory and practice of digital libraries (TPDL 2012)
+  doi: 10.1007/978-3-642-33290-6_25
   editor:
   - family: Zaphiris
     given: Panayiotis
@@ -945,35 +917,28 @@ references:
     given: Edie
   - family: Loizides
     given: Fernando
-  issued:
-  - year: 2012
-    month: 5
-  title: Finding quality issues in SKOS vocabularies
-  container-title: Therory and practice of digital libraries (TPDL 2012)
+  id: "Mader:2012kn"
+  issued: 2012-05
   publisher-place: Germany
-  URL: https://doi.org/10.1007/978-3-642-33290-6_25
-  DOI: 10.1007/978-3-642-33290-6_25
-
-- id: Haslhofer:2012qq
+  title: Finding quality issues in SKOS vocabularies
   type: paper-conference
-  author:
+  url: "https://doi.org/10.1007/978-3-642-33290-6_25"
+- author:
   - family: Haslhofer
     given: Bernhard
-  issued:
-  - year: 2012
-    month: 2
-  title: 'The SciLink project: From document-centric to resource-oriented publications'
-  title-short: The SciLink project
-  container-title: IConference ’12
-  collection-title: IConference ’12
+  collection-title: iConference '12
+  container-title: iConference '12
+  id: "Haslhofer:2012qq"
+  issued: 2012-02
+  page: 567-568
   publisher: ACM
   publisher-place: Toronto, ON, Canada
-  page: 567-568
-  URL: http://eprints.cs.univie.ac.at/3354/
-
-- id: Haslhofer:2011hq
+  title: "The SciLink project: From document-centric to
+    resource-oriented publications"
+  title-short: The SciLink project
   type: paper-conference
-  author:
+  url: "http://eprints.cs.univie.ac.at/3354/"
+- author:
   - family: Haslhofer
     given: Bernhard
   - family: Simon
@@ -982,150 +947,130 @@ references:
     given: Robert
   - family: van de Sompel
     given: Herbert
-  issued:
-  - year: 2011
-    month: 9
-  title: The open annotation collaboration (OAC) model
   container-title: Workshop on multimedia on the web 2011
+  id: "Haslhofer:2011hq"
+  issued: 2011-09
   publisher: IEEE
   publisher-place: Graz, Austria
-  URL: http://eprints.cs.univie.ac.at/2871/
-
-- id: Popitsch:2011dw
-  type: article-journal
-  author:
+  title: The open annotation collaboration (OAC) model
+  type: paper-conference
+  url: "http://eprints.cs.univie.ac.at/2871/"
+- author:
   - family: Popitsch
     given: Niko
   - family: Haslhofer
     given: Bernhard
-  issued:
-  - year: 2011
-    month: 9
-  title: DSNotify - a solution for event detection and link maintenance in dynamic
-    datasets
-  container-title: 'Web Semantics: Science, Services and Agents on the World Wide
-    Web'
+  container-title: "Web Semantics: Science, Services and Agents on the
+    World Wide Web"
+  id: "Popitsch:2011dw"
+  issue: 3
+  issued: 2011-09
   page: 266-283
-  volume: '9'
-  issue: '3'
-  URL: http://eprints.cs.univie.ac.at/2863/
-
-- id: Simon:2011mb
-  type: paper-conference
-  author:
+  title: DSNotify - a solution for event detection and link maintenance
+    in dynamic datasets
+  type: article-journal
+  url: "http://eprints.cs.univie.ac.at/2863/"
+  volume: 9
+- author:
   - family: Simon
     given: Rainer
   - family: 6g
     given: Joachim
   - family: Haslhofer
     given: Bernhard
-  issued:
-  - year: 2011
-    month: 9
-  title: The YUMA media annotation framework
+  collection-title: Research and advanced technology for digital
+    libraries
   container-title: TPDL 2011
-  collection-title: Research and advanced technology for digital libraries
+  id: "Simon:2011mb"
+  issued: 2011-09
+  page: 434-437
   publisher: Springer
   publisher-place: Berlin Heidelberg
-  page: 434-437
-  URL: http://eprints.cs.univie.ac.at/3104/
-
-- id: Mader:2011cq
+  title: The YUMA media annotation framework
   type: paper-conference
-  author:
+  url: "http://eprints.cs.univie.ac.at/3104/"
+- author:
   - family: Mader
     given: Christian
   - family: Haslhofer
     given: Bernhard
-  issued:
-  - year: 2011
-    month: 8
-  title: Quality criteria for controlled web vocabularies
-  container-title: International conference on theory and practice of digital libraries
-    2011, NKOS workshop
+  container-title: International conference on theory and practice of
+    digital libraries 2011, NKOS workshop
+  id: "Mader:2011cq"
+  issued: 2011-08
   publisher-place: Berlin, Germany
-  URL: http://eprints.cs.univie.ac.at/2923/
-
-- id: Haslhofer:2011kh
+  title: Quality criteria for controlled web vocabularies
   type: paper-conference
-  author:
+  url: "http://eprints.cs.univie.ac.at/2923/"
+- author:
   - family: Haslhofer
     given: Bernhard
   - family: Isaac
     given: Antoine
-  issued:
-  - year: 2011
-    month: 7
-  title: Data.europeana.eu - the europeana linked open data pilot
-  container-title: DCMI international conference on dublin core and metadata applications
+  container-title: DCMI international conference on dublin core and
+    metadata applications
+  id: "Haslhofer:2011kh"
+  issued: 2011-07
   publisher-place: The Hague, The Netherlands
-  URL: http://eprints.cs.univie.ac.at/2919/
-
-- id: Haslhofer:2011pt
-  type: chapter
-  author:
+  title: Data.europeana.eu - the europeana linked open data pilot
+  type: paper-conference
+  url: "http://eprints.cs.univie.ac.at/2919/"
+- author:
   - family: Haslhofer
     given: Bernhard
   - family: Neuhold
     given: Erich J.
+  container-title: Foundations for the web of information and services
   editor:
   - family: Fensel
     given: Dieter
-  issued:
-  - year: 2011
-    month: 7
-  title: A retrospective on semantics and interoperability research
-  container-title: Foundations for the web of information and services
+  id: "Haslhofer:2011pt"
+  issued: 2011-07
+  page: 3-27
   publisher: Springer
   publisher-place: Berlin Heidelberg
-  page: 3-27
-  URL: http://eprints.cs.univie.ac.at/2921/
-
-- id: 6g:2011xq
-  type: article-journal
-  author:
+  title: A retrospective on semantics and interoperability research
+  type: chapter
+  url: "http://eprints.cs.univie.ac.at/2921/"
+- author:
   - family: Jung
     given: Joachim
   - family: Simon
     given: Rainer
   - family: Haslhofer
     given: Bernhard
-  issued:
-  - year: 2011
-    month: 7
-  title: YUMA — crowd sourced metadata enrichment for online collections
   container-title: ERCIM News
-  volume: '86'
-  issue: '1'
-  URL: http://eprints.cs.univie.ac.at/3102/
-
-- id: Simon:2011fc
-  type: paper-conference
-  author:
+  id: "6g:2011xq"
+  issue: 1
+  issued: 2011-07
+  title: YUMA --- crowd sourced metadata enrichment for online
+    collections
+  type: article-journal
+  url: "http://eprints.cs.univie.ac.at/3102/"
+  volume: 86
+- author:
   - family: Simon
     given: Rainer
   - family: Haslhofer
     given: Bernhard
   - family: 6g
     given: Joachim
-  issued:
-  - year: 2011
-    month: 4
-  title: Annotations, tags & linked data
-  container-title: 6th international workshop on digital technologies in cartographic
-    heritage
+  container-title: 6th international workshop on digital technologies in
+    cartographic heritage
+  id: "Simon:2011fc"
+  issued: 2011-04
   publisher-place: Netherlands
-  URL: http://eprints.cs.univie.ac.at/2849/
-
-- id: Mader:2011rq
+  title: Annotations, tags & linked data
   type: paper-conference
-  author:
+  url: "http://eprints.cs.univie.ac.at/2849/"
+- author:
   - family: Mader
     given: Christian
   - family: Haslhofer
     given: Bernhard
   - family: Popitsch
     given: Niko
+  container-title: Theory and practice of digital libraries (TPDL 2011)
   editor:
   - family: Gradmann
     given: Stefan
@@ -1135,35 +1080,28 @@ references:
     given: Carlo
   - family: Schuldt
     given: Heiko
-  issued:
-  - year: 2011
-    month: 3
-  title: The meketrepository - middle kingdom tomb and artwork descriptions on the
-    web
-  container-title: Theory and practice of digital libraries (TPDL 2011)
+  id: "Mader:2011rq"
+  issued: 2011-03
+  page: 449-452\"
   publisher: Springer
   publisher-place: Berlin, Heidelberg
-  page: 449-452"
-  URL: http://eprints.cs.univie.ac.at/2868/
-
-- id: Haslhofer:2011ss
+  title: The MEKETREpository - middle kingdom tomb and artwork
+    descriptions on the web
   type: paper-conference
-  author:
+  url: "http://eprints.cs.univie.ac.at/2868/"
+- author:
   - family: Haslhofer
     given: Bernhard
   - family: Simon
     given: Rainer
-  issued:
-  - year: 2011
-    month: 3
-  title: Historic map annotations with yuma
-  container-title: Open annotation collaboration, phase ii workshop
+  container-title: Open annotation collaboration, phase II workshop
+  id: "Haslhofer:2011ss"
+  issued: 2011-03
   publisher-place: Chicago, USA
-  URL: http://eprints.cs.univie.ac.at/2838/
-
-- id: Haslhofer:2011yo
-  type: report
-  author:
+  title: Historic map annotations with YUMA
+  type: paper-conference
+  url: "http://eprints.cs.univie.ac.at/2838/"
+- author:
   - family: Haslhofer
     given: Bernhard
   - family: Roochi
@@ -1172,17 +1110,14 @@ references:
     given: Bernhard
   - family: Zander
     given: Stefan
-  issued:
-  - year: 2011
-    month: 3
-  title: Europeana RDF store report
+  id: "Haslhofer:2011yo"
+  issued: 2011-03
   publisher: University of Vienna
   publisher-place: Vienna
-  URL: http://eprints.cs.univie.ac.at/2833/
-
-- id: Schandl:2011pr
-  type: article-journal
-  author:
+  title: Europeana RDF store report
+  type: report
+  url: "http://eprints.cs.univie.ac.at/2833/"
+- author:
   - family: Schandl
     given: Bernhard
   - family: Haslhofer
@@ -1193,20 +1128,17 @@ references:
     given: Andreas
   - family: Halb
     given: Wolfgang
-  issued:
-  - year: 2011
-    month: 2
-  title: 'Linked data and multimedia: The state of affairs'
-  title-short: Linked data and multimedia
   container-title: Multimedia Tools and Applications
+  id: "Schandl:2011pr"
+  issue: 2
+  issued: 2011-02
   page: 523-556
-  volume: '59'
-  issue: '2'
-  URL: http://eprints.cs.univie.ac.at/114/
-
-- id: Simon:2011ay
-  type: paper-conference
-  author:
+  title: "Linked data and multimedia: The state of affairs"
+  title-short: Linked data and multimedia
+  type: article-journal
+  url: "http://eprints.cs.univie.ac.at/114/"
+  volume: 59
+- author:
   - family: Simon
     given: Rainer
   - family: Haslhofer
@@ -1215,36 +1147,31 @@ references:
     given: Werner
   - family: Roochi
     given: Elaheh Momeni
-  issued:
-  - year: 2011
-    month: 6
-  title: Semantically augmented annotations in digitized map collections
   container-title: ACM/IEEE joint conference on digital libraries (JCDL)
+  id: "Simon:2011ay"
+  issued: 2011-06
   publisher: ACM
   publisher-place: Ottawa, Canada
-  URL: http://eprints.cs.univie.ac.at/2840/
-
-- id: Popitsch:2010le
+  title: Semantically augmented annotations in digitized map collections
   type: paper-conference
-  author:
+  url: "http://eprints.cs.univie.ac.at/2840/"
+- author:
   - family: Popitsch
     given: Niko
   - family: Haslhofer
     given: Bernhard
   - family: Roochi
     given: Elaheh Momeni
-  issued:
-  - year: 2010
-    month: 8
-  title: An evaluation approach for dynamics-aware applications using linked data
-  container-title: 9th international workshop on web semantics (WebS), co-located
-    with DEXA 2010
+  container-title: 9th international workshop on web semantics (WebS),
+    co-located with DEXA 2010
+  id: "Popitsch:2010le"
+  issued: 2010-08
   publisher-place: Linz, Austria
-  URL: http://eprints.cs.univie.ac.at/36/
-
-- id: Haslhofer:2010wb
+  title: An evaluation approach for dynamics-aware applications using
+    linked data
   type: paper-conference
-  author:
+  url: "http://eprints.cs.univie.ac.at/36/"
+- author:
   - family: Haslhofer
     given: Bernhard
   - family: Roochi
@@ -1253,20 +1180,17 @@ references:
     given: Manuel
   - family: Simon
     given: Rainer
-  issued:
-  - year: 2010
-    month: 9
-  title: Augmenting europeana content with linked data resources
-  container-title: Proceedings of the 6th international conference on semantic systems
-    (SEMANTICS 2010)
+  container-title: Proceedings of the 6th international conference on
+    semantic systems (SEMANTICS 2010)
+  id: "Haslhofer:2010wb"
+  issued: 2010-09
+  page: 1-3
   publisher: ACM
   publisher-place: Graz, Austria
-  page: 1-3
-  URL: http://eprints.cs.univie.ac.at/26/
-
-- id: Simon:2010bx
+  title: Augmenting europeana content with linked data resources
   type: paper-conference
-  author:
+  url: "http://eprints.cs.univie.ac.at/26/"
+- author:
   - family: Simon
     given: Rainer
   - family: Sadilek
@@ -1277,178 +1201,153 @@ references:
     given: Matthias
   - family: Haslhofer
     given: Bernhard
-  issued:
-  - year: 2010
-    month: 9
-  title: 'Tag clouds and old maps: Annotations as linked spatiotemporal data in the
-    cultural heritage domain'
-  title-short: Tag clouds and old maps
-  container-title: Workshop on linked spatiotemporal data, held in conjunction with
-    the 6th international conference on geographic information science (GIScience
-    2010)
+  container-title: Workshop on linked spatiotemporal data, held in
+    conjunction with the 6th international conference on geographic
+    information science (GIScience 2010)
+  id: "Simon:2010bx"
+  issued: 2010-09
   publisher-place: Zurich, Switzerland
-  URL: http://eprints.cs.univie.ac.at/34/
-
-- id: Sadilek:2010fi
+  title: "Tag clouds and old maps: Annotations as linked spatiotemporal
+    data in the cultural heritage domain"
+  title-short: Tag clouds and old maps
   type: paper-conference
-  author:
+  url: "http://eprints.cs.univie.ac.at/34/"
+- author:
   - family: Sadilek
     given: Christian
   - family: Simon
     given: Rainer
   - family: Haslhofer
     given: Bernhard
-  issued:
-  - year: 2010
-    month: 6
-  title: 'Service orchestration for linking open data: Applying a SOA principle to
-    the web of data'
-  title-short: Service orchestration for linking open data
-  container-title: 1st international workshop on recent trends in SOA based information
-    systems (RTSOABIS 2010)
+  container-title: 1st international workshop on recent trends in SOA
+    based information systems (RTSOABIS 2010)
+  id: "Sadilek:2010fi"
+  issued: 2010-06
   publisher-place: Funchal, Madeira, Portugal
-  URL: http://eprints.cs.univie.ac.at/49/
-
-- id: Nussbaumer:2010xd
-  type: report
-  author:
+  title: "Service orchestration for linking open data: Applying a SOA
+    principle to the web of data"
+  title-short: Service orchestration for linking open data
+  type: paper-conference
+  url: "http://eprints.cs.univie.ac.at/49/"
+- author:
   - family: Nussbaumer
     given: Philipp
   - family: Haslhofer
     given: Bernhard
   - family: Klas
     given: Wolfgang
-  issued:
-  - year: 2010
-    month: 6
-  title: Towards model implementation guidelines for the CIDOC conceptual reference
-    model
-  publisher: University of Vienna
   genre: Technical Report
-  URL: http://eprints.cs.univie.ac.at/58/
-
-- id: Haslhofer:2010sj
-  type: article-journal
-  author:
+  id: "Nussbaumer:2010xd"
+  issued: 2010-06
+  publisher: University of Vienna
+  title: Towards model implementation guidelines for the CIDOC
+    conceptual reference model
+  type: report
+  url: "http://eprints.cs.univie.ac.at/58/"
+- author:
   - family: Haslhofer
     given: Bernhard
   - family: Schandl
     given: Bernhard
-  issued:
-  - year: 2010
-    month: 3
-  title: Interweaving oai-pmh data sources with the linked data cloud
   container-title: Int. J. Metadata, Semantics and Ontologies
+  id: "Haslhofer:2010sj"
+  issue: 5
+  issued: 2010-03
   page: 17-31
-  volume: '1'
-  issue: '5'
-  URL: http://eprints.cs.univie.ac.at/73/
-
-- id: Popitsch:2010bs
-  type: paper-conference
-  author:
+  title: Interweaving OAI-PMH data sources with the linked data cloud
+  type: article-journal
+  url: "http://eprints.cs.univie.ac.at/73/"
+  volume: 1
+- author:
   - family: Popitsch
     given: Niko
   - family: Haslhofer
     given: Bernhard
-  issued:
-  - year: 2010
-    month: 2
-  title: 'DSNotify: Handling broken links in the web of data'
-  title-short: DSNotify
   container-title: Nineteenth international WWW conference (WWW2010)
+  doi: "https://doi.org/10.1145/1772690.1772768"
+  id: "Popitsch:2010bs"
+  issued: 2010-02
   publisher: ACM
   publisher-place: Raleigh, NC, USA
-  URL: http://eprints.cs.univie.ac.at/81/
-  DOI: https://doi.org/10.1145/1772690.1772768
-
-- id: Haslhofer:2010sh
-  type: article-journal
-  author:
+  title: "DSNotify: Handling broken links in the web of data"
+  title-short: DSNotify
+  type: paper-conference
+  url: "http://eprints.cs.univie.ac.at/81/"
+- author:
   - family: Haslhofer
     given: Bernhard
   - family: Klas
     given: Wolfgang
-  issued:
-  - year: 2010
-    month: 2
-  title: A survey of techniques for achieving metadata interoperability
   container-title: ACM Computing Surveys
+  doi: 10.1145/1667062.1667064
+  id: "Haslhofer:2010sh"
+  issue: 7
+  issued: 2010-02
   page: 1-37
-  volume: '42'
-  issue: '7'
-  URL: http://eprints.cs.univie.ac.at/79/
-  DOI: 10.1145/1667062.1667064
-
-- id: Schandl:2010qc
+  title: A survey of techniques for achieving metadata interoperability
   type: article-journal
-  author:
+  url: "http://eprints.cs.univie.ac.at/79/"
+  volume: 42
+- author:
   - family: Schandl
     given: Bernhard
   - family: Haslhofer
     given: Bernhard
-  issued:
-  - year: 2010
-  title: 'Files are siles: Extending file systems with semantic annotations'
-  title-short: Files are siles
-  container-title: International journal on Semantic Web and Information Systems (IJSWIS)
+  container-title: International journal on Semantic Web and Information
+    Systems (IJSWIS)
+  id: "Schandl:2010qc"
+  issue: 3
+  issued: 2010
   page: 1-21
-  volume: '6'
-  issue: '3'
-  URL: http://eprints.cs.univie.ac.at/2240/
-
-- id: Haslhofer:2009px
-  type: paper-conference
-  author:
+  title: "Files are siles: Extending file systems with semantic
+    annotations"
+  title-short: Files are siles
+  type: article-journal
+  url: "http://eprints.cs.univie.ac.at/2240/"
+  volume: 6
+- author:
   - family: Haslhofer
     given: Bernhard
   - family: Popitsch
     given: Niko
-  issued:
-  - year: 2009
-    month: 8
-  title: 'DSNotify: Detecting and fixing broken links in linked data sets'
-  title-short: DSNotify
-  container-title: 8th international workshop on web semantics (WebS 09), co-located
-    with DEXA 2009
+  container-title: 8th international workshop on web semantics (WebS
+    09), co-located with DEXA 2009
+  id: "Haslhofer:2009px"
+  issued: 2009-08
   publisher: Springer
   publisher-place: Berlin, Heidelberg
-  URL: http://eprints.cs.univie.ac.at/142/
-
-- id: Haslhofer:2009cr
+  title: "DSNotify: Detecting and fixing broken links in linked data
+    sets"
+  title-short: DSNotify
   type: paper-conference
-  author:
+  url: "http://eprints.cs.univie.ac.at/142/"
+- author:
   - family: Haslhofer
     given: Bernhard
-  issued:
-  - year: 2009
-    month: 6
-  title: The mediaspaces mapping framework - a web-based approach for establishing
-    metadata interoperability (poster)
   container-title: 6th european semantic web conference (ESWC 2009)
+  id: "Haslhofer:2009cr"
+  issued: 2009-06
   publisher-place: Hersonissos, Crete
-  URL: http://eprints.cs.univie.ac.at/159/
-
-- id: Schandl:2009fh
+  title: The MediaSpaces mapping framework - a web-based approach for
+    establishing metadata interoperability (poster)
   type: paper-conference
-  author:
+  url: "http://eprints.cs.univie.ac.at/159/"
+- author:
   - family: Schandl
     given: Bernhard
   - family: Haslhofer
     given: Bernhard
-  issued:
-  - year: 2009
-    month: 6
-  title: 'The sile model: A semantic file system infrastructure for the desktop'
-  title-short: The sile model
   container-title: 6th european semantic web conference (ESWC2009)
+  id: "Schandl:2009fh"
+  issued: 2009-06
   publisher: Springer
   publisher-place: Hersonissos, Crete
-  URL: http://eprints.cs.univie.ac.at/158/
-
-- id: Haslhofer:2009sw
-  type: article-journal
-  author:
+  title: "The sile model: A semantic file system infrastructure for the
+    desktop"
+  title-short: The sile model
+  type: paper-conference
+  url: "http://eprints.cs.univie.ac.at/158/"
+- author:
   - family: Haslhofer
     given: Bernhard
   - family: Jochum
@@ -1459,117 +1358,102 @@ references:
     given: Christian
   - family: Schellner
     given: Karin
-  issued:
-  - year: 2009
-    month: 5
-  title: 'The LEMO annotation framework: Weaving multimedia annotations with the web'
-  title-short: The LEMO annotation framework
   container-title: International journal on Digital Libraries
+  doi: 10.1007/s00799-009-0050-8
+  id: "Haslhofer:2009sw"
+  issue: 1
+  issued: 2009-05
   page: 15-32
-  volume: '10'
-  issue: '1'
-  URL: http://eprints.cs.univie.ac.at/165/
-  DOI: 10.1007/s00799-009-0050-8
-
-- id: Haslhofer:2009et
-  type: book
-  author:
+  title: "The LEMO annotation framework: Weaving multimedia annotations
+    with the web"
+  title-short: The LEMO annotation framework
+  type: article-journal
+  url: "http://eprints.cs.univie.ac.at/165/"
+  volume: 10
+- author:
   - family: Haslhofer
     given: Bernhard
-  issued:
-  - year: 2009
-    month: 4
-  title: 'Mappings in the web of data: A web-based mapping technique for establishing
-    metadata interoperability'
-  title-short: Mappings in the web of data
+  id: "Haslhofer:2009et"
+  issued: 2009-04
   publisher: Südwestdeutscher Verlag für Hochschulschriften
   publisher-place: Saarbrücken
-  URL: http://eprints.cs.univie.ac.at/174/
-
-- id: Haslhofer:2008zv
-  type: thesis
-  author:
+  title: "Mappings in the web of data: A web-based mapping technique for
+    establishing metadata interoperability"
+  title-short: Mappings in the web of data
+  type: book
+  url: "http://eprints.cs.univie.ac.at/174/"
+- author:
   - family: Haslhofer
     given: Bernhard
-  issued:
-  - year: 2008
-    month: 11
-  title: A web-based mapping technique for establishing metadata interoperability
-  publisher: University of Vienna
   genre: PhD thesis
-  URL: http://eprints.cs.univie.ac.at/307/
-
-- id: Haslhofer:2008kc
-  type: chapter
-  author:
+  id: "Haslhofer:2008zv"
+  issued: 2008-11
+  publisher: University of Vienna
+  title: A web-based mapping technique for establishing metadata
+    interoperability
+  type: thesis
+  url: "http://eprints.cs.univie.ac.at/307/"
+- author:
   - family: Haslhofer
     given: Bernhard
+  container-title: Semantic digital libraries
   editor:
   - family: Kruk
     given: Sebastian R.
   - family: McDaniel
     given: Bill
-  issued:
-  - year: 2008
-    month: 10
-  title: The bricks digital library infrastructure
-  container-title: Semantic digital libraries
-  publisher: Springer
+  id: "Haslhofer:2008kc"
+  issued: 2008-10
   page: 153-164
-  URL: http://eprints.cs.univie.ac.at/313/
-
-- id: Haslhofer:2008lo
-  type: paper-conference
-  author:
+  publisher: Springer
+  title: The BRICKS digital library infrastructure
+  type: chapter
+  url: "http://eprints.cs.univie.ac.at/313/"
+- author:
   - family: Haslhofer
     given: Bernhard
   - family: Schandl
     given: Bernhard
-  issued:
-  - year: 2008
-    month: 4
-  title: 'The OAI2LOD server: Exposing OAI-PMH metadata as linked data'
-  title-short: The OAI2LOD server
-  container-title: International workshop on linked data on the web (LDOW2008), co-located
-    with WWW 2008
+  container-title: International workshop on linked data on the web
+    (LDOW2008), co-located with WWW 2008
+  id: "Haslhofer:2008lo"
+  issued: 2008-04
   publisher-place: Beijing, China
-  URL: http://eprints.cs.univie.ac.at/284/
-
-- id: Haslhofer:2008yb
-  type: report
-  author:
+  title: "The OAI2LOD server: Exposing OAI-PMH metadata as linked data"
+  title-short: The OAI2LOD server
+  type: paper-conference
+  url: "http://eprints.cs.univie.ac.at/284/"
+- author:
   - family: Haslhofer
     given: Bernhard
-  issued:
-  - year: 2008
-    month: 2
-  title: A comparative study of mapping solutions for enabling metadata interoperability
+  id: "Haslhofer:2008yb"
+  issued: 2008-02
   publisher: University of Vienna
-  URL: http://eprints.cs.univie.ac.at/295/
-
-- id: Kesler:2008hs
+  title: A comparative study of mapping solutions for enabling metadata
+    interoperability
   type: report
-  author:
+  url: "http://eprints.cs.univie.ac.at/295/"
+- author:
   - family: Keßler
     given: Mirjam
   - family: Schwarzmaier
     given: Maximilian
   - family: Haslhofer
     given: Bernhard
-  issued:
-  - year: 2008
-    month: 2
-  title: Umfragereport zur nutzung von metadaten
+  id: "Kesler:2008hs"
+  issued: 2008-02
   publisher: KIM - Kompetenzzentrum Interoperable Metadaten
-  URL: http://eprints.cs.univie.ac.at/296/
-
-- id: Nusbaumer:2007if
-  type: paper-conference
-  author:
+  title: Umfragereport zur nutzung von metadaten
+  type: report
+  url: "http://eprints.cs.univie.ac.at/296/"
+- author:
   - family: Nußbaumer
     given: Philipp
   - family: Haslhofer
     given: Bernhard
+  collection-title: Lecture notes in computer science (LNCS 4675)
+  container-title: 11th european conference on research and advanced
+    technology for digital libraries (ECDL07)
   editor:
   - family: Kovács
     given: László
@@ -1577,50 +1461,39 @@ references:
     given: Norbert
   - family: Meghini
     given: Carlo
-  issued:
-  - year: 2007
-    month: 9
-  title: CIDOC CRM in action - experiences and challenges
-  container-title: 11th european conference on research and advanced technology for
-    digital libraries (ECDL07)
-  collection-title: Lecture notes in computer science (lncs 4675)
+  id: "Nusbaumer:2007if"
+  issued: 2007-09
+  page: 532-533
   publisher: Springer Berlin, Heidelberg
   publisher-place: Budapest, Hungary
-  page: 532-533
-  URL: http://eprints.cs.univie.ac.at/403/
-
-- id: Nussbaumer:2007zh
-  type: report
-  author:
+  title: CIDOC CRM in action - experiences and challenges
+  type: paper-conference
+  url: "http://eprints.cs.univie.ac.at/403/"
+- author:
   - family: Nussbaumer
     given: Philipp
   - family: Haslhofer
     given: Bernhard
-  issued:
-  - year: 2007
-    month: 9
-  title: Putting the CIDOC CRM into practice - experiences and challenges
-  publisher: University of Vienna
   genre: Technical Report
-  URL: http://eprints.cs.univie.ac.at/404/
-
-- id: Haslhofer:2007ta
-  type: paper-conference
-  author:
+  id: "Nussbaumer:2007zh"
+  issued: 2007-09
+  publisher: University of Vienna
+  title: Putting the CIDOC CRM into practice - experiences and
+    challenges
+  type: report
+  url: "http://eprints.cs.univie.ac.at/404/"
+- author:
   - family: Haslhofer
     given: Bernhard
-  issued:
-  - year: 2007
-    month: 9
-  title: Uniform sparql access to interlinked (digital library) sources
-  container-title: The 6th european networked knowledge organization systems (NKOS)
-    workshop
+  container-title: The 6th european networked knowledge organization
+    systems (NKOS) workshop
+  id: "Haslhofer:2007ta"
+  issued: 2007-09
   publisher-place: Budapest, Hungary
-  URL: http://eprints.cs.univie.ac.at/394/
-
-- id: Kruk:2006ud
+  title: Uniform SPARQL access to interlinked (digital library) sources
   type: paper-conference
-  author:
+  url: "http://eprints.cs.univie.ac.at/394/"
+- author:
   - family: Kruk
     given: Sebastian
   - family: Haslhofer
@@ -1631,104 +1504,89 @@ references:
     given: Adam
   - family: Woroniecki
     given: Tomasz
-  issued:
-  - year: 2006
-    month: 9
-  title: The role of ontologies in semantic digital libraries.
-  container-title: The 5th european networked knowledge organization systems (NKOS)
-    workshop
+  container-title: The 5th european networked knowledge organization
+    systems (NKOS) workshop
+  id: "Kruk:2006ud"
+  issued: 2006-09
   publisher-place: Alicante, Spain
-  URL: http://eprints.cs.univie.ac.at/531/
-
-- id: Haslhofer:2006fx
+  title: The role of ontologies in semantic digital libraries.
   type: paper-conference
-  author:
+  url: "http://eprints.cs.univie.ac.at/531/"
+- author:
   - family: Haslhofer
     given: Bernhard
-  issued:
-  - year: 2006
-    month: 12
-  title: A service oriented architecture for integrating metadata from heterogeneous
-    digital libraries
-  container-title: The 1st international workshop on semantic information integration
-    on knowledge discovery (SIIK 2006)
+  container-title: The 1st international workshop on semantic
+    information integration on knowledge discovery (SIIK 2006)
+  id: "Haslhofer:2006fx"
+  issued: 2006-12
   publisher-place: Yogyakarta, Indonesia
-  URL: http://eprints.cs.univie.ac.at/584/
-
-- id: Haslhofer:2006bd
-  type: chapter
-  author:
+  title: A service oriented architecture for integrating metadata from
+    heterogeneous digital libraries
+  type: paper-conference
+  url: "http://eprints.cs.univie.ac.at/584/"
+- author:
   - family: Haslhofer
     given: Bernhard
+  container-title: Encyclopedia of multimedia
   editor:
   - family: Furth
     given: Borko
-  issued:
-  - year: 2006
-    month: 1
-  title: Context and current metadata standards (short entry)
-  container-title: Encyclopedia of multimedia
-  publisher: Springer Science, Business Media, Inc
+  id: "Haslhofer:2006bd"
+  issued: 2006-01
   page: 123-124
-  URL: http://eprints.cs.univie.ac.at/608/
-
-- id: Zillner:2005uf
-  type: paper-conference
-  author:
+  publisher: Springer Science, Business Media, Inc
+  title: Context and current metadata standards (short entry)
+  type: chapter
+  url: "http://eprints.cs.univie.ac.at/608/"
+- author:
   - family: Zillner
     given: Sonja
   - family: Winiwarter
     given: Werner
   - family: Haslhofer
     given: Bernhard
-  issued:
-  - year: 2005
-    month: 5
-  title: The design and implementation of a query algebra for multimedia meta objects
   container-title: 4th international workshop on web semantics (WebS)
+  id: "Zillner:2005uf"
+  issued: 2005-05
   publisher: IEEE Computer Society Press
   publisher-place: Copenhagen, Denmark
-  URL: http://eprints.cs.univie.ac.at/723/
-
-- id: Hecht:2005mw
+  title: The design and implementation of a query algebra for multimedia
+    meta objects
   type: paper-conference
-  author:
+  url: "http://eprints.cs.univie.ac.at/723/"
+- author:
   - family: Hecht
     given: Robert
   - family: Haslhofer
     given: Bernhard
-  issued:
-  - year: 2005
-    month: 12
-  title: Joining the bricks network - a piece of cake
   container-title: The international EVA conference
+  id: "Hecht:2005mw"
+  issued: 2005-12
   publisher-place: Moscow, Russia
-  URL: http://eprints.cs.univie.ac.at/742/
-
-- id: Haslhofer:2005jo
+  title: Joining the BRICKS network - a piece of cake
   type: paper-conference
-  author:
+  url: "http://eprints.cs.univie.ac.at/742/"
+- author:
   - family: Haslhofer
     given: Bernhard
   - family: Hecht
     given: Robert
-  issued:
-  - year: 2005
-    month: 10
-  title: Metadata management in a heterogeneous digital library
-  container-title: EChallenges 2005
+  container-title: eChallenges 2005
+  id: "Haslhofer:2005jo"
+  issued: 2005-10
   publisher: IOS Press
   publisher-place: Ljubljana, Slovenia
-  URL: http://eprints.cs.univie.ac.at/758/
-
-- id: Haslhofer:2003oa
-  type: thesis
-  author:
+  title: Metadata management in a heterogeneous digital library
+  type: paper-conference
+  url: "http://eprints.cs.univie.ac.at/758/"
+- author:
   - family: Haslhofer
     given: Bernhard
-  issued:
-  - year: 2003
-  title: Agent-based electronic markets — a look behind the scenes
+  genre: Master's thesis
+  id: "Haslhofer:2003oa"
+  issued: 2003
   publisher: University of Vienna
-  genre: Master’s thesis
-...
+  title: Agent-based electronic markets --- a look behind the scenes
+  type: thesis
+---
+

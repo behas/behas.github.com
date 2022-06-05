@@ -2,19 +2,33 @@
 
 Convert bibtex bibliography to YAML file
 
-	pandoc-citeproc --bib2yaml assets/bibliography.bib > _data/publications.yml
+	pandoc assets/bibliography.bib -s  -f bibtex -t markdown > _data/publications.yml
 
 ## Run locally
 
-Check local ruby version...should work with ruby 2.5.3
+Install ruby as described [here](https://jekyllrb.com/docs/installation/macos/)
 
-Make sure [jekyll](https://jekyllrb.com/) is installed
+	brew install chruby ruby-install
+	ruby-install ruby
 
-	gem install bundler jekyll
+	echo "source $(brew --prefix)/opt/chruby/share/chruby/chruby.sh" >> ~/.zshrc
+	echo "source $(brew --prefix)/opt/chruby/share/chruby/auto.sh" >> ~/.zshrc
+	echo "chruby ruby-3.1.2" >> ~/.zshrc
 
+	ruby -v
+
+Install Jekyll
+
+	gem install jeykll bundler
+
+Install local bundles
+
+	bundle install
+	bundle add webrick
+	
 Run website in local development mode
 
 	bundle exec jekyll serve --watch
 
-Website should run in http://127.0.0.1:4000/
+Website should run in http://localhost:4000/
 

@@ -9,7 +9,13 @@
       {{ author.family }}, {{ author.given | slice: 0 }}.{% unless forloop.last %},{% endunless %}
 {% endfor %}
 
-({{ publication.issued[0].year }}).
+{% if publication.issued contains '-' %}
+  {% assign pub_date = publication.issued | split: "-" | first %}
+{% else %} 
+  {% assign pub_date = publication.issued %}
+{% endif %}         
+
+({{ pub_date }}).
 
 {% if publication.URL %}
   <a href="{{publication.URL}}" target="_blank"><em>{{ publication.title }}</em></a>.
