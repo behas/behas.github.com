@@ -11,7 +11,9 @@ permalink: /publications
     {% for pub in site.data.publications.references %}
 
       {% if pub.type == 'manuscript' %}
+        <p>
         {% include publication.html publication=pub %}
+        </p>
       {% endif %}
 
     {% endfor %}
@@ -35,18 +37,20 @@ permalink: /publications
   {% for year in years %}
     <h5>{{ year }}</h5>
     {% for pub in site.data.publications.references %}
-      <p>
-      {% if pub.issued contains '-' %}
-        {% assign pub_year = pub.issued | split: "-" | first %}
-      {% else %} 
-        {% assign pub_year = pub.issued %}
-      {% endif %}
-      {% assign year_int = year | plus: 0 %}
-      {% assign pub_year_int = pub_year | plus: 0 %}
-      {% if pub_year_int == year_int %}
-        {% include publication.html publication=pub %}
-      {% endif %}      
-      </p>
+      {% unless pub.type == 'manuscript' %}
+        <p>
+        {% if pub.issued contains '-' %}
+          {% assign pub_year = pub.issued | split: "-" | first %}
+        {% else %} 
+          {% assign pub_year = pub.issued %}
+        {% endif %}
+        {% assign year_int = year | plus: 0 %}
+        {% assign pub_year_int = pub_year | plus: 0 %}
+        {% if pub_year_int == year_int %}
+          {% include publication.html publication=pub %}
+        {% endif %}      
+        </p>
+      {% endunless %}
     {% endfor %}
   {% endfor %}
 
