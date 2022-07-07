@@ -3,35 +3,6 @@ nocite: "[@*]"
 references:
 - annote: Arxiv pre-print
   author:
-  - family: Kitzler
-    given: Stefan
-  - family: Victor
-    given: Friedhelm
-  - family: Saggese
-    given: Pietro
-  - family: Haslhofer
-    given: Bernhard
-  id: "Kitzler:2021a"
-  title: Disentangling decentralized finance (DeFi) compositions
-  type: manuscript
-  url: "https://arxiv.org/abs/2111.11933"
-- annote: Arxiv pre-print
-  author:
-  - family: Stockinger
-    given: Johann
-  - family: Haslhofer
-    given: Bernhard
-  - family: Moreno-Sanchez
-    given: Pedro
-  - family: Maffei
-    given: Matteo
-  id: "Stockinger:2021a"
-  title: Pinpointing and measuring wasabi and samourai CoinJoins in the
-    bitcoin ecosystem
-  type: manuscript
-  url: "https://arxiv.org/abs/2109.10229"
-- annote: Arxiv pre-print
-  author:
   - family: Haslhofer
     given: Bernhard
   - family: Stütz
@@ -56,6 +27,36 @@ references:
     effect in bitcoin
   type: manuscript
   url: "https://arxiv.org/abs/2010.12415"
+- annote: Arxiv pre-print
+  author:
+  - family: Kitzler
+    given: Stefan
+  - family: Victor
+    given: Friedhelm
+  - family: Saggese
+    given: Pietro
+  - family: Haslhofer
+    given: Bernhard
+  id: "Kitzler:2021a"
+  title: Disentangling decentralized finance (DeFi) compositions
+  type: manuscript
+  url: "https://arxiv.org/abs/2111.11933"
+- annote: accepted at AFT 2022
+  author:
+  - family: Stütz
+    given: Rainer
+  - family: Stockinger
+    given: Johann
+  - family: Haslhofer
+    given: Bernhard
+  - family: Moreno-Sanchez
+    given: Pedro
+  - family: Maffei
+    given: Matteo
+  id: "Stuetz:2022a"
+  title: Measuring the adoption and actual privacy of decentralized
+    CoinJoin implementations in the bitcoin ecosystem
+  type: manuscript
 - annote: Arxiv pre-print; accepted at USENIX Security 2022
   author:
   - family: Kappos
@@ -76,6 +77,38 @@ references:
   title-short: How to peel a million
   type: manuscript
   url: "https://arxiv.org/abs/2205.13882"
+- author:
+  - family: Holly
+    given: Stephanie
+  - family: Heel
+    given: Robin
+  - family: Katic
+    given: Denis
+  - family: Schoeffl
+    given: Leopold
+  - family: Stiftinger
+    given: Andreas
+  - family: Holzner
+    given: Peter
+  - family: Kaufmann
+    given: Thomas
+  - family: Haslhofer
+    given: Bernhard
+  - family: Schall
+    given: Daniel
+  - family: Heitzinger
+    given: Clemens
+  - literal: others
+  collection-number: 1
+  container-title: PHM society european conference
+  id: "Holly:2022a"
+  issued: 2022
+  page: 200-210
+  title: Autoencoder based anomaly detection and explained fault
+    localization in industrial cooling systems
+  type: paper-conference
+  url: "http://www.papers.phmsociety.org/index.php/phme/article/view/3349"
+  volume: 7
 - author:
   - family: Jalali
     given: Anahid
