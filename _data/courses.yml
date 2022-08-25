@@ -12,7 +12,7 @@
   institution_uri: "https://www.technikum-wien.at/en/"
   period: "2017-2021"
   role: "instructor"
-  active: true
+  active: false
   description: |
     The goal of this course is to introduce the design principles and technologies for building global information, data, and financial networks, show the practical applications of such systems, and discuss their design and their social and policy context.
 
