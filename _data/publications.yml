@@ -57,8 +57,7 @@ references:
   title: Measuring the adoption and actual privacy of decentralized
     CoinJoin implementations in the bitcoin ecosystem
   type: manuscript
-- annote: Arxiv pre-print; accepted at USENIX Security 2022
-  author:
+- author:
   - family: Kappos
     given: George
   - family: Yousaf
@@ -71,12 +70,18 @@ references:
     given: Bernhard
   - family: Meiklejohn
     given: Sarah
+  container-title: 31st USENIX security symposium (USENIX security 22)
   id: "Kappos:2022a"
+  isbn: 978-1-939133-31-1
+  issued: 2022-08
+  page: 2207-2223
+  publisher: USENIX Association
+  publisher-place: Boston, MA
   title: "How to peel a million: Validating and expanding bitcoin
     clusters"
   title-short: How to peel a million
-  type: manuscript
-  url: "https://arxiv.org/abs/2205.13882"
+  type: paper-conference
+  url: "https://www.usenix.org/conference/usenixsecurity22/presentation/kappos"
 - author:
   - family: Holly
     given: Stephanie
