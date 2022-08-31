@@ -18,17 +18,6 @@ references:
   url: "https://arxiv.org/abs/2102.13613"
 - annote: Arxiv pre-print
   author:
-  - family: Schatzmann
-    given: Jürgen E.
-  - family: Haslhofer
-    given: Bernhard
-  id: "Schatzmann:2020a"
-  title: Bitcoin trading is irrational! An analysis of the disposition
-    effect in bitcoin
-  type: manuscript
-  url: "https://arxiv.org/abs/2010.12415"
-- annote: Arxiv pre-print
-  author:
   - family: Kitzler
     given: Stefan
   - family: Victor
@@ -41,8 +30,18 @@ references:
   title: Disentangling decentralized finance (DeFi) compositions
   type: manuscript
   url: "https://arxiv.org/abs/2111.11933"
-- annote: accepted at AFT 2022
+- annote: Arxiv pre-print
   author:
+  - family: Schatzmann
+    given: Jürgen E.
+  - family: Haslhofer
+    given: Bernhard
+  id: "Schatzmann:2020a"
+  title: Bitcoin trading is irrational! An analysis of the disposition
+    effect in bitcoin
+  type: manuscript
+  url: "https://arxiv.org/abs/2010.12415"
+- author:
   - family: Stütz
     given: Rainer
   - family: Stockinger
@@ -53,10 +52,14 @@ references:
     given: Pedro
   - family: Maffei
     given: Matteo
+  container-title: Proceedings of the 4st ACM conference on advances in
+    financial technologies, AFT 2022, boston, september 19-22, 2022
   id: "Stuetz:2022a"
-  title: Measuring the adoption and actual privacy of decentralized
-    CoinJoin implementations in the bitcoin ecosystem
-  type: manuscript
+  issued: 2022
+  title: Adoption and actual privacy of decentralized CoinJoin
+    implementations in bitcoin
+  type: paper-conference
+  url: "https://arxiv.org/abs/2109.10229"
 - author:
   - family: Kappos
     given: George
