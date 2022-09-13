@@ -18,20 +18,6 @@ references:
   url: "https://arxiv.org/abs/2102.13613"
 - annote: Arxiv pre-print
   author:
-  - family: Kitzler
-    given: Stefan
-  - family: Victor
-    given: Friedhelm
-  - family: Saggese
-    given: Pietro
-  - family: Haslhofer
-    given: Bernhard
-  id: "Kitzler:2021a"
-  title: Disentangling decentralized finance (DeFi) compositions
-  type: manuscript
-  url: "https://arxiv.org/abs/2111.11933"
-- annote: Arxiv pre-print
-  author:
   - family: Schatzmann
     given: Jürgen E.
   - family: Haslhofer
@@ -41,6 +27,20 @@ references:
     effect in bitcoin
   type: manuscript
   url: "https://arxiv.org/abs/2010.12415"
+- annote: Arxiv pre-print; accepted for publication
+  author:
+  - family: Kitzler
+    given: Stefan
+  - family: Victor
+    given: Friedhelm
+  - family: Saggese
+    given: Pietro
+  - family: Haslhofer
+    given: Bernhard
+  id: "Kitzler:2021b"
+  title: Disentangling decentralized finance (DeFi) compositions
+  type: manuscript
+  url: "https://arxiv.org/abs/2111.11933"
 - author:
   - family: Stütz
     given: Rainer
@@ -1098,7 +1098,7 @@ references:
   - family: Haslhofer
     given: Bernhard
   container-title: ERCIM News
-  id: "6g:2011xq"
+  id: "Jung:2011xq"
   issue: 1
   issued: 2011-07
   title: YUMA --- crowd sourced metadata enrichment for online
