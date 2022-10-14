@@ -27,8 +27,7 @@ references:
     effect in bitcoin
   type: manuscript
   url: "https://arxiv.org/abs/2010.12415"
-- annote: Arxiv pre-print; accepted for publication
-  author:
+- author:
   - family: Kitzler
     given: Stefan
   - family: Victor
@@ -37,10 +36,17 @@ references:
     given: Pietro
   - family: Haslhofer
     given: Bernhard
-  id: "Kitzler:2021b"
+  container-title: ACM Trans. Web
+  doi: 10.1145/3532857
+  id: "Kitzler:2022a"
+  issn: 1559-1131
+  issued: 2022-09
+  keyword: Decentralized Finance, DeFi, Blockchain, Ethereum, Networks
+  publisher: Association for Computing Machinery
+  publisher-place: New York, NY, USA
   title: Disentangling decentralized finance (DeFi) compositions
-  type: manuscript
-  url: "https://arxiv.org/abs/2111.11933"
+  type: article-journal
+  url: "https://doi.org/10.1145/3532857"
 - author:
   - family: Stütz
     given: Rainer
