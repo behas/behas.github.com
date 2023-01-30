@@ -28,6 +28,24 @@ references:
   type: manuscript
   url: "https://arxiv.org/abs/2010.12415"
 - author:
+  - family: Auer
+    given: Raphael
+  - family: Haslhofer
+    given: Bernhard
+  - family: Kitzler
+    given: Stefan
+  - family: Saggese
+    given: Pietro
+  - family: Victor
+    given: Friedhelm
+  id: "Auer:2023a"
+  issued: 2023
+  note: BIS Working Paper
+  publisher: Bank for International Settlements
+  title: The technology of decentralized finance (DeFi)
+  type: report
+  url: "https://www.bis.org/publ/work1066.htm"
+- author:
   - family: Kitzler
     given: Stefan
   - family: Victor
