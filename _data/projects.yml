@@ -1,3 +1,13 @@
+- acronym: "AMALFI"
+  start_date: "2023-03-01"
+  end_date: "2025-08-31"
+  funding_source: "FFG - Bridge"
+  role: "Project Coordinator, Principal Investigator"
+  description: >
+    This project will investigate the applicability and effectiveness of
+    automated learnig techniques in large multilayer cryptoasset transaction
+    networks.
+
 - acronym: "INTERACTIVE"
   uri: "https://www.interactive-project.info/"
   start_date: "2021-04-01"
