@@ -48,12 +48,12 @@
   {% when 'article-journal' %}
     {% if publication.volume and publication.issue %}
       {{ publication.container-title }},
-      {{ publication.volume }}
-      ({{ publication.issue }}).
+      {{ publication.volume | append: '('}}
+      {{- publication.issue | append: ')' }}.
     {% elsif publication.volume and publication.issue and publication.page %}
       {{ publication.container-title }},
-      {{ publication.volume }}
-      ({{ publication.issue }}),
+      {{ publication.volume | append: '('}}
+      {{- publication.issue | append: ')' }}.
       pp. {{ publication.page }}.
     {% elsif publication.volume and publication.page %}
       {{ publication.container-title }},
@@ -65,9 +65,21 @@
     {% if publication.note %}
       <em>{{ publication.note }}</em>.
     {% endif %}
+    {% if publication.note %}
+      {% if publication.note contains "prize" %}
+        <strong>{{publication.note}}</strong>.
+      {% else %}  
+        <em>{{publication.note}}</em>.
+      {% endif %}
+    {% endif %}
 
   {% when 'report' or 'thesis' %}
-    {{ publication.genre }},
+    {% if publication.genre %}
+      {{ publication.genre }},
+    {% endif %}
+    {% if publication.note %}
+      {{ publication.note }},
+    {% endif %}
     {{ publication.publisher }}.
 
   {% when 'chapter' %}
