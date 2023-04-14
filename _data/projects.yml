@@ -14,7 +14,10 @@
   end_date: "2023-03-31"
   funding_source: "FFG - Production of the Future"
   role: "Project Coordinator, Principal Investigator"
-  description: "This project will design and develop workflows and algorithmic methods that enable machine learning in distributed edge computing environments despite missing or insufficient ground-truth data"
+  description: |
+    This project will design and develop workflows and algorithmic methods
+    that enable machine learning in distributed edge computing environments
+    despite missing or insufficient ground-truth data
 
 - acronym: "KRYPTOMONITOR"
   uri: "https://kryptomonitor-project.info/"
@@ -22,7 +25,10 @@
   end_date: "2022-09-30"
   funding_source: "FFG KIRAS"
   role: "Project Coordinator, Principal Investigator"
-  description: "This project will develop generic cryptoasset analysis methods that support the analysis of smart contracts and off-chain transactions in addition to native cryptocurrency transactions"
+  description: |
+    This project will develop generic cryptoasset analysis methods that
+    support the analysis of smart contracts and off-chain transactions in
+    addition to native cryptocurrency transactions.
 
 - acronym: "COGNITUS"
   uri: "https://cognitus-project.info/"
@@ -31,7 +37,10 @@
   funding_source: "FFG - ICT of the future"
   funding_source_uri: "https://www.ffg.at/"
   role: "Project Coordinator, Principal Investigator"
-  description: "The goal of COGNITUS is to provide a Deep Learning pipeline equipped with a set of generic algorithmic building blocks for predicting outages of machineries based on sensor data streams."
+  description: |
+    The goal of COGNITUS is to provide a Deep Learning pipeline equipped
+    with a set of generic algorithmic building blocks for predicting outages
+    of machineries based on sensor data streams.
 
 - acronym: "Austrian Blockchain Center (ABC)"
   uri: "https://blockchain-center.at/"
@@ -39,14 +48,15 @@
   end_date: "2023-10-31"
   funding_source: "FFG COMET"
   role: "Area Lead Data Science Methods for Blockchain Analytics & Predictions"
-  description: "The Center's mission is to be the one-stop-shop Austrian Research Center for Blockchain (and related) technologies to be applied in industrial applications like industry 4.0 / IoT as well as financial, energy, logistics, government and administrative applications. Those new applications and business models resulting from collaborations between established players, innovative startups and top R&D institutes will be the key for the creation of new jobs and establishing Austria among the top ten innovative countries in Europe."
-
-- acronym: "SD4M"
-  start_date: "2018-05-01"
-  end_date: "2019-01-31"
-  funding_source: "Contract Research"
-  role: "Co-Principal Investigator"
-  description: "Investigating possible machine learning models for predicting outages of etching equipments that chemically remove layers from the surface of a silicon wafer during manufacturing."
+  description: |
+    The Center's mission is to be the one-stop-shop Austrian Research Center
+    for Blockchain (and related) technologies to be applied in industrial
+    applications like industry 4.0 / IoT as well as financial, energy,
+    logistics, government and administrative applications. Those new
+    applications and business models resulting from collaborations between
+    established players, innovative startups and top R&D institutes will be
+    the key for the creation of new jobs and establishing Austria among the top
+    ten innovative countries in Europe.
 
 - acronym: "TRAVELOGUES"
   uri: "http://travelogues-project.info"
@@ -56,7 +66,17 @@
   funding_source_uri: "https://www.fwf.ac.at/de/forschungsfoerderung/fwf-programme/internationale-programme/joint-projects/"  
   role: "Co-Principal Investigator"
   description: |
-    This interdisciplinary international (DACH FWF-DFG) digital humanities project aims at gaining insight into the perception of the Other (focusing on the Orient) by analyzing an extensive collection of German language travelogues covering the period from 1500 until 1875. It will bring together a team of researchers from history, computer science, as well as library and information science from Austria and Germany. They will jointly develop a novel mixed qualitative and quantitative method for the serial analysis of large-scale text corpora and apply that method on a comprehensive corpus of travelogues originally published in the German language (ca. 3,000 - 3,500 books) and drawn from the Austrian Books Online (ABO) project (ca. 600,000 books) of the Austrian National Library.
+    This interdisciplinary international (DACH FWF-DFG) digital humanities
+    project aims at gaining insight into the perception of the Other
+    (focusing on the Orient) by analyzing an extensive collection of German
+    language travelogues covering the period from 1500 until 1875. It will
+    bring together a team of researchers from history, computer science, as
+    well as library and information science from Austria and Germany. They
+    will jointly develop a novel mixed qualitative and quantitative method
+    for the serial analysis of large-scale text corpora and apply that method
+    on a comprehensive corpus of travelogues originally published in the German
+    language (ca. 3,000 - 3,500 books) and drawn from the Austrian Books Online
+    (ABO) project (ca. 600,000 books) of the Austrian National Library.
 
 - acronym: "VIRTCRIME"
   uri: "http://virtcrime-project.info/"
@@ -66,7 +86,12 @@
   funding_source_uri: "https://www.ffg.at/"  
   role: "Project Coordinator, Principal Investigator"
   description: |
-    The goal of the VIRTCRIME project lies in the development of novel algorithms and methods for tracing criminal transactions in post-Bitcoin era cryptocurrencies, while considering illegitimate activities in Darknet market places. Orthogonally, the project will provide novel criminological procedures and law enforcement approaches, and investigate legal pre-conditions and consequences.
+    The goal of the VIRTCRIME project lies in the development of novel
+    algorithms and methods for tracing criminal transactions in post-Bitcoin
+    era cryptocurrencies, while considering illegitimate activities in Darknet
+    market places. Orthogonally, the project will provide novel criminological
+    procedures and law enforcement approaches, and investigate legal
+    pre-conditions and consequences.
 
 - acronym: "TITANIUM"
   uri: "https://titanium-project.eu/"
@@ -76,7 +101,10 @@
   funding_source_uri: "https://ec.europa.eu/programmes/horizon2020/"
   role: "Senior Scientist"
   description: |
-    TITANIUM will research, develop, and validate novel data-driven techniques and solutions designed to support Law Enforcement Agencies (LEAs) charged with investigating criminal or terrorist activities involving virtual currencies and/or underground markets in the darknet.
+    TITANIUM will research, develop, and validate novel data-driven techniques
+    and solutions designed to support Law Enforcement Agencies (LEAs) charged
+    with investigating criminal or terrorist activities involving virtual
+    currencies and/or underground markets in the darknet.
 
 - acronym: "GraphSense"
   uri: "http://www.graphsense.info"
@@ -86,7 +114,12 @@
   funding_source_uri: "https://www.ffg.at/"
   role: "Project Coordinator, Principal Investigator"
   description: |
-    The goal of the GraphSense project is to research and develop novel algorithmic solutions for detecting anomalies in large-scale, dynamically changing graph datasets. The focus will be on developing anomaly detection techniques for transaction networks constructed from virtual currencies (Bitcoin) and investigate their applicability for enterprise financial fraud detection settings.
+    The goal of the GraphSense project is to research and develop novel
+    algorithmic solutions for detecting anomalies in large-scale, dynamically
+    changing graph datasets. The focus will be on developing anomaly detection
+    techniques for transaction networks constructed from virtual currencies
+    (Bitcoin) and investigate their applicability for enterprise financial fraud
+    detection settings.
 
 - acronym: "BITCRIME"
   uri: "https://www.bitcrime.de/"

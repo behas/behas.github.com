@@ -7,7 +7,7 @@ permalink: /teaching
 <div class="container mt-5">
 
   <div class="row">
-    <h3>Current Courses</h3>
+    <h2>Current Courses</h2>
 
     {% for course in site.data.courses %}
       {% if course.active %}
@@ -17,7 +17,7 @@ permalink: /teaching
   </div>
 
   <div class="row">
-    <h3>Supervised thesis</h3>
+    <h2>Supervised thesis</h2>
 
     {% for thesis in site.data.theses %}
         {% include thesis.html thesis=thesis %}
@@ -25,7 +25,7 @@ permalink: /teaching
   </div>
 
  <div class="row">
-    <h3>Past Courses</h3>
+    <h2>Past Courses</h2>
 
     {% for course in site.data.courses %}
       {% unless course.active %}

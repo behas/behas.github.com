@@ -6,7 +6,7 @@ permalink: /publications
 
 <div class="container mt-5">
 
-  <h3>Unpublished Working Papers</h3>  
+  <h2>Pre-Prints</h2>  
 
     {% for pub in site.data.publications.references %}
 
@@ -18,7 +18,7 @@ permalink: /publications
 
     {% endfor %}
 
-  <h3>Published Papers</h3>  
+  <h2>Published Research Papers</h2>  
 
   {% capture years %}
       {% for pub in site.data.publications.references %}
@@ -35,7 +35,7 @@ permalink: /publications
   {% assign years = years | split: "|" | uniq | sort | reverse %}
 
   {% for year in years %}
-    <h5>{{ year }}</h5>
+    <h3>{{ year }}</h3>
     {% for pub in site.data.publications.references %}
       {% unless pub.type == 'manuscript' %}
         <p>
@@ -54,7 +54,7 @@ permalink: /publications
     {% endfor %}
   {% endfor %}
 
-  <h3>Standards and Specifications</h3>
+  <h2>Standards and Specifications</h2>
 
   <p><a href="http://www.openarchives.org/rs/resourcesync" target="_blank">ResourceSync Framework Specification</a> (co-editor): describes a synchronization framework for the web consisting of various capabilities that allow third party systems to remain synchronized with a server's evolving resources.</p>
 

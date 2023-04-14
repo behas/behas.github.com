@@ -58,13 +58,15 @@ references:
   doi: 10.1145/3532857
   id: "Kitzler:2022a"
   issn: 1559-1131
-  issued: 2022-09
-  keyword: Decentralized Finance, DeFi, Blockchain, Ethereum, Networks
+  issue: 2
+  issued: 2023-03
+  keyword: networks, DeFi, Ethereum, Decentralized Finance, blockchain
   publisher: Association for Computing Machinery
   publisher-place: New York, NY, USA
   title: Disentangling decentralized finance (DeFi) compositions
   type: article-journal
   url: "https://doi.org/10.1145/3532857"
+  volume: 17
 - author:
   - family: Stütz
     given: Rainer

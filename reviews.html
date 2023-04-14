@@ -6,9 +6,9 @@ permalink: /reviewing
 
 <div class="container mt-5">
 
-  <h3>Program Committees and Reviewing for Scientific Journals</h3>
+  <h2>Program Committees and Reviewing for Scientific Journals</h2>
 
-  <h5>Journals</h5>
+  <h3>Journals</h3>
 
   {% for review in site.data.reviews %}
     {% if review.type == 'journal' %}
@@ -20,7 +20,7 @@ permalink: /reviewing
     {% endif %}
   {% endfor %}
 
-  <h5>Conferences, Workshops, Symposia</h5>
+  <h3>Conferences, Workshops, Symposia</h3>
 
   {% for review in site.data.reviews %}
     {% if review.type == 'conference' or review.type == 'workshop' %}
