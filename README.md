@@ -19,7 +19,7 @@ Install ruby as described [here](https://jekyllrb.com/docs/installation/macos/)
 
 Install Jekyll
 
-	gem install jeykll bundler
+	gem install jekyll bundler
 
 Install local bundles
 
