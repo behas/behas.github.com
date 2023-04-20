@@ -1,3 +1,26 @@
+- author: "Nikolas Haimerl"
+  title: "Tracing Cryptoassets Across Chains: An Empirical Analysis of the Terra Network"
+  institution: "TU Wien"
+  subject: "Computer Science"
+  date: "2022-08-30"
+  type: "Master's thesis"
+  uri: https://repositum.tuwien.at/handle/20.500.12708/141981
+
+- author: "Sebastian Luzian"
+  title: "A Systematic Investigation of Illicit Money Flows in the DeFi Ecosystem"
+  institution: "TU Wien"
+  subject: "Computer Science"
+  date: "2022-11-10"
+  type: "Master's thesis"
+  uri: https://repositum.tuwien.at/handle/20.500.12708/150209
+
+- author: "Sebastian Fürndraht"
+  title: "Finding and analyzing DeFi Protocol networks on the Ethereum blockchain"
+  institution: "TU Wien"
+  subject: "Computer Science"
+  date: "2023-03-17"
+  type: "Bachelor's thesis"
+
 - author: "Johann Stockinger"
   title: "Analysis of Decentralized Mixing Services in the Greater Bitcoin Ecosystem"
   institution: "TU Wien"

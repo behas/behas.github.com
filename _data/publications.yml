@@ -1,8 +1,7 @@
 ---
 nocite: "[@*]"
 references:
-- annote: Arxiv pre-print
-  author:
+- author:
   - family: Haslhofer
     given: Bernhard
   - family: Stütz
@@ -12,17 +11,18 @@ references:
   - family: King
     given: Ross
   id: "Haslhofer:2021a"
+  note: Arxiv pre-print
   title: "GraphSense: A general-purpose cryptoasset analytics platform"
   title-short: GraphSense
   type: manuscript
   url: "https://arxiv.org/abs/2102.13613"
-- annote: Arxiv pre-print
-  author:
+- author:
   - family: Schatzmann
     given: Jürgen E.
   - family: Haslhofer
     given: Bernhard
   id: "Schatzmann:2020a"
+  note: Arxiv pre-print
   title: Bitcoin trading is irrational! An analysis of the disposition
     effect in bitcoin
   type: manuscript
@@ -56,7 +56,7 @@ references:
     given: Bernhard
   container-title: ACM Trans. Web
   doi: 10.1145/3532857
-  id: "Kitzler:2022a"
+  id: "Kitzler:2023a"
   issn: 1559-1131
   issue: 2
   issued: 2023-03
@@ -101,13 +101,17 @@ references:
     given: Bernhard
   - family: Meiklejohn
     given: Sarah
-  container-title: 31st USENIX security symposium (USENIX security 22)
+  container-title: 31st USENIX Security Symposium, Boston, MA, USA,
+    August 10-12, 2022
+  editor:
+  - family: Butler
+    given: Kevin R. B.
+  - family: Thomas
+    given: Kurt
   id: "Kappos:2022a"
-  isbn: 978-1-939133-31-1
-  issued: 2022-08
+  issued: 2022
   page: 2207-2223
   publisher: USENIX Association
-  publisher-place: Boston, MA
   title: "How to peel a million: Validating and expanding bitcoin
     clusters"
   title-short: How to peel a million
@@ -134,7 +138,6 @@ references:
     given: Daniel
   - family: Heitzinger
     given: Clemens
-  - literal: others
   collection-number: 1
   container-title: PHM society european conference
   id: "Holly:2022a"
