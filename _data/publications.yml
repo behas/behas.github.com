@@ -17,17 +17,6 @@ references:
   type: manuscript
   url: "https://arxiv.org/abs/2102.13613"
 - author:
-  - family: Schatzmann
-    given: Jürgen E.
-  - family: Haslhofer
-    given: Bernhard
-  id: "Schatzmann:2020a"
-  note: Arxiv pre-print
-  title: Bitcoin trading is irrational! An analysis of the disposition
-    effect in bitcoin
-  type: manuscript
-  url: "https://arxiv.org/abs/2010.12415"
-- author:
   - family: Auer
     given: Raphael
   - family: Haslhofer
@@ -45,6 +34,20 @@ references:
   title: The technology of decentralized finance (DeFi)
   type: report
   url: "https://www.bis.org/publ/work1066.htm"
+- author:
+  - family: Schatzmann
+    given: Jürgen E.
+  - family: Haslhofer
+    given: Bernhard
+  container-title: Digital Finance
+  doi: 10.1007/s42521-023-00086-w
+  id: "Schatzmann:2023a"
+  issued: 2023-07
+  title: "Exploring investor behavior in bitcoin: A study of the
+    disposition effect"
+  title-short: Exploring investor behavior in bitcoin
+  type: article-journal
+  url: "https://doi.org/10.1007/s42521-023-00086-w"
 - author:
   - family: Kitzler
     given: Stefan
@@ -74,20 +77,27 @@ references:
     given: Rainer
   - family: Stockinger
     given: Johann
-  - family: Haslhofer
-    given: Bernhard
   - family: Moreno-Sanchez
     given: Pedro
+  - family: Haslhofer
+    given: Bernhard
   - family: Maffei
     given: Matteo
-  container-title: Proceedings of the 4st ACM conference on advances in
-    financial technologies, AFT 2022, boston, september 19-22, 2022
+  collection-title: AFT '22
+  container-title: Proceedings of the 4th ACM conference on advances in
+    financial technologies
+  doi: 10.1145/3558535.3559782
   id: "Stuetz:2022a"
-  issued: 2022
+  isbn: 9781450398619
+  issued: 2023
+  keyword: cryptoassets, CoinJoin, mixing
+  page: 254-267
+  publisher: Association for Computing Machinery
+  publisher-place: New York, NY, USA
   title: Adoption and actual privacy of decentralized CoinJoin
     implementations in bitcoin
   type: paper-conference
-  url: "https://arxiv.org/abs/2109.10229"
+  url: "https://doi.org/10.1145/3558535.3559782"
 - author:
   - family: Kappos
     given: George
