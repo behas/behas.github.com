@@ -35,6 +35,44 @@ references:
   type: report
   url: "https://www.bis.org/publ/work1066.htm"
 - author:
+  - family: Kitzler
+    given: Stefan
+  - family: Victor
+    given: Friedhelm
+  - family: Saggese
+    given: Pietro
+  - family: Haslhofer
+    given: Bernhard
+  container-title: Financial cryptography and data security. FC 2022
+    international workshops
+  editor:
+  - family: Matsuo
+    given: Shin'ichiro
+  - family: Gudgeon
+    given: Lewis
+  - family: Klages-Mundt
+    given: Ariah
+  - family: Perez Hernandez
+    given: Daniel
+  - family: Werner
+    given: Sam
+  - family: Haines
+    given: Thomas
+  - family: Essex
+    given: Aleksander
+  - family: Bracciali
+    given: Andrea
+  - family: Sala
+    given: Massimiliano
+  id: "Kitzler:2023a"
+  isbn: 978-3-031-32415-4
+  issued: 2023
+  page: 272-279
+  publisher: Springer International Publishing
+  publisher-place: Cham
+  title: A systematic investigation of DeFi compositions in ethereum
+  type: paper-conference
+- author:
   - family: Schatzmann
     given: Jürgen E.
   - family: Haslhofer
