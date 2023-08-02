@@ -27,13 +27,13 @@ references:
     given: Pietro
   - family: Victor
     given: Friedhelm
+  container-title: Digital Finance
+  doi: 10.1007/s42521-023-00088-8
   id: "Auer:2023a"
-  issued: 2023
-  note: BIS Working Paper
-  publisher: Bank for International Settlements
+  issued: 2023-07
   title: The technology of decentralized finance (DeFi)
   type: report
-  url: "https://www.bis.org/publ/work1066.htm"
+  url: "https://link.springer.com/article/10.1007/s42521-023-00088-8"
 - author:
   - family: Kitzler
     given: Stefan
