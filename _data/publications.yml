@@ -17,6 +17,30 @@ references:
   type: manuscript
   url: "https://arxiv.org/abs/2102.13613"
 - author:
+  - family: Jalali
+    given: Anahid
+  - family: Haslhofer
+    given: Bernhard
+  - family: Kriglstein
+    given: Simone
+  - family: Rauber
+    given: Andreas
+  container-title: Intelligent computing
+  editor:
+  - family: Arai
+    given: Kohei
+  id: "Jalali:2023a"
+  isbn: 978-3-031-37717-4
+  issued: 2023
+  page: 712-733
+  publisher: Springer Nature Switzerland
+  publisher-place: Cham
+  title: "Predictability and comprehensibility in post-hoc XAI methods:
+    A user-centered analysis"
+  title-short: Predictability and comprehensibility in post-hoc XAI
+    methods
+  type: paper-conference
+- author:
   - family: Auer
     given: Raphael
   - family: Haslhofer
