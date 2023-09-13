@@ -1,3 +1,12 @@
+- acronym: "DeFiTrace"
+  start_date: "2023-10-01"
+  end_date: "2025-09-30"
+  funding_source: "FFG KIRAS"
+  role: "Project Coordinator, Principal Investigator"
+  description: >
+    The DeFiTrace project aims to create algorithmic methods to
+    detect illegal transactions in cross-ledger DeFi systems.
+
 - acronym: "AMALFI"
   start_date: "2023-03-01"
   end_date: "2025-08-31"
