@@ -2,6 +2,23 @@
 nocite: "[@*]"
 references:
 - author:
+  - family: Kitzler
+    given: Stefan
+  - family: Balietti
+    given: Stefano
+  - family: Pietro Saggese
+    given: Bernhard Haslhofer
+  - family: Strohmaier
+    given: Markus
+  id: "Kitzler:2024a"
+  note: Arxiv pre-print
+  title: "The governance of distributed autonomous organizations: A
+    study of contributors' influence, networks, and shifts in voting
+    power"
+  title-short: The governance of distributed autonomous organizations
+  type: manuscript
+  url: "https://arxiv.org/abs/2309.14232"
+- author:
   - family: Haslhofer
     given: Bernhard
   - family: Stütz
