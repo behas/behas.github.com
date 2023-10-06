@@ -2,6 +2,26 @@
 nocite: "[@*]"
 references:
 - author:
+  - family: Saggese
+    given: Pietro
+  - family: Segalla
+    given: Esther
+  - family: Sigmund
+    given: Michael
+  - family: Raunig
+    given: Burkhard
+  - family: Zangerl
+    given: Felix
+  - family: Haslhofer
+    given: Bernhard
+  id: "Saggese:2024a"
+  note: Arxiv pre-print
+  title: "Assessing the solvency of virtual asset service providers: Are
+    current standards sufficient?"
+  title-short: Assessing the solvency of virtual asset service providers
+  type: manuscript
+  url: "https://arxiv.org/abs/2309.14232"
+- author:
   - family: Kitzler
     given: Stefan
   - family: Balietti
