@@ -2,6 +2,21 @@
 nocite: "[@*]"
 references:
 - author:
+  - family: Carpentier-Desjardins
+    given: Catherine
+  - family: Paquet-Clouston
+    given: Masarah
+  - family: Kitzler
+    given: Stefan
+  - family: Haslhofer
+    given: Bernhard
+  id: "Carpentier:2024"
+  note: Arxiv pre-print
+  title: "Mapping the DeFi crime landscape: An evidence-based picture"
+  title-short: Mapping the DeFi crime landscape
+  type: manuscript
+  url: "https://arxiv.org/abs/2310.04356"
+- author:
   - family: Saggese
     given: Pietro
   - family: Segalla
