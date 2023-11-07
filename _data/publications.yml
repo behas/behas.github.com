@@ -41,8 +41,10 @@ references:
     given: Stefan
   - family: Balietti
     given: Stefano
-  - family: Pietro Saggese
-    given: Bernhard Haslhofer
+  - family: Saggese
+    given: Pietro
+  - family: Haslhofer
+    given: Bernhard
   - family: Strohmaier
     given: Markus
   id: "Kitzler:2024a"
