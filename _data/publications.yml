@@ -2,6 +2,21 @@
 nocite: "[@*]"
 references:
 - author:
+  - family: Haslhofer
+    given: Bernhard
+  - family: Hanslbauer
+    given: Christiane
+  - family: Fröwis
+    given: Michael
+  - family: Goger
+    given: Thomas
+  id: "Haslhofer:2024a"
+  note: Arxiv pre-print
+  title: Increasing the efficiency of cryptoasset investigations by
+    connecting the cases
+  type: manuscript
+  url: "https://arxiv.org/abs/2311.08205"
+- author:
   - family: Carpentier-Desjardins
     given: Catherine
   - family: Paquet-Clouston
@@ -10,7 +25,7 @@ references:
     given: Stefan
   - family: Haslhofer
     given: Bernhard
-  id: "Carpentier:2024"
+  id: "Carpentier:2024a"
   note: Arxiv pre-print
   title: "Mapping the DeFi crime landscape: An evidence-based picture"
   title-short: Mapping the DeFi crime landscape

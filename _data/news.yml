@@ -1,3 +1,16 @@
+- date: 2023-11-16
+  news: |
+    I am presenting our recent paper entitled
+    <a href="https://arxiv.org/abs/2311.08205" target="_blank">
+    Increasing the Efficiency of Cryptoasset Investigations by Connecting the Cases</a> at the
+    <a href="https://apwg.org/event/ecrime2023/" target="_blank">APWG Symposium on Electronic Crime Research</a>
+    in Barcelona. This is joint work with the <a href="https://www.justiz.bayern.de/gerichte-und-behoerden/generalstaatsanwaltschaft/bamberg/spezial_1.php" target="_blank">
+    Bavarian Central Office for the Prosecution of Cybercrime</a>.
+
+- date: 2023-10-16
+  news: |
+    Today we kicked of the KIRAS DeFiTrace project. It aims to create algorithmic methods to detect illegal transactions in cross-ledger DeFi systems.
+
 - date: 2023-10-09
   news: |
     New pre-print on <a href="https://arxiv.org/abs/2310.04356" target="_blank">Mapping the DeFi Crime Landscape: An Evidence-based Picture</a>
