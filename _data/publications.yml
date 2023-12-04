@@ -2,21 +2,6 @@
 nocite: "[@*]"
 references:
 - author:
-  - family: Haslhofer
-    given: Bernhard
-  - family: Hanslbauer
-    given: Christiane
-  - family: Fröwis
-    given: Michael
-  - family: Goger
-    given: Thomas
-  id: "Haslhofer:2024a"
-  note: Arxiv pre-print
-  title: Increasing the efficiency of cryptoasset investigations by
-    connecting the cases
-  type: manuscript
-  url: "https://arxiv.org/abs/2311.08205"
-- author:
   - family: Carpentier-Desjardins
     given: Catherine
   - family: Paquet-Clouston
@@ -52,6 +37,21 @@ references:
   type: manuscript
   url: "https://arxiv.org/abs/2309.16408"
 - author:
+  - family: Haslhofer
+    given: Bernhard
+  - family: Hanslbauer
+    given: Christiane
+  - family: Fröwis
+    given: Michael
+  - family: Goger
+    given: Thomas
+  id: "Haslhofer:2024a"
+  note: Arxiv pre-print, accepted at APWG eCrime Symposium 2023
+  title: Increasing the efficiency of cryptoasset investigations by
+    connecting the cases
+  type: manuscript
+  url: "https://arxiv.org/abs/2311.08205"
+- author:
   - family: Kitzler
     given: Stefan
   - family: Balietti
@@ -63,7 +63,8 @@ references:
   - family: Strohmaier
     given: Markus
   id: "Kitzler:2024a"
-  note: Arxiv pre-print
+  note: Arxiv pre-print, accepted at Financial Cryptography and Data
+    Security (FC) 2024
   title: "The governance of decentralized autonomous organizations: A
     study of contributors' influence, networks, and shifts in voting
     power"
@@ -109,6 +110,7 @@ references:
   title-short: Predictability and comprehensibility in post-hoc XAI
     methods
   type: paper-conference
+  url: "https://arxiv.org/pdf/2309.11987.pdf"
 - author:
   - family: Auer
     given: Raphael
@@ -123,9 +125,9 @@ references:
   container-title: Digital Finance
   doi: 10.1007/s42521-023-00088-8
   id: "Auer:2023a"
-  issued: 2023-07
+  issued: 2023-08
   title: The technology of decentralized finance (DeFi)
-  type: report
+  type: article-journal
   url: "https://link.springer.com/article/10.1007/s42521-023-00088-8"
 - author:
   - family: Kitzler
@@ -165,6 +167,7 @@ references:
   publisher-place: Cham
   title: A systematic investigation of DeFi compositions in ethereum
   type: paper-conference
+  url: "https://doi.org/10.1007/978-3-031-32415-4_18"
 - author:
   - family: Schatzmann
     given: Jürgen E.
@@ -178,7 +181,7 @@ references:
     disposition effect"
   title-short: Exploring investor behavior in bitcoin
   type: article-journal
-  url: "https://doi.org/10.1007/s42521-023-00086-w"
+  url: "https://link.springer.com/article/10.1007/s42521-023-00086-w"
 - author:
   - family: Kitzler
     given: Stefan

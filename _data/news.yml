@@ -1,3 +1,19 @@
+- date: 2023-12-04
+  news: |
+    We will host the next edition of our
+    <a href="https://caaw.io/" target="_blank">Cryptoasset Analytics workshop (CAAW'24)</a> at
+    the <a href="https://www2024.thewebconf.org/" target="_blank">Web Conference</a> in Singpore next year.
+
+- date: 2023-11-27
+  news: |
+    Our paper entitled <a href="" target="_blank">The governance of decentralized autonomous organizations: A study of contributors' influence, networks, and shifts in voting power.</a>
+    has been accepted for the upcoming Financial Cryptography and Data Security conference.
+
+- date: 2023-11-25
+  news: |
+    We are going to host next year's edition of the
+    <a href="https://aftconf.github.io/aft24/index.html" target="_blank">Advances in Financial Technologies (AFT 2024)</a> conference in Vienna.
+
 - date: 2023-11-16
   news: |
     I am presenting our recent paper entitled
@@ -9,7 +25,7 @@
 
 - date: 2023-10-16
   news: |
-    Today we kicked of the KIRAS DeFiTrace project. It aims to create algorithmic methods to detect illegal transactions in cross-ledger DeFi systems.
+    Today we kicked off the KIRAS DeFiTrace project. It aims to create algorithmic methods to detect illegal transactions in cross-ledger DeFi systems.
 
 - date: 2023-10-09
   news: |

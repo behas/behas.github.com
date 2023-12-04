@@ -25,7 +25,7 @@
 {% endif %}
 
 {% case publication.type %}
-  
+
   {% when 'paper-conference' %}
       {% if publication.editor %}
         In:
@@ -95,7 +95,7 @@
 
   {% when 'manuscript' %}      
       {{ publication.container-title }}
-      {{ publication.annote }}.      
+      {{ publication.note }}.      
 
   {% else %}
       <strong>Unknown publication type.</strong>
