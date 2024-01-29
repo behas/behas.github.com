@@ -1,7 +1,8 @@
 - date: 2024-01-23
   news: |
-    We are pleased to announce the release of GraphSense v24.01. This update
-    introduces tracing and tracking functionalities for the Tron network.
+    We are pleased to announce the release of <a href="https://graphsense.org/" target="_blank">GraphSense v24.01</a>. This update
+    introduces tracing and tracking functionalities for the Tron network. A hosted version
+    is available at <a href="https://ikna.io" target="_blank">Iknaio Cryptoasset Analytics GmbH</a>.
 
 - date: 2024-01-29
   news: |
