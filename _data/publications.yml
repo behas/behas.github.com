@@ -2,6 +2,18 @@
 nocite: "[@*]"
 references:
 - author:
+  - family: Niedermayer
+    given: Thomas
+  - family: Saggese
+    given: Pietro
+  - family: Haslhofer
+    given: Bernhard
+  id: "Niedermayer:2024a"
+  note: Arxiv pre-print, accepted at the 3rd International Workshop on
+    Cryptoasset Analytics, co-located with The Web Conference
+  title: Detecting financial bots on the ethereum blockchain
+  type: manuscript
+- author:
   - family: Carpentier-Desjardins
     given: Catherine
   - family: Paquet-Clouston
@@ -30,7 +42,7 @@ references:
   - family: Haslhofer
     given: Bernhard
   id: "Saggese:2024a"
-  note: Arxiv pre-print
+  note: Arxiv pre-print, accepted at Journal of Applied Economics
   title: "Assessing the solvency of virtual asset service providers: Are
     current standards sufficient?"
   title-short: Assessing the solvency of virtual asset service providers
