@@ -1,3 +1,13 @@
+- acronym: "DesinFact"
+  uri: "https://projekte.ffg.at/projekt/4866636"
+  start_date: "2024-01-01"
+  end_date: "2025-12-31"
+  funding_source: "FFG KIRAS"
+  role: "Project partner (Team lead)"
+  description: >
+    The DesinFact project (led by AIT) focuses on the
+    detection of disinformation campaigns and associated techncial, legal, and ethical aspects.
+
 - acronym: "DeFiTrace"
   uri: "https://defitrace.info/"
   start_date: "2023-10-01"
