@@ -37,21 +37,6 @@ references:
   type: manuscript
   url: "https://arxiv.org/abs/2309.16408"
 - author:
-  - family: Haslhofer
-    given: Bernhard
-  - family: Hanslbauer
-    given: Christiane
-  - family: Fröwis
-    given: Michael
-  - family: Goger
-    given: Thomas
-  id: "Haslhofer:2024a"
-  note: Arxiv pre-print, accepted at APWG eCrime Symposium 2023
-  title: Increasing the Efficiency of Cryptoasset Investigations by
-    Connecting the Cases
-  type: manuscript
-  url: "https://arxiv.org/abs/2311.08205"
-- author:
   - family: Kitzler
     given: Stefan
   - family: Balietti
@@ -107,6 +92,26 @@ references:
   title: Detecting Financial Bots on the Ethereum Blockchain
   type: paper-conference
   url: "https://doi.org/10.1145/3589335.3651959"
+- author:
+  - family: Haslhofer
+    given: Bernhard
+  - family: Hanslbauer
+    given: Christiane
+  - family: Fröwis
+    given: Michael
+  - family: Goger
+    given: Thomas
+  container-title: 2023 APWG Symposium on Electronic Crime Research
+    (eCrime)
+  doi: 10.1109/eCrime61234.2023.10485550
+  id: "Haslhofer:2023a"
+  issued: 2023
+  keyword: Law
+    enforcement;Forensics;Collaboration;Licenses;Fraud;Surges;cryptoassets;cybercrime
+  page: 1-10
+  title: Increasing the Efficiency of Cryptoasset Investigations by
+    Connecting the Cases
+  type: paper-conference
 - author:
   - family: Jalali
     given: Anahid
