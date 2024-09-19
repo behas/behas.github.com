@@ -10,10 +10,21 @@ title: Research Profile
     <div class="col-md-3">
       <div class="text-center">
 
-        <img src="/assets/images/bhaslhofer_2022.jpg" class="rounded-circle" alt="Image of Bernhard Haslhofer">
+        <img src="/assets/images/bhaslhofer_2022.jpg" class="rounded-circle" alt="Profile image of Bernhard Haslhofer, faculty member at Complexity Science Hub Vienna.">
 
-        <p class="mt-5">
-          My email = my lastname + at + csh.ac.at
+        <p id="email" class="mt-5">
+          <script type="text/javascript">
+            // Email parts
+            var user = "haslhofer";
+            var domain = "csh";
+            var tld = "ac.at";
+
+            // Assemble the email address
+            var email = user + "@" + domain + "." + tld;
+
+            // Display email
+            document.getElementById("email").innerHTML = '<a href="mailto:' + email + '">' + email + '</a>';
+          </script>          
         </p>
         <p>
           <i class="fa fa-twitter"></i>
@@ -44,14 +55,12 @@ title: Research Profile
       <p>I am a faculty member at the <a href="https://www.csh.ac.at/" target="_blank">Complexity Science Hub Vienna</a>, where I lead the <a href="https://www.csh.ac.at/complexity-science/Cryptofinance/" target="_blank">Financial Technologies</a> research group. Additionally, I am also one of the co-founders of <a href="https://www.ikna.io" target="_blank">Iknaio Cryptoasset Analytics GmbH</a> and a <a href="https://justizonline.gv.at/jop/web/exl/W333553" target="_blank">court-certified expert</a> in IT and cryptoasset forensics.
 
       <section>
-        <h2>Research Interests</h2>
-
-          <p>My research focuses on applying computational methods to large-scale network datasets to derive novel insights.</p>
-
-          <p>Currently, my primary area of interest is cryptoasset analytics, where my team and I use computational methods to investigate the technical and socio-economic aspects of <a href="https://www.bis.org/publ/work1066.htm" target="_blank">Decentralized Finance (DeFi)</a> ecosystems.</p>
-
-          <p>Additionally, I am involved in the <a href="https://projekte.ffg.at/projekt/4866636" target="_blank">DesinFact project</a>, where I study network structures and communication patterns in disinformation campaigns across various information channels.</p>
-
+        <h2>My Research Interests</h2>
+        <ul>
+          <li>Computational methods for large-scale network datasets</li>
+          <li>Cryptoasset analytics in DeFi ecosystems</li>
+          <li>Disinformation campaign network analysis</li>
+        </ul>
       </section>
 
       <section>
