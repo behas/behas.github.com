@@ -17,26 +17,6 @@ references:
   type: manuscript
   url: "https://arxiv.org/abs/2310.04356"
 - author:
-  - family: Saggese
-    given: Pietro
-  - family: Segalla
-    given: Esther
-  - family: Sigmund
-    given: Michael
-  - family: Raunig
-    given: Burkhard
-  - family: Zangerl
-    given: Felix
-  - family: Haslhofer
-    given: Bernhard
-  id: "Saggese:2024a"
-  note: Arxiv pre-print, accepted at Journal of Applied Economics
-  title: "Assessing the Solvency of Virtual Asset Service Providers: Are
-    Current Standards Sufficient?"
-  title-short: Assessing the Solvency of Virtual Asset Service Providers
-  type: manuscript
-  url: "https://arxiv.org/abs/2309.16408"
-- author:
   - family: Kitzler
     given: Stefan
   - family: Balietti
@@ -71,6 +51,25 @@ references:
   title-short: GraphSense
   type: manuscript
   url: "https://arxiv.org/abs/2102.13613"
+- author:
+  - family: Pietro Saggese
+    given: Michael Sigmund
+    suffix: Esther Segalla
+  - family: Haslhofer
+    given: Bernhard
+  container-title: Applied Economics
+  doi: 10.1080/00036846.2024.2396640
+  id: "Saggese:2024a"
+  issue: 0
+  issued: 2024
+  page: 1-16
+  publisher: Routledge
+  title: "Assessing the solvency of virtual asset service providers: are
+    current standards sufficient?"
+  title-short: Assessing the solvency of virtual asset service providers
+  type: article-journal
+  url: "https://www.tandfonline.com/doi/abs/10.1080/00036846.2024.2396640"
+  volume: 0
 - author:
   - family: Niedermayer
     given: Thomas
