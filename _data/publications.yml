@@ -52,9 +52,16 @@ references:
   type: manuscript
   url: "https://arxiv.org/abs/2102.13613"
 - author:
-  - family: Pietro Saggese
-    given: Michael Sigmund
-    suffix: Esther Segalla
+  - family: Saggese
+    given: Pietro
+  - family: Segalla
+    given: Esther
+  - family: Sigmund
+    given: Michael
+  - family: Raunig
+    given: Burkhard
+  - family: Zangerl
+    given: Felix
   - family: Haslhofer
     given: Bernhard
   container-title: Applied Economics
