@@ -6,7 +6,7 @@
   role: "Project partner (Team lead)"
   description: >
     The DesinFact project (led by AIT) focuses on the
-    detection of disinformation campaigns and associated techncial, legal, and ethical aspects.
+    detection of disinformation campaigns and associated technical, legal, and ethical aspects.
 
 - acronym: "DeFiTrace"
   uri: "https://defitrace.info/"
@@ -26,7 +26,7 @@
   role: "Project Coordinator, Principal Investigator"
   description: >
     This project will investigate the applicability and effectiveness of
-    automated graph learnig techniques in large multilayer cryptoasset transaction
+    automated graph learning techniques in large multilayer cryptoasset transaction
     networks.
 
 - acronym: "INTERACTIVE"
