@@ -1,3 +1,14 @@
+- acronym: "ENSEMBLE"
+  uri: "https://cordis.europa.eu/project/id/101168360"
+  start_date: "2024-11-01"
+  end_date: "2027-10-31"
+  funding_source: "HORIZON-CL3-2023-FCT-01-06"
+  role: "Project partner"
+  description: >
+    The ENSEMBLE project aims to combat cross-border cybercrime using
+    advanced AI-based technology, multi-stakeholder investigation processes,
+    training, and awareness.
+
 - acronym: "DesinFact"
   uri: "https://projekte.ffg.at/projekt/4866636"
   start_date: "2024-01-01"
@@ -28,6 +39,15 @@
     This project will investigate the applicability and effectiveness of
     automated graph learning techniques in large multilayer cryptoasset transaction
     networks.
+
+- acronym: "DeFiQuant"
+  start_date: "2022-02-01"
+  end_date: "2024-01-31"
+  funding_source: "WAW Innovation/18 - 21+"
+  role: "Research Coordinator"
+  description: >
+    The overall goal of this project is to support users in investigating
+    and understanding the structure of DeFi protocols and their interrelations.
 
 - acronym: "INTERACTIVE"
   uri: "https://www.interactive-project.info/"
