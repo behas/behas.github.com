@@ -2,21 +2,6 @@
 nocite: "[@*]"
 references:
 - author:
-  - family: Carpentier-Desjardins
-    given: Catherine
-  - family: Paquet-Clouston
-    given: Masarah
-  - family: Kitzler
-    given: Stefan
-  - family: Haslhofer
-    given: Bernhard
-  id: "Carpentier:2024a"
-  note: Arxiv pre-print
-  title: "Mapping the DeFi Crime Landscape: An Evidence-based Picture"
-  title-short: Mapping the DeFi Crime Landscape
-  type: manuscript
-  url: "https://arxiv.org/abs/2310.04356"
-- author:
   - family: Kitzler
     given: Stefan
   - family: Balietti
@@ -37,20 +22,26 @@ references:
   type: manuscript
   url: "https://arxiv.org/abs/2309.14232"
 - author:
+  - family: Carpentier-Desjardins
+    given: Catherine
+  - family: Paquet-Clouston
+    given: Masarah
+  - family: Kitzler
+    given: Stefan
   - family: Haslhofer
     given: Bernhard
-  - family: Stütz
-    given: Rainer
-  - family: Romiti
-    given: Matteo
-  - family: King
-    given: Ross
-  id: "Haslhofer:2021a"
-  note: Arxiv pre-print
-  title: "GraphSense: A General-Purpose Cryptoasset Analytics Platform"
-  title-short: GraphSense
-  type: manuscript
-  url: "https://arxiv.org/abs/2102.13613"
+  container-title: Journal of Cybersecurity
+  doi: 10.1093/cybsec/tyae029
+  id: "Carpentier:2025a"
+  issn: 2057-2085
+  issue: 1
+  issued: 2025-01
+  page: tyae029
+  title: "Mapping the DeFi crime landscape: an evidence-based picture"
+  title-short: Mapping the DeFi crime landscape
+  type: article-journal
+  url: "https://doi.org/10.1093/cybsec/tyae029"
+  volume: 11
 - author:
   - family: Saggese
     given: Pietro
