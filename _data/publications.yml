@@ -12,6 +12,8 @@ references:
     given: Jianlong
   id: "Avice:2025a"
   issued: 2025
+  note: Arxiv pre-print, accepted at Financial Cryptography and Data
+    Security (FC) 2025
   title: "Linking cryptoasset attribution tags to knowledge graph
     entities: An LLM-based approach"
   title-short: Linking cryptoasset attribution tags to knowledge graph
