@@ -31,15 +31,23 @@ references:
     given: Bernhard
   - family: Strohmaier
     given: Markus
-  id: "Kitzler:2024a"
-  note: Arxiv pre-print, accepted at Financial Cryptography and Data
-    Security (FC) 2024
+  container-title: Financial cryptography and data security
+  editor:
+  - family: Clark
+    given: Jeremy
+  - family: Shi
+    given: Elaine
+  id: "Kitzler:2025a"
+  isbn: 978-3-031-78679-2
+  issued: 2025
+  page: 313-330
+  publisher: Springer Nature Switzerland
+  publisher-place: Cham
   title: "The governance of decentralized autonomous organizations: A
     study of contributors' influence, networks, and shifts in voting
     power"
   title-short: The governance of decentralized autonomous organizations
-  type: manuscript
-  url: "https://arxiv.org/abs/2309.14232"
+  type: paper-conference
 - author:
   - family: Carpentier-Desjardins
     given: Catherine
