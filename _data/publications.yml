@@ -10,6 +10,7 @@ references:
     given: Zhidong
   - family: Zhou
     given: Jianlong
+  container-title: Financial cryptography and data security
   id: "Avice:2025a"
   issued: 2025
   note: Arxiv pre-print, accepted at Financial Cryptography and Data
@@ -18,7 +19,7 @@ references:
     entities: An LLM-based approach"
   title-short: Linking cryptoasset attribution tags to knowledge graph
     entities
-  type: manuscript
+  type: paper-conference
   url: "https://arxiv.org/abs/2502.10453"
 - author:
   - family: Kitzler
@@ -48,6 +49,7 @@ references:
     power"
   title-short: The governance of decentralized autonomous organizations
   type: paper-conference
+  url: "https://fc24.ifca.ai/preproceedings/96.pdf"
 - author:
   - family: Carpentier-Desjardins
     given: Catherine
