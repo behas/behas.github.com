@@ -1,3 +1,13 @@
+- acronym: "FAIRLEA"
+  start_date: "2025-06-01"
+  end_date: "2029-04-30"
+  funding_source: "Volkswagen Foundation"
+  role: "Project partner"
+  description: >
+    This project investigates how AI-powered tools can be used in criminal investigations
+    while meeting the requirements of law enforcement authorities and complying
+    with legal obligations under German and European law.    
+
 - acronym: "ENSEMBLE"
   uri: "https://cordis.europa.eu/project/id/101168360"
   start_date: "2024-11-01"

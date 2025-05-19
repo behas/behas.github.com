@@ -1,6 +1,7 @@
 - title: "GraphSense"
   uri: "https://graphsense.github.io"
-  description: "Open-source Cryptoasset Analytics Platform"
+  description: |
+    GraphSense is an open-source cryptoasset analytics platform for scalable and transparent blockchain analysis.
 
 - title: "Wikigrouth"
   uri: "https://github.com/behas/wikigrouth"

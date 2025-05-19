@@ -1,3 +1,13 @@
+- title: "Mapping the DeFi Crime Landscape: An Evidence-based Picture"
+  uri: "https://doi.org/10.5281/zenodo.14047932"
+  description: |
+    This dataset contains crime events affecting the DeFi ecosystem.
+
+- title: "Spams meet cryptocurrencies: Sextortion in the bitcoin ecosystem"
+  uri: "https://doi.org/10.5281/zenodo.3515199"
+  description: |
+    This dataset cointains Bitcoin addresses mentioned in sextortion spam emails.org
+
 - title: "Ransomware Payments in the Bitcoin Ecosystem"
   uri: "https://doi.org/10.5281/zenodo.1238041"
   description: |

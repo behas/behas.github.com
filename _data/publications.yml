@@ -10,17 +10,35 @@ references:
     given: Zhidong
   - family: Zhou
     given: Jianlong
-  container-title: Financial cryptography and data security
+  container-title: "arXiv preprint arXiv:2502.10453"
   id: "Avice:2025a"
   issued: 2025
-  note: Arxiv pre-print, accepted at Financial Cryptography and Data
-    Security (FC) 2025
   title: "Linking cryptoasset attribution tags to knowledge graph
     entities: An LLM-based approach"
   title-short: Linking cryptoasset attribution tags to knowledge graph
     entities
-  type: paper-conference
+  type: article-journal
   url: "https://arxiv.org/abs/2502.10453"
+- author:
+  - family: Saggese
+    given: Pietro
+  - family: Fröwis
+    given: Michael
+  - family: Kitzler
+    given: Stefan
+  - family: Haslhofer
+    given: Bernhard
+  - family: Auer
+    given: Raphael
+  genre: BIS Working Papers
+  id: "Saggese:2025a"
+  issued: 2025
+  number: 1268
+  publisher: Bank for International Settlements
+  title: Towards verifiability of total value locked (TVL) in
+    decentralized finance
+  type: report
+  url: "https://www.bis.org/publ/work1268.htm"
 - author:
   - family: Kitzler
     given: Stefan

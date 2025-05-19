@@ -6,19 +6,7 @@ permalink: /publications
 
 <div class="container mt-5">
 
-  <h2>Pre-Prints and Working Papers</h2>  
-
-    {% for pub in site.data.publications.references %}
-
-      {% if pub.type == 'manuscript' %}
-        <p>
-        {% include publication.html publication=pub %}
-        </p>
-      {% endif %}
-
-    {% endfor %}
-
-  <h2>Published Research Papers</h2>  
+  <h2>Research Papers</h2>  
 
   {% capture years %}
       {% for pub in site.data.publications.references %}
@@ -37,7 +25,6 @@ permalink: /publications
   {% for year in years %}
     <h3>{{ year }}</h3>
     {% for pub in site.data.publications.references %}
-      {% unless pub.type == 'manuscript' %}
         <p>
         {% if pub.issued contains '-' %}
           {% assign pub_year = pub.issued | split: "-" | first %}
@@ -50,7 +37,6 @@ permalink: /publications
           {% include publication.html publication=pub %}
         {% endif %}      
         </p>
-      {% endunless %}
     {% endfor %}
   {% endfor %}
 
