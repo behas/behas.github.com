@@ -10,30 +10,25 @@ title: Research Profile
     <div class="col-md-3">
       <div class="text-center">
 
-        <img src="/assets/images/bhaslhofer_2022.jpg" class="rounded-circle" alt="Profile image of Bernhard Haslhofer, faculty member at Complexity Science Hub Vienna.">
+        <img src="/assets/images/bhaslhofer_2022.jpg" class="rounded-circle" alt="Portrait of Bernhard Haslhofer, research group leader at Complexity Science Hub Vienna.">
 
         <p id="email" class="mt-5">
+          <noscript>
+            Please enable JavaScript to view the email address.
+          </noscript>
           <script type="text/javascript">
-            // Email parts
-            var user = "haslhofer";
-            var domain = "csh";
-            var tld = "ac.at";
-
-            // Assemble the email address
-            var email = user + "@" + domain + "." + tld;
-
-            // Display email
-            document.getElementById("email").innerHTML = '<a href="mailto:' + email + '">' + email + '</a>';
-          </script>          
+            document.getElementById("email").innerHTML =
+              '<a href="mailto:' + ["haslhofer", "csh.ac.at"].join("@") + '">haslhofer@csh.ac.at</a>';
+          </script>
         </p>
         <p>
-
-          <!-- <i class="fa-brands fa-bluesky"></i> -->
           <a href="https://bsky.app/profile/behas.bsky.social" target="_">@behas.bsky.social</a></br>
-
+        </p>
+        <p>
           <i class="fa fa-github"></i>
           <a href="http://github.com/behas" target="_">Github</a>
-
+        </p>
+        <p>
           <i class="fa fa-linkedin"></i>
           <a href="https://www.linkedin.com/in/bernhardhaslhofer/">LinkedIn</a>
         </p>
@@ -45,39 +40,46 @@ title: Research Profile
           <i class="ai ai-orcid"></i>
           <a href="https://orcid.org/0000-0002-0415-4491" target="_blank">My ORCID</a>
         </p>
+        
         <p>My short bio: (<a href="/assets/short_bio_en.txt">en</a>|<a href="/assets/short_bio_de.txt">de</a>)</p>
-        <p>My <a href="/assets/cv_haslhofer.pdf">CV</a></p>        
       </div>
     </div>
 
     <div class="col-md-8">
-      <h1>
-        Bernhard Haslhofer | <small class="text-muted">Research Profile</small>
-      </h1>
+      
+      <header>
+        <h1>Bernhard Haslhofer | <small class="text-muted">Research Profile</small></h1>
+      </header>
 
-      <p>I am a research group leader at the <a href="https://www.csh.ac.at/" target="_blank">Complexity Science Hub Vienna</a>, where I lead the <a href="https://csh.ac.at/research/research-topic/digital-currency-ecosystems/" target="_blank">Digital Currency Ecosystems</a> research group. In addition, I am a co-founder of <a href="https://www.iknaio.com" target="_blank">Iknaio Cryptoasset Analytics</a> and a <a href="https://justizonline.gv.at/jop/web/exl/W333553" target="_blank">court-certified expert</a> spezializing in IT and cryptoasset forensics.
+      <main>
 
-      <section>
-        <h2>Research Interests</h2>
-        <ul>
-          <li><b>Digital Assets and Decentralized Finance (DeFi):</b> My research focuses on developing and applying computational methods to analyze the technical and socio-economic aspects of cryptoasset ecosystems. The goal is to enable informed decision-making and foster a deeper understanding of emerging digital asset landscapes.</li>
+        <section id="introduction">
+          <p>
+            I lead research on digital currencies at the <a href="https://www.csh.ac.at/" target="_blank">Complexity Science Hub</a>. I co-founded <a href="https://www.iknaio.com" target="_blank">Iknaio Cryptoasset Analytics</a> and am a <a href="https://justizonline.gv.at/jop/web/exl/W333553" target="_blank">court-certified expert</a> specializing in IT and cryptoasset forensics.
+          </p>
+        </section>
 
-          <li><b>Digital Crime and Forensics:</b> I am designing methodologies to uncover the modus operandi of emerging cybercrime phenomena. These insights are then translated into advanced digital forensic techniques to combat evolving digital threats.</li>
+        <section id="research-interests">
+          <h2>Research Interests</h2>
+          <ul>
+            <li><b>Digital Assets & DeFi:</b> Developing computational methods to analyze technical and socio-economic aspects of cryptoasset and decentralized finance ecosystems.</li>
+            <li><b>Digital Crime & Forensics:</b> Creating computational methods to understand and combat emerging cybercrime phenomena.</li>
+            <li><b>Disinformation:</b> Analyzing structure and dynamics of large-scale disinformation campaigns.</li>
+          </ul>
+        </section>
 
-          <li><b>Disinformation:</b> Through collaborations with fellow researchers, I work to map and analyze the structure and dynamics of large-scale disinformation campaigns, aiming to unveil their impact and develop effective countermeasures.</li>
-        </ul>
-      </section>
+        <section id="news">
+          <h2>News</h2>
+            {% assign six_months_ago = 'now' | date: '%s' | minus: 15778476 %}
+            {% for news in site.data.news %}
+              {% assign news_date = news.date | date: "%s" | plus: 0 %}
+              {% if news_date >= six_months_ago %}
+                {% include news.html news=news %}
+              {% endif %}
+            {% endfor %}
+        </section>
 
-      <section>
-        <h2>News</h2>
-          {% assign six_months_ago = 'now' | date: '%s' | minus: 15778476 %}
-          {% for news in site.data.news %}
-            {% assign news_date = news.date | date: "%s" | plus: 0 %}
-            {% if news_date >= six_months_ago %}
-              {% include news.html news=news %}
-            {% endif %}
-          {% endfor %}
-      </section>
+      </main>
 
     </div>
 
