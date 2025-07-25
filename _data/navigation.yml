@@ -1,18 +1,24 @@
 - name: About
   link: /
-- name: Publications
-  link: /publications
-- name: Projects
-  link: /projects
-- name: Talks
-  link: /talks
-- name: Datasets & Software
-  link: /software_data
-- name: Teaching
-  link: /teaching
-- name: Events
-  link: /events
-- name: Reviewing
-  link: /reviews
+- name: Research
+  dropdown: true
+  items:
+    - name: Publications
+      link: /publications
+    - name: Projects
+      link: /projects
+    - name: Datasets & Software
+      link: /software_data
+- name: Activities
+  dropdown: true
+  items:
+    - name: Talks
+      link: /talks
+    - name: Events
+      link: /events
+    - name: Teaching
+      link: /teaching
+    - name: Reviewing
+      link: /reviews
 - name: Awards
   link: /awards

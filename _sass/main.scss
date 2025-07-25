@@ -57,6 +57,30 @@ body {
 /* Navigation */
 nav {
   border-bottom: 1px solid $border-color;
+  
+  .dropdown-menu {
+    border: 1px solid $border-color;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    border-radius: 8px;
+    padding: 0.5rem 0;
+    
+    .dropdown-item {
+      color: #495057;
+      padding: 0.5rem 1rem;
+      transition: all 0.2s ease;
+      
+      &:hover {
+        background-color: $accent-color;
+        color: $primary-color;
+      }
+      
+      &.active {
+        background-color: $primary-color;
+        color: #ffffff;
+        font-weight: 600;
+      }
+    }
+  }
 }
 
 /* Main Content Layout */
