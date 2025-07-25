@@ -14,16 +14,66 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="{{ site.description }}">
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <meta name="author" content="{{ site.author }}">
     <meta name="generator" content="Jekyll">
+    <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}Bernhard Haslhofer, cryptoasset analytics, blockchain analysis, digital currencies, cybercrime forensics, DeFi security, complexity science{% endif %}">
 
     <meta name="robots" content="index, follow">
-    <meta property="og:title" content="{{ page.title }} | Bernhard Haslhofer">
-    <meta property="og:description" content="{{ site.description }}">
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
+    <meta property="og:title" content="{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <meta property="og:image" content="{{ site.url }}/assets/images/bhaslhofer_2022.jpg">
     <meta property="og:url" content="{{ site.url }}{{ page.url }}">
-    <meta name="twitter:card" content="summary_large_image">    
+    <meta property="og:site_name" content="{{ site.title }}">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="twitter:image" content="{{ site.url }}/assets/images/bhaslhofer_2022.jpg">
+    
+    <!-- Additional meta tags -->
+    <meta name="theme-color" content="#607890">
+    <meta name="msapplication-TileColor" content="#607890">
+    
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "{{ site.author }}",
+      "url": "{{ site.url }}",
+      "image": "{{ site.url }}/assets/images/bhaslhofer_2022.jpg",
+      "jobTitle": "Research Group Leader",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Complexity Science Hub Vienna"
+      },
+      "alumniOf": {
+        "@type": "Organization",
+        "name": "University of Vienna"
+      },
+      "knowsAbout": [
+        "Cryptoasset Analytics",
+        "Blockchain Analysis", 
+        "Digital Currency Forensics",
+        "Cybercrime Investigation",
+        "Decentralized Finance (DeFi)",
+        "Complex Systems"
+      ],
+      "sameAs": [
+        "https://github.com/behas",
+        "https://www.linkedin.com/in/bernhardhaslhofer/",
+        "https://scholar.google.com/citations?user=15K0uBUAAAAJ&hl=en",
+        "https://orcid.org/0000-0002-0415-4491",
+        "https://bsky.app/profile/behas.bsky.social"
+      ]
+    }
+    </script>
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
@@ -40,7 +90,7 @@
     <!-- favicon -->
     <link rel='shortcut icon' type='image/x-icon' href='/assets/images/favicon.ico' />
 
-    <title>Bernhard Haslhofer | {{ page.title }}</title>
+    <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
 
   </head>
   <body class="d-flex flex-column h-100">

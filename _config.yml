@@ -1,9 +1,23 @@
 title: Bernhard Haslhofer's Research Profile
 author: Bernhard Haslhofer
 email: haslhofer@csh.ac.at
-description: "Research Profile of Bernhard Haslhofer; Publications, Projects, Other Stuff."
+description: "Bernhard Haslhofer is a researcher at Complexity Science Hub Vienna specializing in digital currencies, cryptoasset analytics, and cybercrime forensics. Leading expert in blockchain analysis and DeFi security."
 baseurl: ""
 url: "https://bernhardhaslhofer.info"
+
+# SEO settings
+seo:
+  name: Bernhard Haslhofer
+  type: Person
+logo: /assets/images/bhaslhofer_2022.jpg
+social:
+  name: Bernhard Haslhofer
+  links:
+    - https://github.com/behas
+    - https://www.linkedin.com/in/bernhardhaslhofer/
+    - https://scholar.google.com/citations?user=15K0uBUAAAAJ&hl=en
+    - https://orcid.org/0000-0002-0415-4491
+    - https://bsky.app/profile/behas.bsky.social
 
 # Build settings
 plugins:
