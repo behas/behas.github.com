@@ -1,3 +1,10 @@
+- date: 2025-08-18
+  news: |
+    I am organizing the seminar 
+    <a href="https://www.alpbach.org/sessions/unveiling-modern-crime-tackling-cybercrime-in-a-globalised-world" target="_blank">"Unveiling Modern Crime: Tackling Cybercrime in a Globalised World"</a> 
+    at the European Forum Alpbach, co-chaired with Thomas Goger 
+    (Chief Public Prosecutor, Bavarian Central Office for Cybercrime Prosecution).
+
 - date: 2025-05-24
   news: |
     Our paper on 
@@ -6,41 +13,47 @@
 
 - date: 2025-03-15
   news: |
-    The tentative programme of our upcoming <a href="https://caaw.io/2025/" target="_blank">Workshop on Cryptoassets
-    Analytics</a>, this time co-located with <a href="https://fc25.ifca.ai/" target="_blank">FC'25</a> is now online.
+    The tentative programme of our upcoming 
+    <a href="https://caaw.io/2025/" target="_blank">Workshop on Cryptoassets Analytics</a>, 
+    this time co-located with <a href="https://fc25.ifca.ai/" target="_blank">FC'25</a> 
+    is now online.
 
 - date: 2025-02-18
   news: |
-    Our paper on <a href="https://arxiv.org/abs/2502.10453" target="_blank">Linking Cryptoasset Attribution Tags to Knowledge Graph Entities: An LLM-based Approach</a>
-    got accepted for FC'25 is now available as pre-print.
+    Our paper on 
+    <a href="https://arxiv.org/abs/2502.10453" target="_blank">Linking Cryptoasset Attribution Tags to Knowledge Graph Entities: An LLM-based Approach</a>
+    got accepted for FC'25 and is now available as pre-print.
 
 - date: 2025-01-22
   news: |
-    Our study <a href="https://academic.oup.com/cybersecurity/article/11/1/tyae029/7962044" target=_blank>Mapping the DeFi Crime Landscape</a> finally got published in
-    the Journal of Cybersecurity.
+    Our study 
+    <a href="https://academic.oup.com/cybersecurity/article/11/1/tyae029/7962044" target="_blank">Mapping the DeFi Crime Landscape</a> 
+    finally got published in the Journal of Cybersecurity.
 
 - date: 2024-12-11
   news: |
-    Our spin-off, <a href="https://www.iknaio.com/" target="_blank">Iknaio Cryptoasset Analytics</a>, secured
-    its first European grant and joined the Horizon Europe
-    <a href="https://ensemble-he.eu/" target="_blank">ENSEMBLE</a> project to combat advanced cyber threats using AI. 
+    Our spin-off, <a href="https://www.iknaio.com/" target="_blank">Iknaio Cryptoasset Analytics</a>, 
+    secured its first European grant and joined the Horizon Europe
+    <a href="https://ensemble-he.eu/" target="_blank">ENSEMBLE</a> project 
+    to combat advanced cyber threats using AI.
 
 - date: 2024-11-05
   news: |
     We will host the next edition of our
-    <a href="https://caaw.io/" target="_blank">Cryptoasset Analytics workshop (CAAW'25)</a> at
-    the <a href="https://fc25.ifca.ai/" target="_blank">Financial Cryptography and Data Security</a> in Japan next year.
+    <a href="https://caaw.io/" target="_blank">Cryptoasset Analytics workshop (CAAW'25)</a> 
+    at the <a href="https://fc25.ifca.ai/" target="_blank">Financial Cryptography and Data Security</a> 
+    in Japan next year.
 
 - date: 2024-10-24
   news: |
-    We hosted the second <a href="https://graphsense.org/events/gsconnect2024.html" target="_blank">
-    GraphSense Connect Event</a>. As last year, the goal was to connect users, developers,
+    We hosted the second 
+    <a href="https://graphsense.org/events/gsconnect2024.html" target="_blank">GraphSense Connect Event</a>. 
+    As last year, the goal was to connect users, developers,
     and stakeholders working with our open source cryptoasset analytics platform.
 
 - date: 2024-09-14
   news: |
-    We are hosting this year's edition of the
-    international conference on
+    We are hosting this year's edition of the international conference on
     <a href="https://aftconf.github.io/aft24/index.html" target="_blank">Advances in Financial Technologies (AFT)</a>.
 
 - date: 2024-08-20
@@ -51,93 +64,102 @@
 
 - date: 2024-06-05
   news: |
-    <a href="https://csh.ac.at/miroslav-mirchev/" target="_blank">Miroslav</a> and I presented some
-    initial results on detecting disinformation in email communication networks at the 
-    <a href="https://m3aawg.org/" target="_blank">M3AAWG 61st General Meeting</a>.
+    <a href="https://csh.ac.at/miroslav-mirchev/" target="_blank">Miroslav</a> and I 
+    presented some initial results on detecting disinformation in email communication networks 
+    at the <a href="https://m3aawg.org/" target="_blank">M3AAWG 61st General Meeting</a>.
 
 - date: 2024-05-27
   news: |
     We are hosting this year's edition of the
-    <a href="https://csh.ac.at/events/frontiers-in-defi" target="_blank">Frontiers in DeFi workshop</a> workshop.
+    <a href="https://csh.ac.at/events/frontiers-in-defi" target="_blank">Frontiers in DeFi workshop</a>.
 
 - date: 2024-05-09
   news: |
-    I presented our working paper on <a href="https://arxiv.org/abs/2310.04356" target="_blank">Mapping the DeFi Crime Landscape</a>
+    I presented our working paper on 
+    <a href="https://arxiv.org/abs/2310.04356" target="_blank">Mapping the DeFi Crime Landscape</a>
     at the 10th EUROPOL Virtual Currencies Conference in The Hague.
 
 - date: 2024-04-25
   news: |
     We achieved second place in the
-    <a href="https://bcgruppe.at/houskapreis/" target="_blank">2024 Houska Prize</a> for our research in the cryptoassets field.
+    <a href="https://bcgruppe.at/houskapreis/" target="_blank">2024 Houska Prize</a> 
+    for our research in the cryptoassets field.
 
 - date: 2024-04-02
   news: |
-    New pre-print on <a href="https://arxiv.org/abs/2403.19530" target="_blank">Detecting Financial Bots in the Ethereum Blockchain</a>
+    New pre-print on 
+    <a href="https://arxiv.org/abs/2403.19530" target="_blank">Detecting Financial Bots in the Ethereum Blockchain</a>
     is now available on arXiv.
 
 - date: 2024-01-23
   news: |
-    We are pleased to announce the release of <a href="https://graphsense.org/" target="_blank">GraphSense v24.01</a>. This update
-    introduces tracing and tracking functionalities for the Tron network. A hosted version
-    is available at <a href="https://ikna.io" target="_blank">Iknaio Cryptoasset Analytics GmbH</a>.
+    We are pleased to announce the release of 
+    <a href="https://graphsense.org/" target="_blank">GraphSense v24.01</a>. 
+    This update introduces tracing and tracking functionalities for the Tron network. 
+    A hosted version is available at 
+    <a href="https://ikna.io" target="_blank">Iknaio Cryptoasset Analytics GmbH</a>.
 
 - date: 2024-01-29
   news: |
-    We are going to host the next edition of the
-    international conference on
+    We are going to host the next edition of the international conference on
     <a href="https://aftconf.github.io/aft24/index.html" target="_blank">Advances in Financial Technologies (AFT)</a>.
     The <a href="https://aftconf.github.io/aft24/index.html" target="_blank">CfP is out now</a>!
 
 - date: 2023-12-04
   news: |
     We will host the next edition of our
-    <a href="https://caaw.io/" target="_blank">Cryptoasset Analytics workshop (CAAW'24)</a> at
-    the <a href="https://www2024.thewebconf.org/" target="_blank">Web Conference</a> in Singpore next year.
+    <a href="https://caaw.io/" target="_blank">Cryptoasset Analytics workshop (CAAW'24)</a> 
+    at the <a href="https://www2024.thewebconf.org/" target="_blank">Web Conference</a> 
+    in Singapore next year.
 
 - date: 2023-11-27
   news: |
-    Our paper entitled <a href="" target="_blank">The governance of decentralized autonomous organizations: A study of contributors' influence, networks, and shifts in voting power.</a>
+    Our paper entitled 
+    <a href="" target="_blank">The governance of decentralized autonomous organizations: A study of contributors' influence, networks, and shifts in voting power.</a>
     has been accepted for the upcoming Financial Cryptography and Data Security conference.
 
 - date: 2023-11-25
   news: |
     We are going to host next year's edition of the
-    <a href="https://aftconf.github.io/aft24/index.html" target="_blank">Advances in Financial Technologies (AFT 2024)</a> conference in Vienna.
+    <a href="https://aftconf.github.io/aft24/index.html" target="_blank">Advances in Financial Technologies (AFT 2024)</a> 
+    conference in Vienna.
 
 - date: 2023-11-16
   news: |
     I am presenting our recent paper entitled
-    <a href="https://arxiv.org/abs/2311.08205" target="_blank">
-    Increasing the Efficiency of Cryptoasset Investigations by Connecting the Cases</a> at the
-    <a href="https://apwg.org/event/ecrime2023/" target="_blank">APWG Symposium on Electronic Crime Research</a>
-    in Barcelona. This is joint work with the <a href="https://www.justiz.bayern.de/gerichte-und-behoerden/generalstaatsanwaltschaft/bamberg/spezial_1.php" target="_blank">
-    Bavarian Central Office for the Prosecution of Cybercrime</a>.
+    <a href="https://arxiv.org/abs/2311.08205" target="_blank">Increasing the Efficiency of Cryptoasset Investigations by Connecting the Cases</a> 
+    at the <a href="https://apwg.org/event/ecrime2023/" target="_blank">APWG Symposium on Electronic Crime Research</a>
+    in Barcelona. This is joint work with the 
+    <a href="https://www.justiz.bayern.de/gerichte-und-behoerden/generalstaatsanwaltschaft/bamberg/spezial_1.php" target="_blank">Bavarian Central Office for the Prosecution of Cybercrime</a>.
 
 - date: 2023-10-16
   news: |
-    Today we kicked off the KIRAS DeFiTrace project. It aims to create algorithmic methods to detect illegal transactions in cross-ledger DeFi systems.
+    Today we kicked off the KIRAS DeFiTrace project. 
+    It aims to create algorithmic methods to detect illegal transactions in cross-ledger DeFi systems.
 
 - date: 2023-10-09
   news: |
-    New pre-print on <a href="https://arxiv.org/abs/2310.04356" target="_blank">Mapping the DeFi Crime Landscape: An Evidence-based Picture</a>
+    New pre-print on 
+    <a href="https://arxiv.org/abs/2310.04356" target="_blank">Mapping the DeFi Crime Landscape: An Evidence-based Picture</a>
     is now available on arXiv.
 
 - date: 2023-10-06
   news: |
-    New pre-print on <a href="https://arxiv.org/abs/2309.16408" target="_blank">Assessing the Solvency of Virtual Asset Service Providers: Are Current Standards Sufficient?</a>
+    New pre-print on 
+    <a href="https://arxiv.org/abs/2309.16408" target="_blank">Assessing the Solvency of Virtual Asset Service Providers: Are Current Standards Sufficient?</a>
     is now available on arXiv.
 
 - date: 2023-09-26
   news: |
-    On November 9th we are hosting the first <a href="https://www.ikna.io/events/gsconnect2023.html" target="_blank">
-    GraphSense Connect Event</a>. The idea is to connect users, developers,
-    and stakeholders of this open source cryptoasset analytics platform.
+    On November 9th we are hosting the first 
+    <a href="https://www.ikna.io/events/gsconnect2023.html" target="_blank">GraphSense Connect Event</a>. 
+    The idea is to connect users, developers, and stakeholders of this open source cryptoasset analytics platform.
 
 - date: 2023-09-26
   news: |
-    New pre-print on <a href="https://arxiv.org/abs/2309.14232" target="_blank">The Governance of Decentralized Autonomous Organizations:
-    A Study of Contributors' Influence, Networks, and Shifts in Voting Power</a> is now
-    available on arXiv.
+    New pre-print on 
+    <a href="https://arxiv.org/abs/2309.14232" target="_blank">The Governance of Decentralized Autonomous Organizations: A Study of Contributors' Influence, Networks, and Shifts in Voting Power</a> 
+    is now available on arXiv.
 
 - date: 2023-09-25
   news: |
@@ -148,31 +170,32 @@
 - date: 2023-08-07
   news: |
     We are hosting a 5-day seminar on
-    <href="https://www.alpbach.org/de/sessions/envisioning-the-future-of-money-2" target="_blank">Envisioning the Future of Money</a>
+    <a href="https://www.alpbach.org/de/sessions/envisioning-the-future-of-money-2" target="_blank">Envisioning the Future of Money</a>
     at the upcoming <a href="https://www.alpbach.org/" target="_blank">European Forum Alpbach</a>.
 
 - date: 2023-08-02
   news: |
-    Our BIS working paper on <a href="https://link.springer.com/article/10.1007/s42521-023-00088-8" target="_blank">The Technology of Decentralized Finance</a> has been published in the
-    <a href="https://www.springer.com/journal/42521" target="_blank">Journal of Digital Finance</a>.
+    Our BIS working paper on 
+    <a href="https://link.springer.com/article/10.1007/s42521-023-00088-8" target="_blank">The Technology of Decentralized Finance</a> 
+    has been published in the <a href="https://www.springer.com/journal/42521" target="_blank">Journal of Digital Finance</a>.
 
 - date: 2023-07-24
   news: |
-    Our paper <a href="https://link.springer.com/article/10.1007/s42521-023-00086-w" target="_blank">Exploring investor behavior in Bitcoin: a study
-    of the disposition effect</a> has been published in the
-    <a href="https://www.springer.com/journal/42521" target="_blank">Journal of Digital Finance</a>.
+    Our paper 
+    <a href="https://link.springer.com/article/10.1007/s42521-023-00086-w" target="_blank">Exploring investor behavior in Bitcoin: a study of the disposition effect</a> 
+    has been published in the <a href="https://www.springer.com/journal/42521" target="_blank">Journal of Digital Finance</a>.
 
 - date: 2023-06-24
   news: |
-    New set up a new research colloaboration on criminal activities associated with
-    Decentralized Finance between the Complexity Science Hub and the <a href="https://www.linkedin.com/company/hc2p-ca/">Canadian Human-Centric
-    Cybersecurity Partnership</a>.
+    We set up a new research collaboration on criminal activities associated with
+    Decentralized Finance between the Complexity Science Hub and the 
+    <a href="https://www.linkedin.com/company/hc2p-ca/">Canadian Human-Centric Cybersecurity Partnership</a>.
 
 - date: 2023-04-14
   news: |
-    The programme of our <a href="https://caaw.io/2023/" target="_blank">2nd
-    International Workshop on Cryptoasset Analytics</a> is now online!
-    It is co-locate with the
+    The programme of our 
+    <a href="https://caaw.io/2023/" target="_blank">2nd International Workshop on Cryptoasset Analytics</a> 
+    is now online! It is co-located with the
     <a href="https://www2023.thewebconf.org/" target="_blank">Web Conference 2023</a>
     and will take place on Monday, May 1st in Austin, Texas.
 
@@ -184,10 +207,9 @@
 
 - date: 2023-03-15
   news: |
-    Our paper <a href="https://www.csh.ac.at/new-study-shows-evidence-for-possible-domino-effects-in-cryptoassets/" target="_blank">
-    Disentangling Decentralized Finance (DeFi) Compositions</a> received the
-    <a href="https://www.suerf.org/" target="_blank">2023 SUERF - The European
-    Money & Finance Forum / UniCredit Foundation Research prize.</a>
+    Our paper 
+    <a href="https://www.csh.ac.at/new-study-shows-evidence-for-possible-domino-effects-in-cryptoassets/" target="_blank">Disentangling Decentralized Finance (DeFi) Compositions</a> 
+    received the <a href="https://www.suerf.org/" target="_blank">2023 SUERF - The European Money & Finance Forum / UniCredit Foundation Research prize.</a>
 
 - date: 2023-01-30
   news: |
@@ -198,7 +220,6 @@
 - date: 2023-01-15
   news: |
     New working paper on
-    <a href="https://www.bis.org/publ/work1066.htm" target="_blank">
-    The Technology of Decentralized Finance (DeFi)</a>. In collaboration with
-    in collaboration with the
+    <a href="https://www.bis.org/publ/work1066.htm" target="_blank">The Technology of Decentralized Finance (DeFi)</a>. 
+    In collaboration with the
     <a href="https://www.bis.org/about/bisih/locations/eurosystem.htm" target="_blank">BIS Innovation Hub Centre - Eurosystem</a>.
