@@ -8,30 +8,38 @@ keywords: "open source software, research datasets, cryptoasset analytics tools,
 
 <div class="container mt-5">
 
-  <p>
-    I believe in open science and reproducible research. The software tools and datasets listed below 
-    support the broader research community in advancing our understanding of digital currencies, 
-    blockchain technologies, and their socio-economic implications.
-  </p>
+  <h2 class="section-title">Software & Datasets</h2>
+  
+  <div class="content-card">
+    <p class="lead">
+      I believe in open science and reproducible research. The software tools and datasets listed below 
+      support the broader research community in advancing our understanding of digital currencies, 
+      blockchain technologies, and their socio-economic implications.
+    </p>
+  </div>
 
-  <h2>Open Source Software</h2>
+  <h3 class="section-title">Open Source Software</h3>
 
   {% for project in site.data.software %}
-    <p>
-      <em>
-        <a href="{{project.uri}}">{{project.title}}</a>:
-      </em> {{project.description}}
-    </p>
+    <div class="publication-item">
+      <p>
+        <em>
+          <a href="{{project.uri}}">{{project.title}}</a>:
+        </em> {{project.description}}
+      </p>
+    </div>
   {% endfor %}
 
-  <h2>Datasets</h2>
+  <h3 class="section-title">Datasets</h3>
 
   {% for dataset in site.data.datasets %}
-    <p>
-      <em>
-        <a href="{{dataset.uri}}">{{dataset.title}}</a>:
-      </em> {{dataset.description}}
-    </p>
+    <div class="publication-item">
+      <p>
+        <em>
+          <a href="{{dataset.uri}}">{{dataset.title}}</a>:
+        </em> {{dataset.description}}
+      </p>
+    </div>
   {% endfor %}
 
 </div>

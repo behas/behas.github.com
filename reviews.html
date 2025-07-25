@@ -6,46 +6,50 @@ permalink: /reviews
 
 <div class="container mt-5">
 
-  <h2>Program Committees and Reviewing for Scientific Journals</h2>
+  <h2 class="section-title">Program Committees and Reviewing for Scientific Journals</h2>
 
-  <h3>Journals</h3>
+  <h3 class="section-title">Journals</h3>
 
   {% for review in site.data.reviews %}
     {% if review.type == 'journal' %}
-    <p>
-      <em>
-        <a href="{{review.uri}}" target="_blank">{{review.medium}}</a> ({{review.years}})
-      </em>
-    </p>
+    <div class="publication-item">
+      <p>
+        <em>
+          <a href="{{review.uri}}" target="_blank">{{review.medium}}</a> ({{review.years}})
+        </em>
+      </p>
+    </div>
     {% endif %}
   {% endfor %}
 
-  <h3>Conferences, Workshops, Symposia</h3>
+  <h3 class="section-title">Conferences, Workshops, Symposia</h3>
 
   {% for review in site.data.reviews %}
     {% if review.type == 'conference' or review.type == 'workshop' %}
-    <p>
-      <em>
-        {{review.medium}}
-      </em>
-      {% for year in review.years %}
-        {% if forloop.length == 1 %}
-          {% if year.uri != null %}
-            (<a href="{{year.uri}}" target="_blank">{{year.year}}</a>)
+    <div class="publication-item">
+      <p>
+        <em>
+          {{review.medium}}
+        </em>
+        {% for year in review.years %}
+          {% if forloop.length == 1 %}
+            {% if year.uri != null %}
+              (<a href="{{year.uri}}" target="_blank">{{year.year}}</a>)
+            {% else %}
+              ({{year.year}})
+            {% endif %}
           {% else %}
-            ({{year.year}})
+            {% if forloop.first %}
+              (<a href="{{year.uri}}" target="_blank">{{year.year}}</a>,
+            {% elsif forloop.last %}
+              <a href="{{year.uri}}" target="_blank">{{year.year}}</a>)
+            {% else %}
+              <a href="{{year.uri}}" target="_blank">{{year.year}}</a>,
+            {% endif %}
           {% endif %}
-        {% else %}
-          {% if forloop.first %}
-            (<a href="{{year.uri}}" target="_blank">{{year.year}}</a>,
-          {% elsif forloop.last %}
-            <a href="{{year.uri}}" target="_blank">{{year.year}}</a>)
-          {% else %}
-            <a href="{{year.uri}}" target="_blank">{{year.year}}</a>,
-          {% endif %}
-        {% endif %}
-      {% endfor %}
-    </p>
+        {% endfor %}
+      </p>
+    </div>
     {% endif %}
   {% endfor %}
 

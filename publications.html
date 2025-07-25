@@ -8,7 +8,7 @@ keywords: "Bernhard Haslhofer publications, cryptoasset research papers, blockch
 
 <div class="container mt-5">
 
-  <h2>Research Papers</h2>  
+  <h2 class="section-title">Research Papers</h2>  
 
   {% capture years %}
       {% for pub in site.data.publications.references %}
@@ -25,9 +25,8 @@ keywords: "Bernhard Haslhofer publications, cryptoasset research papers, blockch
   {% assign years = years | split: "|" | uniq | sort | reverse %}
 
   {% for year in years %}
-    <h3>{{ year }}</h3>
+    <div class="publication-year">{{ year }}</div>
     {% for pub in site.data.publications.references %}
-        <p>
         {% if pub.issued contains '-' %}
           {% assign pub_year = pub.issued | split: "-" | first %}
         {% else %} 
@@ -36,16 +35,20 @@ keywords: "Bernhard Haslhofer publications, cryptoasset research papers, blockch
         {% assign year_int = year | plus: 0 %}
         {% assign pub_year_int = pub_year | plus: 0 %}
         {% if pub_year_int == year_int %}
-          {% include publication.html publication=pub %}
+          <div class="publication-item">
+            {% include publication.html publication=pub %}
+          </div>
         {% endif %}      
-        </p>
     {% endfor %}
   {% endfor %}
 
-  <h2>Standards and Specifications</h2>
+  <h2 class="section-title mt-5">Standards and Specifications</h2>
+  
+  <div class="content-card">
 
   <p><a href="http://www.openarchives.org/rs/resourcesync" target="_blank">ResourceSync Framework Specification</a> (co-editor): describes a synchronization framework for the web consisting of various capabilities that allow third party systems to remain synchronized with a server's evolving resources.</p>
 
   <p><a href="http://www.openannotation.org/spec/core/" target="_blank">Open Annotation Data Model</a>  (contributor): specifies an interoperable framework for creating associations between related resources, annotations, using a methodology that conforms to the Architecture of the World Wide Web. Open Annotations can easily be shared between platforms, with sufficient richness of expression to satisfy complex requirements while remaining simple enough to also allow for the most common use cases, such as attaching a piece of text to a single web resource.</p>
+  </div>
 
 </div>

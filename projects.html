@@ -8,10 +8,12 @@ keywords: "research projects, cryptoasset analytics, blockchain security, digita
 
 <div class="container mt-5">
 
-  <h2>Research Grants</h2>
+  <h2 class="section-title">Research Grants</h2>
 
   {% for project in site.data.projects %}
-    {% include project.html project=project %}
+    <div class="publication-item">
+      {% include project.html project=project %}
+    </div>
   {% endfor %}
 
 </div>
