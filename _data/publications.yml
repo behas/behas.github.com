@@ -294,7 +294,7 @@ references:
   doi: 10.1145/3558535.3559782
   id: "Stuetz:2022a"
   isbn: 9781450398619
-  issued: 2023
+  issued: 2022
   keyword: cryptoassets, CoinJoin, mixing
   page: 254-267
   publisher: Association for Computing Machinery
@@ -630,7 +630,7 @@ references:
     given: Bernhard
   - family: Illum
     given: Jacob
-  container-title: FC 202 - 24th international conference on financial
+  container-title: FC 2020 - 24th international conference on financial
     cryptography and data security
   doi: 10.1007/978-3-030-51280-4_7
   id: "Stuetz:2020a"
@@ -874,7 +874,7 @@ references:
   publisher-place: Wiesbaden
   title: Evolution of the bitcoin address graph
   type: paper-conference
-  url: "https://doi.org/10.1007/978-3-658-19287-7_11s"
+  url: "https://doi.org/10.1007/978-3-658-19287-7_11"
 - author:
   - family: Haslhofer
     given: Bernhard
@@ -1278,7 +1278,7 @@ references:
 - author:
   - family: Simon
     given: Rainer
-  - family: 6g
+  - family: Jung
     given: Joachim
   - family: Haslhofer
     given: Bernhard
@@ -1357,7 +1357,7 @@ references:
     given: Rainer
   - family: Haslhofer
     given: Bernhard
-  - family: 6g
+  - family: Jung
     given: Joachim
   container-title: 6th international workshop on digital technologies in
     cartographic heritage
@@ -1386,7 +1386,7 @@ references:
     given: Heiko
   id: "Mader:2011rq"
   issued: 2011-03
-  page: 449-452\"
+  page: 449-452
   publisher: Springer
   publisher-place: Berlin, Heidelberg
   title: The MEKETREpository - middle kingdom tomb and artwork
