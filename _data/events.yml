@@ -1,5 +1,9 @@
 - year: "2025"
   items:
+    - title: "Frontiers in DeFi"
+      url: "https://events.htw-berlin.de/forschung/frontiers-in-defi-2025/"
+      venue: "Hochschule für Technik und Wirtschaft Berlin"
+
     - title: "Unveiling Modern Crime: Tackling Cybercrime in a Globalised World"
       url: "https://www.alpbach.org/sessions/unveiling-modern-crime-tackling-cybercrime-in-a-globalised-world"
       venue: "European Forum Alpbach"
