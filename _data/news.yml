@@ -1,3 +1,7 @@
+- date: 2025-10-02
+  news: |
+    Our new pre-print on the <a href="https://arxiv.org/abs/2510.00669" target="_blank">Economic Impact of DeFi Crime Events on Decentralized Autonomous Organizations</a> is out.
+
 - date: 2025-10-01
   news: |
     Our latest GraphSense release, hosted by <a href="https://www.iknaio.com/" target="_blank">Iknaio</a>, now supports tracing cryptoassets <a href="https://www.iknaio.com/blog/tracing-dexs-bridges-cross-chain-clusters" target="_blank">through DEXs, over bridges, and within cross-chain address clusters</a>.
