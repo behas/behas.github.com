@@ -2,6 +2,19 @@
 nocite: "[@*]"
 references:
 - author:
+  - family: Kitzler
+    given: Stefan
+  - family: Paquet-Clouston
+    given: Masarah
+  - family: Haslhofer
+    given: Bernhard
+  id: "Kitzler:2025b"
+  issued: 2025
+  title: The economic impact of DeFi crime events on decentralized
+    autonomous organizations (DAOs)
+  type: article-journal
+  url: "https://arxiv.org/abs/2510.00669"
+- author:
   - family: Avice
     given: Régnier
   - family: Haslhofer
