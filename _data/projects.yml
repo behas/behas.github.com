@@ -1,3 +1,22 @@
+- acronym: "DIFPILOT"
+  start_date: "2026-01-01"
+  end_date: "2028-06-30"
+  funding_source: "FFG Bridge"
+  role: "Project Coordinator"
+  description: >
+     The DIFPILOT project aims to develop and evaluate novel approaches
+     to assist digital forensic investigators in automating workflows
+     and analyzing data using LLMs.
+
+- acronym: "LLEA"
+  start_date: "2025-10-01"
+  end_date: "2027-09-30"
+  funding_source: "FFG KIRAS"
+  role: "Project Coordinator"
+  description: >
+    The LLEA project develops and evaluates LLM-based methods for
+    data analysis in law enforcement.
+
 - acronym: "FAIRLEA"
   start_date: "2025-06-01"
   end_date: "2029-04-30"
