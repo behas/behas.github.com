@@ -1,5 +1,13 @@
 - year: "2025"
   items:
+    - title: "Digitale Krypto-Verlassenschaften"
+      url: "https://csh.ac.at/events/digitale-krypto-verlassenschaften/"
+      venue: "Complexity Science Hub"
+
+    - title: "Creating harmonised standards for blockchain intelligence"
+      url: "https://baselgovernance.org/9crc"
+      venue: "9th Global Conference on Criminal Finances and Cryptoassets"
+
     - title: "Frontiers in DeFi"
       url: "https://events.htw-berlin.de/forschung/frontiers-in-defi-2025/"
       venue: "Hochschule für Technik und Wirtschaft Berlin"
