@@ -82,6 +82,8 @@
   years:
     - year: "2025"
       uri: "https://fc25.ifca.ai/"
+    - year: "2026"
+      uri: "https://fc26.ifca.ai/"
 
 - medium: "Advances in Financial Technologies (AFT)"
   type: "conference"
