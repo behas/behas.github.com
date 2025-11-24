@@ -2,18 +2,22 @@
 nocite: "[@*]"
 references:
 - author:
+  - family: Balietti
+    given: Stefano
+  - family: Saggese
+    given: Pietro
   - family: Kitzler
     given: Stefan
-  - family: Paquet-Clouston
-    given: Masarah
   - family: Haslhofer
     given: Bernhard
-  id: "Kitzler:2025b"
+  container-title: "arXiv preprint arXiv:2511.09263"
+  id: "Balietti:2025a"
   issued: 2025
-  title: The economic impact of DeFi crime events on decentralized
-    autonomous organizations (DAOs)
+  title: "Slaying the dragon: The quest for democracy in decentralized
+    autonomous organizations (DAOs)"
+  title-short: Slaying the dragon
   type: article-journal
-  url: "https://arxiv.org/abs/2510.00669"
+  url: "https://arxiv.org/abs/2511.09263"
 - author:
   - family: Avice
     given: Régnier
@@ -32,6 +36,24 @@ references:
     entities
   type: article-journal
   url: "https://arxiv.org/abs/2502.10453"
+- author:
+  - family: Kitzler
+    given: Stefan
+  - family: Paquet-Clouston
+    given: Masarah
+  - family: Haslhofer
+    given: Bernhard
+  container-title: The Journal of Finance and Data Science
+  doi: "https://doi.org/10.1016/j.jfds.2025.100171"
+  id: "Kitzler:2025a"
+  issn: 2405-9188
+  issued: 2025
+  page: 100171
+  title: The economic impact of DeFi crime events on decentralized
+    autonomous organizations (DAOs)
+  type: article-journal
+  url: "https://www.sciencedirect.com/science/article/pii/S2405918825000236"
+  volume: 11
 - author:
   - family: Saggese
     given: Pietro
