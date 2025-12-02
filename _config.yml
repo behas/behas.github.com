@@ -28,4 +28,10 @@ plugins:
 sass:
   style: compact # possible values: nested expanded compact compressed
 
+exclude:
+  - README.md
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+
 
