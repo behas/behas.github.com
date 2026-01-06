@@ -27,15 +27,23 @@ references:
     given: Zhidong
   - family: Zhou
     given: Jianlong
-  container-title: "arXiv preprint arXiv:2502.10453"
-  id: "Avice:2025a"
-  issued: 2025
+  container-title: Financial cryptography and data security
+  editor:
+  - family: Garman
+    given: Christina
+  - family: Moreno-Sanchez
+    given: Pedro
+  id: "Avice:2026a"
+  isbn: 978-3-032-07035-7
+  issued: 2026
+  page: 366-382
+  publisher: Springer Nature Switzerland
+  publisher-place: Cham
   title: "Linking cryptoasset attribution tags to knowledge graph
     entities: An LLM-based approach"
   title-short: Linking cryptoasset attribution tags to knowledge graph
     entities
-  type: article-journal
-  url: "https://arxiv.org/abs/2502.10453"
+  type: paper-conference
 - author:
   - family: Kitzler
     given: Stefan
