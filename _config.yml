@@ -32,7 +32,7 @@ sass:
 scholar:
   style: apa
   locale: en
-  source: ./assets
+  source: ./_data
   bibliography: bibliography.bib
   bibliography_template: bib
   sort_by: year
