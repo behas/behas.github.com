@@ -28,7 +28,7 @@
   institution: "University of Salzburg"
   institution_uri: "https://www.uni-salzburg.at/"
   period: "Spring 2014"
-  role: "Instructor"
+  role: "instructor"
   description: |
     A masters-level course introducing technologies for building data-centric Web information
     systems in the library domain. Discussion of cross-cutting issues such as Linked (Open) Data.
@@ -38,7 +38,7 @@
   institution: "Cornell University"
   institution_uri: "https://www.cornell.edu/"
   period: "2011-2012"
-  role: "Instructor"
+  role: "instructor"
   description: |
     This course introduces technologies for building data-centric information
     systems on the World Wide Web, show the practical applications of such systems,
@@ -50,7 +50,7 @@
   institution: "Cornell University"
   institution_uri: "https://www.cornell.edu/"
   period: "2011-2012"
-  role: "Instructor"
+  role: "instructor"
   description: |
     Independent or group project under the direction of a CS field member or researcher.
     Projects involve the development of a computer science application (software or hardware)
@@ -60,7 +60,7 @@
   institution: "University of Vienna"
   institution_uri: "https://www.univie.ac.at"
   period: "2007-2011"
-  role: "Co-instructor"
+  role: "co-instructor"
   description: |
     A masters-level course in Media Informatics examining technologies and available applications
     for building (multimedia) Web information systems. Focus on XML, Semantic Web technologies and,
@@ -70,7 +70,7 @@
   institution: "University of Vienna"
   institution_uri: "https://www.univie.ac.at"
   period: "2009-2011"
-  role: "Co-instructor"
+  role: "co-instructor"
   description: |
     An advanced masters-level course focusing on the principles of information retrieval in distributed
     environments such as the Web, with a special focus on multimedia information.
@@ -80,7 +80,7 @@
   institution: "University of Vienna"
   institution_uri: "https://www.univie.ac.at"
   period: "2008-2010"
-  role: "Co-instructor"
+  role: "co-instructor"
   description: |
     An undergraduate course focusing on the technical properties of various media types (image, audio, video)
     and their technical processing (e.g., with Java Media Framework) in multimedia applications.
@@ -89,7 +89,7 @@
   institution: "University of Vienna"
   institution_uri: "https://www.univie.ac.at"
   period: "2008-2011"
-  role: "Instructor"
+  role: "instructor"
   description: |
     An undergraduate course involving the development of an application related to the media informatics field.
 
@@ -97,6 +97,6 @@
   institution: "University of Vienna"
   institution_uri: "https://www.univie.ac.at"
   period: "2007-2011"
-  role: "Co-instructor"
+  role: "co-instructor"
   description: |
     An undergraduate introductory course covering basic data modeling standards such as EER, UML, etc.

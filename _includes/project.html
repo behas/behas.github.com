@@ -1,7 +1,7 @@
 {% assign project = include.project %}
 <p class="pub-title">
   {% if project.uri %}
-    <a href="{{ project.uri }}">{{ project.acronym }}</a>
+    <a href="{{ project.uri }}" target="_blank">{{ project.acronym }}</a>
   {% else %}
     {{ project.acronym }}
   {% endif %}
@@ -9,7 +9,7 @@
 <p class="pub-venue">
   {{ project.flag }}
   {% if project.funding_source_uri %}
-    <a href="{{ project.funding_source_uri }}">{{ project.funding_source }}</a>
+    <a href="{{ project.funding_source_uri }}" target="_blank">{{ project.funding_source }}</a>
   {% else %}
     {{ project.funding_source }}
   {% endif %}

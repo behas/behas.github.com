@@ -15,7 +15,7 @@
     data synchronization framework for the Web.
 
 - title: "Maphub"
-  uri: "https://maphub.github.com"
+  uri: "https://maphub.github.io"
   description: |
     A system that allows people to cross-reference historical maps with resources
     in Web-based knowledge graphs. It also demonstrates application of the
@@ -43,5 +43,5 @@
 - title: "OAI2LOD Server"
   uri: "https://github.com/behas/oai2lod"
   description: |
-    A leight-weight proxy server component that exposes any <a href="https://www.openarchives.org/pmh/">OAI-PMH</a> compliant
+    A lightweight proxy server component that exposes any <a href="https://www.openarchives.org/pmh/">OAI-PMH</a> compliant
     metadata repository as <a href="https://www.w3.org/DesignIssues/LinkedData.html">Linked (Open) Data</a>
