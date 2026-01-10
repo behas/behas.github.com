@@ -1,0 +1,10 @@
+{% assign award = include.award %}
+<p class="pub-title">
+  {% if award.uri %}
+    <a href="{{ award.uri }}" target="_blank">{{ award.name }}</a>
+  {% else %}
+    {{ award.name }}
+  {% endif %}
+</p>
+<p class="pub-venue">{{ award.year }}</p>
+<p class="pub-description">{{ award.description }}</p>
