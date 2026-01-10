@@ -9,8 +9,10 @@
       link: /projects
     - name: Standardization
       link: /standardization
-    - name: Datasets & Software
-      link: /software_data
+    - name: Software
+      link: /software
+    - name: Datasets
+      link: /datasets
 - name: Activities
   dropdown: true
   items:

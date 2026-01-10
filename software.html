@@ -1,0 +1,17 @@
+---
+layout: default
+title: Software
+permalink: /software
+description: "Open source software tools by Bernhard Haslhofer for cryptoasset analytics, blockchain analysis, and digital currency research."
+keywords: "open source software, cryptoasset analytics tools, blockchain analysis, GraphSense"
+---
+
+<div class="container mt-5">
+
+  <h2 class="section-title">Open Source Software</h2>
+
+  {% for software in site.data.software %}
+    {% include software.html software=software %}
+  {% endfor %}
+
+</div>

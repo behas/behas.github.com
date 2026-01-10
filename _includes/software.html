@@ -1,0 +1,7 @@
+{% assign software = include.software -%}
+<div class="publication-item">
+  <p>
+    <a href="{{ software.uri }}" target="_blank"><strong>{{ software.title }}</strong></a>
+  </p>
+  <p>{{ software.description }}</p>
+</div>
