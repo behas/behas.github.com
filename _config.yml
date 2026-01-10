@@ -42,8 +42,10 @@ scholar:
 
 exclude:
   - README.md
+  - CLAUDE.md
   - vendor
   - Gemfile
   - Gemfile.lock
+  - .ruby-version
 
 
