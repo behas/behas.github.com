@@ -28,6 +28,18 @@ plugins:
 sass:
   style: compact # possible values: nested expanded compact compressed
 
+# Jekyll Scholar configuration
+scholar:
+  style: apa
+  locale: en
+  source: ./assets
+  bibliography: bibliography.bib
+  bibliography_template: bib
+  sort_by: year
+  order: descending
+  group_by: year
+  group_order: descending
+
 exclude:
   - README.md
   - vendor

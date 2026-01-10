@@ -10,37 +10,7 @@ keywords: "Bernhard Haslhofer publications, cryptoasset research papers, blockch
 
   <h2 class="section-title">Research Papers</h2>  
 
-  {% capture years %}
-      {% for pub in site.data.publications.references %}
-        {% if pub.issued contains '-' %}
-          {% assign pub_date = pub.issued | split: "-" | first %}
-        {% else %} 
-          {% assign pub_date = pub.issued %}
-        {% endif %}         
-        {{ pub_date }}
-      {% unless forloop.last %}|{% endunless %}
-      {% endfor %}
-  {% endcapture %}
-
-  {% assign years = years | split: "|" | uniq | sort | reverse %}
-
-  {% for year in years %}
-    <div class="publication-year">{{ year }}</div>
-    {% for pub in site.data.publications.references %}
-        {% if pub.issued contains '-' %}
-          {% assign pub_year = pub.issued | split: "-" | first %}
-        {% else %} 
-          {% assign pub_year = pub.issued %}
-        {% endif %}
-        {% assign year_int = year | plus: 0 %}
-        {% assign pub_year_int = pub_year | plus: 0 %}
-        {% if pub_year_int == year_int %}
-          <div class="publication-item">
-            {% include publication.html publication=pub %}
-          </div>
-        {% endif %}      
-    {% endfor %}
-  {% endfor %}
+  {% bibliography %}
 
   <h2 class="section-title mt-5">Standards and Specifications</h2>
   

@@ -333,13 +333,20 @@ footer {
 }
 
 /* Publications Styling */
-.publication-year {
+ol.bibliography {
+  list-style: none;
+  padding-left: 0;
+}
+
+.publication-year,
+h2.bibliography {
   background: linear-gradient(135deg, $primary-color, $primary-dark);
   color: white;
   padding: 10px 20px;
   border-radius: 25px;
   display: inline-block;
   font-weight: 600;
+  font-size: 1rem;
   margin: 20px 0 15px 0;
   box-shadow: 0 2px 6px rgba(0,0,0,0.2);
 }
@@ -357,6 +364,37 @@ footer {
     border-left-color: $primary-color;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     transform: translateX(3px);
+  }
+}
+
+.publication-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.pub-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 12px;
+  font-size: 0.85rem;
+  color: $primary-color;
+  background: $accent-color;
+  border: 1px solid $border-color;
+  border-radius: 20px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+
+  &:hover {
+    background: $primary-color;
+    color: white;
+    border-color: $primary-color;
+  }
+
+  i {
+    font-size: 0.8rem;
   }
 }
 

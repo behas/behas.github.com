@@ -1,0 +1,15 @@
+<div class="publication-item">
+  <p>
+    {% assign ref_clean = reference | split: 'http' | first | split: 'Retrieved from' | first %}
+    {{ ref_clean }}
+  </p>
+  <div class="publication-links">
+    {% if entry.url %}
+      <a href="{{ entry.url }}" target="_blank" class="pub-link"><i class="fas fa-file-pdf"></i> PDF</a>
+    {% endif %}
+    {% if entry.doi %}
+      <a href="https://doi.org/{{ entry.doi }}" target="_blank" class="pub-link"><i class="fas fa-link"></i> DOI</a>
+    {% endif %}
+    <a href="#" onclick="navigator.clipboard.writeText(`{{ entry.bibtex | escape }}`); this.innerHTML='<i class=\'fas fa-check\'></i> Copied!'; setTimeout(() => this.innerHTML='<i class=\'fas fa-quote-right\'></i> BibTeX', 2000); return false;" class="pub-link"><i class="fas fa-quote-right"></i> BibTeX</a>
+  </div>
+</div>
