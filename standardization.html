@@ -1,0 +1,17 @@
+---
+layout: default
+title: Standardization
+permalink: /standardization
+description: "Web standards and specifications co-authored by Bernhard Haslhofer, including ResourceSync and Open Annotation."
+keywords: "ResourceSync, Open Annotation, web standards, specifications, Bernhard Haslhofer"
+---
+
+<div class="container mt-5">
+
+  <h2 class="section-title">Standardization Work</h2>
+
+  {% for standard in site.data.standardization %}
+    {% include standard.html standard=standard %}
+  {% endfor %}
+
+</div>
