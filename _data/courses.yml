@@ -18,7 +18,7 @@
 
 - title: "Application Development in Media Informatics"
   institution: "University of Vienna"
-  institution_uri: "http://univie.ac.at"
+  institution_uri: "https://univie.ac.at"
   period: "2015-2017"
   role: "instructor"
   description: |
@@ -26,7 +26,7 @@
 
 - title: "Technology Applications"
   institution: "University of Salzburg"
-  institution_uri: "http://www.uni-salzburg.at/"
+  institution_uri: "https://www.uni-salzburg.at/"
   period: "Spring 2014"
   role: "Instructor"
   description: |
@@ -34,9 +34,9 @@
     systems in the library domain. Discussion of cross-cutting issues such as Linked (Open) Data.
 
 - title: "INFO/CS 4302 - Web Information Systems"
-  website: "http://www.infosci.cornell.edu/Courses/info4302/2012fa/"
+  website: "https://www.infosci.cornell.edu/Courses/info4302/2012fa/"
   institution: "Cornell University"
-  institution_uri: "http://www.cornell.edu/"
+  institution_uri: "https://www.cornell.edu/"
   period: "2011-2012"
   role: "Instructor"
   description: |
@@ -46,9 +46,9 @@
     cross-cutting issues such as citizen science, data journalism and open government.
 
 - title: "CS 5999 - Master of Engineering Project"
-  website: "http://courses.cornell.edu/"
+  website: "https://courses.cornell.edu/"
   institution: "Cornell University"
-  institution_uri: "http://www.cornell.edu/"
+  institution_uri: "https://www.cornell.edu/"
   period: "2011-2012"
   role: "Instructor"
   description: |
@@ -58,7 +58,7 @@
 
 - title: "Multimedia Information Systems 2"
   institution: "University of Vienna"
-  institution_uri: "http://www.univie.ac.at"
+  institution_uri: "https://www.univie.ac.at"
   period: "2007-2011"
   role: "Co-instructor"
   description: |
@@ -68,7 +68,7 @@
 
 - title: "Multimedia Information Retrieval"
   institution: "University of Vienna"
-  institution_uri: "http://www.univie.ac.at"
+  institution_uri: "https://www.univie.ac.at"
   period: "2009-2011"
   role: "Co-instructor"
   description: |
@@ -78,7 +78,7 @@
 
 - title: "Information System Technologies for Multimedia Applications"
   institution: "University of Vienna"
-  institution_uri: "http://www.univie.ac.at"
+  institution_uri: "https://www.univie.ac.at"
   period: "2008-2010"
   role: "Co-instructor"
   description: |
@@ -87,7 +87,7 @@
 
 - title: "Media Informatics Student Projects"
   institution: "University of Vienna"
-  institution_uri: "http://www.univie.ac.at"
+  institution_uri: "https://www.univie.ac.at"
   period: "2008-2011"
   role: "Instructor"
   description: |
@@ -95,7 +95,7 @@
 
 - title: "Modeling Techniques and Methods"
   institution: "University of Vienna"
-  institution_uri: "http://www.univie.ac.at"
+  institution_uri: "https://www.univie.ac.at"
   period: "2007-2011"
   role: "Co-instructor"
   description: |

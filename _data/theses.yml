@@ -11,7 +11,7 @@
   subject: "Computer Science"
   date: "2024-04-12"
   type: "Master's thesis"
-  uri: https://repositum.tuwien.at/handle/20.500.12708/198225
+  uri: "https://repositum.tuwien.at/handle/20.500.12708/198225"
 
 - author: "Nikolas Haimerl"
   title: "Tracing Cryptoassets Across Chains: An Empirical Analysis of the Terra Network"
@@ -19,7 +19,7 @@
   subject: "Computer Science"
   date: "2022-08-30"
   type: "Master's thesis"
-  uri: https://repositum.tuwien.at/handle/20.500.12708/141981
+  uri: "https://repositum.tuwien.at/handle/20.500.12708/141981"
 
 - author: "Sebastian Luzian"
   title: "A Systematic Investigation of Illicit Money Flows in the DeFi Ecosystem"
@@ -27,7 +27,7 @@
   subject: "Computer Science"
   date: "2022-11-10"
   type: "Master's thesis"
-  uri: https://repositum.tuwien.at/handle/20.500.12708/150209
+  uri: "https://repositum.tuwien.at/handle/20.500.12708/150209"
 
 - author: "Sebastian Fürndraht"
   title: "Finding and analyzing DeFi Protocol networks on the Ethereum blockchain"
@@ -42,7 +42,7 @@
   subject: "Computer Science"
   date: "2021-08-05"
   type: "Master's thesis"
-  uri: https://repositum.tuwien.at/handle/20.500.12708/18576
+  uri: "https://repositum.tuwien.at/handle/20.500.12708/18576"
 
 - author: "Clemens Heistracher"
   title: "Machine learning methods for analysis and prognosis of outages in reactive ion etching processes in the semiconductor industry"
@@ -50,7 +50,7 @@
   subject: "Applied Physics"
   date: "2021-10-22"
   type: "Master's thesis"
-  uri: https://repositum.tuwien.at/handle/20.500.12708/18976
+  uri: "https://repositum.tuwien.at/handle/20.500.12708/18976"
 
 - author: "Diana Elena Ion"
   title: "Decentralized Finance Analysis"
@@ -85,7 +85,7 @@
   subject: "Software Engineering & Internet Computing"
   date: "2019-10-04"
   type: "Master's thesis"
-  uri: https://repositum.tuwien.at/retrieve/2249
+  uri: "https://repositum.tuwien.at/retrieve/2249"
 
 - author: "Abraham Hinteregger"
   title: "Monero Cross-Chain Traceability. Empirical Analysis of Privacy Implications from Currency Hard-Forks"
@@ -93,7 +93,7 @@
   subject: "Computational Intelligence"
   type: "Master's thesis"
   date: "2018-09-19"
-  uri: https://repositum.tuwien.at/handle/20.500.12708/7272
+  uri: "https://repositum.tuwien.at/handle/20.500.12708/7272"
 
 - author: "Matteo Romito"
   title: "Decentralization Problems and Cross-Pool Mining in Bitcoin"

@@ -132,7 +132,7 @@
     government applications.
 
 - acronym: "TRAVELOGUES"
-  uri: "http://travelogues-project.info"
+  uri: "https://travelogues-project.info"
   start_date: "2018-04-01"
   end_date: "2021-03-31"
   funding_source: "FWF DACH"
@@ -146,7 +146,7 @@
     text corpora.
 
 - acronym: "VIRTCRIME"
-  uri: "http://virtcrime-project.info/"
+  uri: "https://virtcrime-project.info/"
   start_date: "2018-01-01"
   end_date: "2020-06-30"
   funding_source: "FFG KIRAS"
@@ -172,7 +172,7 @@
     involving virtual currencies and darknet markets.
 
 - acronym: "GraphSense"
-  uri: "http://www.graphsense.info"
+  uri: "https://graphsense.org"
   start_date: "2015-09-01"
   end_date: "2017-11-30"
   funding_source: "FFG - IKT der Zukunft"
@@ -196,11 +196,11 @@
     in virtual currencies, including novel Anti Money Laundering strategies.
 
 - acronym: "ResourceSync"
-  uri: "http://www.niso.org/workrooms/resourcesync/"
+  uri: "https://www.niso.org/workrooms/resourcesync/"
   start_date: "2011-12-01"
   end_date: "2014-04-30"
   funding_source: "Alfred P. Sloan Foundation"
-  funding_source_uri: "http://www.sloan.org/"
+  funding_source_uri: "https://www.sloan.org/"
   flag: "🇺🇸"
   role: "Researcher"
   description: >
@@ -208,11 +208,11 @@
     of web resources, building on OAI-PMH strategies using modern web technologies.
 
 - acronym: "SciLink"
-  uri: "http://eprints.cs.univie.ac.at/3354"
+  uri: "https://eprints.cs.univie.ac.at/3354"
   start_date: "2011-03-01"
   end_date: "2014-02-28"
   funding_source: "EU PEOPLE IOF (Marie Curie)"
-  funding_source_uri: "http://ec.europa.eu/research/mariecurieactions/"
+  funding_source_uri: "https://ec.europa.eu/research/mariecurieactions/"
   flag: "🇪🇺"
   role: "Research Fellow (beneficiary)"
   description: >
@@ -221,11 +221,11 @@
     interfaces.
 
 - acronym: "Maphub"
-  uri: "http://maphub.github.com/"
+  uri: "https://maphub.github.com/"
   start_date: "2011-12-01"
   end_date: "2013-02-28"
   funding_source: "Andrew W. Mellon Foundation"
-  funding_source_uri: "http://www.mellon.org/"
+  funding_source_uri: "https://www.mellon.org/"
   flag: "🇺🇸"
   role: "Principal Investigator"
   description: >
@@ -234,11 +234,11 @@
     citizens to contribute knowledge to high-resolution online maps.
 
 - acronym: "MEKETRE"
-  uri: "http://meketre.org/"
+  uri: "https://meketre.org/"
   start_date: "2009-07-01"
   end_date: "2012-12-31"
   funding_source: "Austrian Research Fund (FWF)"
-  funding_source_uri: "http://www.fwf.ac.at/"
+  funding_source_uri: "https://www.fwf.ac.at/"
   flag: "🇦🇹"
   role: "Proposal Co-author"
   description: >

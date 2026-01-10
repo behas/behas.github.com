@@ -14,7 +14,7 @@
     This dataset contains 7,222 Bitcoin seed addresses related to 67 ransomware families as well as addresses that were identified by applying the expansion procedure described in <a href="https://arxiv.org/pdf/1804.04080.pdf" target="_blank">in our paper</a>.
 
 - title: "data.europeana.eu"
-  uri: "http://data.europeana.eu"
+  uri: "https://data.europeana.eu"
   description: |
     A open dataset comprising metadata of 20 million texts, images, videos and sounds gathered
-    from institutions all over Europe by <a href="http://europeana.eu/" target="_blank">Europeana</a>.
+    from institutions all over Europe by <a href="https://europeana.eu/" target="_blank">Europeana</a>.

@@ -341,7 +341,7 @@
   date: 2015-11-04
   location: Vienna, Austria
   flag: "🇦🇹"
-  slides_uri: http://de.slideshare.net/bhaslhofer/graphsense-realtime-insight-into-virtual-currency-ecosystems
+  slides_uri: https://de.slideshare.net/bhaslhofer/graphsense-realtime-insight-into-virtual-currency-ecosystems
 
 - title: Bitcoin Panel
   venue: APWG - Symposium on Electronic Crime Research
@@ -349,14 +349,14 @@
   location: Barcelona, Spain
   flag: "🇪🇸"
   type: Panel
-  slides_uri: http://de.slideshare.net/bhaslhofer/bitcoin-deanonymization-and-money-laundering-detection-strategies
+  slides_uri: https://de.slideshare.net/bhaslhofer/bitcoin-deanonymization-and-money-laundering-detection-strategies
 
 - title: Bitcoin - Introduction, Technical Aspects and Ongoing Developments
   venue: FMA - Austrian Financial Market Authority
   date: 2015-04-30
   location: Vienna, Austria
   flag: "🇦🇹"
-  slides_uri: http://de.slideshare.net/bhaslhofer/bitcoin-introduction-technical-aspects
+  slides_uri: https://de.slideshare.net/bhaslhofer/bitcoin-introduction-technical-aspects
 
 # 2014
 
@@ -365,28 +365,28 @@
   date: 2014-12-03
   location: Vienna, Austria
   flag: "🇦🇹"
-  slides_uri: http://www.slideshare.net/bhaslhofer/maphub-und-pelagios
+  slides_uri: https://www.slideshare.net/bhaslhofer/maphub-und-pelagios
 
 - title: The value of open data and the OpenGLAM network
   venue: Putting Linked Library Data to Work - the DM2E Showcase
   date: 2014-11-18
   location: Vienna, Austria
   flag: "🇦🇹"
-  slides_uri: http://www.slideshare.net/bhaslhofer/the-value-of-41703546
+  slides_uri: https://www.slideshare.net/bhaslhofer/the-value-of-41703546
 
 - title: Things, not Strings
   venue: ADV Tagung - Suchstrategien für heute und morgen
   date: 2014-11-12
   location: Vienna, Austria
   flag: "🇦🇹"
-  slides_uri: http://www.slideshare.net/bhaslhofer/things-not-strings
+  slides_uri: https://www.slideshare.net/bhaslhofer/things-not-strings
 
 - title: Offene Daten im Kulturbereich - Die pragmatische Perspektive
   venue: Alles Offen, alles frei. Open Data in Kultureinrichtungen
   date: 2014-06-01
   location: Vienna, Austria
   flag: "🇦🇹"
-  slides_uri: http://www.slideshare.net/bhaslhofer/offene-daten-im-kulturbereich-die-pragmatische-perspektive
+  slides_uri: https://www.slideshare.net/bhaslhofer/offene-daten-im-kulturbereich-die-pragmatische-perspektive
 
 - title: Open Data - Principles and Techniques
   venue: Technical University of Vienna
@@ -394,7 +394,7 @@
   location: Vienna, Austria
   flag: "🇦🇹"
   type: Guest Lecture
-  slides_uri: http://www.slideshare.net/bhaslhofer/open-data-principles-and-techniques
+  slides_uri: https://www.slideshare.net/bhaslhofer/open-data-principles-and-techniques
 
 # 2013
 
@@ -403,14 +403,14 @@
   date: 2013-09-01
   location: Geneva, Switzerland
   flag: "🇨🇭"
-  slides_uri: http://www.slideshare.net/bhaslhofer/the-story-behind-maphub
+  slides_uri: https://www.slideshare.net/bhaslhofer/the-story-behind-maphub
 
 - title: Semantic Tagging for old maps...and other things on the Web
   venue: The Web As Literature Symposium
   date: 2013-06-01
   location: London, UK
   flag: "🇬🇧"
-  slides_uri: http://www.slideshare.net/bhaslhofer/2013-06weblitmaphub
+  slides_uri: https://www.slideshare.net/bhaslhofer/2013-06weblitmaphub
 
 - title: Linked Open Data
   venue: Technical University of Vienna
@@ -418,21 +418,21 @@
   location: Vienna, Austria
   flag: "🇦🇹"
   type: Guest Lecture
-  slides_uri: http://www.slideshare.net/bhaslhofer/vu-web-engineeringtulinkedopendata
+  slides_uri: https://www.slideshare.net/bhaslhofer/vu-web-engineeringtulinkedopendata
 
 - title: Maphub and Annotorious
   venue: iAnnotate 2013
   date: 2013-04-01
   location: San Francisco, USA
   flag: "🇺🇸"
-  slides_uri: http://www.slideshare.net/bhaslhofer/maphub-and-annotorious
+  slides_uri: https://www.slideshare.net/bhaslhofer/maphub-and-annotorious
 
 - title: Maphub - Annotations and Semantic Tags on Historical Maps
   venue: Stanford University - Open Annotation Rollout
   date: 2013-04-01
   location: Palo Alto, USA
   flag: "🇺🇸"
-  slides_uri: http://www.slideshare.net/bhaslhofer/maphub-annotations-and-semantic-tags-on-historical-maps
+  slides_uri: https://www.slideshare.net/bhaslhofer/maphub-annotations-and-semantic-tags-on-historical-maps
 
 - title: Old Maps, Annotations, and Open Data Networks
   venue: Harvard University
@@ -440,7 +440,7 @@
   location: Cambridge, USA
   flag: "🇺🇸"
   type: Invited
-  slides_uri: http://www.slideshare.net/bhaslhofer/old-maps-annotations-and-open-data-networks
+  slides_uri: https://www.slideshare.net/bhaslhofer/old-maps-annotations-and-open-data-networks
 
 # 2011
 
@@ -449,14 +449,14 @@
   date: 2011-12-01
   location: Boston, USA
   flag: "🇺🇸"
-  slides_uri: http://www.slideshare.net/bhaslhofer/linked-data-and-skos-13397533
+  slides_uri: https://www.slideshare.net/bhaslhofer/linked-data-and-skos-13397533
 
 - title: Linked Data in Scholarly Communication
   venue: Cornell University - AAHEP5 Information Provider Summit
   date: 2011-10-01
   location: Ithaca, USA
   flag: "🇺🇸"
-  slides_uri: http://www.slideshare.net/bhaslhofer/linked-data-in-scholarly-communication
+  slides_uri: https://www.slideshare.net/bhaslhofer/linked-data-in-scholarly-communication
 
 - title: Metadata is back!
   venue: Semantic Web Technologies for Libraries and Readers Workshop, co-located with JCDL 2011
@@ -464,7 +464,7 @@
   location: Ottawa, Canada
   flag: "🇨🇦"
   type: Keynote
-  slides_uri: http://www.slideshare.net/bhaslhofer/metadata-is-back
+  slides_uri: https://www.slideshare.net/bhaslhofer/metadata-is-back
 
 - title: Research on Scholarly Practices and Communication at Cornell Information Science
   venue: Microsoft Research
@@ -472,7 +472,7 @@
   location: Redmond, USA
   flag: "🇺🇸"
   type: Invited
-  slides_uri: http://research.microsoft.com/apps/video/default.aspx?id=147426
+  slides_uri: https://research.microsoft.com/apps/video/default.aspx?id=147426
 
 # 2010
 
@@ -481,7 +481,7 @@
   date: 2010-09-01
   location: Leoben, Austria
   flag: "🇦🇹"
-  slides_uri: http://www.slideshare.net/bhaslhofer/odok2010-haslhofer
+  slides_uri: https://www.slideshare.net/bhaslhofer/odok2010-haslhofer
 
 # 2009
 
@@ -490,14 +490,14 @@
   date: 2009-10-01
   location: Berlin, Germany
   flag: "🇩🇪"
-  slides_uri: http://www.slideshare.net/bhaslhofer/cidoc-crm-in-practice
+  slides_uri: https://www.slideshare.net/bhaslhofer/cidoc-crm-in-practice
 
 - title: Linked Data im Kontext Digitaler Bibliothekssysteme
   venue: Semantic Web in Bibliotheken (SWIB)
   date: 2009-09-01
   location: Cologne, Germany
   flag: "🇩🇪"
-  slides_uri: http://www.slideshare.net/bhaslhofer/linked-data-im-kontext-digitaler-bibliothkssysteme
+  slides_uri: https://www.slideshare.net/bhaslhofer/linked-data-im-kontext-digitaler-bibliothkssysteme
 
 - title: Linked Data Tutorial
   venue: Vlaams Theater Instituut
@@ -505,4 +505,4 @@
   location: Brussels, Belgium
   flag: "🇧🇪"
   type: Tutorial
-  slides_uri: http://www.slideshare.net/bhaslhofer/linked-data-tutorial
+  slides_uri: https://www.slideshare.net/bhaslhofer/linked-data-tutorial

@@ -1,9 +1,9 @@
 - title: "ResourceSync Framework Specification"
-  url: "http://www.openarchives.org/rs/resourcesync"
+  url: "https://www.openarchives.org/rs/resourcesync"
   role: "co-editor"
   description: "Describes a synchronization framework for the web consisting of various capabilities that allow third party systems to remain synchronized with a server's evolving resources."
 
 - title: "Open Annotation Data Model"
-  url: "http://www.openannotation.org/spec/core/"
+  url: "https://www.w3.org/TR/annotation-model/"
   role: "contributor"
   description: "Specifies an interoperable framework for creating associations between related resources, annotations, using a methodology that conforms to the Architecture of the World Wide Web. Open Annotations can easily be shared between platforms, with sufficient richness of expression to satisfy complex requirements while remaining simple enough to also allow for the most common use cases, such as attaching a piece of text to a single web resource."
