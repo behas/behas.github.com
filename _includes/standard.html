@@ -1,7 +1,9 @@
 {% assign standard = include.standard -%}
-<div class="publication-item">
-  <p>
-    <a href="{{ standard.uri }}" target="_blank"><strong>{{ standard.title }}</strong></a> ({{ standard.role }})
-  </p>
-  <p>{{ standard.description }}</p>
+<p class="pub-title">
+  <a href="{{ standard.uri }}" target="_blank">{{ standard.title }}</a>
+  <span class="talk-type">{{ standard.role }}</span>
+</p>
+<p class="pub-description">{{ standard.description }}</p>
+<div class="publication-links">
+  <a href="{{ standard.uri }}" target="_blank" class="pub-link"><i class="fas fa-external-link-alt"></i> Specification</a>
 </div>

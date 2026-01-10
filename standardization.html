@@ -11,7 +11,9 @@ keywords: "ResourceSync, Open Annotation, web standards, specifications, Bernhar
   <h2 class="section-title">Standardization Work</h2>
 
   {% for standard in site.data.standardization %}
-    {% include standard.html standard=standard %}
+    <div class="publication-item">
+      {% include standard.html standard=standard %}
+    </div>
   {% endfor %}
 
 </div>

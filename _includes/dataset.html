@@ -1,7 +1,5 @@
 {% assign dataset = include.dataset -%}
-<div class="publication-item">
-  <p>
-    <a href="{{ dataset.uri }}" target="_blank"><strong>{{ dataset.title }}</strong></a>
-  </p>
-  <p>{{ dataset.description }}</p>
-</div>
+<p class="pub-title">
+  <a href="{{ dataset.uri }}" target="_blank">{{ dataset.title }}</a>
+</p>
+<p class="pub-description">{{ dataset.description }}</p>

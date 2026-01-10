@@ -11,7 +11,9 @@ keywords: "open source software, cryptoasset analytics tools, blockchain analysi
   <h2 class="section-title">Open Source Software</h2>
 
   {% for software in site.data.software %}
-    {% include software.html software=software %}
+    <div class="publication-item">
+      {% include software.html software=software %}
+    </div>
   {% endfor %}
 
 </div>

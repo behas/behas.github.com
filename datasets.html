@@ -11,7 +11,9 @@ keywords: "research datasets, cryptoasset analytics, blockchain data, digital cu
   <h2 class="section-title">Datasets</h2>
 
   {% for dataset in site.data.datasets %}
-    {% include dataset.html dataset=dataset %}
+    <div class="publication-item">
+      {% include dataset.html dataset=dataset %}
+    </div>
   {% endfor %}
 
 </div>
