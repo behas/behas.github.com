@@ -1,13 +1,17 @@
-<p>
-  {{ thesis.author}}
-  ({{ thesis.date | date: "%Y"}}, {{ thesis.type }}),
+{% assign thesis = include.thesis %}
+<p class="pub-title">
   {% if thesis.uri %}
-    <em><a href="{{thesis.uri}}" target="_blank">{{thesis.title}}</a></em>,
+    <a href="{{ thesis.uri }}" target="_blank">{{ thesis.title }}</a>
   {% else %}
-    <em class="title">{{thesis.title}}</em>,
-  {% endif %}
-  {{ thesis.institution}},
-  {% if thesis.subject %}
-    {{thesis.subject}}
+    {{ thesis.title }}
   {% endif %}
 </p>
+<p class="pub-authors">{{ thesis.author }}</p>
+<p class="pub-venue">
+  {{ thesis.institution }}{% if thesis.subject %}, {{ thesis.subject }}{% endif %}, {{ thesis.date | date: "%Y" }}
+</p>
+{% if thesis.uri %}
+<div class="publication-links">
+  <a href="{{ thesis.uri }}" target="_blank" class="pub-link"><i class="fas fa-file-alt"></i> Thesis</a>
+</div>
+{% endif %}

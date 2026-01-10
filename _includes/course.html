@@ -1,10 +1,17 @@
-<p>
+{% assign course = include.course %}
+<p class="pub-title">
   {% if course.website %}
-    <em><a href="{{course.website}}" target="_blank">{{course.title}}</a></em>,
+    <a href="{{ course.website }}" target="_blank">{{ course.title }}</a>
   {% else %}
-    <em class="title">{{course.title}}</em>,
+    {{ course.title }}
   {% endif %}
-  ({{course.period}},
-  <a href="{{course.institution_uri}}" target="_blank">{{course.institution}})</a>,
-  {{course.role}}: {{course.description}}
 </p>
+<p class="pub-venue">
+  <a href="{{ course.institution_uri }}" target="_blank">{{ course.institution }}</a>, {{ course.period }}
+</p>
+<p class="pub-description">{{ course.description }}</p>
+{% if course.website %}
+<div class="publication-links">
+  <a href="{{ course.website }}" target="_blank" class="pub-link"><i class="fas fa-external-link-alt"></i> Course Website</a>
+</div>
+{% endif %}

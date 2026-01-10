@@ -22,6 +22,8 @@
       link: /events
     - name: Teaching
       link: /teaching
+    - name: Students
+      link: /students
     - name: Reviewing
       link: /reviews
 - name: Awards

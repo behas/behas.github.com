@@ -2,12 +2,15 @@
 layout: default
 title: Teaching
 permalink: /teaching
-description: "Teaching activities and supervised theses by Bernhard Haslhofer, including courses on data science, cryptoassets, and information systems."
+description: "Teaching activities by Bernhard Haslhofer, including courses on data science, cryptoassets, and information systems."
+keywords: "teaching, courses, cryptoasset analytics, TU Wien, data science"
 ---
 
 <div class="container mt-5">
 
-  <h2 class="section-title">Current Courses</h2>
+  <h2 class="section-title">Teaching</h2>
+
+  <h3 class="mt-4 mb-3">Current Courses</h3>
 
   {% for course in site.data.courses %}
     {% if course.active %}
@@ -17,15 +20,7 @@ description: "Teaching activities and supervised theses by Bernhard Haslhofer, i
     {% endif %}
   {% endfor %}
 
-  <h2 class="section-title">Supervised Thesis</h2>
-
-  {% for thesis in site.data.theses %}
-    <div class="publication-item">
-      {% include thesis.html thesis=thesis %}
-    </div>
-  {% endfor %}
-
-  <h2 class="section-title">Past Courses</h2>
+  <h3 class="mt-4 mb-3">Past Courses</h3>
 
   {% for course in site.data.courses %}
     {% unless course.active %}
