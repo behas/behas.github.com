@@ -1,4 +1,3 @@
-<p>
-  <em>{{ news.date | date: "%b %Y"}} - </em>
-  {{ news.news }}
-</p>
+{% assign news = include.news %}
+<p class="pub-venue">{{ news.date | date: "%b %Y" }}</p>
+<p class="pub-description">{{ news.news }}</p>

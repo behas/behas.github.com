@@ -14,41 +14,31 @@ keywords: "Bernhard Haslhofer, digital currencies, cryptoasset analytics, blockc
 
         <img src="/assets/images/bhaslhofer_2022.jpg" class="rounded-circle" alt="Portrait of Bernhard Haslhofer, research group leader at Complexity Science Hub Vienna.">
 
-        <p id="email" class="mt-5">
+        <p id="email" class="mt-4">
           <noscript>
             Please enable JavaScript to view the email address.
           </noscript>
           <script type="text/javascript">
             document.getElementById("email").innerHTML =
-              '<a href="mailto:' + ["haslhofer", "csh.ac.at"].join("@") + '">haslhofer@csh.ac.at</a>';
+              '<a href="mailto:' + ["haslhofer", "csh.ac.at"].join("@") + '"><i class="fas fa-envelope"></i> haslhofer@csh.ac.at</a>';
           </script>
         </p>
-        <p>
-          <i class="fab fa-github"></i>
-          <a href="https://github.com/behas" target="_blank">Github</a>
+
+        <div class="social-links mt-3 mb-3">
+          <a href="https://github.com/behas" target="_blank" title="GitHub"><i class="fab fa-github fa-lg"></i></a>
+          <a href="https://www.linkedin.com/in/bernhardhaslhofer/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin fa-lg"></i></a>
+          <a href="https://scholar.google.com/citations?user=15K0uBUAAAAJ&hl=en" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar fa-lg"></i></a>
+          <a href="https://orcid.org/0000-0002-0415-4491" target="_blank" title="ORCID"><i class="ai ai-orcid fa-lg"></i></a>
+        </div>
+
+        <p class="small text-muted">
+          Short bio: <a href="/assets/short_bio_en.txt">EN</a> | <a href="/assets/short_bio_de.txt">DE</a>
         </p>
-        <p>
-          <i class="fab fa-linkedin"></i>
-          <a href="https://www.linkedin.com/in/bernhardhaslhofer/">LinkedIn</a>
-        </p>
-        <p>
-          <i class="ai ai-google-scholar"></i>
-          <a href="https://scholar.google.com/citations?user=15K0uBUAAAAJ&hl=en" target="_blank">My Google Scholar Profile</a>
-        </p>
-        <p>
-          <i class="ai ai-orcid"></i>
-          <a href="https://orcid.org/0000-0002-0415-4491" target="_blank">My ORCID</a>
-        </p>
-        
-        <p>My short bio: (<a href="/assets/short_bio_en.txt">en</a>|<a href="/assets/short_bio_de.txt">de</a>)</p>
+
       </div>
     </div>
 
     <div class="col-md-8">
-      
-      <header>
-        <h1><small class="text-muted">Research Profile</small></h1>
-      </header>
 
       <main>
 
@@ -56,12 +46,11 @@ keywords: "Bernhard Haslhofer, digital currencies, cryptoasset analytics, blockc
           <p class="lead">
             I lead the <a href="https://csh.ac.at/research/research-topic/digital-currency-ecosystems/" target="_blank">Digital Currency Ecosystems</a> research group at the <a href="https://www.csh.ac.at/" target="_blank">Complexity Science Hub</a>. My work focuses on developing computational methods to analyze cryptoasset ecosystems, combat cybercrime, and understand the socio-economic implications of decentralized finance. I co-founded <a href="https://www.iknaio.com" target="_blank">Iknaio Cryptoasset Analytics</a> and am a <a href="https://justizonline.gv.at/jop/web/exl/W333553" target="_blank">court-certified expert</a> specializing in IT and cryptoasset forensics.
           </p>
-          
         </section>
 
         <section id="research-interests">
           <h2 class="section-title">Research Interests</h2>
-          
+
           <div class="research-interest">
             <div class="interest-icon">
               <i class="fas fa-coins"></i>
@@ -71,7 +60,7 @@ keywords: "Bernhard Haslhofer, digital currencies, cryptoasset analytics, blockc
               Developing computational methods to analyze technical and socio-economic aspects of cryptoasset and decentralized finance ecosystems.
             </div>
           </div>
-          
+
           <div class="research-interest">
             <div class="interest-icon">
               <i class="fas fa-shield-alt"></i>
@@ -81,7 +70,7 @@ keywords: "Bernhard Haslhofer, digital currencies, cryptoasset analytics, blockc
               Creating computational methods to understand and combat emerging cybercrime phenomena.
             </div>
           </div>
-          
+
           <div class="research-interest">
             <div class="interest-icon">
               <i class="fas fa-exclamation-triangle"></i>
@@ -95,15 +84,15 @@ keywords: "Bernhard Haslhofer, digital currencies, cryptoasset analytics, blockc
 
         <section id="news">
           <h2 class="section-title">Recent News</h2>
-          <div class="content-card">
-            {% assign six_months_ago = 'now' | date: '%s' | minus: 15778476 %}
-            {% for news in site.data.news %}
-              {% assign news_date = news.date | date: "%s" | plus: 0 %}
-              {% if news_date >= six_months_ago %}
+          {% assign six_months_ago = 'now' | date: '%s' | minus: 15778476 %}
+          {% for news in site.data.news %}
+            {% assign news_date = news.date | date: "%s" | plus: 0 %}
+            {% if news_date >= six_months_ago %}
+              <div class="publication-item">
                 {% include news.html news=news %}
-              {% endif %}
-            {% endfor %}
-          </div>
+              </div>
+            {% endif %}
+          {% endfor %}
         </section>
 
       </main>

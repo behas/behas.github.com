@@ -232,39 +232,16 @@ footer {
 
 /* Social links */
 .social-links {
-  background: $accent-color;
-  border-radius: 10px;
-  padding: 20px;
-  margin-bottom: 20px;
-  
   a {
-    display: flex;
-    align-items: center;
-    padding: 8px 12px;
-    margin-bottom: 8px;
+    display: inline-block;
+    margin: 0 8px;
     color: $primary-color;
-    background: #ffffff;
-    border-radius: 6px;
-    border: 1px solid $border-color;
     text-decoration: none;
     transition: all 0.2s ease;
 
     &:hover {
-      background: $primary-color;
-      color: #ffffff;
-      text-decoration: none;
-      transform: translateY(-1px);
-      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
-    }
-
-    &:last-child {
-      margin-bottom: 0;
-    }
-
-    i {
-      margin-right: 10px;
-      width: 20px;
-      text-align: center;
+      color: darken($primary-color, 15%);
+      transform: translateY(-2px);
     }
   }
 }
