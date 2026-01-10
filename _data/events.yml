@@ -1,115 +1,185 @@
-- year: "2025"
-  items:
-    - title: "Digitale Krypto-Verlassenschaften"
-      url: "https://csh.ac.at/events/digitale-krypto-verlassenschaften/"
-      venue: "Complexity Science Hub"
+# 2026
 
-    - title: "Creating harmonised standards for blockchain intelligence"
-      url: "https://baselgovernance.org/9crc"
-      venue: "9th Global Conference on Criminal Finances and Cryptoassets"
+- title: "5th International Workshop on Cryptoasset Analytics (CAAW)"
+  url: "https://caaw.io/2026/"
+  venue: "Financial Cryptography and Data Security (FC), Singapore"
+  date: 2026-03-26
+  type: "Workshop"
 
-    - title: "Frontiers in DeFi"
-      url: "https://events.htw-berlin.de/forschung/frontiers-in-defi-2025/"
-      venue: "Hochschule für Technik und Wirtschaft Berlin"
+# 2025
 
-    - title: "Unveiling Modern Crime: Tackling Cybercrime in a Globalised World"
-      url: "https://www.alpbach.org/sessions/unveiling-modern-crime-tackling-cybercrime-in-a-globalised-world"
-      venue: "European Forum Alpbach"
-      
-    - title: "4th International Workshop on Cryptoasset Analytics (CAAW)"
-      url: "https://caaw.io/2025/"
-      venue: "co-located with Financial Cryptography and Data Security (FC), Singapore"
+- title: "Digitale Krypto-Verlassenschaften"
+  url: "https://csh.ac.at/events/digitale-krypto-verlassenschaften/"
+  venue: "Complexity Science Hub"
+  date: 2025-03-27
+  type: "Workshop"
 
-- year: "2024"
-  items:
-    - title: "6th International Conference on Advances in Financial Technologies (AFT)"
-      url: "https://aftconf.github.io/aft24/index.html"
-      venue: "Vienna"
-      
-    - title: "On Financial Misbehaviours: Uncovering Underminers of Democracy"
-      url: "https://www.alpbach.org/sessions/on-financial-misbehaviours-uncovering-underminers-of-democracy"
-      venue: "European Forum Alpbach"
-      
-    - title: "Frontiers in Decentralized Finance (DeFi) workshop"
-      url: "https://csh.ac.at/events/frontiers-in-defi/"
-      venue: "Complexity Science Hub, Vienna"
-      
-    - title: "3rd International Workshop on Cryptoasset Analytics (CAAW)"
-      url: "https://caaw.io/2024/"
-      venue: "co-located with the ACM Web Conference, Singapore"
+- title: "Creating harmonised standards for blockchain intelligence"
+  url: "https://baselgovernance.org/9crc"
+  venue: "9th Global Conference on Criminal Finances and Cryptoassets"
+  date: 2025-10-08
+  type: "Breakout Session"
 
-- year: "2023"
-  items:
-    - title: "Envisioning the Future of Money"
-      url: "https://www.alpbach.org"
-      venue: "European Forum Alpbach"
-      
-    - title: "2nd International Workshop on Cryptoasset Analytics (CAAW)"
-      url: "https://caaw.io/2023/"
-      venue: "co-located with the ACM Web Conference, Austin, USA"
+- title: "Frontiers in DeFi"
+  url: "https://events.htw-berlin.de/forschung/frontiers-in-defi-2025/"
+  venue: "Hochschule für Technik und Wirtschaft Berlin"
+  date: 2025-03-06
+  type: "Workshop"
 
-- year: "2022"
-  items:
-    - title: "1st International Workshop on Cryptoasset Analytics (CAAW)"
-      url: "https://caaw.io/2023/"
-      venue: "co-located with the ACM Web Conference, Online"
-      
-    - title: "Cryptoasset analytics tutorial"
-      url: "https://cryptoassetanalytics.net/tutorial/"
-      venue: "co-located with the ACM Web Conference, Online"
+- title: "Unveiling Modern Crime: Tackling Cybercrime in a Globalised World"
+  url: "https://www.alpbach.org/sessions/unveiling-modern-crime-tackling-cybercrime-in-a-globalised-world"
+  venue: "European Forum Alpbach"
+  date: 2025-08-20
+  type: "Seminar"
 
-- year: "Before"
-  items:
-    - title: "Panel: From Crypto- to Corporate Currencies?"
-      url: "https://id.univie.ac.at/news-und-events/detailansicht-news-und-events/news/panel-discussion-from-crypto-to-corporate-currencies/?tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Baction%5D=detail&cHash=0f4867dd97b490b9aa8e5bf20278c406"
-      venue: "Vienna, 2019"
-      
-    - title: "Symposium on Post-Bitcoin Cryptocurrencies"
-      url: "https://www.ait.ac.at/ueber-das-ait/center/center-for-digital-safety-security/fairs-events/symposium-on-post-bitcoin-cryptocurrencies/"
-      venue: "Vienna, 2018"
-      
-    - title: "13th International Conference on Semantic Systems (SEMANTICS 2017)"
-      url: "https://2017.semantics.cc/"
-      venue: "Data Science track chair"
-      
-    - title: "1st Workshop on Data Science: Methods, Technology and Applications (DSci15)"
-      url: "http://semantics.cc/satellite-events/1st-workshop-data-science-methods-technology-and-applications-dsci15"
-      venue: "co-located with SEMANTICS 2015"
-      
-    - title: "11th International Conference on Web Engineering (ICWE 2011)"
-      url: "http://icwe2011.webengineering.org/"
-      venue: "Doctoral consortium co-chair"
-      
-    - title: "Web of Data in the Context of Multimedia at SAMT2009"
-      url: "http://www.samt2009.org/"
-      venue: "Graz, Austria"
-      slides:
-        - url: "http://www.slideshare.net/bhaslhofer/samt09-web-of-data-tutorial-part-1"
-          text: "1"
-        - url: "http://www.slideshare.net/bhaslhofer/samt09-web-of-data-tutorial-part-2"
-          text: "2"
-      
-    - title: "International Conference on Dublin Core and Metadata Applications (DC 2008)"
-      url: "http://dc2008.de/"
-      venue: "Poster chair"
-      
-    - title: "Linked Data Camp 2009"
-      url: "http://linkeddatacamp.org/wiki/LinkedDataCampVienna2009"
-      venue: "Museumsquartier (MQ) Vienna"
-      
-    - title: "Web of Data Practitioner's Days 2008"
-      url: "http://iisv029.joanneum.at/"
-      venue: "University of Vienna"
-      
-    - title: "Very Large Databases Conference (VLDB 2007)"
-      url: "http://www.vldb.org/conf/2007/"
-      venue: "local organization"
-      
-    - title: "Semantic Digital Libraries Tutorial"
-      urls:
-        - url: "http://www2007.org/tutorial-T9.php"
-          text: "WWW2007"
-        - url: "http://www.eswc2007.org/tutorials.php#semdl"
-          text: "ESWC2007"
-        - url: "http://www.jcdl.org/archived-conf-sites/jcdl2006/program/tutorials/semantic-digital-libraries/index.html"
-          text: "JCDL2006"
+- title: "4th International Workshop on Cryptoasset Analytics (CAAW)"
+  url: "https://caaw.io/2025/"
+  venue: "Financial Cryptography and Data Security (FC), Singapore"
+  date: 2025-04-18
+  type: "Workshop"
+
+# 2024
+
+- title: "6th International Conference on Advances in Financial Technologies (AFT)"
+  url: "https://aftconf.github.io/aft24/index.html"
+  venue: "Vienna"
+  date: 2024-09-23
+  type: "Conference"
+
+- title: "On Financial Misbehaviours: Uncovering Underminers of Democracy"
+  url: "https://www.alpbach.org/sessions/on-financial-misbehaviours-uncovering-underminers-of-democracy"
+  venue: "European Forum Alpbach"
+  date: 2024-08-27
+  type: "Seminar"
+
+- title: "Frontiers in Decentralized Finance (DeFi) workshop"
+  url: "https://csh.ac.at/events/frontiers-in-defi/"
+  venue: "Complexity Science Hub, Vienna"
+  date: 2024-03-07
+  type: "Workshop"
+
+- title: "3rd International Workshop on Cryptoasset Analytics (CAAW)"
+  url: "https://caaw.io/2024/"
+  venue: "ACM Web Conference, Singapore"
+  date: 2024-05-13
+  type: "Workshop"
+
+# 2023
+
+- title: "Envisioning the Future of Money"
+  url: "https://www.alpbach.org"
+  venue: "European Forum Alpbach"
+  date: 2023-08-22
+  type: "Seminar"
+
+- title: "2nd International Workshop on Cryptoasset Analytics (CAAW)"
+  url: "https://caaw.io/2023/"
+  venue: "ACM Web Conference, Austin, USA"
+  date: 2023-05-01
+  type: "Workshop"
+
+# 2022
+
+- title: "1st International Workshop on Cryptoasset Analytics (CAAW)"
+  url: "https://caaw.io/2022/"
+  venue: "ACM Web Conference, Online"
+  date: 2022-04-25
+  type: "Workshop"
+
+- title: "Cryptoasset analytics tutorial"
+  url: "https://cryptoassetanalytics.net/tutorial/"
+  venue: "ACM Web Conference, Online"
+  date: 2022-04-25
+  type: "Tutorial"
+
+# 2019
+
+- title: "From Crypto- to Corporate Currencies?"
+  url: "https://id.univie.ac.at/news-und-events/detailansicht-news-und-events/news/panel-discussion-from-crypto-to-corporate-currencies/?tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Baction%5D=detail&cHash=0f4867dd97b490b9aa8e5bf20278c406"
+  venue: "Vienna"
+  date: 2019-10-24
+  type: "Panel"
+
+# 2018
+
+- title: "Symposium on Post-Bitcoin Cryptocurrencies"
+  url: "https://www.ait.ac.at/ueber-das-ait/center/center-for-digital-safety-security/fairs-events/symposium-on-post-bitcoin-cryptocurrencies/"
+  venue: "Vienna"
+  date: 2018-10-11
+  type: "Symposium"
+
+# 2017
+
+- title: "13th International Conference on Semantic Systems (SEMANTICS 2017)"
+  url: "https://2017.semantics.cc/"
+  venue: "Vienna"
+  date: 2017-09-11
+  type: "Conference"
+
+# 2015
+
+- title: "1st Workshop on Data Science: Methods, Technology and Applications (DSci15)"
+  url: "http://semantics.cc/satellite-events/1st-workshop-data-science-methods-technology-and-applications-dsci15"
+  venue: "SEMANTICS 2015"
+  date: 2015-09-16
+  type: "Workshop"
+
+# 2011
+
+- title: "11th International Conference on Web Engineering (ICWE 2011)"
+  url: "http://icwe2011.webengineering.org/"
+  venue: "Paphos, Cyprus"
+  date: 2011-06-20
+  type: "Conference"
+
+# 2009
+
+- title: "Web of Data in the Context of Multimedia at SAMT2009"
+  url: "http://www.samt2009.org/"
+  venue: "Graz, Austria"
+  date: 2009-12-02
+  type: "Tutorial"
+  slides:
+    - url: "http://www.slideshare.net/bhaslhofer/samt09-web-of-data-tutorial-part-1"
+      text: "1"
+    - url: "http://www.slideshare.net/bhaslhofer/samt09-web-of-data-tutorial-part-2"
+      text: "2"
+
+- title: "Linked Data Camp 2009"
+  url: "http://linkeddatacamp.org/wiki/LinkedDataCampVienna2009"
+  venue: "Museumsquartier (MQ) Vienna"
+  date: 2009-10-24
+  type: "Workshop"
+
+# 2008
+
+- title: "International Conference on Dublin Core and Metadata Applications (DC 2008)"
+  url: "http://dc2008.de/"
+  venue: "Berlin, Germany"
+  date: 2008-09-22
+  type: "Conference"
+
+- title: "Web of Data Practitioner's Days 2008"
+  url: "http://iisv029.joanneum.at/"
+  venue: "University of Vienna"
+  date: 2008-05-26
+  type: "Workshop"
+
+# 2007
+
+- title: "Very Large Databases Conference (VLDB 2007)"
+  url: "http://www.vldb.org/conf/2007/"
+  venue: "Vienna"
+  date: 2007-09-23
+  type: "Conference"
+
+- title: "Semantic Digital Libraries Tutorial"
+  urls:
+    - url: "http://www2007.org/tutorial-T9.php"
+      text: "WWW2007"
+    - url: "http://www.eswc2007.org/tutorials.php#semdl"
+      text: "ESWC2007"
+    - url: "http://www.jcdl.org/archived-conf-sites/jcdl2006/program/tutorials/semantic-digital-libraries/index.html"
+      text: "JCDL2006"
+  date: 2007-05-08
+  type: "Tutorial"

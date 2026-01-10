@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Events & Conferences
+title: Events
 permalink: /events
 description: "Academic conferences and events organized by Bernhard Haslhofer, including workshops on cryptoasset analytics, financial technologies, and cybersecurity."
 keywords: "academic conferences, cryptoasset analytics workshop, financial technologies events, cybersecurity conferences, blockchain workshops"
@@ -8,16 +8,13 @@ keywords: "academic conferences, cryptoasset analytics workshop, financial techn
 
 <div class="container mt-5">
 
-  <h2 class="section-title">Event Organization</h2>
+  <h2 class="section-title">Events</h2>
 
-  <div class="content-card">
-    <p class="lead">I organized or co-organized the following events:</p>
-  </div>
+  {% assign events_by_year = site.data.events | group_by_exp: "event", "event.date | date: '%Y'" | sort: "name" | reverse %}
 
-  {% for year_group in site.data.events %}
-    <div class="publication-year">{{ year_group.year }}</div>
-    
-    {% for event in year_group.items %}
+  {% for year in events_by_year %}
+    <h2 class="bibliography">{{ year.name }}</h2>
+    {% for event in year.items %}
       <div class="publication-item">
         {% include event.html event=event %}
       </div>

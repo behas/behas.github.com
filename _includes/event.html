@@ -1,22 +1,25 @@
-<p>
-{% assign event = include.event -%}
-{% if event.url -%}
-<a href="{{ event.url }}" target="_blank">{{ event.title }}</a>
-{%- elsif event.urls -%}
-{{ event.title }} (
-{%- for link in event.urls -%}
-<a href="{{ link.url }}" target="_blank">{{ link.text }}</a>{% unless forloop.last %}, {% endunless %}
-{%- endfor -%}
-)
-{%- else -%}
-{{ event.title }}
-{%- endif -%}
-{%- if event.venue %}, {{ event.venue }}{% endif -%}
-{%- if event.slides %}
- (slides: 
-{%- for slide in event.slides -%}
-<a href="{{ slide.url }}" target="_blank">{{ slide.text }}</a>{% unless forloop.last %}, {% endunless %}
-{%- endfor -%}
-)
-{%- endif %}
+{% assign event = include.event %}
+<p class="pub-title">
+  {% if event.url %}
+    <a href="{{ event.url }}" target="_blank">{{ event.title }}</a>
+  {% else %}
+    {{ event.title }}
+  {% endif %}
+  {% if event.type %}<span class="talk-type">{{ event.type }}</span>{% endif %}
 </p>
+<p class="pub-venue">{{ event.venue }}</p>
+<div class="publication-links">
+  {% if event.url %}
+    <a href="{{ event.url }}" target="_blank" class="pub-link"><i class="fas fa-external-link-alt"></i> Website</a>
+  {% endif %}
+  {% if event.urls %}
+    {% for link in event.urls %}
+      <a href="{{ link.url }}" target="_blank" class="pub-link"><i class="fas fa-external-link-alt"></i> {{ link.text }}</a>
+    {% endfor %}
+  {% endif %}
+  {% if event.slides %}
+    {% for slide in event.slides %}
+      <a href="{{ slide.url }}" target="_blank" class="pub-link"><i class="fas fa-desktop"></i> Slides {{ slide.text }}</a>
+    {% endfor %}
+  {% endif %}
+</div>
