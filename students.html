@@ -15,7 +15,7 @@ keywords: "thesis supervision, PhD students, Master's thesis, Bachelor's thesis,
   {% assign bachelor_theses = site.data.theses | where: "type", "bachelor" | sort: "date" | reverse %}
 
   {% if phd_theses.size > 0 %}
-  <h3 class="mt-4 mb-3">PhD Students</h3>
+  <h3 class="mt-4 mb-3">PhD</h3>
   {% for thesis in phd_theses %}
     <div class="publication-item">
       {% include thesis.html thesis=thesis %}
@@ -24,7 +24,7 @@ keywords: "thesis supervision, PhD students, Master's thesis, Bachelor's thesis,
   {% endif %}
 
   {% if master_theses.size > 0 %}
-  <h3 class="mt-4 mb-3">Master's Students</h3>
+  <h3 class="mt-4 mb-3">Master's</h3>
   {% for thesis in master_theses %}
     <div class="publication-item">
       {% include thesis.html thesis=thesis %}
@@ -33,7 +33,7 @@ keywords: "thesis supervision, PhD students, Master's thesis, Bachelor's thesis,
   {% endif %}
 
   {% if bachelor_theses.size > 0 %}
-  <h3 class="mt-4 mb-3">Bachelor's Students</h3>
+  <h3 class="mt-4 mb-3">Bachelor's</h3>
   {% for thesis in bachelor_theses %}
     <div class="publication-item">
       {% include thesis.html thesis=thesis %}
