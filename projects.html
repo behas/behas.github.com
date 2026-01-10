@@ -8,9 +8,21 @@ keywords: "research projects, cryptoasset analytics, blockchain security, digita
 
 <div class="container mt-5">
 
-  <h2 class="section-title">Research Grants</h2>
+  <h2 class="section-title">Ongoing Projects</h2>
 
-  {% for project in site.data.projects %}
+  {% assign today = site.time | date: "%Y-%m-%d" %}
+  {% assign ongoing_projects = site.data.projects | where_exp: "project", "project.end_date >= today" %}
+  {% assign past_projects = site.data.projects | where_exp: "project", "project.end_date < today" %}
+
+  {% for project in ongoing_projects %}
+    <div class="publication-item">
+      {% include project.html project=project %}
+    </div>
+  {% endfor %}
+
+  <h2 class="section-title mt-5">Past Projects</h2>
+
+  {% for project in past_projects %}
     <div class="publication-item">
       {% include project.html project=project %}
     </div>

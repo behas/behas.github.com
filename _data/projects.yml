@@ -2,104 +2,110 @@
   start_date: "2026-01-01"
   end_date: "2028-06-30"
   funding_source: "FFG Bridge"
+  flag: "🇦🇹"
   role: "Project Coordinator"
   description: >
-     The DIFPILOT project aims to develop and evaluate novel approaches
-     to assist digital forensic investigators in automating workflows
-     and analyzing data using LLMs.
+    Develops and evaluates novel approaches to assist digital forensic
+    investigators in automating workflows and analyzing data using LLMs.
 
 - acronym: "LLEA"
   start_date: "2025-10-01"
   end_date: "2027-09-30"
   funding_source: "FFG KIRAS"
+  flag: "🇦🇹"
   role: "Project Coordinator"
   description: >
-    The LLEA project develops and evaluates LLM-based methods for
-    data analysis in law enforcement.
+    Develops and evaluates LLM-based methods for data analysis in law enforcement.
 
 - acronym: "FAIRLEA"
   uri: "https://fairlea.de/"
   start_date: "2025-06-01"
   end_date: "2029-04-30"
   funding_source: "Volkswagen Foundation"
+  flag: "🇩🇪"
   role: "Project partner"
   description: >
-    This project investigates how AI-powered tools can be used in criminal investigations
-    while meeting the requirements of law enforcement authorities and complying
-    with legal obligations under German and European law.    
+    Investigates how AI-powered tools can be used in criminal investigations
+    while meeting law enforcement requirements and complying with German and
+    European legal obligations.
 
 - acronym: "ENSEMBLE"
   uri: "https://cordis.europa.eu/project/id/101168360"
   start_date: "2024-11-01"
   end_date: "2027-10-31"
   funding_source: "HORIZON-CL3-2023-FCT-01-06"
+  flag: "🇪🇺"
   role: "Project partner"
   description: >
-    The ENSEMBLE project aims to combat cross-border cybercrime using
-    advanced AI-based technology, multi-stakeholder investigation processes,
-    training, and awareness.
+    Combats cross-border cybercrime using advanced AI-based technology,
+    multi-stakeholder investigation processes, training, and awareness.
 
 - acronym: "DesinFact"
   uri: "https://projekte.ffg.at/projekt/4866636"
   start_date: "2024-01-01"
   end_date: "2025-12-31"
   funding_source: "FFG KIRAS"
+  flag: "🇦🇹"
   role: "Project partner (Team lead)"
   description: >
-    The DesinFact project (led by AIT) focuses on the
-    detection of disinformation campaigns and associated technical, legal, and ethical aspects.
+    Focuses on detection of disinformation campaigns and associated technical,
+    legal, and ethical aspects. Led by AIT.
 
 - acronym: "DeFiTrace"
   uri: "https://defitrace.info/"
   start_date: "2023-10-01"
   end_date: "2025-09-30"
   funding_source: "FFG KIRAS"
+  flag: "🇦🇹"
   role: "Project Coordinator, Principal Investigator"
   description: >
-    The DeFiTrace project aims to create algorithmic methods to
-    detect illegal transactions in cross-ledger DeFi systems.
+    Creates algorithmic methods to detect illegal transactions in cross-ledger
+    DeFi systems.
 
 - acronym: "AMALFI"
   uri: "https://amalfi-project.info/"
   start_date: "2023-03-01"
   end_date: "2025-08-31"
   funding_source: "FFG - Bridge"
+  flag: "🇦🇹"
   role: "Project Coordinator, Principal Investigator"
   description: >
-    This project will investigate the applicability and effectiveness of
-    automated graph learning techniques in large multilayer cryptoasset transaction
-    networks.
+    Investigates the applicability and effectiveness of automated graph learning
+    techniques in large multilayer cryptoasset transaction networks.
 
 - acronym: "DeFiQuant"
   start_date: "2022-02-01"
   end_date: "2024-01-31"
   funding_source: "WAW Innovation/18 - 21+"
+  flag: "🇦🇹"
   role: "Research Coordinator"
   description: >
-    The overall goal of this project is to support users in investigating
-    and understanding the structure of DeFi protocols and their interrelations.
+    Supported users in investigating and understanding the structure of DeFi
+    protocols and their interrelations.
 
 - acronym: "INTERACTIVE"
   uri: "https://www.interactive-project.info/"
   start_date: "2021-04-01"
   end_date: "2023-03-31"
   funding_source: "FFG - Production of the Future"
+  flag: "🇦🇹"
   role: "Project Coordinator, Principal Investigator"
-  description: |
-    This project will design and develop workflows and algorithmic methods
-    that enable machine learning in distributed edge computing environments
-    despite missing or insufficient ground-truth data
+  description: >
+    Designed and developed workflows and algorithmic methods enabling machine
+    learning in distributed edge computing environments despite missing or
+    insufficient ground-truth data.
 
 - acronym: "KRYPTOMONITOR"
   uri: "https://kryptomonitor-project.info/"
   start_date: "2020-10-01"
   end_date: "2022-09-30"
   funding_source: "FFG KIRAS"
+  flag: "🇦🇹"
   role: "Project Coordinator, Principal Investigator"
-  description: |
-    This project will develop generic cryptoasset analysis methods that
-    support the analysis of smart contracts and off-chain transactions in
-    addition to native cryptocurrency transactions.
+  description: >
+    Developed generic cryptoasset analysis methods supporting the analysis of
+    smart contracts and off-chain transactions in addition to native
+    cryptocurrency transactions.
 
 - acronym: "COGNITUS"
   uri: "https://cognitus-project.info/"
@@ -107,62 +113,50 @@
   end_date: "2022-09-30"
   funding_source: "FFG - ICT of the future"
   funding_source_uri: "https://www.ffg.at/"
+  flag: "🇦🇹"
   role: "Project Coordinator, Principal Investigator"
-  description: |
-    The goal of COGNITUS is to provide a Deep Learning pipeline equipped
-    with a set of generic algorithmic building blocks for predicting outages
-    of machineries based on sensor data streams.
+  description: >
+    Provided a deep learning pipeline equipped with generic algorithmic building
+    blocks for predicting outages of machineries based on sensor data streams.
 
 - acronym: "Austrian Blockchain Center (ABC)"
   uri: "https://blockchain-center.at/"
   start_date: "2019-10-01"
   end_date: "2023-10-31"
   funding_source: "FFG COMET"
+  flag: "🇦🇹"
   role: "Area Lead Data Science Methods for Blockchain Analytics & Predictions"
-  description: |
-    The Center's mission is to be the one-stop-shop Austrian Research Center
-    for Blockchain (and related) technologies to be applied in industrial
-    applications like industry 4.0 / IoT as well as financial, energy,
-    logistics, government and administrative applications. Those new
-    applications and business models resulting from collaborations between
-    established players, innovative startups and top R&D institutes will be
-    the key for the creation of new jobs and establishing Austria among the top
-    ten innovative countries in Europe.
+  description: >
+    Served as Austria's one-stop-shop research center for blockchain and related
+    technologies, applied in industrial, financial, energy, logistics, and
+    government applications.
 
 - acronym: "TRAVELOGUES"
   uri: "http://travelogues-project.info"
   start_date: "2018-04-01"
   end_date: "2021-03-31"
   funding_source: "FWF DACH"
-  funding_source_uri: "https://www.fwf.ac.at/de/forschungsfoerderung/fwf-programme/internationale-programme/joint-projects/"  
+  funding_source_uri: "https://www.fwf.ac.at/de/forschungsfoerderung/fwf-programme/internationale-programme/joint-projects/"
+  flag: "🇦🇹"
   role: "Co-Principal Investigator"
-  description: |
-    This interdisciplinary international (DACH FWF-DFG) digital humanities
-    project aims at gaining insight into the perception of the Other
-    (focusing on the Orient) by analyzing an extensive collection of German
-    language travelogues covering the period from 1500 until 1875. It will
-    bring together a team of researchers from history, computer science, as
-    well as library and information science from Austria and Germany. They
-    will jointly develop a novel mixed qualitative and quantitative method
-    for the serial analysis of large-scale text corpora and apply that method
-    on a comprehensive corpus of travelogues originally published in the German
-    language (ca. 3,000 - 3,500 books) and drawn from the Austrian Books Online
-    (ABO) project (ca. 600,000 books) of the Austrian National Library.
+  description: >
+    Analyzed German language travelogues from 1500-1875 to gain insight into
+    the perception of the Other (focusing on the Orient). Developed novel mixed
+    qualitative and quantitative methods for serial analysis of large-scale
+    text corpora.
 
 - acronym: "VIRTCRIME"
   uri: "http://virtcrime-project.info/"
   start_date: "2018-01-01"
   end_date: "2020-06-30"
   funding_source: "FFG KIRAS"
-  funding_source_uri: "https://www.ffg.at/"  
+  funding_source_uri: "https://www.ffg.at/"
+  flag: "🇦🇹"
   role: "Project Coordinator, Principal Investigator"
-  description: |
-    The goal of the VIRTCRIME project lies in the development of novel
-    algorithms and methods for tracing criminal transactions in post-Bitcoin
-    era cryptocurrencies, while considering illegitimate activities in Darknet
-    market places. Orthogonally, the project will provide novel criminological
-    procedures and law enforcement approaches, and investigate legal
-    pre-conditions and consequences.
+  description: >
+    Developed novel algorithms and methods for tracing criminal transactions in
+    post-Bitcoin era cryptocurrencies, considering illegitimate activities in
+    Darknet marketplaces.
 
 - acronym: "TITANIUM"
   uri: "https://titanium-project.eu/"
@@ -170,12 +164,12 @@
   end_date: "2020-04-31"
   funding_source: "EU Horizon 2020"
   funding_source_uri: "https://ec.europa.eu/programmes/horizon2020/"
+  flag: "🇪🇺"
   role: "Senior Scientist"
-  description: |
-    TITANIUM will research, develop, and validate novel data-driven techniques
-    and solutions designed to support Law Enforcement Agencies (LEAs) charged
-    with investigating criminal or terrorist activities involving virtual
-    currencies and/or underground markets in the darknet.
+  description: >
+    Researched, developed, and validated novel data-driven techniques to support
+    Law Enforcement Agencies investigating criminal or terrorist activities
+    involving virtual currencies and darknet markets.
 
 - acronym: "GraphSense"
   uri: "http://www.graphsense.info"
@@ -183,25 +177,23 @@
   end_date: "2017-11-30"
   funding_source: "FFG - IKT der Zukunft"
   funding_source_uri: "https://www.ffg.at/"
+  flag: "🇦🇹"
   role: "Project Coordinator, Principal Investigator"
-  description: |
-    The goal of the GraphSense project is to research and develop novel
-    algorithmic solutions for detecting anomalies in large-scale, dynamically
-    changing graph datasets. The focus will be on developing anomaly detection
-    techniques for transaction networks constructed from virtual currencies
-    (Bitcoin) and investigate their applicability for enterprise financial fraud
-    detection settings.
+  description: >
+    Researched and developed novel algorithmic solutions for detecting anomalies
+    in large-scale, dynamically changing graph datasets, focusing on transaction
+    networks from virtual currencies.
 
 - acronym: "BITCRIME"
   uri: "https://www.bitcrime.de/"
   start_date: "2014-10-01"
   end_date: "2016-09-30"
   funding_source: "Bilateral: BMBF (DE) + BMVIT (AT)"
+  flag: "🇩🇪🇦🇹"
   role: "Scientist, WP Lead"
-  description: |
-    Research and develop methods to prevent and prosecute organised crime in
-    virtual currencies. The project also investigates novel Anti Money Laundering
-    (AML) strategies taking into account the pseudo-anonymity of Bitcoin users.
+  description: >
+    Researched and developed methods to prevent and prosecute organised crime
+    in virtual currencies, including novel Anti Money Laundering strategies.
 
 - acronym: "ResourceSync"
   uri: "http://www.niso.org/workrooms/resourcesync/"
@@ -209,13 +201,11 @@
   end_date: "2014-04-30"
   funding_source: "Alfred P. Sloan Foundation"
   funding_source_uri: "http://www.sloan.org/"
+  flag: "🇺🇸"
   role: "Researcher"
-  description: |
-    Research, develop, prototype, test, and deploy mechanisms for the
-    large-scale synchronization of web resources. Building on the OAI-PMH
-    strategies for synchronizing metadata, this project will enhance that
-    specification using modern web technologies, but will allow for the
-    synchronization of the objects themselves, not just their metadata.
+  description: >
+    Researched, developed, and deployed mechanisms for large-scale synchronization
+    of web resources, building on OAI-PMH strategies using modern web technologies.
 
 - acronym: "SciLink"
   uri: "http://eprints.cs.univie.ac.at/3354"
@@ -223,12 +213,12 @@
   end_date: "2014-02-28"
   funding_source: "EU PEOPLE IOF (Marie Curie)"
   funding_source_uri: "http://ec.europa.eu/research/mariecurieactions/"
+  flag: "🇪🇺"
   role: "Research Fellow (beneficiary)"
-  description: |
-    Research on (i) interactive links discovery in scholarly publications,
-    (ii) strategies for maintaining link integrity, and (iii) novel Web-based
-    resource aggregation and presentation interfaces for scholarly publication
-    workflows.
+  description: >
+    Researched interactive link discovery in scholarly publications, strategies
+    for maintaining link integrity, and novel web-based resource aggregation
+    interfaces.
 
 - acronym: "Maphub"
   uri: "http://maphub.github.com/"
@@ -236,15 +226,12 @@
   end_date: "2013-02-28"
   funding_source: "Andrew W. Mellon Foundation"
   funding_source_uri: "http://www.mellon.org/"
+  flag: "🇺🇸"
   role: "Principal Investigator"
-  description: |
-    Examine application of the
-    <a href="http://www.w3.org/community/openannotation/">Open Annotation
-    Specification</a> in the context of digitized historical maps. Design and
-    build a collaborative Web environment in which scholars and citizens can
-    contribute their knowledge to digitized high-resolution online maps.
-    We experimented with designs that integrate the annotation process with
-    the re-use of data from public data sources, such as Wikipedia.
+  description: >
+    Examined application of the Open Annotation Specification for digitized
+    historical maps. Built a collaborative web environment for scholars and
+    citizens to contribute knowledge to high-resolution online maps.
 
 - acronym: "MEKETRE"
   uri: "http://meketre.org/"
@@ -252,10 +239,10 @@
   end_date: "2012-12-31"
   funding_source: "Austrian Research Fund (FWF)"
   funding_source_uri: "http://www.fwf.ac.at/"
+  flag: "🇦🇹"
   role: "Proposal Co-author"
-  description: |
-    An interdisciplinary project with the Institute for Egyptology at the
-    University of Vienna. It aimed at building a collaborative Web-based
-    solution for efficiently organizing the collected and digitized content
-    objects from the Egyptian middle kingdom period by means of open
-    collaboratively developed vocabularies.
+  description: >
+    Built a collaborative web-based solution for organizing digitized content
+    objects from the Egyptian Middle Kingdom period using open, collaboratively
+    developed vocabularies. Interdisciplinary project with the Institute for
+    Egyptology at the University of Vienna.
