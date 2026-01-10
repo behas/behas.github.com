@@ -1,8 +1,32 @@
 <div class="publication-item">
-  <p>
-    {% assign ref_clean = reference | split: 'http' | first | split: 'Retrieved from' | first %}
-    {{ ref_clean }}
+  <p class="pub-title">
+    {% if entry.doi %}
+      <a href="https://doi.org/{{ entry.doi }}">{{ entry.title }}</a>
+    {% elsif entry.url %}
+      <a href="{{ entry.url }}">{{ entry.title }}</a>
+    {% else %}
+      {{ entry.title }}
+    {% endif %}
   </p>
+  <p class="pub-authors">{{ entry.author }}</p>
+  <p class="pub-venue">
+    {% if entry.journal %}
+      <em>{{ entry.journal }}</em>{% if entry.volume %}, {{ entry.volume }}{% endif %}{% if entry.number %}({{ entry.number }}){% endif %}{% if entry.pages %}, {{ entry.pages }}{% endif %}, {{ entry.year }}
+    {% elsif entry.booktitle %}
+      <em>{{ entry.booktitle }}</em>{% if entry.pages %}, pp. {{ entry.pages }}{% endif %}, {{ entry.year }}
+    {% elsif entry.institution %}
+      {{ entry.institution }}{% if entry.type %}, {{ entry.type }}{% endif %}{% if entry.number %} {{ entry.number }}{% endif %}, {{ entry.year }}
+    {% elsif entry.school %}
+      {{ entry.school }}, {{ entry.year }}
+    {% elsif entry.publisher %}
+      {{ entry.publisher }}, {{ entry.year }}
+    {% else %}
+      {{ entry.year }}
+    {% endif %}
+  </p>
+  {% if entry.note %}
+    <p class="pub-note"><i class="fas fa-award"></i> {{ entry.note }}</p>
+  {% endif %}
   <div class="publication-links">
     {% if entry.url %}
       <a href="{{ entry.url }}" target="_blank" class="pub-link"><i class="fas fa-file-pdf"></i> PDF</a>

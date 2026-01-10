@@ -359,11 +359,53 @@ h2.bibliography {
   border-radius: 0 8px 8px 0;
   box-shadow: 0 2px 4px rgba(0,0,0,0.05);
   transition: all 0.2s ease;
-  
+
   &:hover {
     border-left-color: $primary-color;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     transform: translateX(3px);
+  }
+
+  p {
+    margin-bottom: 0.4rem;
+  }
+
+  .pub-title {
+    font-weight: 600;
+    font-size: 1.05rem;
+    line-height: 1.4;
+    margin-bottom: 0.5rem;
+
+    a {
+      color: #2c3e50;
+      text-decoration: none;
+
+      &:hover {
+        color: $primary-color;
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .pub-authors {
+    color: #495057;
+    font-size: 0.95rem;
+  }
+
+  .pub-venue {
+    color: $text-muted;
+    font-size: 0.9rem;
+  }
+
+  .pub-note {
+    color: #28a745;
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-top: 0.5rem;
+
+    i {
+      margin-right: 5px;
+    }
   }
 }
 
