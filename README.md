@@ -1,9 +1,5 @@
 # My Research Profile
 
-Convert bibtex bibliography to YAML file
-
-	pandoc assets/bibliography.bib -s  -f bibtex -t markdown > _data/publications.yml
-
 ## Run locally
 
 Install ruby as described [here](https://jekyllrb.com/docs/installation/macos/)
