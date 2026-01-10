@@ -1,28 +1,25 @@
-- name: Research
-  dropdown: true
-  items:
-    - name: Publications
-      link: /publications
-    - name: Projects
-      link: /projects
-    - name: Standardization
-      link: /standardization
-    - name: Software
-      link: /software
-    - name: Datasets
-      link: /datasets
-- name: Activities
+- name: Publications
+  link: /publications
+- name: Projects
+  link: /projects
+- name: Teaching
+  link: /teaching
+- name: Awards
+  link: /awards
+- name: More
   dropdown: true
   items:
     - name: Talks
       link: /talks
     - name: Events
       link: /events
-    - name: Teaching
-      link: /teaching
     - name: Students
       link: /students
+    - name: Software
+      link: /software
+    - name: Datasets
+      link: /datasets
+    - name: Standardization
+      link: /standardization
     - name: Reviewing
       link: /reviews
-- name: Awards
-  link: /awards

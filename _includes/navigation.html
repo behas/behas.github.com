@@ -18,7 +18,7 @@
 			<a class="nav-link dropdown-toggle {% if dropdown_active %}active fw-bold text-accent{% endif %}" href="#" id="navbar{{ item.name }}" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 				{{ item.name }}
 			</a>
-			<ul class="dropdown-menu" aria-labelledby="navbar{{ item.name }}">
+			<ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbar{{ item.name }}">
 				{% for subitem in item.items %}
 				<li><a class="dropdown-item {% if page.url == subitem.link %}active{% endif %}" href="{{ subitem.link }}">{{ subitem.name }}</a></li>
 				{% endfor %}
