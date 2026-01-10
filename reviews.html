@@ -10,9 +10,9 @@ keywords: "program committee, journal reviewer, peer review, cryptoasset analyti
 
   <h2 class="section-title">Reviewing</h2>
 
-  {% assign journals = site.data.reviews | where: "type", "journal" | sort: "latest_year" | reverse %}
-  {% assign conferences = site.data.reviews | where: "type", "conference" | sort: "latest_year" | reverse %}
-  {% assign workshops = site.data.reviews | where: "type", "workshop" | sort: "latest_year" | reverse %}
+  {% assign journals = site.data.reviews | where: "type", "journal" %}
+  {% assign conferences = site.data.reviews | where: "type", "conference" %}
+  {% assign workshops = site.data.reviews | where: "type", "workshop" %}
 
   <h3 class="mt-4 mb-3">Journals</h3>
 

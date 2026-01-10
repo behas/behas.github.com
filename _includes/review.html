@@ -6,4 +6,4 @@
     {{ review.name }}
   {% endif %}
 </p>
-<p class="pub-venue">{{ review.years }}</p>
+<p class="pub-venue">{{ review.years | join: ", " }}</p>

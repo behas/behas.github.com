@@ -3,233 +3,193 @@
 - name: "Journal of Digital Finance"
   uri: "https://link.springer.com/journal/42521"
   type: journal
-  years: "2025"
-  latest_year: 2025
+  years: [2025]
 
 - name: "ACM Transactions on the Web (TWEB)"
   uri: "https://dl.acm.org/journal/tweb"
   type: journal
-  years: "2024"
-  latest_year: 2024
+  years: [2024]
 
 - name: "Computers & Security"
   uri: "https://www.journals.elsevier.com/computers-and-security"
   type: journal
-  years: "2021"
-  latest_year: 2021
+  years: [2021]
 
 - name: "Decisions in Economics and Finance"
   uri: "https://www.springer.com/journal/10203"
   type: journal
-  years: "2020"
-  latest_year: 2020
+  years: [2020]
 
 - name: "Advances in Complex Systems"
   uri: "https://www.worldscientific.com/worldscinet/acs"
   type: journal
-  years: "2020"
-  latest_year: 2020
+  years: [2020]
 
 - name: "Journal of Cybersecurity"
   uri: "https://academic.oup.com/cybersecurity"
   type: journal
-  years: "2019"
-  latest_year: 2019
+  years: [2019]
 
 - name: "Journal of Web Semantics (JWS)"
   uri: "https://www.journals.elsevier.com/journal-of-web-semantics/"
   type: journal
-  years: "2013, 2014, 2017"
-  latest_year: 2017
+  years: [2013, 2014, 2017]
 
 - name: "International Journal on Digital Libraries"
   type: journal
-  years: "2009, 2012, 2017"
-  latest_year: 2017
+  years: [2009, 2012, 2017]
 
 - name: "International Journal on Semantic Web and Information Systems (IJSWIS)"
   uri: "https://www.ijswis.org/"
   type: journal
-  years: "2012, 2014"
-  latest_year: 2014
+  years: [2012, 2014]
 
 - name: "Semantic Web Journal (SWJ)"
   uri: "https://www.semantic-web-journal.net/"
   type: journal
-  years: "2014"
-  latest_year: 2014
+  years: [2014]
 
 - name: "Computers"
   uri: "https://www.mdpi.com/journal/computers"
   type: journal
-  years: "2014"
-  latest_year: 2014
+  years: [2014]
 
 - name: "Future Internet"
   uri: "https://www.mdpi.com/journal/futureinternet"
   type: journal
-  years: "2013"
-  latest_year: 2013
+  years: [2013]
 
 - name: "International Journal on Metadata, Semantics, and Ontologies"
   uri: "https://www.inderscience.com/browse/index.php?journalID=152"
   type: journal
-  years: "2010, 2012"
-  latest_year: 2012
+  years: [2010, 2012]
 
 - name: "Multimedia Tools and Applications"
   uri: "https://www.springer.com/computer/information+systems+and+applications/journal/11042"
   type: journal
-  years: "2010, 2011"
-  latest_year: 2011
+  years: [2010, 2011]
 
 - name: "ACM Computing Surveys"
   uri: "https://csur.acm.org/"
   type: journal
-  years: "2009"
-  latest_year: 2009
+  years: [2009]
 
 # Conferences
 
 - name: "Financial Cryptography and Data Security (FC)"
   uri: "https://fc26.ifca.ai/"
   type: conference
-  years: "2025, 2026"
-  latest_year: 2026
+  years: [2025, 2026]
 
 - name: "Advances in Financial Technologies (AFT)"
   uri: "https://aftconf.github.io/aft25/index.html"
   type: conference
-  years: "2024, 2025"
-  latest_year: 2025
+  years: [2024, 2025]
 
 - name: "International Semantic Web Conference (ISWC)"
   uri: "https://iswc2021.semanticweb.org/"
   type: conference
-  years: "2019, 2021"
-  latest_year: 2021
+  years: [2019, 2021]
 
 - name: "IEEE European Symposium on Security and Privacy (EuroS&P)"
   uri: "https://www.ieee-security.org/TC/EuroSP2021/"
   type: conference
-  years: "2021"
-  latest_year: 2021
+  years: [2021]
 
 - name: "International Conference on Cryptology and Network Security (CANS)"
   uri: "https://cans2021.at/"
   type: conference
-  years: "2021"
-  latest_year: 2021
+  years: [2021]
 
 - name: "IEEE International Conference on Decentralized Applications and Infrastructures (DAPPS)"
   uri: "https://ieeedapps.net/"
   type: conference
-  years: "2020, 2021"
-  latest_year: 2021
+  years: [2020, 2021]
 
 - name: "CRYPTO VALLEY Conference"
   uri: "https://www.cryptovalleyconference.com/"
   type: conference
-  years: "2019, 2020, 2021"
-  latest_year: 2021
+  years: [2019, 2020, 2021]
 
 - name: "ACM/IEEE Joint Conference on Digital Libraries (JCDL)"
   uri: "https://2017.jcdl.org/"
   type: conference
-  years: "2015, 2017"
-  latest_year: 2017
+  years: [2015, 2017]
 
 - name: "ACM Web Science (WebSci)"
   uri: "https://websci17.org/"
   type: conference
-  years: "2014, 2015, 2017"
-  latest_year: 2017
+  years: [2014, 2015, 2017]
 
 - name: "International Conference on Theory and Practice of Digital Libraries (TPDL)"
   uri: "https://tpdl2015.info/"
   type: conference
-  years: "2010, 2011, 2013, 2015, 2017"
-  latest_year: 2017
+  years: [2010, 2011, 2013, 2015, 2017]
 
 - name: "International Conference on Semantic Systems (SEMANTICS)"
   uri: "https://semantics.cc"
   type: conference
-  years: "2010, 2015"
-  latest_year: 2015
+  years: [2010, 2015]
 
 - name: "Asian Digital Library Conference (ICADL)"
   type: conference
-  years: "2015"
-  latest_year: 2015
+  years: [2015]
 
 - name: "International World Wide Web Conference (WWW)"
   uri: "https://www.www2015.it/"
   type: conference
-  years: "2012, 2015"
-  latest_year: 2015
+  years: [2012, 2015]
 
 - name: "Dublin Core Conference (DC)"
   type: conference
-  years: "2008-2015"
-  latest_year: 2015
+  years: [2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015]
 
 - name: "Digital Libraries"
   uri: "https://www.city.ac.uk/digital-libraries-2014"
   type: conference
-  years: "2014"
-  latest_year: 2014
+  years: [2014]
 
 - name: "International Conference on Web Engineering (ICWE)"
   uri: "https://icwe2013.webengineering.org/"
   type: conference
-  years: "2011, 2012, 2013"
-  latest_year: 2013
+  years: [2011, 2012, 2013]
 
 - name: "IEEE Conference on Commerce and Enterprise Computing (CEC)"
   type: conference
-  years: "2010, 2011, 2012"
-  latest_year: 2012
+  years: [2010, 2011, 2012]
 
 - name: "Extended Semantic Web Conference (ESWC)"
   uri: "https://2012.eswc-conferences.org/"
   type: conference
-  years: "2010, 2012"
-  latest_year: 2012
+  years: [2010, 2012]
 
 # Workshops
 
 - name: "Linked Data on the Web Workshop (LDOW)"
   type: workshop
-  years: "2017"
-  latest_year: 2017
+  years: [2017]
 
 - name: "Networked Knowledge Organization Systems and Services Workshop (NKOS)"
   type: workshop
-  years: "2006-2017"
-  latest_year: 2017
+  years: [2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017]
 
 - name: "Computational Social Science Winter Symposium (CSSWS)"
   type: workshop
-  years: "2014, 2015"
-  latest_year: 2015
+  years: [2014, 2015]
 
 - name: "iChallenge - Linked Data Cup"
   type: workshop
-  years: "2013"
-  latest_year: 2013
+  years: [2013]
 
 - name: "International Workshop on Web Semantics (WebS)"
   type: workshop
-  years: "2004-2013"
-  latest_year: 2013
+  years: [2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013]
 
 - name: "Linked Data Triplification Challenge"
   type: workshop
-  years: "2011"
-  latest_year: 2011
+  years: [2011]
 
 - name: "Workshop on Scripting and Development for the Semantic Web (SFSW)"
   uri: "https://www.semanticscripting.org/SFSW2010/"
   type: workshop
-  years: "2009, 2010"
-  latest_year: 2010
+  years: [2009, 2010]
