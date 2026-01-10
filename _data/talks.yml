@@ -1,68 +1,90 @@
-# - title:
-#   venue:
-#   date: 
-#   location:
-
 # 2025
+
+- title: Creating harmonised standards for blockchain intelligence
+  venue: 9th Global Conference on Criminal Finance and Cryptoassets
+  date: 2025-10-08
+  location: Vienna, Austria
+  flag: "🇦🇹"
+  type: Breakout Session
+
+- title: Investigations as Code
+  venue: INTERPOL New Technologies Forum
+  date: 2025-09-22
+  location: Vienna, Austria
+  flag: "🇦🇹"
 
 - title: Digital Crypto Estates
   venue: Security Forum Hagenberg
   date: 2025-05-14
   location: Hagenberg, Austria
+  flag: "🇦🇹"
 
 - title: Unraveling the Complexity of Cryptoasset Ecosystems
   venue: Kyoto University
   date: 2025-04-21
   location: Kyoto, Japan
+  flag: "🇯🇵"
+  type: Invited
 
 - title: Standardizing Crypto-Data Exchange | Lessons Learned
   venue: Blockchain Intelligence Forum
   date: 2025-04-10
-  location: Bucharest
+  location: Bucharest, Romania
+  flag: "🇷🇴"
 
 # 2024
 
 - title: Detecting disinformation in email communication networks
   venue: M3AAWG 61st General Meeting
   date: 2024-06-05
-  location: Vienna
+  location: Vienna, Austria
+  flag: "🇦🇹"
 
 - title: Increasing the Efficiency of Cryptoasset Investigations
   venue: Security Forum 2024
   date: 2024-05-22
-  location: Hagenberg
+  location: Hagenberg, Austria
+  flag: "🇦🇹"
 
 - title: Computational Methods for Unraveling the Complexity of Cryptoasset Ecosystems
   venue: NTU Singapore
   date: 2024-05-15
   location: Singapore
+  flag: "🇸🇬"
+  type: Invited
 
 - title: Mapping the DeFi Crime landscape
   venue: 10th EUROPOL Virtual Currencies Conference
   date: 2024-05-08
   location: The Hague, Netherlands
+  flag: "🇳🇱"
 
 - title: Kryptowährungen. Revolution der Finanzwelt oder Riskiofaktor?
   venue: VHS Wien, Science Talks
   date: 2024-04-09
-  location: Vienna
+  location: Vienna, Austria
+  flag: "🇦🇹"
 
 - title: Effizientere Kryptoasset Ermittlungen - Aktuelle Entwicklungen und strategische Überlegungen
   venue: 10. Schielleitner Symposium der Finanzverwaltung
   date: 2024-04-03
   location: Schielleiten, Austria
+  flag: "🇦🇹"
 
 # 2023
 
 - title: Panel on International Monetary System and the Changing Nature of Money
   venue: Diplomatic Academy of Vienna
   date: 2023-12-04
-  location: Vienna
+  location: Vienna, Austria
+  flag: "🇦🇹"
+  type: Panel
 
 - title: Mapping the DeFi Crime Landscape - An Evidence-based Picture
   venue: 2nd INTERPOL New Technologies Forum
   date: 2023-10-10
   location: Erlangen, Germany
+  flag: "🇩🇪"
 
 # 2022
 
@@ -70,64 +92,76 @@
   venue: Anti-FinTer Virtual Knowledge Hub Meeting No. 6
   date: 2022-11-23
   location: Online
+  flag: "🌐"
 
 - title: Connecting the Cases - Lessons Learned from Bavaria
   venue: INTERPOL New Technologies Forum Law Enforcement in Web 3.0
   date: 2022-11-16
   location: Singapore
+  flag: "🇸🇬"
 
 - title: Kryptowährungen - Ein neues Kapitel in der Numismatik?
   venue: Institut für Numismatik
   date: 2022-11-10
-  location: Vienna
+  location: Vienna, Austria
+  flag: "🇦🇹"
 
 - title: Decentralized Finance (DeFi) - Basic Concepts and Current Developments
   venue: Wei[s]se Wirtschaft
   date: 2022-11-08
-  location: Vienna
+  location: Vienna, Austria
+  flag: "🇦🇹"
 
 - title: Anonymity and Identity Identification in Public Blockchains
-  venue: Blockchain Governance Initative Network
+  venue: Blockchain Governance Initiative Network
   date: 2022-07-26
-  location: Zurich
+  location: Zurich, Switzerland
+  flag: "🇨🇭"
 
 - title: Kypto-Transaktionsverfolgung, Potential und Grenzen
   venue: Internationale Geldwäsche Tagung
   date: 2022-06-28
-  location: München
+  location: Munich, Germany
+  flag: "🇩🇪"
 
 - title: Analyzing DeFi Protocols - A step-by-step approach to financial complexity
   venue: FinTech Week
   date: 2022-06-01
-  location: Vienna
+  location: Vienna, Austria
+  flag: "🇦🇹"
 
 - title: Warum kann ich mein Bier (noch) nicht mit Bitcoin bezahlen?
   venue: Pint of Science
   date: 2022-05-09
-  location: Vienna
+  location: Vienna, Austria
+  flag: "🇦🇹"
 
 # 2021
 
 - title: GraphSense - A General Purposes Cryptoasset Analytics Platform
   venue: CC3 Conference Berlin
   date: 2021-11-27
-  location: Berlin
+  location: Berlin, Germany
+  flag: "🇩🇪"
 
-- title: Decentralized Finance (DeFi) - What impact will it have on cryptoasset forensics?"
+- title: Decentralized Finance (DeFi) - What impact will it have on cryptoasset forensics?
   venue: 5th INTERPOL Working Group on Dark Web and Virtual Assets
   date: 2021-09-21
   location: Online
+  flag: "🌐"
 
 - title: Decentralized Finance (DeFi) - Understanding Risks in an Emerging Financial Paradigm
   venue: 1st Annual Conference of the Austrian Blockchain Center (ABC)
   date: 2021-03-21
   location: Online
+  flag: "🌐"
   slides_uri: https://www.slideshare.net/bhaslhofer/decentralized-finance-defi-understanding-risks-in-an-emerging-financial-paradigm
 
 - title: "Laundering Money with Cryptoassets: Known Strategies and Containment Methods"
   venue: Austrian Blockchain Center (ABC)
   date: 2021-02-10
   location: Online
+  flag: "🌐"
 
 # 2020
 
@@ -135,259 +169,340 @@
   venue: International Digital Security Forum
   location: Vienna, Austria
   date: 2020-12-03
+  flag: "🇦🇹"
   slides_uri: https://idsf.io/
 
 - title: Anomaly Detection in Industrial Data Science
   venue: Platform Industry 4.0
   date: 2020-06-05
-  location: "Online"
+  location: Online
+  flag: "🌐"
 
 - title: Cryptoasset Analytics - Insights from Analyzing Large-Scale Financial Transaction Graphs
   venue: Blockchain & Wine Meetup
   date: 2020-03-11
-  location: "Vienna, Austria"
+  location: Vienna, Austria
+  flag: "🇦🇹"
 
 - title: Cryptoasset Forensics - State of the Art and Upcoming Challenges
   venue: Cybercrime Expert Circle Meeting
   date: 2020-01-22
-  location: "Vienna, Austria"
+  location: Vienna, Austria
+  flag: "🇦🇹"
 
-- title: "Cryptocurrency Forensics and its relevance for tax compliance and enforcement"
-  venue: "Austrian Tax compliance and enforcement conference"
+# 2019
+
+- title: Cryptocurrency Forensics and its relevance for tax compliance and enforcement
+  venue: Austrian Tax compliance and enforcement conference
   date: 2019-11-27
-  location: "Vienna, Austria"
+  location: Vienna, Austria
+  flag: "🇦🇹"
 
-- title: "Token systems, payment channels, and corporate currencies"
-  venue: "Austrian Financial Market Authority (FMA)"
+- title: Token systems, payment channels, and corporate currencies
+  venue: Austrian Financial Market Authority (FMA)
   date: 2019-11-13
-  location: "Vienna, Austria"
-  slides_uri: "https://www.slideshare.net/bhaslhofer/token-systems-payment-channels-and-corporate-currencies"
+  location: Vienna, Austria
+  flag: "🇦🇹"
+  slides_uri: https://www.slideshare.net/bhaslhofer/token-systems-payment-channels-and-corporate-currencies
 
 - title: "Roundtable: Digitization of Money and Finance: Challenges and Opportunities"
-  venue: "Workshop on Digital currencies, central banks and the blockchain: policy implications"
+  venue: Workshop on Digital currencies, central banks and the blockchain
   date: 2019-10-25
-  location: "Oesterreichische Nationalbank, Vienna, Austria"
+  location: Vienna, Austria
+  flag: "🇦🇹"
+  type: Panel
 
-- title: "Can a blockchain solve the trust problem?"
-  venue: "Next generation Internet (NGI) talks, OCG"
+- title: Can a blockchain solve the trust problem?
+  venue: Next generation Internet (NGI) talks, OCG
   date: 2019-03-26
-  location: "Vienna, Austria"
-  slides_uri: "https://ngi.ait.ac.at/event/ngi-talk-2-digital-trust/"
+  location: Vienna, Austria
+  flag: "🇦🇹"
+  slides_uri: https://ngi.ait.ac.at/event/ngi-talk-2-digital-trust/
 
-- title: "The Post-Bitcoin Universe...and what it means for future cybercrime investigations"
-  venue: "APWG.EU Symposium on Electronic Crime Research"
+# 2018
+
+- title: The Post-Bitcoin Universe...and what it means for future cybercrime investigations
+  venue: APWG.EU Symposium on Electronic Crime Research
   date: 2018-09-18
-  location: "Krakow, Poland"
+  location: Krakow, Poland
+  flag: "🇵🇱"
 
-- title: "The Post-Bitcoin Era. Emerging Technologies and Regulatory Challenges"
-  venue: "Informal ECOFIN Meeting"
-  date: "2018-09-07"
-  location: "Vienna, Austria"
+- title: The Post-Bitcoin Era. Emerging Technologies and Regulatory Challenges
+  venue: Informal ECOFIN Meeting
+  date: 2018-09-07
+  location: Vienna, Austria
+  flag: "🇦🇹"
+  type: Invited
 
-- title: "Artificial Intelligence, Big Data and Human Rights – discrimination and other potential challenges (Panel)"
-  venue: "IFIP Summer School 2018 on Fairness, Accountability, and Transparency in the Age of Big Data"
-  date: "2018-08-24"
-  location: "Vienna, Austria"
+- title: Artificial Intelligence, Big Data and Human Rights – discrimination and other potential challenges
+  venue: IFIP Summer School 2018 on Fairness, Accountability, and Transparency in the Age of Big Data
+  date: 2018-08-24
+  location: Vienna, Austria
+  flag: "🇦🇹"
+  type: Panel
 
-- title: "Measurements in Cryptocurrency Networks"
-  venue: "TMA Experts Summit"
-  date: "2018-06-26"
-  location: "Vienna, Austria"
-  slides_uri: "https://www.slideshare.net/bhaslhofer/measurements-in-cryptocurrency-networks"
+- title: Measurements in Cryptocurrency Networks
+  venue: TMA Experts Summit
+  date: 2018-06-26
+  location: Vienna, Austria
+  flag: "🇦🇹"
+  slides_uri: https://www.slideshare.net/bhaslhofer/measurements-in-cryptocurrency-networks
 
-- title: "Tutorial on Post-Bitcoin Cryptocurrencies, Off-Chain Transaction Channels, and Cryptocurrency Analytics Techniques"
-  venue: "Austrian Financial Market Authority (FMA)"
-  date: "2018-05-25"
-  location: "Vienna, Austria"
-  slides_uri: "https://www.slideshare.net/bhaslhofer/postbitcoin-cryptocurrencies-offchain-transaction-channels-and-cryptocurrency-analytics-techniques"
+- title: Tutorial on Post-Bitcoin Cryptocurrencies, Off-Chain Transaction Channels, and Cryptocurrency Analytics Techniques
+  venue: Austrian Financial Market Authority (FMA)
+  date: 2018-05-25
+  location: Vienna, Austria
+  flag: "🇦🇹"
+  type: Tutorial
+  slides_uri: https://www.slideshare.net/bhaslhofer/postbitcoin-cryptocurrencies-offchain-transaction-channels-and-cryptocurrency-analytics-techniques
 
-- title: "Insight into Cryptocurrencies - Methods and Tools for Analyzing Blockchain-based Ecosystems"
-  venue: "Austrian Economic Chambers"
-  date: "2018-02-28"
-  location: "Vienna, Austria"
-  slides_uri: "https://www.slideshare.net/bhaslhofer/insight-into-cryptocurrencies-methods-and-tools-for-analyzing-blockchainbased-ecosystems"
+- title: Insight into Cryptocurrencies - Methods and Tools for Analyzing Blockchain-based Ecosystems
+  venue: Austrian Economic Chambers
+  date: 2018-02-28
+  location: Vienna, Austria
+  flag: "🇦🇹"
+  slides_uri: https://www.slideshare.net/bhaslhofer/insight-into-cryptocurrencies-methods-and-tools-for-analyzing-blockchainbased-ecosystems
 
-- title: "O Bitcoin Where Art Thou? An Introduction to Cryptocurrency Analytics"
-  venue: "Oesterreichische Nationalbank (OeNB), Research Seminar"
-  date: "2018-01-12"
-  location: "Vienna, Austria"
-  slides_uri: "https://www.slideshare.net/bhaslhofer/o-bitcoin-where-art-thou-an-introduction-to-cryptocurrency-analytics-86155003"
+- title: O Bitcoin Where Art Thou? An Introduction to Cryptocurrency Analytics
+  venue: Oesterreichische Nationalbank (OeNB), Research Seminar
+  date: 2018-01-12
+  location: Vienna, Austria
+  flag: "🇦🇹"
+  type: Invited
+  slides_uri: https://www.slideshare.net/bhaslhofer/o-bitcoin-where-art-thou-an-introduction-to-cryptocurrency-analytics-86155003
 
-- title: "Cryptocurrency Analytics (Bitcoin and beyond)"
-  venue: "Monero Meetup Vienna"
-  date: "2017-12-15"
-  location: "Vienna, Austria"
+# 2017
+
+- title: Cryptocurrency Analytics (Bitcoin and beyond)
+  venue: Monero Meetup Vienna
+  date: 2017-12-15
+  location: Vienna, Austria
+  flag: "🇦🇹"
 
 - title: "Panel: Cryptocurrencies & eCrime"
-  venue: "APWG.EU eCrime Cyber-Security Symposium"
-  date: "2017-10-26"
-  location: "Porto, Portugal"
+  venue: APWG.EU eCrime Cyber-Security Symposium
+  date: 2017-10-26
+  location: Porto, Portugal
+  flag: "🇵🇹"
+  type: Panel
 
-- title: "Insight Into Virtual Currencies and Darknet Market Activities"
-  venue: "Media4Sec - Policing the Dark Web Workshop"
-  date: "2017-09-26"
-  location: "The Hague"
+- title: Insight Into Virtual Currencies and Darknet Market Activities
+  venue: Media4Sec - Policing the Dark Web Workshop
+  date: 2017-09-26
+  location: The Hague, Netherlands
+  flag: "🇳🇱"
 
-- title: "Blockchain und Cyber-Währung (Panel)"
-  venue: "Digital Days 2017"
-  date: "2017-09-20"
-  location: "Vienna, Austria"
-  slides_uri: "https://digitalcity.wien/blockchain-und-cyber-waehrung/"
+- title: Blockchain und Cyber-Währung
+  venue: Digital Days 2017
+  date: 2017-09-20
+  location: Vienna, Austria
+  flag: "🇦🇹"
+  type: Panel
+  slides_uri: https://digitalcity.wien/blockchain-und-cyber-waehrung/
 
-- title: "Inisght into Virtual Currency Ecosystems (by making use of Big Data technology)"
-  venue: "Big Data Europe (BDE) Webinar"
-  location: "Online"
-  date: "2017-02-16"
-  slides_uri: "https://youtu.be/brWTm8Zi6ek"
+- title: Insight into Virtual Currency Ecosystems (by making use of Big Data technology)
+  venue: Big Data Europe (BDE) Webinar
+  location: Online
+  date: 2017-02-16
+  flag: "🌐"
+  slides_uri: https://youtu.be/brWTm8Zi6ek
 
-- title: "Virtual Currencies and Cybercrime"
-  venue: "KSÖ Workshop Urban Security"  
-  date: "2016-11-24"
-  location: "Vienna, Austria"
+# 2016
 
-- title: "Insights into Virtual Currency Ecosystems"
-  venue: "APWG eCrime.EU Symposium 2016"
-  date: "2016-10-06"
-  location: "Bratislava, Slovakia"
+- title: Virtual Currencies and Cybercrime
+  venue: KSÖ Workshop Urban Security
+  date: 2016-11-24
+  location: Vienna, Austria
+  flag: "🇦🇹"
 
-- title: "Exploring and Tracking Bitcoin Transactions"
-  venue: "3rd Virtual Currencies Conference (EUROPOL)"
-  date: "2016-05-16"
-  location: "The Hague"
+- title: Insights into Virtual Currency Ecosystems
+  venue: APWG eCrime.EU Symposium 2016
+  date: 2016-10-06
+  location: Bratislava, Slovakia
+  flag: "🇸🇰"
 
-- title: "Mind the Gap - Data Science Meets Software Engineering"
-  venue: "Vienna Semantic Web Meetup"
-  date: "2016-03-01"
-  location: "Vienna, Austria"
-  slides_uri: "https://www.slideshare.net/bhaslhofer/mind-the-gap-data-science-meets-software-engineering"
+- title: Exploring and Tracking Bitcoin Transactions
+  venue: 3rd Virtual Currencies Conference (EUROPOL)
+  date: 2016-05-16
+  location: The Hague, Netherlands
+  flag: "🇳🇱"
 
-- title: "GraphSense - Real-time Insight into Virtual Currency Ecosystems"
-  venue: "Austrian Data Forum"
-  date: "2015-11-04"
-  location: "MQ, Vienna"
-  slides_uri: "http://de.slideshare.net/bhaslhofer/graphsense-realtime-insight-into-virtual-currency-ecosystems"
+- title: Mind the Gap - Data Science Meets Software Engineering
+  venue: Vienna Semantic Web Meetup
+  date: 2016-03-01
+  location: Vienna, Austria
+  flag: "🇦🇹"
+  slides_uri: https://www.slideshare.net/bhaslhofer/mind-the-gap-data-science-meets-software-engineering
 
-- title: "Bitcoin Panel"
-  venue: "APWG - Symposium on Electronic Crime Research"
-  date: "2015-05-25"
-  location: "Barcelona, Spain"
-  slides_uri: "http://de.slideshare.net/bhaslhofer/bitcoin-deanonymization-and-money-laundering-detection-strategies"
+# 2015
 
-- title: "Bitcoin - Introduction, Technical Aspects and Ongoing Developments"
-  venue: "FMA - Austrian Financial Market Authority"
-  date: "2015-04-30"
-  slides_uri: "http://de.slideshare.net/bhaslhofer/bitcoin-introduction-technical-aspects"
+- title: GraphSense - Real-time Insight into Virtual Currency Ecosystems
+  venue: Austrian Data Forum
+  date: 2015-11-04
+  location: Vienna, Austria
+  flag: "🇦🇹"
+  slides_uri: http://de.slideshare.net/bhaslhofer/graphsense-realtime-insight-into-virtual-currency-ecosystems
 
-- title: "Maphub und Pelagios: Anwendung von Linked Data in den Digitalen Geisteswissenschaften"
-  venue: "Workshop - Linked Data Within The Humanities and Beyond"
+- title: Bitcoin Panel
+  venue: APWG - Symposium on Electronic Crime Research
+  date: 2015-05-25
+  location: Barcelona, Spain
+  flag: "🇪🇸"
+  type: Panel
+  slides_uri: http://de.slideshare.net/bhaslhofer/bitcoin-deanonymization-and-money-laundering-detection-strategies
+
+- title: Bitcoin - Introduction, Technical Aspects and Ongoing Developments
+  venue: FMA - Austrian Financial Market Authority
+  date: 2015-04-30
+  location: Vienna, Austria
+  flag: "🇦🇹"
+  slides_uri: http://de.slideshare.net/bhaslhofer/bitcoin-introduction-technical-aspects
+
+# 2014
+
+- title: Maphub und Pelagios - Anwendung von Linked Data in den Digitalen Geisteswissenschaften
+  venue: Workshop - Linked Data Within The Humanities and Beyond
   date: 2014-12-03
-  location: "Austrian Academy of Sciences"
-  slides_uri: "http://www.slideshare.net/bhaslhofer/maphub-und-pelagios"
+  location: Vienna, Austria
+  flag: "🇦🇹"
+  slides_uri: http://www.slideshare.net/bhaslhofer/maphub-und-pelagios
 
-- title: "The value of open data and the OpenGLAM network"
-  venue: "Putting Linked Library Data to Work: the DM2E Showcase"
+- title: The value of open data and the OpenGLAM network
+  venue: Putting Linked Library Data to Work - the DM2E Showcase
   date: 2014-11-18
-  location: "Austrian National Library, Vienna, Austria"
-  slides_uri: "http://www.slideshare.net/bhaslhofer/the-value-of-41703546"
+  location: Vienna, Austria
+  flag: "🇦🇹"
+  slides_uri: http://www.slideshare.net/bhaslhofer/the-value-of-41703546
 
-- title: "Things, not Strings"
-  venue: "ADV Tagung - Suchstrategien für heute und morgen"
+- title: Things, not Strings
+  venue: ADV Tagung - Suchstrategien für heute und morgen
   date: 2014-11-12
-  location: "Vienna, Austria"
-  slides_uri: "http://www.slideshare.net/bhaslhofer/things-not-strings"
+  location: Vienna, Austria
+  flag: "🇦🇹"
+  slides_uri: http://www.slideshare.net/bhaslhofer/things-not-strings
 
-- title: "Offene Daten im Kulturbereich - Die pragmatische Perspektive"
-  venue: "Alles Offen, alles frei.  Open Data in Kultureinrichtungen "
+- title: Offene Daten im Kulturbereich - Die pragmatische Perspektive
+  venue: Alles Offen, alles frei. Open Data in Kultureinrichtungen
   date: 2014-06-01
-  location: "Wien Museum, Vienna, Austria"
-  slides_uri: "http://www.slideshare.net/bhaslhofer/offene-daten-im-kulturbereich-die-pragmatische-perspektive"
+  location: Vienna, Austria
+  flag: "🇦🇹"
+  slides_uri: http://www.slideshare.net/bhaslhofer/offene-daten-im-kulturbereich-die-pragmatische-perspektive
 
-- title: "Open Data - Principles and Techniques (Guest Lecture)"
-  venue: "Technical University of Vienna"
+- title: Open Data - Principles and Techniques
+  venue: Technical University of Vienna
   date: 2014-05-01
-  location: "Vienna, Austria"
-  slides_uri: "http://www.slideshare.net/bhaslhofer/open-data-principles-and-techniques"
+  location: Vienna, Austria
+  flag: "🇦🇹"
+  type: Guest Lecture
+  slides_uri: http://www.slideshare.net/bhaslhofer/open-data-principles-and-techniques
 
-- title: "The Story behind Maphub"
-  venue: "Open Knowledge Conference (OKCon)"
+# 2013
+
+- title: The Story behind Maphub
+  venue: Open Knowledge Conference (OKCon)
   date: 2013-09-01
-  location: "Geneva, Switzerland"
-  slides_uri: "http://www.slideshare.net/bhaslhofer/the-story-behind-maphub"
+  location: Geneva, Switzerland
+  flag: "🇨🇭"
+  slides_uri: http://www.slideshare.net/bhaslhofer/the-story-behind-maphub
 
-- title: "Semantic Tagging for old maps...and other things on the Web"
-  venue: "The Web As Literature Symposium"
+- title: Semantic Tagging for old maps...and other things on the Web
+  venue: The Web As Literature Symposium
   date: 2013-06-01
-  location: "British Library, London, UK"
-  slides_uri: "http://www.slideshare.net/bhaslhofer/2013-06weblitmaphub"
+  location: London, UK
+  flag: "🇬🇧"
+  slides_uri: http://www.slideshare.net/bhaslhofer/2013-06weblitmaphub
 
-- title: "Linked Open Data (Guest Lecture)"
-  venue: "Technical University of Vienna"
+- title: Linked Open Data
+  venue: Technical University of Vienna
   date: 2013-05-01
-  location: "Vienna, Austria"
-  slides_uri: "http://www.slideshare.net/bhaslhofer/vu-web-engineeringtulinkedopendata"
+  location: Vienna, Austria
+  flag: "🇦🇹"
+  type: Guest Lecture
+  slides_uri: http://www.slideshare.net/bhaslhofer/vu-web-engineeringtulinkedopendata
 
-- title: "Maphub and Annotorious"
-  venue: "iAnnotate 2013"
+- title: Maphub and Annotorious
+  venue: iAnnotate 2013
   date: 2013-04-01
-  location: "San Francisco, USA"
-  slides_uri: "http://www.slideshare.net/bhaslhofer/maphub-and-annotorious"
+  location: San Francisco, USA
+  flag: "🇺🇸"
+  slides_uri: http://www.slideshare.net/bhaslhofer/maphub-and-annotorious
 
-- title: "Maphub - Annotations and Semantic Tags on Historical Maps"
-  venue: "Stanford University - Open Annotation Rollout"
+- title: Maphub - Annotations and Semantic Tags on Historical Maps
+  venue: Stanford University - Open Annotation Rollout
   date: 2013-04-01
-  location: "Palo Alto, USA"
-  slides_uri: "http://www.slideshare.net/bhaslhofer/maphub-annotations-and-semantic-tags-on-historical-maps"
+  location: Palo Alto, USA
+  flag: "🇺🇸"
+  slides_uri: http://www.slideshare.net/bhaslhofer/maphub-annotations-and-semantic-tags-on-historical-maps
 
-- title: "Old Maps, Annotations, and Open Data Networks"
-  venue: "Harvard University"
+- title: Old Maps, Annotations, and Open Data Networks
+  venue: Harvard University
   date: 2013-01-01
-  location: "Cambridge, USA"
-  slides_uri: "http://www.slideshare.net/bhaslhofer/old-maps-annotations-and-open-data-networks"
+  location: Cambridge, USA
+  flag: "🇺🇸"
+  type: Invited
+  slides_uri: http://www.slideshare.net/bhaslhofer/old-maps-annotations-and-open-data-networks
 
-- title: "Linked Data and SKOS"
-  venue: "Workshop on Physics Classification"
+# 2011
+
+- title: Linked Data and SKOS
+  venue: Workshop on Physics Classification
   date: 2011-12-01
-  location: "Boston, USA"
-  slides_uri: "http://www.slideshare.net/bhaslhofer/linked-data-and-skos-13397533"
+  location: Boston, USA
+  flag: "🇺🇸"
+  slides_uri: http://www.slideshare.net/bhaslhofer/linked-data-and-skos-13397533
 
-- title: "Linked Data in Scholarly Communication"
-  venue: "Cornell University - AAHEP5 Information Provider Summit, Cornell University"
+- title: Linked Data in Scholarly Communication
+  venue: Cornell University - AAHEP5 Information Provider Summit
   date: 2011-10-01
-  location: "Ithaca, USA"
-  slides_uri: "http://www.slideshare.net/bhaslhofer/linked-data-in-scholarly-communication"
+  location: Ithaca, USA
+  flag: "🇺🇸"
+  slides_uri: http://www.slideshare.net/bhaslhofer/linked-data-in-scholarly-communication
 
-- title: "Metadata is back! (Keynote)"
-  venue: "Semantic Web Technologies for Libraries and Readers Workshop, co-located with JCDL 2011"
-  date: "2011-06-01"
-  location: "Ottawa, Canada"
-  slides_uri: "http://www.slideshare.net/bhaslhofer/metadata-is-back"
+- title: Metadata is back!
+  venue: Semantic Web Technologies for Libraries and Readers Workshop, co-located with JCDL 2011
+  date: 2011-06-01
+  location: Ottawa, Canada
+  flag: "🇨🇦"
+  type: Keynote
+  slides_uri: http://www.slideshare.net/bhaslhofer/metadata-is-back
 
-- title: "Research on Scholarly Practices and Communication at Cornell Information Science. (with Carl Lagoze)"
-  venue: "Microsoft Research"
+- title: Research on Scholarly Practices and Communication at Cornell Information Science
+  venue: Microsoft Research
   date: 2011-05-01
-  location: "Redmond, USA"
-  slides_uri: "http://research.microsoft.com/apps/video/default.aspx?id=147426"
+  location: Redmond, USA
+  flag: "🇺🇸"
+  type: Invited
+  slides_uri: http://research.microsoft.com/apps/video/default.aspx?id=147426
 
-- title: "Linked Data als Perspektive für die bibliothekarische Inhaltserschließung"
-  venue: "Österreichisches Online-Informationstreffen und Österreichischer Dokumentartag (ODOK)"
+# 2010
+
+- title: Linked Data als Perspektive für die bibliothekarische Inhaltserschließung
+  venue: Österreichisches Online-Informationstreffen und Österreichischer Dokumentartag (ODOK)
   date: 2010-09-01
-  location: "Leoben, Austria"
-  slides_uri: "http://www.slideshare.net/bhaslhofer/odok2010-haslhofer"
+  location: Leoben, Austria
+  flag: "🇦🇹"
+  slides_uri: http://www.slideshare.net/bhaslhofer/odok2010-haslhofer
 
-- title: "Linked Data im Kontext Digitaler Bibliothekssysteme"
-  venue: "Semantic Web in Bibliotheken (SWIB)"
-  date: 2009-09-01
-  location: "Cologne, Germany"
-  slides_uri: "http://www.slideshare.net/bhaslhofer/linked-data-im-kontext-digitaler-bibliothkssysteme"
+# 2009
 
-- title: "CIDOC CRM in Practice - Experiences, Problems, and Possible Solutions"
-  venue: "Workshop Vernetzte Datenwelten"
+- title: CIDOC CRM in Practice - Experiences, Problems, and Possible Solutions
+  venue: Workshop Vernetzte Datenwelten
   date: 2009-10-01
-  location: "Berlin, Germany"
-  slides_uri: "http://www.slideshare.net/bhaslhofer/cidoc-crm-in-practice"
+  location: Berlin, Germany
+  flag: "🇩🇪"
+  slides_uri: http://www.slideshare.net/bhaslhofer/cidoc-crm-in-practice
 
-- title: "Linked Data Tutorial"
-  venue: "Vlaams Theater Instituut"
+- title: Linked Data im Kontext Digitaler Bibliothekssysteme
+  venue: Semantic Web in Bibliotheken (SWIB)
+  date: 2009-09-01
+  location: Cologne, Germany
+  flag: "🇩🇪"
+  slides_uri: http://www.slideshare.net/bhaslhofer/linked-data-im-kontext-digitaler-bibliothkssysteme
+
+- title: Linked Data Tutorial
+  venue: Vlaams Theater Instituut
   date: 2009-06-01
-  location: "Brussels, Belgium"
-  slides_uri: "http://www.slideshare.net/bhaslhofer/linked-data-tutorial"
+  location: Brussels, Belgium
+  flag: "🇧🇪"
+  type: Tutorial
+  slides_uri: http://www.slideshare.net/bhaslhofer/linked-data-tutorial

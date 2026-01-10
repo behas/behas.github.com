@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Talks & Presentations
+title: Talks
 permalink: /talks
 description: "Talks and presentations by Bernhard Haslhofer on cryptoasset analytics, blockchain security, and digital currency research at conferences and workshops worldwide."
 keywords: "academic talks, blockchain presentations, cryptoasset analytics talks, digital currency research, conference presentations"
@@ -8,20 +8,39 @@ keywords: "academic talks, blockchain presentations, cryptoasset analytics talks
 
 <div class="container mt-5">
 
-  <h2 class="section-title">Talks and Panels</h2>
-  
-  <div class="content-card">
-    <p class="lead">
-      I regularly speak at international conferences, workshops, and industry events about my research in 
-      cryptoasset analytics, blockchain security, and digital currency forensics. My presentations cover both 
-      technical methodologies and practical applications in cybercrime investigation and financial compliance.
-    </p>
-  </div>
+  <h2 class="section-title">Talks</h2>
+
+  {% assign today = site.time | date: "%Y%m%d" | plus: 0 %}
+  {% assign upcoming_talks = "" | split: "" %}
+  {% assign past_talks = "" | split: "" %}
 
   {% for talk in site.data.talks %}
+    {% assign talk_date = talk.date | date: "%Y%m%d" | plus: 0 %}
+    {% if talk_date >= today %}
+      {% assign upcoming_talks = upcoming_talks | push: talk %}
+    {% else %}
+      {% assign past_talks = past_talks | push: talk %}
+    {% endif %}
+  {% endfor %}
+
+  {% if upcoming_talks.size > 0 %}
+  <h3 class="mt-4 mb-3">Upcoming</h3>
+  {% for talk in upcoming_talks %}
     <div class="publication-item">
       {% include talk.html talk=talk %}
     </div>
+  {% endfor %}
+  {% endif %}
+
+  {% assign talks_by_year = past_talks | group_by_exp: "talk", "talk.date | date: '%Y'" | sort: "name" | reverse %}
+
+  {% for year in talks_by_year %}
+    <h2 class="bibliography">{{ year.name }}</h2>
+    {% for talk in year.items %}
+      <div class="publication-item">
+        {% include talk.html talk=talk %}
+      </div>
+    {% endfor %}
   {% endfor %}
 
 </div>

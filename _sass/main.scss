@@ -414,6 +414,19 @@ h2.bibliography {
     line-height: 1.6;
     margin-top: 0.5rem;
   }
+
+  .talk-type {
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+    background: $primary-color;
+    padding: 2px 8px;
+    border-radius: 10px;
+    margin-left: 8px;
+    vertical-align: middle;
+  }
 }
 
 .publication-links {

@@ -1,12 +1,18 @@
-<p class="talk">
-
-	{% assign talk = include.talk %}
-
-	{% if talk.slides_uri %}
-		<a href="{{talk.slides_uri}}" target="_blank"><em>{{talk.title}}</em></a>
-	{% else %}
-		<em>{{talk.title}}</em>,
-	{% endif %}
-	{{talk.venue}}, {{talk.date | date: "%B %Y"}}, {{talk.location}}.
-
+{% assign talk = include.talk %}
+<p class="pub-title">
+  {% if talk.slides_uri %}
+    <a href="{{ talk.slides_uri }}" target="_blank">{{ talk.title }}</a>
+  {% else %}
+    {{ talk.title }}
+  {% endif %}
+  {% if talk.type %}<span class="talk-type">{{ talk.type }}</span>{% endif %}
 </p>
+<p class="pub-authors">{{ talk.venue }}</p>
+<p class="pub-venue">
+  {{ talk.flag }} {{ talk.date | date: "%B %Y" }}, {{ talk.location }}
+</p>
+{% if talk.slides_uri %}
+<div class="publication-links">
+  <a href="{{ talk.slides_uri }}" target="_blank" class="pub-link"><i class="fas fa-desktop"></i> Slides</a>
+</div>
+{% endif %}
