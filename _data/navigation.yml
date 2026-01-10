@@ -1,5 +1,3 @@
-- name: About
-  link: /
 - name: Research
   dropdown: true
   items:
