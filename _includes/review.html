@@ -1,0 +1,9 @@
+{% assign review = include.review %}
+<p class="pub-title">
+  {% if review.uri %}
+    <a href="{{ review.uri }}" target="_blank">{{ review.name }}</a>
+  {% else %}
+    {{ review.name }}
+  {% endif %}
+</p>
+<p class="pub-venue">{{ review.years }}</p>
