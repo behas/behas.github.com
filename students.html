@@ -10,9 +10,9 @@ keywords: "thesis supervision, PhD students, Master's thesis, Bachelor's thesis,
 
   <h2 class="section-title">Supervised Students</h2>
 
-  {% assign phd_theses = site.data.theses | where: "type", "PhD thesis" | sort: "date" | reverse %}
-  {% assign master_theses = site.data.theses | where: "type", "Master's thesis" | sort: "date" | reverse %}
-  {% assign bachelor_theses = site.data.theses | where: "type", "Bachelor's thesis" | sort: "date" | reverse %}
+  {% assign phd_theses = site.data.theses | where: "type", "phd" | sort: "date" | reverse %}
+  {% assign master_theses = site.data.theses | where: "type", "master" | sort: "date" | reverse %}
+  {% assign bachelor_theses = site.data.theses | where: "type", "bachelor" | sort: "date" | reverse %}
 
   {% if phd_theses.size > 0 %}
   <h3 class="mt-4 mb-3">PhD Students</h3>
