@@ -1,9 +1,9 @@
 {% assign standard = include.standard -%}
 <p class="pub-title">
-  <a href="{{ standard.uri }}" target="_blank">{{ standard.title }}</a>
+  <a href="{{ standard.uri }}" target="_blank" rel="noopener noreferrer">{{ standard.title }}</a>
   <span class="talk-type">{{ standard.role }}</span>
 </p>
 <p class="pub-description">{{ standard.description }}</p>
 <div class="publication-links">
-  <a href="{{ standard.uri }}" target="_blank" class="pub-link"><i class="fas fa-external-link-alt"></i> Specification</a>
+  <a href="{{ standard.uri }}" target="_blank" rel="noopener noreferrer" class="pub-link"><i class="fas fa-external-link-alt"></i> Specification</a>
 </div>

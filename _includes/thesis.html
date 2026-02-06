@@ -1,7 +1,7 @@
 {% assign thesis = include.thesis %}
 <p class="pub-title">
   {% if thesis.uri %}
-    <a href="{{ thesis.uri }}" target="_blank">{{ thesis.title }}</a>
+    <a href="{{ thesis.uri }}" target="_blank" rel="noopener noreferrer">{{ thesis.title }}</a>
   {% else %}
     {{ thesis.title }}
   {% endif %}
@@ -12,6 +12,6 @@
 </p>
 {% if thesis.uri %}
 <div class="publication-links">
-  <a href="{{ thesis.uri }}" target="_blank" class="pub-link"><i class="fas fa-file-alt"></i> Thesis</a>
+  <a href="{{ thesis.uri }}" target="_blank" rel="noopener noreferrer" class="pub-link"><i class="fas fa-file-alt"></i> Thesis</a>
 </div>
 {% endif %}

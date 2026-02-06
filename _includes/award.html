@@ -1,7 +1,7 @@
 {% assign award = include.award %}
 <p class="pub-title">
   {% if award.uri %}
-    <a href="{{ award.uri }}" target="_blank">{{ award.name }}</a>
+    <a href="{{ award.uri }}" target="_blank" rel="noopener noreferrer">{{ award.name }}</a>
   {% else %}
     {{ award.name }}
   {% endif %}

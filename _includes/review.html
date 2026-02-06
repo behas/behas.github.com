@@ -1,7 +1,7 @@
 {% assign review = include.review %}
 <p class="pub-title">
   {% if review.uri %}
-    <a href="{{ review.uri }}" target="_blank">{{ review.name }}</a>
+    <a href="{{ review.uri }}" target="_blank" rel="noopener noreferrer">{{ review.name }}</a>
   {% else %}
     {{ review.name }}
   {% endif %}

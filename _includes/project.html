@@ -1,7 +1,7 @@
 {% assign project = include.project %}
 <p class="pub-title">
   {% if project.uri %}
-    <a href="{{ project.uri }}" target="_blank">{{ project.acronym }}</a>
+    <a href="{{ project.uri }}" target="_blank" rel="noopener noreferrer">{{ project.acronym }}</a>
   {% else %}
     {{ project.acronym }}
   {% endif %}
@@ -9,7 +9,7 @@
 <p class="pub-venue">
   {{ project.flag }}
   {% if project.funding_source_uri %}
-    <a href="{{ project.funding_source_uri }}" target="_blank">{{ project.funding_source }}</a>
+    <a href="{{ project.funding_source_uri }}" target="_blank" rel="noopener noreferrer">{{ project.funding_source }}</a>
   {% else %}
     {{ project.funding_source }}
   {% endif %}
@@ -18,6 +18,6 @@
 <p class="pub-description">{{ project.description }}</p>
 {% if project.uri %}
 <div class="publication-links">
-  <a href="{{ project.uri }}" target="_blank" class="pub-link"><i class="fas fa-external-link-alt"></i> Website</a>
+  <a href="{{ project.uri }}" target="_blank" rel="noopener noreferrer" class="pub-link"><i class="fas fa-external-link-alt"></i> Website</a>
 </div>
 {% endif %}

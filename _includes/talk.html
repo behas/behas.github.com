@@ -1,7 +1,7 @@
 {% assign talk = include.talk %}
 <p class="pub-title">
   {% if talk.slides_uri %}
-    <a href="{{ talk.slides_uri }}" target="_blank">{{ talk.title }}</a>
+    <a href="{{ talk.slides_uri }}" target="_blank" rel="noopener noreferrer">{{ talk.title }}</a>
   {% else %}
     {{ talk.title }}
   {% endif %}
@@ -13,6 +13,6 @@
 </p>
 {% if talk.slides_uri %}
 <div class="publication-links">
-  <a href="{{ talk.slides_uri }}" target="_blank" class="pub-link"><i class="fas fa-desktop"></i> Slides</a>
+  <a href="{{ talk.slides_uri }}" target="_blank" rel="noopener noreferrer" class="pub-link"><i class="fas fa-desktop"></i> Slides</a>
 </div>
 {% endif %}

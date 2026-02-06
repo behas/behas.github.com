@@ -1,7 +1,7 @@
 {% assign software = include.software -%}
 <p class="pub-title">
   {% if software.uri %}
-    <a href="{{ software.uri }}" target="_blank">{{ software.title }}</a>
+    <a href="{{ software.uri }}" target="_blank" rel="noopener noreferrer">{{ software.title }}</a>
   {% else %}
     {{ software.title }}
   {% endif %}
@@ -9,6 +9,6 @@
 <p class="pub-description">{{ software.description }}</p>
 {% if software.uri %}
 <div class="publication-links">
-  <a href="{{ software.uri }}" target="_blank" class="pub-link"><i class="fab fa-github"></i> GitHub</a>
+  <a href="{{ software.uri }}" target="_blank" rel="noopener noreferrer" class="pub-link"><i class="fab fa-github"></i> GitHub</a>
 </div>
 {% endif %}
