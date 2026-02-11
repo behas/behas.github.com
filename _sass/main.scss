@@ -13,6 +13,34 @@ $padding: 80px;
 $small-padding: 30px;
 $section-spacing: 40px;
 
+/* Skip Link (accessibility) */
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  padding: 0.5rem 1rem;
+  background: $primary-color;
+  color: #fff;
+  z-index: 1100;
+  transition: top 0.2s ease;
+
+  &:focus {
+    top: 0;
+    color: #fff;
+  }
+}
+
+/* Focus Styles (accessibility) */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+[tabindex]:focus-visible {
+  outline: 2px solid $primary-color;
+  outline-offset: 2px;
+}
+
 /* Base Styles */
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
