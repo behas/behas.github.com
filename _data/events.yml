@@ -1,5 +1,16 @@
 # 2026
 
+- title: "Illicit Networks Workshop"
+  uri: "https://illicitnetworksworkshop.com/"
+  venue: "Complexity Science Hub"
+  date: 2026-06-29
+  type: "Workshop"
+
+- title: "Frontiers in DeFi"
+  venue: "Einstein Center Berlin"
+  date: 2026-05-28
+  type: "Workshop"
+
 - title: "5th International Workshop on Cryptoasset Analytics (CAAW)"
   uri: "https://caaw.io/2026/"
   venue: "Financial Cryptography and Data Security (FC), Singapore"
