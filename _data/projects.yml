@@ -1,4 +1,5 @@
 - acronym: "DIFPILOT"
+  uri: "https://csh.ac.at/project/leveraging-large-language-models-to-automate-and-enhance-digital-forensics-workflows/"
   start_date: "2026-01-01"
   end_date: "2028-06-30"
   funding_source: "FFG Bridge"
@@ -9,6 +10,7 @@
     investigators in automating workflows and analyzing data using LLMs.
 
 - acronym: "LLEA"
+  uri: "https://csh.ac.at/project/llm-basierte-methoden-zur-datenanalyse-in-der-strafverfolgung/"
   start_date: "2025-10-01"
   end_date: "2027-09-30"
   funding_source: "FFG KIRAS"
@@ -41,12 +43,12 @@
     multi-stakeholder investigation processes, training, and awareness.
 
 - acronym: "DesinFact"
-  uri: "https://projekte.ffg.at/projekt/4866636"
+  uri: "https://csh.ac.at/project/desinformation-early-detection-of-harmful-online-news-trends/"
   start_date: "2024-01-01"
   end_date: "2025-12-31"
   funding_source: "FFG KIRAS"
   flag: "🇦🇹"
-  role: "Project partner (Team lead)"
+  role: "Project partner"
   description: >
     Focuses on detection of disinformation campaigns and associated technical,
     legal, and ethical aspects. Led by AIT.
