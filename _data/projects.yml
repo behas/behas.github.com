@@ -1,3 +1,28 @@
+- acronym: "idCLUES"
+  uri: "https://projekte.ffg.at/projekt/5145284"
+  start_date: "2026-02-01"
+  end_date: "2029-01-31"
+  funding_source: "FFG Industrial PhD"
+  flag: "🇦🇹"
+  role: "PhD Supervisor"
+  description: >
+    PhD project developing computational approaches to detect sophisticated
+    money laundering by analyzing behavioral patterns of actors within illicit
+    networks, combining graph analysis, temporal data examination, and machine
+    learning.
+
+- acronym: "Finfluencer"
+  uri: "https://projekte.ffg.at/projekt/5135846"
+  start_date: "2025-03-01"
+  end_date: "2028-02-29"
+  funding_source: "FFG Industrial PhD"
+  flag: "🇦🇹"
+  role: "PhD Supervisor"
+  description: >
+    PhD project developing computational methods to quantify the role and impact
+    of social media influencers in digital asset ecosystems, focusing on detecting
+    market manipulation and insider trading risks in DeFi systems.
+
 - acronym: "DIFPILOT"
   uri: "https://csh.ac.at/project/leveraging-large-language-models-to-automate-and-enhance-digital-forensics-workflows/"
   start_date: "2026-01-01"
