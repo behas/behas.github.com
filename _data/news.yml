@@ -17,7 +17,7 @@
 
 - date: 2026-02-11
   news: |
-    We are going to host the upcoming <a href="https://illicitnetworksworkshop.com/" target="_blank">Illicit Network Workshop</a> at the
+    We are going to host the upcoming <a href="https://illicitnetworksworkshop.com/" target="_blank" rel="noopener noreferrer">Illicit Network Workshop</a> at the
     Complexity Science Hub from June 29-30. Call for proposals is open until
     March 2 2026.
 
@@ -159,19 +159,19 @@
     <a href="https://arxiv.org/abs/2403.19530" target="_blank" rel="noopener noreferrer">Detecting Financial Bots in the Ethereum Blockchain</a>
     is now available on arXiv.
 
-- date: 2024-01-23
-  news: |
-    We are pleased to announce the release of 
-    <a href="https://graphsense.org/" target="_blank" rel="noopener noreferrer">GraphSense v24.01</a>. 
-    This update introduces tracing and tracking functionalities for the Tron network. 
-    A hosted version is available at 
-    <a href="https://www.iknaio.com" target="_blank" rel="noopener noreferrer">Iknaio Cryptoasset Analytics GmbH</a>.
-
 - date: 2024-01-29
   news: |
     We are going to host the next edition of the international conference on
     <a href="https://aftconf.github.io/aft24/index.html" target="_blank" rel="noopener noreferrer">Advances in Financial Technologies (AFT)</a>.
     The <a href="https://aftconf.github.io/aft24/index.html" target="_blank" rel="noopener noreferrer">CfP is out now</a>!
+
+- date: 2024-01-23
+  news: |
+    We are pleased to announce the release of
+    <a href="https://graphsense.org/" target="_blank" rel="noopener noreferrer">GraphSense v24.01</a>.
+    This update introduces tracing and tracking functionalities for the Tron network.
+    A hosted version is available at
+    <a href="https://www.iknaio.com" target="_blank" rel="noopener noreferrer">Iknaio Cryptoasset Analytics GmbH</a>.
 
 - date: 2023-12-04
   news: |

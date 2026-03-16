@@ -19,12 +19,6 @@
 
 # 2025
 
-- title: "Digitale Krypto-Verlassenschaften"
-  uri: "https://csh.ac.at/events/digitale-krypto-verlassenschaften/"
-  venue: "Complexity Science Hub"
-  date: 2025-03-27
-  type: "Workshop"
-
 - title: "Creating harmonised standards for blockchain intelligence"
   uri: "https://baselgovernance.org/9crc"
   venue: "9th Global Conference on Criminal Finances and Cryptoassets"
@@ -36,12 +30,6 @@
   date: 2025-09-03
   type: "Conference"
 
-- title: "Frontiers in DeFi"
-  uri: "https://events.htw-berlin.de/forschung/frontiers-in-defi-2025/"
-  venue: "Hochschule für Technik und Wirtschaft Berlin"
-  date: 2025-03-06
-  type: "Workshop"
-
 - title: "Unveiling Modern Crime: Tackling Cybercrime in a Globalised World"
   uri: "https://www.alpbach.org/sessions/unveiling-modern-crime-tackling-cybercrime-in-a-globalised-world"
   venue: "European Forum Alpbach"
@@ -52,6 +40,18 @@
   uri: "https://caaw.io/2025/"
   venue: "Financial Cryptography and Data Security (FC), Singapore"
   date: 2025-04-18
+  type: "Workshop"
+
+- title: "Digitale Krypto-Verlassenschaften"
+  uri: "https://csh.ac.at/events/digitale-krypto-verlassenschaften/"
+  venue: "Complexity Science Hub"
+  date: 2025-03-27
+  type: "Workshop"
+
+- title: "Frontiers in DeFi"
+  uri: "https://events.htw-berlin.de/forschung/frontiers-in-defi-2025/"
+  venue: "Hochschule für Technik und Wirtschaft Berlin"
+  date: 2025-03-06
   type: "Workshop"
 
 # 2024
@@ -68,16 +68,16 @@
   date: 2024-08-27
   type: "Seminar"
 
-- title: "Frontiers in Decentralized Finance (DeFi) workshop"
-  uri: "https://csh.ac.at/events/frontiers-in-defi/"
-  venue: "Complexity Science Hub, Vienna"
-  date: 2024-03-07
-  type: "Workshop"
-
 - title: "3rd International Workshop on Cryptoasset Analytics (CAAW)"
   uri: "https://caaw.io/2024/"
   venue: "ACM Web Conference, Singapore"
   date: 2024-05-13
+  type: "Workshop"
+
+- title: "Frontiers in Decentralized Finance (DeFi) workshop"
+  uri: "https://csh.ac.at/events/frontiers-in-defi/"
+  venue: "Complexity Science Hub, Vienna"
+  date: 2024-03-07
   type: "Workshop"
 
 # 2023

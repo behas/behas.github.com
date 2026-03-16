@@ -234,19 +234,6 @@
     Researched, developed, and deployed mechanisms for large-scale synchronization
     of web resources, building on OAI-PMH strategies using modern web technologies.
 
-- acronym: "SciLink"
-  uri: "https://eprints.cs.univie.ac.at/3354"
-  start_date: "2011-03-01"
-  end_date: "2014-02-28"
-  funding_source: "EU PEOPLE IOF (Marie Curie)"
-  funding_source_uri: "https://ec.europa.eu/research/mariecurieactions/"
-  flag: "🇪🇺"
-  role: "Research Fellow (beneficiary)"
-  description: >
-    Researched interactive link discovery in scholarly publications, strategies
-    for maintaining link integrity, and novel web-based resource aggregation
-    interfaces.
-
 - acronym: "Maphub"
   uri: "https://maphub.github.com/"
   start_date: "2011-12-01"
@@ -259,6 +246,19 @@
     Examined application of the Open Annotation Specification for digitized
     historical maps. Built a collaborative web environment for scholars and
     citizens to contribute knowledge to high-resolution online maps.
+
+- acronym: "SciLink"
+  uri: "https://eprints.cs.univie.ac.at/3354"
+  start_date: "2011-03-01"
+  end_date: "2014-02-28"
+  funding_source: "EU PEOPLE IOF (Marie Curie)"
+  funding_source_uri: "https://ec.europa.eu/research/mariecurieactions/"
+  flag: "🇪🇺"
+  role: "Research Fellow (beneficiary)"
+  description: >
+    Researched interactive link discovery in scholarly publications, strategies
+    for maintaining link integrity, and novel web-based resource aggregation
+    interfaces.
 
 - acronym: "MEKETRE"
   uri: "https://meketre.org/"
