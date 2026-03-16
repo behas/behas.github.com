@@ -303,13 +303,21 @@ h2.bibliography {
   }
 
   .pub-note {
-    color: #28a745;
     font-size: 0.9rem;
-    font-weight: 500;
     margin-top: 0.5rem;
 
     i {
       margin-right: 5px;
+    }
+
+    &.pub-note-award {
+      color: #28a745;
+      font-weight: 500;
+    }
+
+    &.pub-note-info {
+      color: $text-muted;
+      font-weight: normal;
     }
   }
 

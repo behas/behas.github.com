@@ -25,7 +25,11 @@
     {% endif %}
   </p>
   {% if entry.note %}
-    <p class="pub-note"><i class="fas fa-award"></i> {{ entry.note }}</p>
+    {% if entry.note contains 'Award' or entry.note contains 'award' or entry.note contains 'Prize' or entry.note contains 'prize' %}
+      <p class="pub-note pub-note-award"><i class="fas fa-award"></i> {{ entry.note }}</p>
+    {% else %}
+      <p class="pub-note pub-note-info"><i class="fas fa-info-circle"></i> {{ entry.note }}</p>
+    {% endif %}
   {% endif %}
   <div class="publication-links">
     {% if entry.url %}
