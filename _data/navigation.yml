@@ -40,7 +40,7 @@
 - name: Teaching
   dropdown: true
   items:
-    - name: Teaching
-      link: /teaching
+    - name: Courses
+      link: /courses
     - name: Students
       link: /students
