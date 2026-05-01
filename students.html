@@ -2,22 +2,30 @@
 layout: default
 title: Supervised Students
 permalink: /students
-description: "Graduate and undergraduate students supervised by Bernhard Haslhofer in cryptoasset analytics, blockchain security, and data science."
-keywords: "thesis supervision, graduate students, undergraduate students, cryptoasset analytics, TU Wien"
+description: "PhD, MSc, and undergraduate students supervised by Bernhard Haslhofer in cryptoasset analytics, blockchain security, and data science."
+keywords: "thesis supervision, PhD students, MSc students, cryptoasset analytics, TU Wien"
 ---
 
 <div class="container mt-3">
 
   <h1 class="section-title">Supervised Students</h1>
 
-  {% assign phd_theses = site.data.theses | where: "type", "phd" %}
-  {% assign master_theses = site.data.theses | where: "type", "master" %}
-  {% assign graduate_theses = phd_theses | concat: master_theses | sort: "date" | reverse %}
+  {% assign phd_theses = site.data.theses | where: "type", "phd" | sort: "date" | reverse %}
+  {% assign msc_theses = site.data.theses | where: "type", "master" | sort: "date" | reverse %}
   {% assign undergraduate_theses = site.data.theses | where: "type", "bachelor" | sort: "date" | reverse %}
 
-  {% if graduate_theses.size > 0 %}
-  <h2 class="section-title mt-4">Graduate</h2>
-  {% for thesis in graduate_theses %}
+  {% if phd_theses.size > 0 %}
+  <h2 class="section-title mt-4">PhD</h2>
+  {% for thesis in phd_theses %}
+    <div class="publication-item">
+      {% include thesis.html thesis=thesis %}
+    </div>
+  {% endfor %}
+  {% endif %}
+
+  {% if msc_theses.size > 0 %}
+  <h2 class="section-title mt-5">MSc</h2>
+  {% for thesis in msc_theses %}
     <div class="publication-item">
       {% include thesis.html thesis=thesis %}
     </div>
