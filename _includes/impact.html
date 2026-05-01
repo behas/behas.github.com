@@ -1,0 +1,15 @@
+{% assign item = include.item %}
+<p class="pub-title">
+  {% if item.icon %}<i class="fas {{ item.icon }} me-2"></i>{% endif %}
+  {{ item.title }}
+</p>
+<p class="pub-venue">
+  {{ item.date | date: "%b %Y" }}
+  {% if item.partners %} · {{ item.partners | join: ", " }}{% endif %}
+</p>
+<p class="pub-description">{{ item.description }}</p>
+{% if item.evidence_uri %}
+<div class="publication-links">
+  <a href="{{ item.evidence_uri }}" target="_blank" rel="noopener noreferrer" class="pub-link"><i class="fas fa-external-link-alt"></i> {{ item.evidence_label | default: "Evidence" }}</a>
+</div>
+{% endif %}

@@ -1,0 +1,36 @@
+---
+layout: default
+title: Supervised Students
+permalink: /students
+description: "Graduate and undergraduate students supervised by Bernhard Haslhofer in cryptoasset analytics, blockchain security, and data science."
+keywords: "thesis supervision, graduate students, undergraduate students, cryptoasset analytics, TU Wien"
+---
+
+<div class="container mt-3">
+
+  <h1 class="section-title">Supervised Students</h1>
+
+  {% assign phd_theses = site.data.theses | where: "type", "phd" %}
+  {% assign master_theses = site.data.theses | where: "type", "master" %}
+  {% assign graduate_theses = phd_theses | concat: master_theses | sort: "date" | reverse %}
+  {% assign undergraduate_theses = site.data.theses | where: "type", "bachelor" | sort: "date" | reverse %}
+
+  {% if graduate_theses.size > 0 %}
+  <h2 class="section-title mt-4">Graduate</h2>
+  {% for thesis in graduate_theses %}
+    <div class="publication-item">
+      {% include thesis.html thesis=thesis %}
+    </div>
+  {% endfor %}
+  {% endif %}
+
+  {% if undergraduate_theses.size > 0 %}
+  <h2 class="section-title mt-5">Undergraduate</h2>
+  {% for thesis in undergraduate_theses %}
+    <div class="publication-item">
+      {% include thesis.html thesis=thesis %}
+    </div>
+  {% endfor %}
+  {% endif %}
+
+</div>

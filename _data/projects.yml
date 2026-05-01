@@ -1,0 +1,275 @@
+- acronym: "idCLUES"
+  uri: "https://projekte.ffg.at/projekt/5145284"
+  start_date: "2026-02-01"
+  end_date: "2029-01-31"
+  funding_source: "FFG Industrial PhD"
+  flag: "🇦🇹"
+  role: "PhD Supervisor"
+  description: >
+    PhD project developing computational approaches to detect sophisticated
+    money laundering by analyzing behavioral patterns of actors within illicit
+    networks, combining graph analysis, temporal data examination, and machine
+    learning.
+
+- acronym: "DIFPILOT"
+  uri: "https://csh.ac.at/project/leveraging-large-language-models-to-automate-and-enhance-digital-forensics-workflows/"
+  start_date: "2026-01-01"
+  end_date: "2028-06-30"
+  funding_source: "FFG Bridge"
+  flag: "🇦🇹"
+  role: "Project Coordinator"
+  description: >
+    Develops and evaluates novel approaches to assist digital forensic
+    investigators in automating workflows and analyzing data using LLMs.
+
+- acronym: "LLEA"
+  uri: "https://csh.ac.at/project/llm-basierte-methoden-zur-datenanalyse-in-der-strafverfolgung/"
+  start_date: "2025-10-01"
+  end_date: "2027-09-30"
+  funding_source: "FFG KIRAS"
+  flag: "🇦🇹"
+  role: "Project Coordinator"
+  description: >
+    Develops and evaluates LLM-based methods for data analysis in law enforcement.
+
+- acronym: "FAIRLEA"
+  uri: "https://fairlea.de/"
+  start_date: "2025-06-01"
+  end_date: "2029-04-30"
+  funding_source: "Volkswagen Foundation"
+  flag: "🇩🇪"
+  role: "Project partner"
+  description: >
+    Investigates how AI-powered tools can be used in criminal investigations
+    while meeting law enforcement requirements and complying with German and
+    European legal obligations.
+
+- acronym: "Finfluencer"
+  uri: "https://projekte.ffg.at/projekt/5135846"
+  start_date: "2025-03-01"
+  end_date: "2028-02-29"
+  funding_source: "FFG Industrial PhD"
+  flag: "🇦🇹"
+  role: "PhD Supervisor"
+  description: >
+    PhD project developing computational methods to quantify the role and impact
+    of social media influencers in digital asset ecosystems, focusing on detecting
+    market manipulation and insider trading risks in DeFi systems.
+
+- acronym: "ENSEMBLE"
+  uri: "https://cordis.europa.eu/project/id/101168360"
+  start_date: "2024-11-01"
+  end_date: "2027-10-31"
+  funding_source: "HORIZON-CL3-2023-FCT-01-06"
+  flag: "🇪🇺"
+  role: "Project partner"
+  description: >
+    Combats cross-border cybercrime using advanced AI-based technology,
+    multi-stakeholder investigation processes, training, and awareness.
+
+- acronym: "DesinFact"
+  uri: "https://csh.ac.at/project/desinformation-early-detection-of-harmful-online-news-trends/"
+  start_date: "2024-01-01"
+  end_date: "2025-12-31"
+  funding_source: "FFG KIRAS"
+  flag: "🇦🇹"
+  role: "Project partner"
+  description: >
+    Focuses on detection of disinformation campaigns and associated technical,
+    legal, and ethical aspects. Led by AIT.
+
+- acronym: "DeFiTrace"
+  uri: "https://defitrace.info/"
+  start_date: "2023-10-01"
+  end_date: "2025-09-30"
+  funding_source: "FFG KIRAS"
+  flag: "🇦🇹"
+  role: "Project Coordinator, Principal Investigator"
+  description: >
+    Creates algorithmic methods to detect illegal transactions in cross-ledger
+    DeFi systems.
+
+- acronym: "AMALFI"
+  uri: "https://amalfi-project.info/"
+  start_date: "2023-03-01"
+  end_date: "2025-08-31"
+  funding_source: "FFG - Bridge"
+  flag: "🇦🇹"
+  role: "Project Coordinator, Principal Investigator"
+  description: >
+    Investigates the applicability and effectiveness of automated graph learning
+    techniques in large multilayer cryptoasset transaction networks.
+
+- acronym: "DeFiQuant"
+  start_date: "2022-02-01"
+  end_date: "2024-01-31"
+  funding_source: "WAW Innovation/18 - 21+"
+  flag: "🇦🇹"
+  role: "Research Coordinator"
+  description: >
+    Supported users in investigating and understanding the structure of DeFi
+    protocols and their interrelations.
+
+- acronym: "INTERACTIVE"
+  uri: "https://www.interactive-project.info/"
+  start_date: "2021-04-01"
+  end_date: "2023-03-31"
+  funding_source: "FFG - Production of the Future"
+  flag: "🇦🇹"
+  role: "Project Coordinator, Principal Investigator"
+  description: >
+    Designed and developed workflows and algorithmic methods enabling machine
+    learning in distributed edge computing environments despite missing or
+    insufficient ground-truth data.
+
+- acronym: "KRYPTOMONITOR"
+  uri: "https://kryptomonitor-project.info/"
+  start_date: "2020-10-01"
+  end_date: "2022-09-30"
+  funding_source: "FFG KIRAS"
+  flag: "🇦🇹"
+  role: "Project Coordinator, Principal Investigator"
+  description: >
+    Developed generic cryptoasset analysis methods supporting the analysis of
+    smart contracts and off-chain transactions in addition to native
+    cryptocurrency transactions.
+
+- acronym: "COGNITUS"
+  uri: "https://cognitus-project.info/"
+  start_date: "2019-10-01"
+  end_date: "2022-09-30"
+  funding_source: "FFG - ICT of the future"
+  funding_source_uri: "https://www.ffg.at/"
+  flag: "🇦🇹"
+  role: "Project Coordinator, Principal Investigator"
+  description: >
+    Provided a deep learning pipeline equipped with generic algorithmic building
+    blocks for predicting outages of machineries based on sensor data streams.
+
+- acronym: "Austrian Blockchain Center (ABC)"
+  uri: "https://blockchain-center.at/"
+  start_date: "2019-10-01"
+  end_date: "2023-10-31"
+  funding_source: "FFG COMET"
+  flag: "🇦🇹"
+  role: "Area Lead Data Science Methods for Blockchain Analytics & Predictions"
+  description: >
+    Served as Austria's one-stop-shop research center for blockchain and related
+    technologies, applied in industrial, financial, energy, logistics, and
+    government applications.
+
+- acronym: "TRAVELOGUES"
+  uri: "https://travelogues-project.info"
+  start_date: "2018-04-01"
+  end_date: "2021-03-31"
+  funding_source: "FWF DACH"
+  funding_source_uri: "https://www.fwf.ac.at/de/forschungsfoerderung/fwf-programme/internationale-programme/joint-projects/"
+  flag: "🇦🇹"
+  role: "Co-Principal Investigator"
+  description: >
+    Analyzed German language travelogues from 1500-1875 to gain insight into
+    the perception of the Other (focusing on the Orient). Developed novel mixed
+    qualitative and quantitative methods for serial analysis of large-scale
+    text corpora.
+
+- acronym: "VIRTCRIME"
+  uri: "https://virtcrime-project.info/"
+  start_date: "2018-01-01"
+  end_date: "2020-06-30"
+  funding_source: "FFG KIRAS"
+  funding_source_uri: "https://www.ffg.at/"
+  flag: "🇦🇹"
+  role: "Project Coordinator, Principal Investigator"
+  description: >
+    Developed novel algorithms and methods for tracing criminal transactions in
+    post-Bitcoin era cryptocurrencies, considering illegitimate activities in
+    Darknet marketplaces.
+
+- acronym: "TITANIUM"
+  uri: "https://titanium-project.eu/"
+  start_date: "2017-05-01"
+  end_date: "2020-04-31"
+  funding_source: "EU Horizon 2020"
+  funding_source_uri: "https://ec.europa.eu/programmes/horizon2020/"
+  flag: "🇪🇺"
+  role: "Senior Scientist"
+  description: >
+    Researched, developed, and validated novel data-driven techniques to support
+    Law Enforcement Agencies investigating criminal or terrorist activities
+    involving virtual currencies and darknet markets.
+
+- acronym: "GraphSense"
+  uri: "https://graphsense.org"
+  start_date: "2015-09-01"
+  end_date: "2017-11-30"
+  funding_source: "FFG - IKT der Zukunft"
+  funding_source_uri: "https://www.ffg.at/"
+  flag: "🇦🇹"
+  role: "Project Coordinator, Principal Investigator"
+  description: >
+    Researched and developed novel algorithmic solutions for detecting anomalies
+    in large-scale, dynamically changing graph datasets, focusing on transaction
+    networks from virtual currencies.
+
+- acronym: "BITCRIME"
+  uri: "https://www.bitcrime.de/"
+  start_date: "2014-10-01"
+  end_date: "2016-09-30"
+  funding_source: "Bilateral: BMBF (DE) + BMVIT (AT)"
+  flag: "🇩🇪🇦🇹"
+  role: "Scientist, WP Lead"
+  description: >
+    Researched and developed methods to prevent and prosecute organised crime
+    in virtual currencies, including novel Anti Money Laundering strategies.
+
+- acronym: "ResourceSync"
+  uri: "https://www.niso.org/workrooms/resourcesync/"
+  start_date: "2011-12-01"
+  end_date: "2014-04-30"
+  funding_source: "Alfred P. Sloan Foundation"
+  funding_source_uri: "https://www.sloan.org/"
+  flag: "🇺🇸"
+  role: "Researcher"
+  description: >
+    Researched, developed, and deployed mechanisms for large-scale synchronization
+    of web resources, building on OAI-PMH strategies using modern web technologies.
+
+- acronym: "Maphub"
+  uri: "https://maphub.github.com/"
+  start_date: "2011-12-01"
+  end_date: "2013-02-28"
+  funding_source: "Andrew W. Mellon Foundation"
+  funding_source_uri: "https://www.mellon.org/"
+  flag: "🇺🇸"
+  role: "Principal Investigator"
+  description: >
+    Examined application of the Open Annotation Specification for digitized
+    historical maps. Built a collaborative web environment for scholars and
+    citizens to contribute knowledge to high-resolution online maps.
+
+- acronym: "SciLink"
+  uri: "https://eprints.cs.univie.ac.at/3354"
+  start_date: "2011-03-01"
+  end_date: "2014-02-28"
+  funding_source: "EU PEOPLE IOF (Marie Curie)"
+  funding_source_uri: "https://ec.europa.eu/research/mariecurieactions/"
+  flag: "🇪🇺"
+  role: "Research Fellow (beneficiary)"
+  description: >
+    Researched interactive link discovery in scholarly publications, strategies
+    for maintaining link integrity, and novel web-based resource aggregation
+    interfaces.
+
+- acronym: "MEKETRE"
+  uri: "https://meketre.org/"
+  start_date: "2009-07-01"
+  end_date: "2012-12-31"
+  funding_source: "Austrian Research Fund (FWF)"
+  funding_source_uri: "https://www.fwf.ac.at/"
+  flag: "🇦🇹"
+  role: "Proposal Co-author"
+  description: >
+    Built a collaborative web-based solution for organizing digitized content
+    objects from the Egyptian Middle Kingdom period using open, collaboratively
+    developed vocabularies. Interdisciplinary project with the Institute for
+    Egyptology at the University of Vienna.

@@ -1,0 +1,37 @@
+<nav class="navbar navbar-expand-md navbar-light bg-white">
+<div class="container-fluid">
+  <a class="navbar-brand text-accent" href="/" title="Home"><i class="fas fa-home"></i></a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarCollapse">
+    <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+	  {% for item in site.data.navigation %}
+		{% if item.dropdown %}
+		<li class="nav-item dropdown">
+			{% assign dropdown_active = false %}
+			{% for subitem in item.items %}
+				{% assign target = subitem.match_url | default: subitem.link %}
+				{% if page.url == target %}
+					{% assign dropdown_active = true %}
+				{% endif %}
+			{% endfor %}
+			<a class="nav-link dropdown-toggle {% if dropdown_active %}active fw-bold text-accent{% endif %}" href="#" id="navbar{{ item.name }}" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+				{{ item.name }}
+			</a>
+			<ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbar{{ item.name }}">
+				{% for subitem in item.items %}
+				<li><a class="dropdown-item {% if page.url == subitem.link %}active{% endif %}" href="{{ subitem.link }}">{{ subitem.name }}</a></li>
+				{% endfor %}
+			</ul>
+		</li>
+		{% else %}
+		<li class="nav-item">
+			<a class="nav-link {% if page.url == item.link %}active fw-bold text-accent{% endif %}" href="{{ item.link }}">{{ item.name }}</a>
+		</li>
+		{% endif %}
+	  {% endfor %}
+    </ul>
+  </div>
+</div>
+</nav>

@@ -1,0 +1,41 @@
+---
+layout: default
+title: Reviewing
+permalink: /reviews
+description: "Program committee memberships and journal reviewing activities by Bernhard Haslhofer in cryptoasset analytics, security, and web science."
+keywords: "program committee, journal reviewer, peer review, cryptoasset analytics, security, web science"
+---
+
+<div class="container mt-3">
+
+  <h1 class="section-title">Reviewing</h1>
+
+  {% assign journals = site.data.reviews | where: "type", "journal" %}
+  {% assign conferences = site.data.reviews | where: "type", "conference" %}
+  {% assign workshops = site.data.reviews | where: "type", "workshop" %}
+
+  <h3 class="mt-4 mb-3">Journals</h3>
+
+  {% for review in journals %}
+    <div class="publication-item">
+      {% include review.html review=review %}
+    </div>
+  {% endfor %}
+
+  <h3 class="mt-4 mb-3">Conferences</h3>
+
+  {% for review in conferences %}
+    <div class="publication-item">
+      {% include review.html review=review %}
+    </div>
+  {% endfor %}
+
+  <h3 class="mt-4 mb-3">Workshops</h3>
+
+  {% for review in workshops %}
+    <div class="publication-item">
+      {% include review.html review=review %}
+    </div>
+  {% endfor %}
+
+</div>

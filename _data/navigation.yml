@@ -1,0 +1,46 @@
+- name: Impact
+  dropdown: true
+  items:
+    - name: Societal Impact
+      link: /impact#societal-impact
+      match_url: /impact
+    - name: Industry & Adoption
+      link: /impact#industry
+      match_url: /impact
+    - name: Policy & Regulation
+      link: /impact#policy
+      match_url: /impact
+    - name: Standards
+      link: /impact#standards
+      match_url: /impact
+    - name: Awards
+      link: /awards
+- name: Research
+  dropdown: true
+  items:
+    - name: Publications
+      link: /publications
+    - name: Projects
+      link: /projects
+    - name: Software
+      link: /software
+    - name: Datasets
+      link: /datasets
+- name: Activities
+  dropdown: true
+  items:
+    - name: Talks
+      link: /talks
+    - name: Events
+      link: /events
+    - name: Standardization
+      link: /standardization
+    - name: Reviewing
+      link: /reviews
+- name: Teaching
+  dropdown: true
+  items:
+    - name: Teaching
+      link: /teaching
+    - name: Students
+      link: /students

@@ -1,0 +1,25 @@
+{% assign event = include.event %}
+<p class="pub-title">
+  {% if event.uri %}
+    <a href="{{ event.uri }}" target="_blank" rel="noopener noreferrer">{{ event.title }}</a>
+  {% else %}
+    {{ event.title }}
+  {% endif %}
+  {% if event.type %}<span class="talk-type">{{ event.type }}</span>{% endif %}
+</p>
+<p class="pub-venue">{{ event.venue }}</p>
+<div class="publication-links">
+  {% if event.uri %}
+    <a href="{{ event.uri }}" target="_blank" rel="noopener noreferrer" class="pub-link"><i class="fas fa-external-link-alt"></i> Website</a>
+  {% endif %}
+  {% if event.uris %}
+    {% for link in event.uris %}
+      <a href="{{ link.uri }}" target="_blank" rel="noopener noreferrer" class="pub-link"><i class="fas fa-external-link-alt"></i> {{ link.text }}</a>
+    {% endfor %}
+  {% endif %}
+  {% if event.slides %}
+    {% for slide in event.slides %}
+      <a href="{{ slide.uri }}" target="_blank" rel="noopener noreferrer" class="pub-link"><i class="fas fa-desktop"></i> Slides {{ slide.text }}</a>
+    {% endfor %}
+  {% endif %}
+</div>

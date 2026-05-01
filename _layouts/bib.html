@@ -1,0 +1,43 @@
+<div class="publication-item">
+  <p class="pub-title">
+    {% if entry.doi %}
+      <a href="https://doi.org/{{ entry.doi }}">{{ entry.title }}</a>
+    {% elsif entry.url %}
+      <a href="{{ entry.url }}">{{ entry.title }}</a>
+    {% else %}
+      {{ entry.title }}
+    {% endif %}
+  </p>
+  <p class="pub-authors">{{ entry.author }}</p>
+  <p class="pub-venue">
+    {% if entry.journal %}
+      <em>{{ entry.journal }}</em>{% if entry.volume %}, {{ entry.volume }}{% endif %}{% if entry.number %}({{ entry.number }}){% endif %}{% if entry.pages %}, {{ entry.pages }}{% endif %}, {{ entry.year }}
+    {% elsif entry.booktitle %}
+      <em>{{ entry.booktitle }}</em>{% if entry.pages %}, pp. {{ entry.pages }}{% endif %}, {{ entry.year }}
+    {% elsif entry.institution %}
+      {{ entry.institution }}{% if entry.type %}, {{ entry.type }}{% endif %}{% if entry.number %} {{ entry.number }}{% endif %}, {{ entry.year }}
+    {% elsif entry.school %}
+      {{ entry.school }}, {{ entry.year }}
+    {% elsif entry.publisher %}
+      {{ entry.publisher }}, {{ entry.year }}
+    {% else %}
+      {{ entry.year }}
+    {% endif %}
+  </p>
+  {% if entry.note %}
+    {% if entry.note contains 'Award' or entry.note contains 'award' or entry.note contains 'Prize' or entry.note contains 'prize' %}
+      <p class="pub-note pub-note-award"><i class="fas fa-award"></i> {{ entry.note }}</p>
+    {% else %}
+      <p class="pub-venue">{{ entry.note }}</p>
+    {% endif %}
+  {% endif %}
+  <div class="publication-links">
+    {% if entry.url %}
+      <a href="{{ entry.url }}" target="_blank" rel="noopener noreferrer" class="pub-link"><i class="fas fa-file-pdf"></i> PDF</a>
+    {% endif %}
+    {% if entry.doi %}
+      <a href="https://doi.org/{{ entry.doi }}" target="_blank" rel="noopener noreferrer" class="pub-link"><i class="fas fa-link"></i> DOI</a>
+    {% endif %}
+    <a href="#" onclick="navigator.clipboard.writeText(`{{ entry.bibtex | escape }}`); this.innerHTML='<i class=\'fas fa-check\'></i> Copied!'; setTimeout(() => this.innerHTML='<i class=\'fas fa-quote-right\'></i> BibTeX', 2000); return false;" class="pub-link"><i class="fas fa-quote-right"></i> BibTeX</a>
+  </div>
+</div>

@@ -1,0 +1,24 @@
+---
+layout: default
+title: Events
+permalink: /events
+description: "Academic conferences and events organized by Bernhard Haslhofer, including workshops on cryptoasset analytics, financial technologies, and cybersecurity."
+keywords: "academic conferences, cryptoasset analytics workshop, financial technologies events, cybersecurity conferences, blockchain workshops"
+---
+
+<div class="container mt-3">
+
+  <h1 class="section-title">Events</h1>
+
+  {% assign events_by_year = site.data.events | group_by_exp: "event", "event.date | date: '%Y'" | sort: "name" | reverse %}
+
+  {% for year in events_by_year %}
+    <h2 class="bibliography">{{ year.name }}</h2>
+    {% for event in year.items %}
+      <div class="publication-item">
+        {% include event.html event=event %}
+      </div>
+    {% endfor %}
+  {% endfor %}
+
+</div>

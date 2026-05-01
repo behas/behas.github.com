@@ -1,0 +1,24 @@
+- name: "Houska Prize, 2nd place"
+  uri: "https://bcgruppe.at/en/houska-prize/"
+  year: 2024
+  description: "Austria's premier award for innovative IT solutions. Recognized for groundbreaking research in cryptoasset analytics and blockchain forensics."
+
+- name: "SUERF / UniCredit Foundation Research Prize"
+  uri: "https://www.suerf.org/"
+  year: 2023
+  description: "European research award recognizing outstanding contributions to monetary and financial research, awarded for work on decentralized finance compositions."
+
+- name: "Lee Dirks Best Paper Award"
+  uri: "https://ischools.org/News/8860749"
+  year: 2020
+  description: "Awarded by the iSchools organization for excellence in information science research and scholarship."
+
+- name: "Open Humanities Award"
+  uri: "https://blog.okfn.org/2013/05/08/announcing-the-open-humanities-award-winners/"
+  year: 2013
+  description: "Recognition from the Open Knowledge Foundation for advancing open science and digital humanities research."
+
+- name: "Marie Curie IOF Fellowship"
+  uri: "https://ec.europa.eu/research/mariecurieactions/"
+  year: 2011
+  description: "Prestigious European Union fellowship supporting international research mobility and career development in academia."

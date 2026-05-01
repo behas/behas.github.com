@@ -1,0 +1,19 @@
+---
+layout: default
+title: Awards
+permalink: /awards
+description: "Academic awards and recognition received by Bernhard Haslhofer for research contributions in cryptoasset analytics and blockchain security."
+keywords: "academic awards, research recognition, Houska Prize, Marie Curie Fellowship, cryptoasset research awards"
+---
+
+<div class="container mt-3">
+
+  <h1 class="section-title">Awards</h1>
+
+  {% for award in site.data.awards %}
+    <div class="publication-item">
+      {% include award.html award=award %}
+    </div>
+  {% endfor %}
+
+</div>

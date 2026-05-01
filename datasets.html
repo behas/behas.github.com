@@ -1,0 +1,19 @@
+---
+layout: default
+title: Datasets
+permalink: /datasets
+description: "Research datasets by Bernhard Haslhofer for cryptoasset analytics, blockchain analysis, and digital currency research."
+keywords: "research datasets, cryptoasset analytics, blockchain data, digital currency data"
+---
+
+<div class="container mt-3">
+
+  <h1 class="section-title">Datasets</h1>
+
+  {% for dataset in site.data.datasets %}
+    <div class="publication-item">
+      {% include dataset.html dataset=dataset %}
+    </div>
+  {% endfor %}
+
+</div>

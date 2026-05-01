@@ -1,0 +1,170 @@
+# Curated real-world impact highlights.
+# Categories must match anchor IDs on /impact:
+#   societal-impact | industry | policy | standards
+
+# === Societal Impact ===
+
+- category: societal-impact
+  title: "Takedown of over 370,000 illegal dark web sites"
+  date: 2026-03-24
+  partners:
+    - Bavarian Central Office for the Prosecution of Cybercrime
+  description: >
+    Methods developed jointly with the Bavarian Central Office for the
+    Prosecution of Cybercrime supported a coordinated international
+    operation. It disrupted criminal infrastructure responsible for over
+    370,000 illegal dark web sites.
+  evidence_uri: "https://www.europol.europa.eu/media-press/newsroom/news/global-cybercrime-crackdown-over-373-000-dark-web-sites-shut-down"
+  evidence_label: "Press release"
+  icon: fa-shield-halved
+
+- category: societal-impact
+  title: "Connecting cases with the Bavarian Cybercrime Prosecution Office"
+  date: 2023-11-16
+  partners:
+    - Bavarian Central Office for the Prosecution of Cybercrime
+  description: >
+    Joint method development that links related cryptoasset investigations
+    across cases, reducing investigative effort and shortening
+    time-to-resolution for victims of fraud and extortion.
+  evidence_uri: "https://arxiv.org/abs/2311.08205"
+  evidence_label: "Paper"
+  icon: fa-link
+
+- category: societal-impact
+  title: "INTERPOL New Technologies Forum"
+  date: 2025-09-03
+  partners:
+    - INTERPOL
+  description: >
+    Served as academic partner for INTERPOL's New Technologies Forum,
+    bringing investigators and researchers together to align on
+    evidence-based responses to emerging digital threats.
+  evidence_uri: "https://csh.ac.at/news/csh-hosts-interpol-new-technology-forum-2025/"
+  evidence_label: "Event page"
+  icon: fa-globe
+
+# === Industry & Adoption ===
+
+- category: industry
+  title: "Iknaio Cryptoasset Analytics: research-to-commercial spin-off"
+  date: 2023-01-30
+  description: >
+    Spin-off translating GraphSense research into production infrastructure
+    used by financial institutions, regulators, and investigators across
+    Europe and beyond.
+  evidence_uri: "https://www.iknaio.com/"
+  evidence_label: "Iknaio"
+  icon: fa-building
+
+- category: industry
+  title: "GraphSense: open-source cryptoasset analytics platform"
+  date: 2024-01-23
+  description: >
+    Continuously released open-source platform used by researchers,
+    investigators, and industry. Recent releases added Tron support and
+    tracing across DEXs, bridges, and cross-chain address clusters.
+  evidence_uri: "https://graphsense.org/"
+  evidence_label: "GraphSense"
+  icon: fa-code-branch
+
+# === Policy & Regulation ===
+
+- category: policy
+  title: "BIS working paper on the technology of decentralized finance"
+  date: 2023-01-15
+  partners:
+    - Bank for International Settlements
+    - BIS Innovation Hub Centre (Eurosystem)
+  description: >
+    Working paper produced with the BIS Innovation Hub that informs central
+    bank thinking on the architecture and risks of decentralized finance.
+    Later published in the Journal of Digital Finance.
+  evidence_uri: "https://www.bis.org/publ/work1066.htm"
+  evidence_label: "BIS working paper"
+  icon: fa-landmark
+
+- category: policy
+  title: "BIS working paper on verifiability of Total Value Locked in DeFi"
+  date: 2025-05-24
+  partners:
+    - Bank for International Settlements
+  description: >
+    Working paper examining whether the headline TVL metric reported by DeFi
+    protocols can be independently verified, with implications for
+    supervisory monitoring of the sector.
+  evidence_uri: "https://www.bis.org/publ/work1268.htm"
+  evidence_label: "BIS working paper"
+  icon: fa-scale-balanced
+
+- category: policy
+  title: "European Forum Alpbach"
+  date: 2025-08-20
+  partners:
+    - European Forum Alpbach
+  description: >
+    Serving on the scientific committee of the European Forum Alpbach and
+    organising recurring seminars (2023–2025) on the policy implications of
+    digital assets, cybercrime, and decentralized finance for a European
+    policy and business audience.
+  evidence_uri: "https://www.alpbach.org/sessions/unveiling-modern-crime-tackling-cybercrime-in-a-globalised-world"
+  evidence_label: "2025 seminar"
+  icon: fa-globe
+
+# === Standards & Open Infrastructure ===
+
+- category: standards
+  title: "data.europeana.eu: Europeana Linked Open Data"
+  date: 2013-06-01
+  partners:
+    - Europeana Foundation
+  description: >
+    Co-developed the Europeana Linked Open Data pilot, which published
+    metadata for 20 million cultural-heritage objects from European
+    institutions as Linked Open Data. The pilot set the model that libraries,
+    museums, and archives now follow when sharing their collections on the
+    web.
+  evidence_uri: "https://data.europeana.eu"
+  evidence_label: "data.europeana.eu"
+  icon: fa-book-open-reader
+
+- category: standards
+  title: "ResourceSync Framework Specification"
+  date: 2014-04-30
+  partners:
+    - NISO
+    - Open Archives Initiative
+  description: >
+    Co-edited the ResourceSync framework, a NISO/OAI standard that lets
+    third-party systems remain synchronised with a server's evolving web
+    resources. Funded by the Alfred P. Sloan Foundation.
+  evidence_uri: "https://www.openarchives.org/rs/resourcesync"
+  evidence_label: "Specification"
+  icon: fa-file-contract
+
+- category: standards
+  title: "W3C Open Annotation Data Model"
+  date: 2017-02-23
+  partners:
+    - W3C
+  description: >
+    Contributed to the W3C standard for interoperable web annotations, used
+    by digital library, scholarly publishing, and digital humanities
+    communities.
+  evidence_uri: "https://www.w3.org/TR/annotation-model/"
+  evidence_label: "W3C Recommendation"
+  icon: fa-file-contract
+
+- category: standards
+  title: "Towards harmonised blockchain intelligence standards"
+  date: 2025-10-08
+  partners:
+    - Basel Institute on Governance
+  description: >
+    Organised a breakout session at the 9th Global Conference on Criminal
+    Finances and Cryptoassets to advance common terminology, attribution,
+    and reporting practices for blockchain intelligence across investigators,
+    supervisors, and tool vendors.
+  evidence_uri: "https://baselgovernance.org/9crc"
+  evidence_label: "Conference"
+  icon: fa-stamp

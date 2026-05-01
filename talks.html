@@ -1,0 +1,46 @@
+---
+layout: default
+title: Talks
+permalink: /talks
+description: "Talks and presentations by Bernhard Haslhofer on cryptoasset analytics, blockchain forensics, and digital currencies at conferences worldwide."
+keywords: "academic talks, blockchain presentations, cryptoasset analytics talks, digital currency research, conference presentations"
+---
+
+<div class="container mt-3">
+
+  <h1 class="section-title">Talks</h1>
+
+  {% assign today = site.time | date: "%Y%m%d" | plus: 0 %}
+  {% assign upcoming_talks = "" | split: "" %}
+  {% assign past_talks = "" | split: "" %}
+
+  {% for talk in site.data.talks %}
+    {% assign talk_date = talk.date | date: "%Y%m%d" | plus: 0 %}
+    {% if talk_date >= today %}
+      {% assign upcoming_talks = upcoming_talks | push: talk %}
+    {% else %}
+      {% assign past_talks = past_talks | push: talk %}
+    {% endif %}
+  {% endfor %}
+
+  {% if upcoming_talks.size > 0 %}
+  <h3 class="mt-4 mb-3">Upcoming</h3>
+  {% for talk in upcoming_talks %}
+    <div class="publication-item">
+      {% include talk.html talk=talk %}
+    </div>
+  {% endfor %}
+  {% endif %}
+
+  {% assign talks_by_year = past_talks | group_by_exp: "talk", "talk.date | date: '%Y'" | sort: "name" | reverse %}
+
+  {% for year in talks_by_year %}
+    <h2 class="bibliography">{{ year.name }}</h2>
+    {% for talk in year.items %}
+      <div class="publication-item">
+        {% include talk.html talk=talk %}
+      </div>
+    {% endfor %}
+  {% endfor %}
+
+</div>

@@ -1,0 +1,9 @@
+.jekyll-cache/
+Gemfile.lock
+.ruby-version
+_site
+.bundle/
+vendor/
+.DS_Store
+CLAUDE.md
+.playwright-mcp/

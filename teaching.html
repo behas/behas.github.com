@@ -1,0 +1,33 @@
+---
+layout: default
+title: Teaching
+permalink: /teaching
+description: "Teaching activities by Bernhard Haslhofer, including courses on data science, cryptoassets, and information systems."
+keywords: "teaching, courses, cryptoasset analytics, TU Wien, data science"
+---
+
+<div class="container mt-3">
+
+  <h1 class="section-title">Teaching</h1>
+
+  <h3 class="mt-4 mb-3">Current Courses</h3>
+
+  {% for course in site.data.courses %}
+    {% if course.active %}
+      <div class="publication-item">
+        {% include course.html course=course %}
+      </div>
+    {% endif %}
+  {% endfor %}
+
+  <h3 class="mt-4 mb-3">Past Courses</h3>
+
+  {% for course in site.data.courses %}
+    {% unless course.active %}
+      <div class="publication-item">
+        {% include course.html course=course %}
+      </div>
+    {% endunless %}
+  {% endfor %}
+
+</div>

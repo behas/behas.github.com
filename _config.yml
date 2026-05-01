@@ -1,0 +1,51 @@
+title: Bernhard Haslhofer
+author: Bernhard Haslhofer
+email: haslhofer@csh.ac.at
+description: "Bernhard Haslhofer is a researcher at the Complexity Science Hub Vienna working on cryptoasset analytics, blockchain forensics, and decentralized finance."
+baseurl: ""
+url: "https://bernhardhaslhofer.info"
+
+# SEO settings
+seo:
+  name: Bernhard Haslhofer
+  type: Person
+logo: /assets/images/bhaslhofer_2022.jpg
+social:
+  name: Bernhard Haslhofer
+  links:
+    - https://github.com/behas
+    - https://www.linkedin.com/in/bernhardhaslhofer/
+    - https://scholar.google.com/citations?user=15K0uBUAAAAJ&hl=en
+    - https://orcid.org/0000-0002-0415-4491
+    - https://bsky.app/profile/behas.bsky.social
+
+# Build settings
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+sass:
+  style: compact # possible values: nested expanded compact compressed
+
+# Jekyll Scholar configuration
+scholar:
+  style: apa
+  locale: en
+  source: ./_data
+  bibliography: bibliography.bib
+  bibliography_template: bib
+  sort_by: year
+  order: descending
+  group_by: year
+  group_order: descending
+
+exclude:
+  - README.md
+  - CLAUDE.md
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+  - .ruby-version
+
+
