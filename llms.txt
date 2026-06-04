@@ -1,0 +1,30 @@
+# Bernhard Haslhofer
+
+> Bernhard Haslhofer leads the Digital Currency Ecosystems research group at the Complexity Science Hub (CSH) in Vienna, Austria. His research develops computational methods for cryptoasset analytics and decentralized finance (DeFi), digital crime and forensics, and large-scale disinformation. He co-founded Iknaio Cryptoasset Analytics, is a court-certified expert in IT and cryptoasset forensics, and teaches at TU Wien.
+
+Key facts:
+- Affiliation: Complexity Science Hub Vienna (https://www.csh.ac.at/), research group leader
+- Co-founder and Head of Research: Iknaio Cryptoasset Analytics (https://www.iknaio.com/)
+- Creator of the open-source GraphSense cryptoasset analytics platform (https://graphsense.org/)
+- ORCID: https://orcid.org/0000-0002-0415-4491
+- Google Scholar: https://scholar.google.com/citations?user=15K0uBUAAAAJ
+- Contact: haslhofer@csh.ac.at
+
+## Pages
+
+- [Home](https://bernhardhaslhofer.info/): research interests, impact highlights, and recent news
+- [Publications](https://bernhardhaslhofer.info/publications): peer-reviewed papers and pre-prints with DOI and PDF links
+- [Impact](https://bernhardhaslhofer.info/impact): societal, industry, policy, and standardization impact
+- [Talks](https://bernhardhaslhofer.info/talks): invited talks, keynotes, and panels
+- [Research Projects](https://bernhardhaslhofer.info/projects): funded research projects
+- [Software](https://bernhardhaslhofer.info/software): open-source software releases
+- [Datasets](https://bernhardhaslhofer.info/datasets): published research datasets
+- [Courses](https://bernhardhaslhofer.info/courses): university teaching
+- [Events](https://bernhardhaslhofer.info/events): organized workshops and conferences
+- [Supervised Students](https://bernhardhaslhofer.info/students): PhD and master's theses
+
+## Research areas
+
+- Cryptoasset Analytics & DeFi: quantitative methods for measuring cryptoasset ecosystems and DeFi protocols at scale, from tracing fund flows across ledgers to analyzing investment strategies, risks, and structural dependencies
+- Digital Crime & Forensics: algorithms and open tools for tracing illicit fund flows and analyzing dark web ecosystems, producing forensic evidence that supports criminal investigations and prosecutions
+- Large-Scale Disinformation: network-analytic methods for understanding how disinformation spreads through online ecosystems and how coordinated campaigns can be detected at scale

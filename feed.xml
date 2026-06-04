@@ -1,0 +1,25 @@
+---
+layout: null
+permalink: /feed.xml
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>{{ site.title | xml_escape }}</title>
+  <subtitle>{{ site.description | xml_escape }}</subtitle>
+  <id>{{ site.url }}/</id>
+  <link href="{{ site.url }}/feed.xml" rel="self" type="application/atom+xml"/>
+  <link href="{{ site.url }}/" rel="alternate" type="text/html"/>
+  <updated>{{ site.data.news.first.date | date_to_xmlschema }}</updated>
+  <author>
+    <name>{{ site.author | xml_escape }}</name>
+  </author>
+  {% for item in site.data.news limit: 20 %}
+  <entry>
+    <id>{{ site.url }}/#news-{{ item.date | date: "%Y-%m-%d" }}-{{ item.news | strip_html | slugify | slice: 0, 40 }}</id>
+    <title>{{ item.news | strip_html | strip_newlines | strip | truncate: 100 | xml_escape }}</title>
+    <link href="{{ site.url }}/" rel="alternate"/>
+    <updated>{{ item.date | date_to_xmlschema }}</updated>
+    <content type="html">{{ item.news | strip | xml_escape }}</content>
+  </entry>
+  {% endfor %}
+</feed>

@@ -40,4 +40,23 @@
     {% endif %}
     <a href="#" onclick="navigator.clipboard.writeText(`{{ entry.bibtex | escape }}`); this.innerHTML='<i class=\'fas fa-check\'></i> Copied!'; setTimeout(() => this.innerHTML='<i class=\'fas fa-quote-right\'></i> BibTeX', 2000); return false;" class="pub-link"><i class="fas fa-quote-right"></i> BibTeX</a>
   </div>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ScholarlyArticle",
+    "headline": {{ entry.title | strip | jsonify }},
+    "author": {{ entry.author | strip | jsonify }},
+    "datePublished": "{{ entry.year }}"
+    {%- if entry.journal %},
+    "isPartOf": {{ entry.journal | strip | jsonify }}
+    {%- elsif entry.booktitle %},
+    "isPartOf": {{ entry.booktitle | strip | jsonify }}
+    {%- endif %}
+    {%- if entry.doi %},
+    "sameAs": "https://doi.org/{{ entry.doi }}"
+    {%- elsif entry.url %},
+    "url": {{ entry.url | strip | jsonify }}
+    {%- endif %}
+  }
+  </script>
 </div>

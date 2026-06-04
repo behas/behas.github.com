@@ -21,9 +21,7 @@ social:
 
 # Build settings
 plugins:
-  - jekyll-feed
   - jekyll-sitemap
-  - jekyll-seo-tag
 
 sass:
   style: compact # possible values: nested expanded compact compressed
