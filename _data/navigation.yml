@@ -1,3 +1,14 @@
+- name: Research
+  dropdown: true
+  items:
+    - name: Publications
+      link: /publications
+    - name: Projects
+      link: /projects
+    - name: Software
+      link: /software
+    - name: Datasets
+      link: /datasets
 - name: Impact
   dropdown: true
   items:
@@ -15,17 +26,6 @@
       match_url: /impact
     - name: Awards
       link: /awards
-- name: Research
-  dropdown: true
-  items:
-    - name: Publications
-      link: /publications
-    - name: Projects
-      link: /projects
-    - name: Software
-      link: /software
-    - name: Datasets
-      link: /datasets
 - name: Activities
   dropdown: true
   items:
