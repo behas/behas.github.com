@@ -8,7 +8,20 @@
       {{ entry.title }}
     {% endif %}
   </p>
-  <p class="pub-authors">{{ entry.author }}</p>
+  <p class="pub-authors">
+    {%- assign authors = entry.author | split: ' and ' -%}
+    {%- for a in authors -%}
+      {%- assign parts = a | split: ', ' -%}
+      {%- if parts.size == 2 -%}
+        {%- assign name = parts[1] | append: ' ' | append: parts[0] -%}
+      {%- else -%}
+        {%- assign name = a -%}
+      {%- endif -%}
+      {%- if forloop.last and forloop.length > 1 %} and {% endif -%}
+      {{- name -}}
+      {%- unless forloop.last or forloop.rindex == 2 -%}, {% endunless -%}
+    {%- endfor -%}
+  </p>
   <p class="pub-venue">
     {% if entry.journal %}
       <em>{{ entry.journal }}</em>{% if entry.volume %}, {{ entry.volume }}{% endif %}{% if entry.number %}({{ entry.number }}){% endif %}{% if entry.pages %}, {{ entry.pages }}{% endif %}, {{ entry.year }}
