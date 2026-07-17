@@ -158,6 +158,17 @@
     technologies, applied in industrial, financial, energy, logistics, and
     government applications.
 
+- acronym: "DeepRUL"
+  start_date: "2019-01-01"
+  end_date: "2021-12-31"
+  funding_source: "FFG Industrial PhD"
+  flag: "🇦🇹"
+  role: "Project Coordinator, Internal PhD Supervisor"
+  description: >
+    Investigated the application of Deep Learning techniques for predicting
+    machine health indicators, such as Remaining Useful Life (RUL) or Time to
+    Failure (TTF).
+
 - acronym: "TRAVELOGUES"
   uri: "https://travelogues-project.info"
   start_date: "2018-04-01"
@@ -188,7 +199,7 @@
 - acronym: "TITANIUM"
   uri: "https://titanium-project.eu/"
   start_date: "2017-05-01"
-  end_date: "2020-04-31"
+  end_date: "2020-04-30"
   funding_source: "EU Horizon 2020"
   funding_source_uri: "https://ec.europa.eu/programmes/horizon2020/"
   flag: "🇪🇺"

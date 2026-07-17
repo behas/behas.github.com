@@ -37,6 +37,13 @@
 
 # 2025
 
+- title: Towards Holistic CASP Risk Assessment
+  venue: Czech National Bank
+  date: 2025-11-01
+  location: Prague, Czech Republic
+  flag: "🇨🇿"
+  type: Invited
+
 - title: Creating harmonised standards for blockchain intelligence
   venue: 9th Global Conference on Criminal Finance and Cryptoassets
   date: 2025-10-08
@@ -76,12 +83,14 @@
   date: 2024-06-05
   location: Vienna, Austria
   flag: "🇦🇹"
+  type: Invited
 
 - title: Increasing the Efficiency of Cryptoasset Investigations
   venue: Security Forum 2024
   date: 2024-05-22
   location: Hagenberg, Austria
   flag: "🇦🇹"
+  type: Invited
 
 - title: Computational Methods for Unraveling the Complexity of Cryptoasset Ecosystems
   venue: NTU Singapore
@@ -95,6 +104,7 @@
   date: 2024-05-08
   location: The Hague, Netherlands
   flag: "🇳🇱"
+  type: Invited
 
 - title: Kryptowährungen. Revolution der Finanzwelt oder Risikofaktor?
   venue: VHS Wien, Science Talks
@@ -107,6 +117,7 @@
   date: 2024-04-03
   location: Schielleiten, Austria
   flag: "🇦🇹"
+  type: Invited
 
 # 2023
 
@@ -122,6 +133,7 @@
   date: 2023-10-10
   location: Erlangen, Germany
   flag: "🇩🇪"
+  type: Invited
 
 # 2022
 
@@ -130,48 +142,56 @@
   date: 2022-11-23
   location: Online
   flag: "🌐"
+  type: Invited
 
 - title: Connecting the Cases - Lessons Learned from Bavaria
   venue: INTERPOL New Technologies Forum Law Enforcement in Web 3.0
   date: 2022-11-16
   location: Singapore
   flag: "🇸🇬"
+  type: Invited
 
 - title: Kryptowährungen - Ein neues Kapitel in der Numismatik?
   venue: Institut für Numismatik
   date: 2022-11-10
   location: Vienna, Austria
   flag: "🇦🇹"
+  type: Invited
 
 - title: Decentralized Finance (DeFi) - Basic Concepts and Current Developments
   venue: Wei[s]se Wirtschaft
   date: 2022-11-08
   location: Vienna, Austria
   flag: "🇦🇹"
+  type: Invited
 
 - title: Anonymity and Identity Identification in Public Blockchains
   venue: Blockchain Governance Initiative Network
   date: 2022-07-26
   location: Zurich, Switzerland
   flag: "🇨🇭"
+  type: Invited
 
 - title: Kypto-Transaktionsverfolgung, Potential und Grenzen
   venue: Internationale Geldwäsche Tagung
   date: 2022-06-28
   location: Munich, Germany
   flag: "🇩🇪"
+  type: Invited
 
 - title: Analyzing DeFi Protocols - A step-by-step approach to financial complexity
   venue: FinTech Week
   date: 2022-06-01
   location: Vienna, Austria
   flag: "🇦🇹"
+  type: Invited
 
 - title: Warum kann ich mein Bier (noch) nicht mit Bitcoin bezahlen?
   venue: Pint of Science
   date: 2022-05-09
   location: Vienna, Austria
   flag: "🇦🇹"
+  type: Invited
 
 # 2021
 
@@ -180,12 +200,14 @@
   date: 2021-11-27
   location: Berlin, Germany
   flag: "🇩🇪"
+  type: Invited
 
 - title: Decentralized Finance (DeFi) - What impact will it have on cryptoasset forensics?
   venue: 5th INTERPOL Working Group on Dark Web and Virtual Assets
   date: 2021-09-21
   location: Online
   flag: "🌐"
+  type: Invited
 
 - title: Decentralized Finance (DeFi) - Understanding Risks in an Emerging Financial Paradigm
   venue: 1st Annual Conference of the Austrian Blockchain Center (ABC)
@@ -193,12 +215,14 @@
   location: Online
   flag: "🌐"
   slides_uri: https://www.slideshare.net/bhaslhofer/decentralized-finance-defi-understanding-risks-in-an-emerging-financial-paradigm
+  type: Invited
 
 - title: "Laundering Money with Cryptoassets: Known Strategies and Containment Methods"
   venue: Austrian Blockchain Center (ABC)
   date: 2021-02-10
   location: Online
   flag: "🌐"
+  type: Invited
 
 # 2020
 
@@ -208,24 +232,28 @@
   date: 2020-12-03
   flag: "🇦🇹"
   slides_uri: https://idsf.io/
+  type: Invited
 
 - title: Anomaly Detection in Industrial Data Science
   venue: Platform Industry 4.0
   date: 2020-06-05
   location: Online
   flag: "🌐"
+  type: Invited
 
 - title: Cryptoasset Analytics - Insights from Analyzing Large-Scale Financial Transaction Graphs
   venue: Blockchain & Wine Meetup
   date: 2020-03-11
   location: Vienna, Austria
   flag: "🇦🇹"
+  type: Invited
 
 - title: Cryptoasset Forensics - State of the Art and Upcoming Challenges
   venue: Cybercrime Expert Circle Meeting
   date: 2020-01-22
   location: Vienna, Austria
   flag: "🇦🇹"
+  type: Invited
 
 # 2019
 
