@@ -100,11 +100,6 @@
   date: 2023-08-22
   type: "Seminar"
 
-- title: "Decentralized Finance: Hype or Disruption"
-  venue: "Complexity Science Hub, Vienna"
-  date: 2023-06-01
-  type: "Workshop"
-
 - title: "2nd International Workshop on Cryptoasset Analytics (CAAW)"
   uri: "https://caaw.io/2023/"
   venue: "ACM Web Conference, Austin, USA"
@@ -128,6 +123,12 @@
   venue: "ACM Web Conference, Online"
   date: 2022-04-25
   type: "Tutorial"
+
+- title: "Decentralized Finance: Hype or Disruption"
+  uri: "https://csh.ac.at/news/decentralized-finance-hype-or-disruption/"
+  venue: "Complexity Science Hub, Vienna"
+  date: 2022-04-20
+  type: "Workshop"
 
 # 2019
 
