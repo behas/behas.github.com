@@ -37,9 +37,9 @@
   partners:
     - INTERPOL
   description: >
-    Served as academic partner for INTERPOL's New Technologies Forum,
-    bringing investigators and researchers together to align on
-    evidence-based responses to emerging digital threats.
+    Serving as academic partner for INTERPOL's New Technologies Forum in
+    2025 and again in 2026, bringing investigators and researchers together
+    to align on evidence-based responses to emerging digital threats.
   evidence_uri: "https://csh.ac.at/news/csh-hosts-interpol-new-technology-forum-2025/"
   evidence_label: "Event page"
   icon: fa-globe
@@ -71,44 +71,29 @@
 # === Policy & Regulation ===
 
 - category: policy
-  title: "BIS working paper on the technology of decentralized finance"
-  date: 2023-01-15
-  partners:
-    - Bank for International Settlements
-    - BIS Innovation Hub Centre (Eurosystem)
+  title: "Evidence for central banks and financial supervisors"
+  date: 2025-05-24
   description: >
-    Working paper produced with the BIS Innovation Hub that informs central
-    bank thinking on the architecture and risks of decentralized finance.
-    Later published in the Journal of Digital Finance.
-  evidence_uri: "https://www.bis.org/publ/work1066.htm"
-  evidence_label: "BIS working paper"
+    Research that informs central bank and supervisory thinking on the
+    architecture, risks, and measurability of decentralized finance.
+    Examples include BIS working papers on the technology of decentralized
+    finance and on the verifiability of Total Value Locked in DeFi, produced
+    with the BIS Innovation Hub.
+  evidence_uri: "https://www.bis.org/publ/work1268.htm"
+  evidence_label: "Example: BIS working paper"
   icon: fa-landmark
 
 - category: policy
-  title: "BIS working paper on verifiability of Total Value Locked in DeFi"
-  date: 2025-05-24
-  partners:
-    - Bank for International Settlements
-  description: >
-    Working paper examining whether the headline TVL metric reported by DeFi
-    protocols can be independently verified, with implications for
-    supervisory monitoring of the sector.
-  evidence_uri: "https://www.bis.org/publ/work1268.htm"
-  evidence_label: "BIS working paper"
-  icon: fa-scale-balanced
-
-- category: policy
-  title: "European Forum Alpbach"
+  title: "Engagement in European policy debate"
   date: 2025-08-20
-  partners:
-    - European Forum Alpbach
   description: >
-    Serving on the scientific committee of the European Forum Alpbach and
-    organising recurring seminars (2023–2025) on the policy implications of
-    digital assets, cybercrime, and decentralized finance for a European
-    policy and business audience.
+    Recurring engagement with European policy and business audiences on the
+    implications of digital assets, cybercrime, and decentralized finance.
+    Examples include serving on the scientific committee of the European
+    Forum Alpbach and organising its seminars on these topics from 2023 to
+    2025.
   evidence_uri: "https://www.alpbach.org/sessions/unveiling-modern-crime-tackling-cybercrime-in-a-globalised-world"
-  evidence_label: "2025 seminar"
+  evidence_label: "Example: Alpbach seminar"
   icon: fa-globe
 
 # === Standards & Open Infrastructure ===
@@ -156,15 +141,13 @@
   icon: fa-file-contract
 
 - category: standards
-  title: "Towards harmonised blockchain intelligence standards"
+  title: "Open Blockchain Intelligence Standards"
   date: 2025-10-08
-  partners:
-    - Basel Institute on Governance
   description: >
-    Organised a breakout session at the 9th Global Conference on Criminal
-    Finances and Cryptoassets to advance common terminology, attribution,
-    and reporting practices for blockchain intelligence across investigators,
-    supervisors, and tool vendors.
-  evidence_uri: "https://baselgovernance.org/9crc"
-  evidence_label: "Conference"
+    Founding editor of the Open Blockchain Intelligence Standards (OBIS)
+    initiative, a bottom-up community effort creating open, vendor-neutral
+    specifications for shared terminology, attribution, and data exchange
+    across investigators, supervisors, and tool providers.
+  evidence_uri: "https://obistandards.org/"
+  evidence_label: "OBIS"
   icon: fa-stamp
