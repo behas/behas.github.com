@@ -14,7 +14,7 @@ Key facts:
 
 - [Home](https://bernhardhaslhofer.info/): research interests, impact highlights, and recent news
 - [Publications](https://bernhardhaslhofer.info/publications): peer-reviewed papers and pre-prints with DOI and PDF links
-- [Impact](https://bernhardhaslhofer.info/impact): societal, industry, policy, and standardization impact
+- [Impact](https://bernhardhaslhofer.info/impact): societal, industry, policy, and standards impact
 - [Talks](https://bernhardhaslhofer.info/talks): invited talks, keynotes, and panels
 - [Research Projects](https://bernhardhaslhofer.info/projects): funded research projects
 - [Software](https://bernhardhaslhofer.info/software): open-source software releases
