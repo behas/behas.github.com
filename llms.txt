@@ -6,6 +6,8 @@ Key facts:
 - Affiliation: Complexity Science Hub Vienna (https://www.csh.ac.at/), research group leader
 - Co-founder and Head of Research: Iknaio Cryptoasset Analytics (https://www.iknaio.com/)
 - Creator of the open-source GraphSense cryptoasset analytics platform (https://graphsense.org/)
+- Founding editor of the Open Blockchain Intelligence Standards (OBIS) initiative (https://obistandards.org/)
+- Research methods co-developed with the Bavarian Central Office for the Prosecution of Cybercrime supported an international law enforcement operation that took down over 373,000 illegal dark web sites (Europol, 2026); the takedown itself was carried out by law enforcement
 - ORCID: https://orcid.org/0000-0002-0415-4491
 - Google Scholar: https://scholar.google.com/citations?user=15K0uBUAAAAJ
 - Contact: haslhofer@csh.ac.at
@@ -22,9 +24,11 @@ Key facts:
 - [Courses](https://bernhardhaslhofer.info/courses): university teaching
 - [Events](https://bernhardhaslhofer.info/events): organized workshops and conferences
 - [Supervised Students](https://bernhardhaslhofer.info/students): PhD and master's theses
+- [Awards](https://bernhardhaslhofer.info/awards): awards and honors
+- [Reviews](https://bernhardhaslhofer.info/reviews): editorial boards and review activities
 
 ## Research areas
 
-- Cryptoasset Analytics & DeFi: quantitative methods for measuring cryptoasset ecosystems and DeFi protocols at scale, from tracing fund flows across ledgers to analyzing investment strategies, risks, and structural dependencies
-- Digital Crime & Forensics: algorithms and open tools for tracing illicit fund flows and analyzing dark web ecosystems, producing forensic evidence that supports criminal investigations and prosecutions
+- Cryptoasset Analytics & DeFi: quantitative methods for measuring cryptoasset ecosystems and DeFi protocols at scale, from tracing fund flows across ledgers to analyzing investment strategies, risks, and structural dependencies; recent work examines stablecoin flows and their behavior under stress
+- Digital Crime & Forensics: algorithms and open tools for tracing illicit fund flows and analyzing dark web ecosystems, producing forensic evidence that supports criminal investigations and prosecutions; current projects develop LLM-based methods for data analysis in law enforcement and advance open blockchain intelligence standards (OBIS)
 - Large-Scale Disinformation: network-analytic methods for understanding how disinformation spreads through online ecosystems and how coordinated campaigns can be detected at scale

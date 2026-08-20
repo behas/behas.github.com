@@ -5,15 +5,15 @@
 # === Societal Impact ===
 
 - category: societal-impact
-  title: "Supported takedown of over 370,000 illegal dark web sites"
+  title: "Research methods supported takedown of over 373,000 dark web sites"
   date: 2026-03-24
   partners:
     - Bavarian Central Office for the Prosecution of Cybercrime
   description: >
     Methods developed jointly with the Bavarian Central Office for the
-    Prosecution of Cybercrime supported a coordinated international
-    operation. It disrupted criminal infrastructure responsible for over
-    370,000 illegal dark web sites.
+    Prosecution of Cybercrime supported a coordinated international law
+    enforcement operation. It disrupted criminal infrastructure responsible
+    for over 373,000 illegal dark web sites.
   evidence_uri: "https://www.europol.europa.eu/media-press/newsroom/news/global-cybercrime-crackdown-over-373-000-dark-web-sites-shut-down"
   evidence_label: "Press release"
   icon: fa-shield-halved
@@ -33,7 +33,7 @@
 
 - category: societal-impact
   title: "INTERPOL New Technologies Forum"
-  date: 2025-09-03
+  date: 2025-09-23
   partners:
     - INTERPOL
   description: >
@@ -59,11 +59,12 @@
 
 - category: industry
   title: "GraphSense: open-source cryptoasset analytics platform"
-  date: 2024-01-23
+  date: 2025-10-01
   description: >
     Continuously released open-source platform used by researchers,
-    investigators, and industry. Recent releases added Tron support and
-    tracing across DEXs, bridges, and cross-chain address clusters.
+    investigators, and industry. Releases in 2024 and 2025 added Tron
+    support and tracing across DEXs, bridges, and cross-chain address
+    clusters.
   evidence_uri: "https://graphsense.org/"
   evidence_label: "GraphSense"
   icon: fa-code-branch
