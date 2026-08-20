@@ -9,15 +9,16 @@ permalink: /feed.xml
   <id>{{ site.url }}/</id>
   <link href="{{ site.url }}/feed.xml" rel="self" type="application/atom+xml"/>
   <link href="{{ site.url }}/" rel="alternate" type="text/html"/>
-  <updated>{{ site.data.news.first.date | date_to_xmlschema }}</updated>
+  {% assign news_items = site.data.news | sort: "date" | reverse %}
+  <updated>{{ news_items.first.date | date_to_xmlschema }}</updated>
   <author>
     <name>{{ site.author | xml_escape }}</name>
   </author>
-  {% for item in site.data.news limit: 20 %}
+  {% for item in news_items limit: 20 %}
   <entry>
     <id>{{ site.url }}/#news-{{ item.date | date: "%Y-%m-%d" }}-{{ item.news | strip_html | slugify | slice: 0, 40 }}</id>
     <title>{{ item.news | strip_html | strip_newlines | strip | truncate: 100 | xml_escape }}</title>
-    <link href="{{ site.url }}/" rel="alternate"/>
+    <link href="{{ site.url }}/#news-{{ item.date | date: "%Y-%m-%d" }}" rel="alternate"/>
     <updated>{{ item.date | date_to_xmlschema }}</updated>
     <content type="html">{{ item.news | strip | xml_escape }}</content>
   </entry>

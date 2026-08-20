@@ -7,7 +7,7 @@
   {% endif %}
 </p>
 <p class="pub-venue">
-  <a href="{{ course.institution_uri }}" target="_blank" rel="noopener noreferrer">{{ course.institution }}</a>, {{ course.period }}
+  <a href="{{ course.institution_uri }}" target="_blank" rel="noopener noreferrer">{{ course.institution }}</a>, {{ course.period }}{% if course.role %} · {{ course.role }}{% endif %}
 </p>
 <p class="pub-description">{{ course.description }}</p>
 {% if course.website %}

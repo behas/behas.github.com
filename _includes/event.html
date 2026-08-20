@@ -7,7 +7,9 @@
   {% endif %}
   {% if event.type %}<span class="talk-type">{{ event.type }}</span>{% endif %}
 </p>
-<p class="pub-venue">{{ event.venue }}</p>
+{% if event.venue or event.role %}
+<p class="pub-venue">{{ event.venue }}{% if event.venue and event.role %} · {% endif %}{{ event.role }}</p>
+{% endif %}
 <div class="publication-links">
   {% if event.uri %}
     <a href="{{ event.uri }}" target="_blank" rel="noopener noreferrer" class="pub-link"><i class="fas fa-external-link-alt"></i> Website</a>

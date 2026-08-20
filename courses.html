@@ -9,7 +9,7 @@ description: "Courses taught by Bernhard Haslhofer at TU Wien and other institut
 
   <h1 class="section-title">Courses</h1>
 
-  <h3 class="mt-4 mb-3">Current Courses</h3>
+  <h2 class="h3 mt-4 mb-3">Current Courses</h2>
 
   {% for course in site.data.courses %}
     {% if course.active %}
@@ -19,7 +19,7 @@ description: "Courses taught by Bernhard Haslhofer at TU Wien and other institut
     {% endif %}
   {% endfor %}
 
-  <h3 class="mt-4 mb-3">Past Courses</h3>
+  <h2 class="h3 mt-4 mb-3">Past Courses</h2>
 
   {% for course in site.data.courses %}
     {% unless course.active %}

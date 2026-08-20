@@ -58,7 +58,18 @@
     "@context": "https://schema.org",
     "@type": "ScholarlyArticle",
     "headline": {{ entry.title | strip | jsonify }},
-    "author": {{ entry.author | strip | jsonify }},
+    "author": [
+      {%- assign ld_authors = entry.author | split: ' and ' -%}
+      {%- for a in ld_authors -%}
+        {%- assign ld_parts = a | split: ', ' -%}
+        {%- if ld_parts.size == 2 -%}
+          {%- capture ld_name %}{{ ld_parts[1] }} {{ ld_parts[0] }}{% endcapture -%}
+        {%- else -%}
+          {%- capture ld_name %}{{ a }}{% endcapture -%}
+        {%- endif -%}
+      { "@type": "Person", "name": {{ ld_name | strip | jsonify }} }{% unless forloop.last %},{% endunless %}
+      {%- endfor %}
+    ],
     "datePublished": "{{ entry.year }}"
     {%- if entry.journal %},
     "isPartOf": {{ entry.journal | strip | jsonify }}

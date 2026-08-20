@@ -5,19 +5,23 @@ description: "Bernhard Haslhofer is a researcher at the Complexity Science Hub V
 baseurl: ""
 url: "https://bernhardhaslhofer.info"
 
-# SEO settings
-seo:
-  name: Bernhard Haslhofer
-  type: Person
-logo: /assets/images/bhaslhofer_2022.jpg
-social:
-  name: Bernhard Haslhofer
-  links:
-    - https://github.com/behas
-    - https://www.linkedin.com/in/bernhardhaslhofer/
-    - https://scholar.google.com/citations?user=15K0uBUAAAAJ&hl=en
-    - https://orcid.org/0000-0002-0415-4491
-    - https://bsky.app/profile/behas.bsky.social
+# Social profiles: single source for the sidebar, footer, and JSON-LD sameAs
+social_links:
+  - name: GitHub
+    url: https://github.com/behas
+    icon: fab fa-github
+  - name: LinkedIn
+    url: https://www.linkedin.com/in/bernhardhaslhofer/
+    icon: fab fa-linkedin
+  - name: Google Scholar
+    url: https://scholar.google.com/citations?user=15K0uBUAAAAJ&hl=en
+    icon: ai ai-google-scholar
+  - name: ORCID
+    url: https://orcid.org/0000-0002-0415-4491
+    icon: ai ai-orcid
+  - name: Bluesky
+    url: https://bsky.app/profile/behas.bsky.social
+    icon: fab fa-bluesky
 
 # Build settings
 plugins:

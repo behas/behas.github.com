@@ -7,9 +7,11 @@ description: "Real-world impact of Bernhard Haslhofer's research: societal outco
 
 <div class="container mt-3">
 
-  {% assign categories = "societal-impact,industry,policy,standards" | split: "," %}
-  {% assign category_titles = "Societal Impact,Industry & Adoption,Policy & Regulation,Standards & Open Infrastructure" | split: "," %}
-  {% assign category_subtitles = "Data-driven methods that translate into safer digital ecosystems and concrete public-safety outcomes.,Research moving into production: a spin-off and an open-source platform used across sectors.,Evidence to support central banks and supervision authorities.,Open standards and reference implementations that shape how communities publish and exchange data." | split: "," %}
+  <h1 class="section-title">Impact</h1>
+
+  {% assign categories = "societal-impact|industry|policy|standards" | split: "|" %}
+  {% assign category_titles = "Societal Impact|Industry & Adoption|Policy & Regulation|Standards & Open Infrastructure" | split: "|" %}
+  {% assign category_subtitles = "Data-driven methods that translate into safer digital ecosystems and concrete public-safety outcomes.|Research moving into production: a spin-off and an open-source platform used across sectors.|Evidence to support central banks, supervision authorities, and European policy debate.|Open standards and reference implementations that shape how communities publish and exchange data." | split: "|" %}
 
   {% for cat in categories %}
     {% assign idx = forloop.index0 %}

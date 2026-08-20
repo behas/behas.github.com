@@ -13,7 +13,7 @@ description: "Program committee memberships and journal reviewing activities by 
   {% assign conferences = site.data.reviews | where: "type", "conference" %}
   {% assign workshops = site.data.reviews | where: "type", "workshop" %}
 
-  <h3 class="mt-4 mb-3">Journals</h3>
+  <h2 class="h3 mt-4 mb-3">Journals</h2>
 
   {% for review in journals %}
     <div class="publication-item">
@@ -21,7 +21,7 @@ description: "Program committee memberships and journal reviewing activities by 
     </div>
   {% endfor %}
 
-  <h3 class="mt-4 mb-3">Conferences</h3>
+  <h2 class="h3 mt-4 mb-3">Conferences</h2>
 
   {% for review in conferences %}
     <div class="publication-item">
@@ -29,7 +29,7 @@ description: "Program committee memberships and journal reviewing activities by 
     </div>
   {% endfor %}
 
-  <h3 class="mt-4 mb-3">Workshops</h3>
+  <h2 class="h3 mt-4 mb-3">Workshops</h2>
 
   {% for review in workshops %}
     <div class="publication-item">

@@ -24,10 +24,9 @@ description: "Bernhard Haslhofer leads research on cryptoassets, decentralized f
         </p>
 
         <div class="social-links mt-3 mb-3">
-          <a href="https://github.com/behas" target="_blank" rel="noopener noreferrer" title="GitHub" aria-label="GitHub profile"><i class="fab fa-github fa-lg"></i></a>
-          <a href="https://www.linkedin.com/in/bernhardhaslhofer/" target="_blank" rel="noopener noreferrer" title="LinkedIn" aria-label="LinkedIn profile"><i class="fab fa-linkedin fa-lg"></i></a>
-          <a href="https://scholar.google.com/citations?user=15K0uBUAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" title="Google Scholar" aria-label="Google Scholar profile"><i class="ai ai-google-scholar fa-lg"></i></a>
-          <a href="https://orcid.org/0000-0002-0415-4491" target="_blank" rel="noopener noreferrer" title="ORCID" aria-label="ORCID profile"><i class="ai ai-orcid fa-lg"></i></a>
+          {%- for link in site.social_links %}
+          <a href="{{ link.url }}" target="_blank" rel="noopener noreferrer" title="{{ link.name }}" aria-label="{{ link.name }} profile"><i class="{{ link.icon }} fa-lg"></i></a>
+          {%- endfor %}
         </div>
 
         <p class="small text-muted">
@@ -38,8 +37,6 @@ description: "Bernhard Haslhofer leads research on cryptoassets, decentralized f
     </div>
 
     <div class="col-md-8">
-
-      <main>
 
         <section id="introduction" class="content-section">
           <h1 class="visually-hidden">Bernhard Haslhofer, Cryptoasset Analytics &amp; Blockchain Forensics Researcher</h1>
@@ -118,14 +115,12 @@ description: "Bernhard Haslhofer leads research on cryptoassets, decentralized f
           {% for news in site.data.news %}
             {% assign news_date = news.date | date: "%s" | plus: 0 %}
             {% if news_date >= six_months_ago %}
-              <div class="publication-item">
+              <div class="publication-item" id="news-{{ news.date | date: '%Y-%m-%d' }}">
                 {% include news.html news=news %}
               </div>
             {% endif %}
           {% endfor %}
         </section>
-
-      </main>
 
     </div>
 
