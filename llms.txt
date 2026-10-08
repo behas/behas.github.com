@@ -32,3 +32,14 @@ Key facts:
 - Cryptoasset Analytics & DeFi: quantitative methods for measuring cryptoasset ecosystems and DeFi protocols at scale, from tracing fund flows across ledgers to analyzing investment strategies, risks, and structural dependencies; recent work examines stablecoin flows and their behavior under stress
 - Digital Crime & Forensics: algorithms and open tools for tracing illicit fund flows and analyzing dark web ecosystems, producing forensic evidence that supports criminal investigations and prosecutions; current projects develop LLM-based methods for data analysis in law enforcement and advance open blockchain intelligence standards (OBIS)
 - Large-Scale Disinformation: network-analytic methods for understanding how disinformation spreads through online ecosystems and how coordinated campaigns can be detected at scale
+
+## Recent talks
+
+- "Die offenen Flanken der Kryptoforensik: Von heuristischem Clustering zur agentischen KI", IT-Strafrechtstag 2026, University of Bayreuth (October 2026) and nationwide meeting of the German IuK/Cybercrime prosecution units, Bamberg (October 2026)
+- "How Reliable Is Bitcoin Address Clustering in Law Enforcement?", INTERPOL New Technologies Forum, Vienna (September 2026)
+- "Stablecoins under Stress in a National Economy: Transaction-Level Evidence from Austrian Crypto-Asset Service Providers", ESMA Research Conference 2026, Paris (September 2026)
+- "Operation Alice: Investigations as Code at the scale of 373,000 dark web sites" (with Thomas Goger), 10th Global Conference on Criminal Finances and Cryptoassets, Luxembourg (September 2026)
+- "Effizientere Krypto-Ermittlungen im Cybercrime-Bereich", IECTIC 2026, Kassel (September 2026)
+- "The Privatization of Money: A Decade of Crypto, from Cypherpunk Utopia to Stablecoin Reality", Weizenbaum Institute, Berlin (May 2026)
+
+Full list: https://bernhardhaslhofer.info/talks
