@@ -1,6 +1,42 @@
+- date: 2026-10-08
+  news: |
+    I spoke on "Die offenen Flanken der Kryptoforensik: Von heuristischem Clustering zur agentischen KI" at the
+    <a href="https://www.strafrecht2.uni-bayreuth.de" target="_blank" rel="noopener noreferrer">IT-Strafrechtstag 2026</a>
+    at the University of Bayreuth.
+
+- date: 2026-10-07
+  news: |
+    I gave a talk on the open flanks of crypto forensics, from heuristic address clustering to agentic AI, at the
+    German nationwide meeting of the IuK and cybercrime prosecution units in Bamberg.
+
+- date: 2026-09-30
+  news: |
+    At the INTERPOL New Technologies Forum in Vienna, I presented our findings on
+    <a href="https://arxiv.org/abs/2607.07414" target="_blank" rel="noopener noreferrer">how reliable Bitcoin address clustering is in law enforcement contexts</a>.
+    Clustering is useful for generating leads, but it should not be used as evidence on its own.
+
+- date: 2026-09-22
+  news: |
+    I presented our work on
+    <a href="https://arxiv.org/abs/2607.08524" target="_blank" rel="noopener noreferrer">stablecoins under stress in a national economy</a>
+    at the ESMA Research Conference 2026 in Paris.
+
+- date: 2026-09-15
+  news: |
+    Together with Thomas Goger from the Bavarian Central Office for the Prosecution of Cybercrime, I presented
+    "Operation Alice: Investigations as Code at the scale of 373,000 dark web sites" at the
+    <a href="https://baselgovernance.org/10crc" target="_blank" rel="noopener noreferrer">10th Global Conference on Criminal Finances and Cryptoassets</a>
+    in Luxembourg.
+
 - date: 2026-09-14
   news: |
     We are hosting this year's INTERPOL New Technologies Forum (NTF) at the Complexity Science Hub on September 29-30.
+
+- date: 2026-09-09
+  news: |
+    I gave a talk on making crypto investigations in cybercrime more efficient, from manual tracing to scalable investigations, at
+    <a href="https://www.iectic.com/" target="_blank" rel="noopener noreferrer">IECTIC 2026</a>
+    in Kassel.
 
 - date: 2026-08-20
   news: |

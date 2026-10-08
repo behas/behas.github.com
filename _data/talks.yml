@@ -1,5 +1,46 @@
 # 2026
 
+- title: "Die offenen Flanken der Kryptoforensik: Von heuristischem Clustering zur agentischen KI"
+  venue: IT-Strafrechtstag 2026, Universität Bayreuth
+  date: 2026-10-08
+  location: Bayreuth, Germany
+  flag: "🇩🇪"
+  type: Invited
+
+- title: "Die offenen Flanken der Kryptoforensik: Von heuristischem Clustering zur agentischen KI"
+  venue: Bundesweites Arbeitstreffen der IuK-/Cybercrime-Zentralstellen
+  date: 2026-10-07
+  location: Bamberg, Germany
+  flag: "🇩🇪"
+  type: Invited
+
+- title: How Reliable Is Bitcoin Address Clustering in Law Enforcement?
+  venue: INTERPOL New Technologies Forum
+  date: 2026-09-30
+  location: Vienna, Austria
+  flag: "🇦🇹"
+  type: Invited
+
+- title: "Stablecoins under Stress in a National Economy: Transaction-Level Evidence from Austrian Crypto-Asset Service Providers"
+  venue: ESMA Research Conference 2026
+  date: 2026-09-22
+  location: Paris, France
+  flag: "🇫🇷"
+
+- title: "Operation Alice: Investigations as Code at the scale of 373,000 dark web sites (with Thomas Goger)"
+  venue: 10th Global Conference on Criminal Finances and Cryptoassets
+  date: 2026-09-15
+  location: Luxembourg
+  flag: "🇱🇺"
+  type: Invited
+
+- title: "Effizientere Krypto-Ermittlungen im Cybercrime-Bereich: Von manueller Spurensuche zu skalierbaren Ermittlungen"
+  venue: IECTIC 2026
+  date: 2026-09-09
+  location: Kassel, Germany
+  flag: "🇩🇪"
+  type: Invited
+
 - title: "The Privatization of Money: A Decade of Crypto, from Cypherpunk Utopia to Stablecoin Reality"
   venue: Weizenbaum Institute
   date: 2026-05-27
