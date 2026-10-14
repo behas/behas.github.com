@@ -87,7 +87,7 @@
   years: [2024, 2025]
 
 - name: "International Semantic Web Conference (ISWC)"
-  uri: "https://iswc2021.semanticweb.org/"
+  uri: "https://swsa.semanticweb.org/"
   type: conference
   years: [2019, 2021]
 

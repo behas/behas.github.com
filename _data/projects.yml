@@ -79,7 +79,7 @@
     legal, and ethical aspects. Led by AIT.
 
 - acronym: "DeFiTrace"
-  uri: "https://defitrace.info/"
+  uri: "https://projekte.ffg.at/projekt/4866628"
   start_date: "2023-10-01"
   end_date: "2025-09-30"
   funding_source: "FFG KIRAS"
@@ -90,7 +90,7 @@
     DeFi systems.
 
 - acronym: "AMALFI"
-  uri: "https://amalfi-project.info/"
+  uri: "https://projekte.ffg.at/projekt/4639633"
   start_date: "2023-03-01"
   end_date: "2025-08-31"
   funding_source: "FFG - Bridge"
@@ -135,7 +135,6 @@
     cryptocurrency transactions.
 
 - acronym: "COGNITUS"
-  uri: "https://cognitus-project.info/"
   start_date: "2019-10-01"
   end_date: "2022-09-30"
   funding_source: "FFG - ICT of the future"
@@ -174,7 +173,7 @@
   start_date: "2018-04-01"
   end_date: "2021-03-31"
   funding_source: "FWF DACH"
-  funding_source_uri: "https://www.fwf.ac.at/de/forschungsfoerderung/fwf-programme/internationale-programme/joint-projects/"
+  funding_source_uri: "https://www.fwf.ac.at/"
   flag: "🇦🇹"
   role: "Co-Principal Investigator"
   description: >
@@ -197,11 +196,11 @@
     Darknet marketplaces.
 
 - acronym: "TITANIUM"
-  uri: "https://titanium-project.eu/"
+  uri: "https://cordis.europa.eu/project/id/740558"
   start_date: "2017-05-01"
   end_date: "2020-04-30"
   funding_source: "EU Horizon 2020"
-  funding_source_uri: "https://ec.europa.eu/programmes/horizon2020/"
+  funding_source_uri: "https://research-and-innovation.ec.europa.eu/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-2020_en"
   flag: "🇪🇺"
   role: "Senior Scientist"
   description: >

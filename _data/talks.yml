@@ -323,7 +323,6 @@
   date: 2019-03-26
   location: Vienna, Austria
   flag: "🇦🇹"
-  slides_uri: https://ngi.ait.ac.at/event/ngi-talk-2-digital-trust/
 
 # 2018
 
@@ -404,7 +403,6 @@
   location: Vienna, Austria
   flag: "🇦🇹"
   type: Panel
-  slides_uri: https://digitalcity.wien/blockchain-und-cyber-waehrung/
 
 - title: Insight into Virtual Currency Ecosystems (by making use of Big Data technology)
   venue: Big Data Europe (BDE) Webinar
