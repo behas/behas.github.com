@@ -1,26 +1,20 @@
 - date: 2026-10-14
   news: |
-    The call for papers for the
-    <a href="https://caaw.io/2027/" target="_blank" rel="noopener noreferrer">6th Cryptoasset Analytics Workshop (CAAW 2027)</a>
-    is open. The workshop is co-located with Financial Cryptography and Data Security 2027 in Barbados
-    on February 12, 2027. The submission deadline is November 20, 2026.
+    The call for papers for
+    <a href="https://caaw.io/2027/" target="_blank" rel="noopener noreferrer">CAAW 2027</a>
+    is open. Submission deadline: November 20, 2026.
 
 - date: 2026-10-08
   news: |
-    I spoke on "Die offenen Flanken der Kryptoforensik: Von heuristischem Clustering zur agentischen KI" at the
+    I spoke on crypto forensics at the
     <a href="https://www.strafrecht2.uni-bayreuth.de" target="_blank" rel="noopener noreferrer">IT-Strafrechtstag 2026</a>
-    at the University of Bayreuth.
-
-- date: 2026-10-07
-  news: |
-    I gave a talk on the open flanks of crypto forensics, from heuristic address clustering to agentic AI, at the
-    German nationwide meeting of the IuK and cybercrime prosecution units in Bamberg.
+    in Bayreuth.
 
 - date: 2026-09-30
   news: |
-    At the INTERPOL New Technologies Forum in Vienna, I presented our findings on
-    <a href="https://arxiv.org/abs/2607.07414" target="_blank" rel="noopener noreferrer">how reliable Bitcoin address clustering is in law enforcement contexts</a>.
-    Clustering is useful for generating leads, but it should not be used as evidence on its own.
+    I presented our work on
+    <a href="https://arxiv.org/abs/2607.07414" target="_blank" rel="noopener noreferrer">Bitcoin address clustering in law enforcement</a>
+    at the INTERPOL New Technologies Forum in Vienna.
 
 - date: 2026-09-22
   news: |
@@ -30,8 +24,7 @@
 
 - date: 2026-09-15
   news: |
-    Together with Thomas Goger from the Bavarian Central Office for the Prosecution of Cybercrime, I presented
-    "Operation Alice: Investigations as Code at the scale of 373,000 dark web sites" at the
+    With Thomas Goger, I presented Operation Alice at the
     <a href="https://baselgovernance.org/10crc" target="_blank" rel="noopener noreferrer">10th Global Conference on Criminal Finances and Cryptoassets</a>
     in Luxembourg.
 
@@ -41,7 +34,7 @@
 
 - date: 2026-09-09
   news: |
-    I gave a talk on making crypto investigations in cybercrime more efficient, from manual tracing to scalable investigations, at
+    I spoke on more efficient crypto investigations at
     <a href="https://www.iectic.com/" target="_blank" rel="noopener noreferrer">IECTIC 2026</a>
     in Kassel.
 
@@ -55,19 +48,16 @@
   news: |
     New pre-print:
     <a href="https://arxiv.org/abs/2607.08524" target="_blank" rel="noopener noreferrer">Stablecoins under Stress in a National Economy: Transaction-Level Evidence from Austrian Crypto-Asset Service Providers</a>
-    is now available on arXiv.
 
 - date: 2026-07-08
   news: |
     New pre-print:
     <a href="https://arxiv.org/abs/2607.07414" target="_blank" rel="noopener noreferrer">How Reliable Is the Multi-Input Heuristic for Bitcoin Address Clustering in Law Enforcement Contexts?</a>
-    is now available on arXiv.
 
 - date: 2026-06-08
   news: |
     New pre-print:
     <a href="https://arxiv.org/abs/2606.07442" target="_blank" rel="noopener noreferrer">Tracing Stablecoin Contagion during the USDC Depeg after the Silicon Valley Bank Collapse</a>
-    is now available on arXiv.
 
 - date: 2026-06-04
   news: |
@@ -77,7 +67,7 @@
 
 - date: 2026-05-27
   news: |
-    I gave an invited talk on "The Privatization of Money: A Decade of Crypto, from Cypherpunk Utopia to Stablecoin Reality" at the
+    I gave an invited talk on the privatization of money at the
     <a href="https://www.weizenbaum-institut.de/en/" target="_blank" rel="noopener noreferrer">Weizenbaum Institute</a>
     in Berlin.
 
@@ -85,13 +75,11 @@
   news: |
     New pre-print:
     <a href="https://arxiv.org/abs/2605.23298" target="_blank" rel="noopener noreferrer">DeFi Yield Aggregators: Analysing Investment Strategies and Structural Dependencies</a>
-    is now available on arXiv.
 
 - date: 2026-05-21
   news: |
     New pre-print:
     <a href="https://arxiv.org/abs/2605.20528" target="_blank" rel="noopener noreferrer">Modern Portfolio Theory in the Crypto-Wilderness</a>
-    is now available on arXiv.
 
 - date: 2026-05-01
   news: |
@@ -149,7 +137,6 @@
   news: |
     New pre-print entitled 
     <a href="https://arxiv.org/abs/2511.09263" target="_blank" rel="noopener noreferrer">Slaying the Dragon: The Quest for Democracy in Decentralized Autonomous Organizations (DAOs)</a>
-    is now available on arXiv.
 
 - date: 2025-10-28
   news: |
@@ -264,7 +251,6 @@
   news: |
     New pre-print on 
     <a href="https://arxiv.org/abs/2403.19530" target="_blank" rel="noopener noreferrer">Detecting Financial Bots in the Ethereum Blockchain</a>
-    is now available on arXiv.
 
 - date: 2024-01-29
   news: |
@@ -316,13 +302,11 @@
   news: |
     New pre-print on 
     <a href="https://arxiv.org/abs/2310.04356" target="_blank" rel="noopener noreferrer">Mapping the DeFi Crime Landscape: An Evidence-based Picture</a>
-    is now available on arXiv.
 
 - date: 2023-10-06
   news: |
     New pre-print on 
     <a href="https://arxiv.org/abs/2309.16408" target="_blank" rel="noopener noreferrer">Assessing the Solvency of Virtual Asset Service Providers: Are Current Standards Sufficient?</a>
-    is now available on arXiv.
 
 - date: 2023-09-26
   news: |

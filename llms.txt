@@ -35,7 +35,7 @@ Key facts:
 
 ## Recent talks
 
-- "Die offenen Flanken der Kryptoforensik: Von heuristischem Clustering zur agentischen KI", IT-Strafrechtstag 2026, University of Bayreuth (October 2026) and nationwide meeting of the German IuK/Cybercrime prosecution units, Bamberg (October 2026)
+- "Die offenen Flanken der Kryptoforensik: Von heuristischem Clustering zur agentischen KI", IT-Strafrechtstag 2026, University of Bayreuth (October 2026)
 - "How Reliable Is Bitcoin Address Clustering in Law Enforcement?", INTERPOL New Technologies Forum, Vienna (September 2026)
 - "Stablecoins under Stress in a National Economy: Transaction-Level Evidence from Austrian Crypto-Asset Service Providers", ESMA Research Conference 2026, Paris (September 2026)
 - "Operation Alice: Investigations as Code at the scale of 373,000 dark web sites" (with Thomas Goger), 10th Global Conference on Criminal Finances and Cryptoassets, Luxembourg (September 2026)
